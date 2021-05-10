@@ -4,7 +4,7 @@ def resoudre_systeme_equations_non_homogenes(systeme, constante):
   from solution_equation_non_homogene import solution_equation_non_homogene
 
 
-  solution_1 = resoudre_systeme_equations_homogenes(systeme)
+  solution_1 = resoudre_systeme_equations_homogenes(systeme,constante)
   solution_2 = solution_equation_non_homogene(systeme, constante)
 
   solution_minimale = []

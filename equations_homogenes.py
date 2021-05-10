@@ -1,4 +1,4 @@
-def resoudre_systeme_equations_homogenes (systeme):
+def resoudre_systeme_equations_homogenes (systeme,constante):
   
   from systeme import taille_systeme
   from base_canonique import creer_base_canonique, valeurs_base_canonique
@@ -58,4 +58,5 @@ def resoudre_systeme_equations_homogenes (systeme):
 if __name__ == '__main__':
   
   systeme = [[1,1,-3],[1,-5,-2]]
+  constante = [[0],[0]]
   resoudre_systeme_equations_homogenes(systeme)
