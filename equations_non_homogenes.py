@@ -1,4 +1,4 @@
-def resoudre_systeme_equations_homogenes (systeme,constante):
+def resoudre_systeme_equations_non_homogenes (systeme,constante):
 
   from sous_programmes_non_homogene import taille_systeme, transformer_systeme, creer_base_canonique, valeurs_base_canonique, memoire_premier_tour, calculer_vecteurs, calculer_valeurs, existence_solution, repartir_solution_minimale, verif_solution_minimale, verif_valeurs, memoire_tour_suivant, mise_a_jour_listes, calculer_vecteurs_bis
 
@@ -79,10 +79,10 @@ def resoudre_systeme_equations_homogenes (systeme,constante):
       print("l'ensemble des solutions du système non homogène est fini : ", solution_non_homogene_final)
       systeme_fini += 1
 
-
+  return(systeme_fini, solution_non_homogene_final, solution_homogene_final)
 
 if __name__ == '__main__':
   constante = [[5],[1]]
   systeme = [[1,1,1],[1,0,-2]]
 
-  resoudre_systeme_equations_homogenes (systeme,constante)
+  resoudre_systeme_equations_non_homogenes (systeme,constante)
