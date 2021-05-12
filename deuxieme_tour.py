@@ -12,7 +12,7 @@ def calculer_vecteurs(valeur, valeur_canonique, base, vecteur, nombre_variables)
           nouveau_vecteur = vecteur[i]+base[j]
           vecteurs_bis.append(nouveau_vecteur)
 
-          if len(vecteurs_bis)>1:
+          if len(vecteurs_bis)>1:   
             nombre_vecteurs = len(vecteurs_bis)
             for k in range(0, len(vecteurs_bis)-1, 1):
               indice = 0

@@ -50,7 +50,7 @@ def valeurs_base_canonique(systeme, nombre_variables, base):
   return(valeur, valeur_canonique)
 
 
-#garde en mémoire les valeurs calculées au premier tour
+#garder en mémoire les valeurs calculées au premier tour
 def memoire_premier_tour(valeur, nombre_variables, nombre_equations, base):
 
   memoire = [valeur[0]]
