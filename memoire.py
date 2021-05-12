@@ -1,3 +1,4 @@
+#garder en mémoire les valeurs calculees lors du premier tour
 def memoire_premier_tour(valeur, nombre_variables, nombre_equations, base):
 
   memoire = [valeur[0]]

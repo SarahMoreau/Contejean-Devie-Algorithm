@@ -1,4 +1,4 @@
-#mettre a jour les listes de vecteur et de valeur
+#mettre a jour les listes de vecteurs et de valeurs
 def mise_a_jour_listes (valeur, vecteur, valeur_bis, vecteurs_bis):
 
   for i in range(0,len(valeur),1):
