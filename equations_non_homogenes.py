@@ -82,7 +82,7 @@ def resoudre_systeme_equations_non_homogenes (systeme,constante):
   return(systeme_fini, solution_non_homogene_final, solution_homogene_final)
 
 if __name__ == '__main__':
-  constante = [[5],[1]]
-  systeme = [[1,1,1],[1,0,-2]]
+  constante = [[3],[3]]
+  systeme = [[1,1,1],[1,0,2]]
 
   resoudre_systeme_equations_non_homogenes (systeme,constante)
