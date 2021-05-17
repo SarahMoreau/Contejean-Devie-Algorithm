@@ -1,12 +1,6 @@
 def resoudre_systeme_equations_homogenes (systeme,constante):
   
-  from systeme import taille_systeme
-  from base_canonique import creer_base_canonique, valeurs_base_canonique
-  from memoire import memoire_premier_tour, memoire_tour_suivant
-  from deuxieme_tour import calculer_vecteurs, calculer_valeurs
-  from solution_minimale_homogene import existence_solution, verif_solution_minimale, verif_valeurs
-  from mise_a_jour import mise_a_jour_listes
-  from nieme_tour import calculer_vecteurs_bis
+  from sous_programmes_equations_homogenes import taille_systeme, creer_base_canonique, valeurs_base_canonique, memoire_premier_tour, memoire_tour_suivant, calculer_vecteurs, calculer_valeurs, existence_solution, verif_solution_minimale, verif_valeurs, mise_a_jour_listes, calculer_vecteurs_bis
 
 
   nombre_equations, nombre_variables = taille_systeme(systeme)
@@ -59,4 +53,4 @@ if __name__ == '__main__':
   
   systeme = [[1,1,-3],[1,-5,-2]]
   constante = [[0],[0]]
-  resoudre_systeme_equations_homogenes(systeme)
+  resoudre_systeme_equations_homogenes(systeme,constante)

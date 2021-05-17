@@ -1,6 +1,6 @@
 def resoudre_systeme_equations_non_homogenes (systeme,constante):
 
-  from sous_programmes_non_homogene import taille_systeme, transformer_systeme, creer_base_canonique, valeurs_base_canonique, memoire_premier_tour, calculer_vecteurs, calculer_valeurs, existence_solution, repartir_solution_minimale, verif_solution_minimale, verif_valeurs, memoire_tour_suivant, mise_a_jour_listes, calculer_vecteurs_bis
+  from sous_programmes_equations_non_homogene import taille_systeme, transformer_systeme, creer_base_canonique, valeurs_base_canonique, memoire_premier_tour, calculer_vecteurs, calculer_valeurs, existence_solution, repartir_solution_minimale, verif_solution_minimale, verif_valeurs, memoire_tour_suivant, mise_a_jour_listes, calculer_vecteurs_bis
 
   solution_minimale_homogene = []
   solution_minimale_non_homogene = []
