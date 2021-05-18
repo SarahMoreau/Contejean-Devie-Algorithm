@@ -2,6 +2,7 @@ def resoudre_systeme_equations_homogenes (systeme,constante):
   
   from sous_programmes_equations_homogenes import taille_systeme, creer_base_canonique, valeurs_base_canonique, memoire_premier_tour, memoire_tour_suivant, calculer_vecteurs, calculer_valeurs, existence_solution, verif_solution_minimale, verif_valeurs, mise_a_jour_listes, calculer_vecteurs_bis
 
+  solution_minimale = []
 
   nombre_equations, nombre_variables = taille_systeme(systeme)
 
@@ -15,7 +16,7 @@ def resoudre_systeme_equations_homogenes (systeme,constante):
 
   valeur_bis = calculer_valeurs(vecteurs_bis, systeme)
 
-  solution_minimale, valeur_minimale_ajoutee = existence_solution(valeur_bis,nombre_equations,vecteurs_bis)
+  solution_minimale, valeur_minimale_ajoutee = existence_solution(valeur_bis,nombre_equations,vecteurs_bis,solution_minimale)
 
   solution_minimale = verif_solution_minimale(solution_minimale, valeur_minimale_ajoutee, nombre_variables)
 
@@ -30,7 +31,7 @@ def resoudre_systeme_equations_homogenes (systeme,constante):
 
     valeur_bis = calculer_valeurs(vecteurs_bis, systeme)
 
-    solution_minimale, valeur_minimale_ajoutee = existence_solution(valeur_bis,nombre_equations,vecteurs_bis)
+    solution_minimale, valeur_minimale_ajoutee = existence_solution(valeur_bis,nombre_equations,vecteurs_bis,solution_minimale)
 
     solution_minimale = verif_solution_minimale(solution_minimale, valeur_minimale_ajoutee, nombre_variables)
 

@@ -103,9 +103,9 @@ def calculer_valeurs(vecteurs_bis, systeme):
   return (valeur_bis)
 
   #verifier s'il y a une solution minimale
-def existence_solution(valeur_bis,nombre_equations,vecteurs_bis):
+def existence_solution(valeur_bis,nombre_equations,vecteurs_bis,solution_minimale):
 
-  solution_minimale = []
+  
   valeur_minimale_ajoutee = None
 
   for j in range(0, len(valeur_bis),1):
@@ -150,7 +150,7 @@ def verif_valeurs(solution_minimale, valeur_bis, nombre_variables, vecteurs_bis)
       for j in range(0, len(valeur_bis), 1):
         indice = 0
         for k in range(0, nombre_variables, 1):
-          if valeur_bis[j][k]<=solution_minimale[i][k]:
+          if vecteurs_bis[j][k]<=solution_minimale[i][k]:
             indice = indice + 1
         if indice == nombre_variables :
           del(valeur_bis[j])

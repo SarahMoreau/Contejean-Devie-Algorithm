@@ -2,7 +2,7 @@ def maximiser_somme(systeme,constante):
     from equations_non_homogenes import resoudre_systeme_equations_non_homogenes
     systeme_fini, solution_non_homogene_final, solution_homogene_final = resoudre_systeme_equations_non_homogenes(systeme,constante)
 
-    if systeme_fini != []:
+    if systeme_fini != 0:
         somme = []
         for i in range(0, len(solution_non_homogene_final),1):
             somme.append(sum(solution_non_homogene_final[i]))

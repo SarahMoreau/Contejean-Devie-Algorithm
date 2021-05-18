@@ -59,6 +59,7 @@ def existence_solution_premier_tour(valeur,nombre_equations,vecteur):
   for l in range(0, len(liste),1):
       del(valeur[liste[l]])
       del(vecteur[liste[l]])
+ 
   return(solution_minimale, valeur_minimale_ajoutee, valeur, vecteur)
 
 
@@ -130,9 +131,9 @@ def calculer_valeurs(vecteurs_bis, systeme):
   return (valeur_bis)
 
   #verifier s'il y a une solution minimale
-def existence_solution(valeur_bis,nombre_equations,vecteurs_bis):
+def existence_solution(valeur_bis,nombre_equations,vecteurs_bis,solution_minimale):
 
-  solution_minimale = []
+  
   valeur_minimale_ajoutee = None
   liste = []
   for j in range(0, len(valeur_bis),1):
@@ -151,6 +152,7 @@ def existence_solution(valeur_bis,nombre_equations,vecteurs_bis):
   for l in range(0,len(liste),1):
       del(valeur_bis[liste[l]])
       del(vecteurs_bis[liste[l]])
+  
   return(solution_minimale, valeur_minimale_ajoutee, valeur_bis, vecteurs_bis)
 
 

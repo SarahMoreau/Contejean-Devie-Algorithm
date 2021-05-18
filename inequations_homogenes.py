@@ -21,7 +21,7 @@ def resoudre_systeme_inequations_homogenes (systeme,constante):
 
   valeur_bis = calculer_valeurs(vecteurs_bis, systeme)
 
-  solution_minimale, valeur_minimale_ajoutee, valeur_bis, vecteurs_bis = existence_solution(valeur_bis,nombre_equations,vecteurs_bis)
+  solution_minimale, valeur_minimale_ajoutee, valeur_bis, vecteurs_bis = existence_solution(valeur_bis,nombre_equations,vecteurs_bis, solution_minimale)
 
   solution_minimale = verif_solution_minimale(solution_minimale, valeur_minimale_ajoutee, nombre_variables)
 
@@ -36,7 +36,7 @@ def resoudre_systeme_inequations_homogenes (systeme,constante):
 
     valeur_bis = calculer_valeurs(vecteurs_bis, systeme)
 
-    solution_minimale, valeur_minimale_ajoutee, valeur_bis, vecteurs_bis = existence_solution(valeur_bis,nombre_equations,vecteurs_bis)
+    solution_minimale, valeur_minimale_ajoutee, valeur_bis, vecteurs_bis = existence_solution(valeur_bis,nombre_equations,vecteurs_bis, solution_minimale)
 
     solution_minimale = verif_solution_minimale(solution_minimale, valeur_minimale_ajoutee, nombre_variables)
 
@@ -57,6 +57,6 @@ def resoudre_systeme_inequations_homogenes (systeme,constante):
 
 if __name__ == '__main__':
   
-  systeme = [[2,-1,-1],[1,3,-1]]
+  systeme = [[1,1,-3],[1,-5,2]]
   constante = [[0],[0]]
   resoudre_systeme_inequations_homogenes(systeme,constante)

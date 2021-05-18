@@ -116,9 +116,9 @@ def calculer_valeurs(vecteurs_bis, systeme):
 
 
 #vérifie s'il y a une solution dans les valeurs calculées
-def existence_solution(valeur_bis,nombre_equations,vecteurs_bis):
+def existence_solution(valeur_bis,nombre_equations,vecteurs_bis,solution_minimale):
   
-  solution_minimale = []
+  
   liste = []
 
   for j in range(0, len(valeur_bis),1):
@@ -135,7 +135,7 @@ def existence_solution(valeur_bis,nombre_equations,vecteurs_bis):
     del (valeur_bis[liste[i]])
     del(vecteurs_bis[liste[i]])
       
-  return(solution_minimale)
+  return(solution_minimale, valeur_bis, vecteurs_bis)
 
 
 #reparti les solutions entre les solutions minimales homogenes et non homogenes

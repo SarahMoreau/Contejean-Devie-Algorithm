@@ -4,10 +4,11 @@ def resoudre_systeme_equations_non_homogenes (systeme,constante):
 
   solution_minimale_homogene = []
   solution_minimale_non_homogene = []
+  solution_minimale = []
 
   nombre_equations, nombre_variables = taille_systeme(systeme)
 
-  nombre_variables, systeme, constante =transformer_systeme(systeme,constante,nombre_equations, nombre_variables)
+  nombre_variables, systeme, constante = transformer_systeme(systeme,constante,nombre_equations, nombre_variables)
 
   vecteur, base = creer_base_canonique(nombre_variables)
 
@@ -19,7 +20,7 @@ def resoudre_systeme_equations_non_homogenes (systeme,constante):
 
   valeur_bis = calculer_valeurs(vecteurs_bis, systeme)
 
-  solution_minimale = existence_solution(valeur_bis,nombre_equations,vecteurs_bis)
+  solution_minimale, valeur_bis, vecteurs_bis = existence_solution(valeur_bis,nombre_equations,vecteurs_bis,solution_minimale)
 
   solution_minimale, solution_minimale_homogene, solution_minimale_non_homogene, valeur_ajoutee_homogene, valeur_ajoutee_non_homogene = repartir_solution_minimale(solution_minimale, solution_minimale_homogene, solution_minimale_non_homogene)
 
@@ -38,7 +39,7 @@ def resoudre_systeme_equations_non_homogenes (systeme,constante):
 
     valeur_bis = calculer_valeurs(vecteurs_bis, systeme)
 
-    solution_minimale = existence_solution(valeur_bis,nombre_equations,vecteurs_bis)
+    solution_minimale, valeur_bis, vecteurs_bis = existence_solution(valeur_bis,nombre_equations,vecteurs_bis,solution_minimale)
 
     solution_minimale, solution_minimale_homogene, solution_minimale_non_homogene, valeur_ajoutee_homogene, valeur_ajoutee_non_homogene = repartir_solution_minimale(solution_minimale, solution_minimale_homogene, solution_minimale_non_homogene)
 
