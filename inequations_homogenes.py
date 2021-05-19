@@ -1,4 +1,4 @@
-def resoudre_systeme_inequations_homogenes (systeme,constante,signe):
+def resoudre_systeme_inequations_homogenes (systeme,signe):
   
   from sous_programmes_inequations_homogenes import taille_systeme, creer_base_canonique, valeurs_base_canonique, memoire_premier_tour, memoire_tour_suivant, calculer_vecteurs, calculer_valeurs, existence_solution, verif_solution_minimale, mise_a_jour_listes, calculer_vecteurs_bis, existence_solution_premier_tour
 
@@ -43,9 +43,9 @@ def resoudre_systeme_inequations_homogenes (systeme,constante,signe):
   
   nombre_solution = len(solution_minimale)
 
-  print("nombre de solution(s) minimales(s) du système homogène : ", nombre_solution)
+  print("nombre de solution(s) minimales(s) du système d'inéquations homogènes : ", nombre_solution)
 
-  print("solution(s) minimale(s) du système homogène : ", solution_minimale)
+  print("solution(s) minimale(s) du système d'inéquations homogènes : ", solution_minimale)
   
   return(solution_minimale)
 
@@ -53,6 +53,5 @@ def resoudre_systeme_inequations_homogenes (systeme,constante,signe):
 if __name__ == '__main__':
   
   systeme = [[1,-1,]]
-  constante = [[0]]
   signe = [[1]]
-  resoudre_systeme_inequations_homogenes(systeme,constante, signe)
+  resoudre_systeme_inequations_homogenes(systeme, signe)

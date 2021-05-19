@@ -1,4 +1,4 @@
-def resoudre_systeme_equations_homogenes (systeme,constante):
+def resoudre_systeme_equations_homogenes (systeme):
   
   from sous_programmes_equations_homogenes import taille_systeme, creer_base_canonique, valeurs_base_canonique, memoire_premier_tour, memoire_tour_suivant, calculer_vecteurs, calculer_valeurs, existence_solution, verif_solution_minimale, verif_valeurs, mise_a_jour_listes, calculer_vecteurs_bis
 
@@ -45,7 +45,7 @@ def resoudre_systeme_equations_homogenes (systeme,constante):
 
   print("nombre de solution(s) minimales(s) du système homogène : ", nombre_solution)
 
-  print("solution(s) minimale(s) du système homogène : ", solution_minimale)
+  print("solution(s) minimale(s) du système d'équations homogènes : ", solution_minimale)
   
   return(solution_minimale)
 
@@ -53,5 +53,4 @@ def resoudre_systeme_equations_homogenes (systeme,constante):
 if __name__ == '__main__':
   
   systeme = [[1,1,-3],[1,-5,-2]]
-  constante = [[0],[0]]
-  resoudre_systeme_equations_homogenes(systeme,constante)
+  resoudre_systeme_equations_homogenes(systeme)

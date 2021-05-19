@@ -77,11 +77,11 @@ def resoudre_systeme_inequations_non_homogenes (systeme,constante,signe):
     print("il n'y a pas de solution")
   else :
     if solution_homogene_final != []:
-      print("les solutions du système non homogène sont : ", solution_non_homogene_final)
+      print("les solutions du système d'inéquations non homogènes sont : ", solution_non_homogene_final)
       print("de plus, il existe une infinité de solution car on peut rajouter ou enlever ", solution_homogene_final, "tant que la combinaison linéaire reste strictement positive")
 
     else : 
-      print("l'ensemble des solutions du système non homogène est fini : ", solution_non_homogene_final)
+      print("l'ensemble des solutions du système d'inéquations non homogènes est fini : ", solution_non_homogene_final)
       systeme_fini += 1
 
   return(systeme_fini, solution_non_homogene_final, solution_homogene_final)
@@ -92,5 +92,5 @@ if __name__ == '__main__':
   
   systeme = [[1,1,-3],[1,-5,-2]]
   constante = [[-1],[2]]
-  signe = [[1],[1]]
+  signe = [[0],[0]]
   resoudre_systeme_inequations_non_homogenes(systeme,constante,signe)

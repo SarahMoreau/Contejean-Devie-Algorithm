@@ -142,13 +142,13 @@ def existence_solution(valeur_bis,nombre_equations,vecteurs_bis,solution_minimal
     if indice == nombre_equations:
       solution_minimale.append(vecteurs_bis[j])
       liste.append(j)
-  for i in range (0, len(liste), 1):
-    del (valeur_bis[liste[i]])
-    del(vecteurs_bis[liste[i]])
-    if i in liste :
-        for j in range(1, len(liste),1):
-            liste[j]=liste[j]-1
-      
+  while liste != []:
+    del (valeur_bis[liste[0]])
+    del(vecteurs_bis[liste[0]])
+    del(liste[0])
+    if liste != []:
+        for i in range(0, len(liste),1):
+            liste[i]=liste[i]-1
   return(solution_minimale,valeur_bis,vecteurs_bis)
 
 

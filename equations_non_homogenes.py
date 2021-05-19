@@ -14,7 +14,7 @@ def resoudre_systeme_equations_non_homogenes (systeme,constante):
 
   valeur, valeur_canonique = valeurs_base_canonique(systeme,nombre_variables,base)
 
-  memoire = memoire_premier_tour(valeur, nombre_variables, nombre_equations, base)
+  memoire, valeur, vecteur = memoire_premier_tour(valeur, nombre_variables, nombre_equations, vecteur)
 
   vecteurs_bis = calculer_vecteurs(valeur, valeur_canonique, base, vecteur, nombre_variables)
 
@@ -29,7 +29,7 @@ def resoudre_systeme_equations_non_homogenes (systeme,constante):
 
   valeur_bis, vecteurs_bis = verif_valeurs(solution_minimale_homogene,solution_minimale_non_homogene, valeur_bis, nombre_variables, vecteurs_bis)
 
-  memoire = memoire_tour_suivant(memoire, valeur_bis, nombre_equations, vecteurs_bis)
+  memoire,valeur_bis,vecteurs_bis = memoire_tour_suivant(memoire, valeur_bis, nombre_equations, vecteurs_bis)
 
   valeur, vecteur, valeur_bis, vecteurs_bis = mise_a_jour_listes (valeur, vecteur, valeur_bis, vecteurs_bis)
 
@@ -48,7 +48,7 @@ def resoudre_systeme_equations_non_homogenes (systeme,constante):
 
     valeur_bis, vecteurs_bis = verif_valeurs(solution_minimale_homogene,solution_minimale_non_homogene, valeur_bis, nombre_variables, vecteurs_bis)
 
-    memoire = memoire_tour_suivant(memoire, valeur_bis, nombre_equations, vecteurs_bis)
+    memoire,valeur_bis,vecteurs_bis = memoire_tour_suivant(memoire, valeur_bis, nombre_equations, vecteurs_bis)
 
     valeur, vecteur, valeur_bis, vecteurs_bis = mise_a_jour_listes (valeur, vecteur, valeur_bis, vecteurs_bis)
 
@@ -70,14 +70,14 @@ def resoudre_systeme_equations_non_homogenes (systeme,constante):
     solution_homogene_final.append(valeur) 
 
   if solution_non_homogene_final == []:
-    print("il n'y a pas de solution")
+    print("il n'y a pas de solution au système d'équations non homogènes")
   else :
     if solution_homogene_final != []:
-      print("les solutions du système non homogène sont : ", solution_non_homogene_final)
+      print("les solutions du système d'équations non homogène sont : ", solution_non_homogene_final)
       print("de plus, il existe une infinité de solution car on peut rajouter ou enlever ", solution_homogene_final, "tant que la combinaison linéaire reste strictement positive")
 
     else : 
-      print("l'ensemble des solutions du système non homogène est fini : ", solution_non_homogene_final)
+      print("l'ensemble des solutions du système d'équations non homogène est fini : ", solution_non_homogene_final)
       systeme_fini += 1
 
   return(systeme_fini, solution_non_homogene_final, solution_homogene_final)
