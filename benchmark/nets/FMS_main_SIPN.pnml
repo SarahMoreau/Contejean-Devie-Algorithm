@@ -1,0 +1,95 @@
+<pnml xmlns="http://www.pnml.org/version-2009/grammar/pnml">
+ <net id="n-FCD-B5F8D-0" type ="http://www.pnml.org/version-2009/grammar/ptnet">
+  <name>
+   <text>FMS_main_SIPN</text>
+  </name>
+ <page id="g-FCD-B5F91-1">
+  <place id="p-FCD-B5F93-2">
+  <name>
+   <text>p0</text>
+  </name>
+   <initialMarking>
+    <text>1</text>
+   </initialMarking>
+  </place>
+  <place id="p-FCD-B5F95-3">
+  <name>
+   <text>p1</text>
+  </name>
+  </place>
+  <place id="p-FCD-B5F96-4">
+  <name>
+   <text>p2</text>
+  </name>
+  </place>
+  <place id="p-FCD-B5F97-5">
+  <name>
+   <text>p3</text>
+  </name>
+  </place>
+  <place id="p-FCD-B5F98-6">
+  <name>
+   <text>p4</text>
+  </name>
+  </place>
+  <place id="p-FCD-B5F98-7">
+  <name>
+   <text>p5</text>
+  </name>
+  </place>
+  <place id="p-FCD-B5F99-8">
+  <name>
+   <text>p6</text>
+  </name>
+  </place>
+  <transition id="t-FCD-B5F99-9">
+  <name>
+   <text>t0</text>
+  </name>
+  </transition>
+  <transition id="t-FCD-B5FC3-10">
+  <name>
+   <text>t1</text>
+  </name>
+  </transition>
+  <transition id="t-FCD-B5FC4-11">
+  <name>
+   <text>t2</text>
+  </name>
+  </transition>
+  <transition id="t-FCD-B5FC5-12">
+  <name>
+   <text>t3</text>
+  </name>
+  </transition>
+  <arc id="e-FCD-B5FC6-13" source="p-FCD-B5F93-2" target="t-FCD-B5F99-9">
+  </arc>
+  <arc id="e-FCD-B5FC7-14" source="t-FCD-B5FC4-11" target="p-FCD-B5F99-8">
+  </arc>
+  <arc id="e-FCD-B5FC7-15" source="p-FCD-B5F95-3" target="t-FCD-B5FC5-12">
+  </arc>
+  <arc id="e-FCD-B5FC8-16" source="p-FCD-B5F98-7" target="t-FCD-B5FC5-12">
+  </arc>
+  <arc id="e-FCD-B5FC8-17" source="p-FCD-B5F99-8" target="t-FCD-B5FC5-12">
+  </arc>
+  <arc id="e-FCD-B5FC9-18" source="t-FCD-B5FC5-12" target="p-FCD-B5F93-2">
+  </arc>
+  <arc id="e-FCD-B5FCA-19" source="t-FCD-B5F99-9" target="p-FCD-B5F95-3">
+  </arc>
+  <arc id="e-FCD-B5FCA-20" source="t-FCD-B5F99-9" target="p-FCD-B5F96-4">
+  </arc>
+  <arc id="e-FCD-B5FCB-21" source="t-FCD-B5F99-9" target="p-FCD-B5F97-5">
+  </arc>
+  <arc id="e-FCD-B5FCB-22" source="p-FCD-B5F96-4" target="t-FCD-B5FC3-10">
+  </arc>
+  <arc id="e-FCD-B5FCC-23" source="p-FCD-B5F97-5" target="t-FCD-B5FC3-10">
+  </arc>
+  <arc id="e-FCD-B5FCC-24" source="t-FCD-B5FC3-10" target="p-FCD-B5F98-6">
+  </arc>
+  <arc id="e-FCD-B5FCD-25" source="p-FCD-B5F98-6" target="t-FCD-B5FC4-11">
+  </arc>
+  <arc id="e-FCD-B5FCD-26" source="t-FCD-B5FC4-11" target="p-FCD-B5F98-7">
+  </arc>
+ </page>
+ </net>
+</pnml>

@@ -1,0 +1,153 @@
+<pnml xmlns="http://www.pnml.org/version-2009/grammar/pnml">
+ <net id="n-10F9-E2D2E-0" type ="http://www.pnml.org/version-2009/grammar/ptnet">
+  <name>
+   <text>parallel_managing_automatic_devices</text>
+  </name>
+ <page id="g-10F9-E2D33-1">
+  <place id="p-10F9-E2D34-2">
+  <name>
+   <text>p0</text>
+  </name>
+   <initialMarking>
+    <text>1</text>
+   </initialMarking>
+  </place>
+  <place id="p-10F9-E2D37-3">
+  <name>
+   <text>p1</text>
+  </name>
+  </place>
+  <place id="p-10F9-E2D38-4">
+  <name>
+   <text>p10</text>
+  </name>
+  </place>
+  <place id="p-10F9-E2D38-5">
+  <name>
+   <text>p2</text>
+  </name>
+  </place>
+  <place id="p-10F9-E2D39-6">
+  <name>
+   <text>p3</text>
+  </name>
+  </place>
+  <place id="p-10F9-E2D3A-7">
+  <name>
+   <text>p4</text>
+  </name>
+  </place>
+  <place id="p-10F9-E2D3B-8">
+  <name>
+   <text>p5</text>
+  </name>
+  </place>
+  <place id="p-10F9-E2D3B-9">
+  <name>
+   <text>p6</text>
+  </name>
+  </place>
+  <place id="p-10F9-E2D3C-10">
+  <name>
+   <text>p7</text>
+  </name>
+   <initialMarking>
+    <text>1</text>
+   </initialMarking>
+  </place>
+  <place id="p-10F9-E2D3D-11">
+  <name>
+   <text>p8</text>
+  </name>
+  </place>
+  <place id="p-10F9-E2D3D-12">
+  <name>
+   <text>p9</text>
+  </name>
+  </place>
+  <transition id="t-10F9-E2D3F-13">
+  <name>
+   <text>t0</text>
+  </name>
+  </transition>
+  <transition id="t-10F9-E2D40-14">
+  <name>
+   <text>t1</text>
+  </name>
+  </transition>
+  <transition id="t-10F9-E2D40-15">
+  <name>
+   <text>t2</text>
+  </name>
+  </transition>
+  <transition id="t-10F9-E2D41-16">
+  <name>
+   <text>t3</text>
+  </name>
+  </transition>
+  <transition id="t-10F9-E2D42-17">
+  <name>
+   <text>t4</text>
+  </name>
+  </transition>
+  <transition id="t-10F9-E2D43-18">
+  <name>
+   <text>t5</text>
+  </name>
+  </transition>
+  <transition id="t-10F9-E2D43-19">
+  <name>
+   <text>t6</text>
+  </name>
+  </transition>
+  <arc id="e-10F9-E2D44-20" source="p-10F9-E2D34-2" target="t-10F9-E2D3F-13">
+  </arc>
+  <arc id="e-10F9-E2D45-21" source="p-10F9-E2D39-6" target="t-10F9-E2D40-15">
+  </arc>
+  <arc id="e-10F9-E2D46-22" source="t-10F9-E2D40-15" target="p-10F9-E2D3A-7">
+  </arc>
+  <arc id="e-10F9-E2D46-23" source="p-10F9-E2D3A-7" target="t-10F9-E2D41-16">
+  </arc>
+  <arc id="e-10F9-E2D47-24" source="p-10F9-E2D3B-8" target="t-10F9-E2D41-16">
+  </arc>
+  <arc id="e-10F9-E2D48-25" source="p-10F9-E2D3D-12" target="t-10F9-E2D41-16">
+  </arc>
+  <arc id="e-10F9-E2D49-26" source="t-10F9-E2D41-16" target="p-10F9-E2D34-2">
+  </arc>
+  <arc id="e-10F9-E2D49-27" source="t-10F9-E2D41-16" target="p-10F9-E2D3C-10">
+  </arc>
+  <arc id="e-10F9-E2D4A-28" source="p-10F9-E2D37-3" target="t-10F9-E2D42-17">
+  </arc>
+  <arc id="e-10F9-E2D4A-29" source="p-10F9-E2D3B-9" target="t-10F9-E2D42-17">
+  </arc>
+  <arc id="e-10F9-E2D4B-30" source="t-10F9-E2D42-17" target="p-10F9-E2D38-4">
+  </arc>
+  <arc id="e-10F9-E2D4B-31" source="p-10F9-E2D3C-10" target="t-10F9-E2D3F-13">
+  </arc>
+  <arc id="e-10F9-E2D4C-32" source="p-10F9-E2D38-4" target="t-10F9-E2D43-18">
+  </arc>
+  <arc id="e-10F9-E2D4C-33" source="t-10F9-E2D43-18" target="p-10F9-E2D37-3">
+  </arc>
+  <arc id="e-10F9-E2D4D-34" source="p-10F9-E2D37-3" target="t-10F9-E2D43-19">
+  </arc>
+  <arc id="e-10F9-E2D4D-35" source="p-10F9-E2D3D-11" target="t-10F9-E2D43-19">
+  </arc>
+  <arc id="e-10F9-E2D4E-36" source="t-10F9-E2D43-19" target="p-10F9-E2D3D-12">
+  </arc>
+  <arc id="e-10F9-E2D4F-37" source="t-10F9-E2D3F-13" target="p-10F9-E2D38-5">
+  </arc>
+  <arc id="e-10F9-E2D4F-38" source="p-10F9-E2D38-5" target="t-10F9-E2D40-14">
+  </arc>
+  <arc id="e-10F9-E2D50-39" source="t-10F9-E2D40-14" target="p-10F9-E2D37-3">
+  </arc>
+  <arc id="e-10F9-E2D50-40" source="t-10F9-E2D40-14" target="p-10F9-E2D39-6">
+  </arc>
+  <arc id="e-10F9-E2D51-41" source="t-10F9-E2D40-14" target="p-10F9-E2D3B-8">
+  </arc>
+  <arc id="e-10F9-E2D51-42" source="t-10F9-E2D40-14" target="p-10F9-E2D3B-9">
+  </arc>
+  <arc id="e-10F9-E2D52-43" source="t-10F9-E2D40-14" target="p-10F9-E2D3D-11">
+  </arc>
+ </page>
+ </net>
+</pnml>

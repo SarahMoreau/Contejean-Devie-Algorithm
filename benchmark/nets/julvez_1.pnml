@@ -1,0 +1,160 @@
+<pnml xmlns="http://www.pnml.org/version-2009/grammar/pnml">
+ <net id="n-108B-5D99D-0" type ="http://www.pnml.org/version-2009/grammar/ptnet">
+  <name>
+   <text>julvez_1</text>
+  </name>
+ <page id="g-108B-5D9AB-1">
+  <place id="p-108B-5D9AE-2">
+  <name>
+   <text>p0</text>
+  </name>
+  </place>
+  <place id="p-108B-5D9B0-3">
+  <name>
+   <text>p1</text>
+  </name>
+  </place>
+  <place id="p-108B-5D9B1-4">
+  <name>
+   <text>p10</text>
+  </name>
+  </place>
+  <place id="p-108B-5D9B1-5">
+  <name>
+   <text>p2</text>
+  </name>
+   <initialMarking>
+    <text>1</text>
+   </initialMarking>
+  </place>
+  <place id="p-108B-5D9B3-6">
+  <name>
+   <text>p3</text>
+  </name>
+  </place>
+  <place id="p-108B-5D9B4-7">
+  <name>
+   <text>p4</text>
+  </name>
+   <initialMarking>
+    <text>1</text>
+   </initialMarking>
+  </place>
+  <place id="p-108B-5D9B4-8">
+  <name>
+   <text>p5</text>
+  </name>
+  </place>
+  <place id="p-108B-5D9B5-9">
+  <name>
+   <text>p6</text>
+  </name>
+  </place>
+  <place id="p-108B-5D9B5-10">
+  <name>
+   <text>p7</text>
+  </name>
+  </place>
+  <place id="p-108B-5D9B7-11">
+  <name>
+   <text>p8</text>
+  </name>
+   <initialMarking>
+    <text>1</text>
+   </initialMarking>
+  </place>
+  <place id="p-108B-5D9B7-12">
+  <name>
+   <text>p9</text>
+  </name>
+   <initialMarking>
+    <text>1</text>
+   </initialMarking>
+  </place>
+  <transition id="t-108B-5D9B8-13">
+  <name>
+   <text>t0</text>
+  </name>
+  </transition>
+  <transition id="t-108B-5D9B9-14">
+  <name>
+   <text>t1</text>
+  </name>
+  </transition>
+  <transition id="t-108B-5D9BB-15">
+  <name>
+   <text>t2</text>
+  </name>
+  </transition>
+  <transition id="t-108B-5D9BB-16">
+  <name>
+   <text>t3</text>
+  </name>
+  </transition>
+  <transition id="t-108B-5D9BC-17">
+  <name>
+   <text>t4</text>
+  </name>
+  </transition>
+  <transition id="t-108B-5D9BC-18">
+  <name>
+   <text>t5</text>
+  </name>
+  </transition>
+  <transition id="t-108B-5D9BE-19">
+  <name>
+   <text>t6</text>
+  </name>
+  </transition>
+  <transition id="t-108B-5D9BE-20">
+  <name>
+   <text>t7</text>
+  </name>
+  </transition>
+  <arc id="e-108B-5D9BF-21" source="p-108B-5D9AE-2" target="t-108B-5D9B8-13">
+  </arc>
+  <arc id="e-108B-5D9C0-22" source="t-108B-5D9BB-16" target="p-108B-5D9B5-10">
+  </arc>
+  <arc id="e-108B-5D9C1-23" source="p-108B-5D9B5-10" target="t-108B-5D9BC-17">
+  </arc>
+  <arc id="e-108B-5D9C1-24" source="t-108B-5D9BC-17" target="p-108B-5D9B7-11">
+  </arc>
+  <arc id="e-108B-5D9C2-25" source="p-108B-5D9B7-11" target="t-108B-5D9BC-18">
+  </arc>
+  <arc id="e-108B-5D9C2-26" source="p-108B-5D9B1-4" target="t-108B-5D9BC-18">
+  </arc>
+  <arc id="e-108B-5D9C4-27" source="t-108B-5D9BC-18" target="p-108B-5D9B5-9">
+  </arc>
+  <arc id="e-108B-5D9C4-28" source="t-108B-5D9BC-18" target="p-108B-5D9B7-12">
+  </arc>
+  <arc id="e-108B-5D9C5-29" source="p-108B-5D9B7-12" target="t-108B-5D9BE-19">
+  </arc>
+  <arc id="e-108B-5D9C5-30" source="t-108B-5D9BE-19" target="p-108B-5D9B1-4">
+  </arc>
+  <arc id="e-108B-5D9C6-31" source="p-108B-5D9B3-6" target="t-108B-5D9BE-20">
+  </arc>
+  <arc id="e-108B-5D9C6-32" source="t-108B-5D9B8-13" target="p-108B-5D9B0-3">
+  </arc>
+  <arc id="e-108B-5D9C7-33" source="p-108B-5D9B4-8" target="t-108B-5D9BE-20">
+  </arc>
+  <arc id="e-108B-5D9C8-34" source="t-108B-5D9BE-20" target="p-108B-5D9B1-5">
+  </arc>
+  <arc id="e-108B-5D9C8-35" source="t-108B-5D9BE-20" target="p-108B-5D9B4-7">
+  </arc>
+  <arc id="e-108B-5D9C9-36" source="p-108B-5D9B1-5" target="t-108B-5D9B9-14">
+  </arc>
+  <arc id="e-108B-5D9C9-37" source="t-108B-5D9B9-14" target="p-108B-5D9AE-2">
+  </arc>
+  <arc id="e-108B-5D9CA-38" source="p-108B-5D9B0-3" target="t-108B-5D9BB-15">
+  </arc>
+  <arc id="e-108B-5D9CB-39" source="t-108B-5D9BB-15" target="p-108B-5D9B3-6">
+  </arc>
+  <arc id="e-108B-5D9CB-40" source="p-108B-5D9B4-7" target="t-108B-5D9BB-16">
+  </arc>
+  <arc id="e-108B-5D9CC-41" source="p-108B-5D9B5-9" target="t-108B-5D9BB-16">
+  </arc>
+  <arc id="e-108B-5D9CC-42" source="t-108B-5D9BB-16" target="p-108B-5D9B4-8">
+  </arc>
+ </page>
+ </net>
+</pnml>

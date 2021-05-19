@@ -1,0 +1,270 @@
+<pnml xmlns="http://www.pnml.org/version-2009/grammar/pnml">
+ <net id="n-FBB-79307-0" type ="http://www.pnml.org/version-2009/grammar/ptnet">
+  <name>
+   <text>2pusher</text>
+  </name>
+ <page id="g-FBB-7930B-1">
+  <place id="p-FBB-7930D-2">
+  <name>
+   <text>p0</text>
+  </name>
+   <initialMarking>
+    <text>1</text>
+   </initialMarking>
+  </place>
+  <place id="p-FBB-7930F-3">
+  <name>
+   <text>p1</text>
+  </name>
+  </place>
+  <place id="p-FBB-79310-4">
+  <name>
+   <text>p10</text>
+  </name>
+  </place>
+  <place id="p-FBB-79310-5">
+  <name>
+   <text>p11</text>
+  </name>
+  </place>
+  <place id="p-FBB-79311-6">
+  <name>
+   <text>p12</text>
+  </name>
+  </place>
+  <place id="p-FBB-79312-7">
+  <name>
+   <text>p13</text>
+  </name>
+  </place>
+  <place id="p-FBB-79325-8">
+  <name>
+   <text>p14</text>
+  </name>
+   <initialMarking>
+    <text>1</text>
+   </initialMarking>
+  </place>
+  <place id="p-FBB-79325-9">
+  <name>
+   <text>p2</text>
+  </name>
+  </place>
+  <place id="p-FBB-79326-10">
+  <name>
+   <text>p3</text>
+  </name>
+   <initialMarking>
+    <text>1</text>
+   </initialMarking>
+  </place>
+  <place id="p-FBB-79327-11">
+  <name>
+   <text>p4</text>
+  </name>
+  </place>
+  <place id="p-FBB-79328-12">
+  <name>
+   <text>p5</text>
+  </name>
+  </place>
+  <place id="p-FBB-79328-13">
+  <name>
+   <text>p6</text>
+  </name>
+   <initialMarking>
+    <text>1</text>
+   </initialMarking>
+  </place>
+  <place id="p-FBB-79329-14">
+  <name>
+   <text>p7</text>
+  </name>
+  </place>
+  <place id="p-FBB-79329-15">
+  <name>
+   <text>p8</text>
+  </name>
+  </place>
+  <place id="p-FBB-7932B-16">
+  <name>
+   <text>p9</text>
+  </name>
+  </place>
+  <transition id="t-FBB-7932B-17">
+  <name>
+   <text>t0</text>
+  </name>
+  </transition>
+  <transition id="t-FBB-79340-18">
+  <name>
+   <text>t1</text>
+  </name>
+  </transition>
+  <transition id="t-FBB-79341-19">
+  <name>
+   <text>t10</text>
+  </name>
+  </transition>
+  <transition id="t-FBB-79342-20">
+  <name>
+   <text>t11</text>
+  </name>
+  </transition>
+  <transition id="t-FBB-79343-21">
+  <name>
+   <text>t12</text>
+  </name>
+  </transition>
+  <transition id="t-FBB-79344-22">
+  <name>
+   <text>t13</text>
+  </name>
+  </transition>
+  <transition id="t-FBB-79344-23">
+  <name>
+   <text>t14</text>
+  </name>
+  </transition>
+  <transition id="t-FBB-79345-24">
+  <name>
+   <text>t15</text>
+  </name>
+  </transition>
+  <transition id="t-FBB-79346-25">
+  <name>
+   <text>t16</text>
+  </name>
+  </transition>
+  <transition id="t-FBB-79346-26">
+  <name>
+   <text>t17</text>
+  </name>
+  </transition>
+  <transition id="t-FBB-79347-27">
+  <name>
+   <text>t2</text>
+  </name>
+  </transition>
+  <transition id="t-FBB-79348-28">
+  <name>
+   <text>t3</text>
+  </name>
+  </transition>
+  <transition id="t-FBB-79349-29">
+  <name>
+   <text>t4</text>
+  </name>
+  </transition>
+  <transition id="t-FBB-79349-30">
+  <name>
+   <text>t5</text>
+  </name>
+  </transition>
+  <transition id="t-FBB-7934A-31">
+  <name>
+   <text>t6</text>
+  </name>
+  </transition>
+  <transition id="t-FBB-7934B-32">
+  <name>
+   <text>t7</text>
+  </name>
+  </transition>
+  <transition id="t-FBB-7934B-33">
+  <name>
+   <text>t8</text>
+  </name>
+  </transition>
+  <transition id="t-FBB-7934C-34">
+  <name>
+   <text>t9</text>
+  </name>
+  </transition>
+  <arc id="e-FBB-7934D-35" source="p-FBB-7930D-2" target="t-FBB-7932B-17">
+  </arc>
+  <arc id="e-FBB-7934D-36" source="t-FBB-79343-21" target="p-FBB-79325-9">
+  </arc>
+  <arc id="e-FBB-7934E-37" source="t-FBB-79343-21" target="p-FBB-79310-4">
+  </arc>
+  <arc id="e-FBB-7934E-38" source="p-FBB-79326-10" target="t-FBB-79344-22">
+  </arc>
+  <arc id="e-FBB-79350-39" source="p-FBB-79310-4" target="t-FBB-79344-22">
+  </arc>
+  <arc id="e-FBB-79350-40" source="t-FBB-79344-22" target="p-FBB-79310-5">
+  </arc>
+  <arc id="e-FBB-79351-41" source="p-FBB-79310-5" target="t-FBB-79344-23">
+  </arc>
+  <arc id="e-FBB-79351-42" source="t-FBB-79344-23" target="p-FBB-79311-6">
+  </arc>
+  <arc id="e-FBB-79352-43" source="p-FBB-79311-6" target="t-FBB-79345-24">
+  </arc>
+  <arc id="e-FBB-79352-44" source="t-FBB-79345-24" target="p-FBB-79310-5">
+  </arc>
+  <arc id="e-FBB-7935A-45" source="p-FBB-79310-5" target="t-FBB-79346-25">
+  </arc>
+  <arc id="e-FBB-7935A-46" source="t-FBB-7932B-17" target="p-FBB-7930F-3">
+  </arc>
+  <arc id="e-FBB-7935B-47" source="t-FBB-79346-25" target="p-FBB-79328-12">
+  </arc>
+  <arc id="e-FBB-7935B-48" source="t-FBB-79346-25" target="p-FBB-79312-7">
+  </arc>
+  <arc id="e-FBB-7935C-49" source="p-FBB-79312-7" target="t-FBB-79346-26">
+  </arc>
+  <arc id="e-FBB-7935C-50" source="t-FBB-79346-26" target="p-FBB-79328-13">
+  </arc>
+  <arc id="e-FBB-7935D-51" source="p-FBB-7930F-3" target="t-FBB-79347-27">
+  </arc>
+  <arc id="e-FBB-7935E-52" source="t-FBB-79347-27" target="p-FBB-79325-9">
+  </arc>
+  <arc id="e-FBB-7935E-53" source="p-FBB-79325-9" target="t-FBB-79348-28">
+  </arc>
+  <arc id="e-FBB-7935F-54" source="t-FBB-79348-28" target="p-FBB-7930F-3">
+  </arc>
+  <arc id="e-FBB-7935F-55" source="p-FBB-79326-10" target="t-FBB-79349-29">
+  </arc>
+  <arc id="e-FBB-79360-56" source="p-FBB-79325-8" target="t-FBB-79349-29">
+  </arc>
+  <arc id="e-FBB-79360-57" source="p-FBB-7930F-3" target="t-FBB-79340-18">
+  </arc>
+  <arc id="e-FBB-79361-58" source="t-FBB-79349-29" target="p-FBB-79327-11">
+  </arc>
+  <arc id="e-FBB-79361-59" source="p-FBB-79327-11" target="t-FBB-79349-30">
+  </arc>
+  <arc id="e-FBB-79362-60" source="t-FBB-79349-30" target="p-FBB-79326-10">
+  </arc>
+  <arc id="e-FBB-79362-61" source="t-FBB-79349-30" target="p-FBB-79325-8">
+  </arc>
+  <arc id="e-FBB-79363-62" source="p-FBB-79327-11" target="t-FBB-7934A-31">
+  </arc>
+  <arc id="e-FBB-79364-63" source="t-FBB-7934A-31" target="p-FBB-79328-12">
+  </arc>
+  <arc id="e-FBB-79364-64" source="p-FBB-79328-12" target="t-FBB-7934B-32">
+  </arc>
+  <arc id="e-FBB-79365-65" source="t-FBB-7934B-32" target="p-FBB-79327-11">
+  </arc>
+  <arc id="e-FBB-79365-66" source="p-FBB-7930D-2" target="t-FBB-7934B-33">
+  </arc>
+  <arc id="e-FBB-79366-67" source="p-FBB-79328-13" target="t-FBB-7934B-33">
+  </arc>
+  <arc id="e-FBB-79366-68" source="t-FBB-79340-18" target="p-FBB-7930D-2">
+  </arc>
+  <arc id="e-FBB-79367-69" source="t-FBB-7934B-33" target="p-FBB-79329-14">
+  </arc>
+  <arc id="e-FBB-79367-70" source="p-FBB-79329-14" target="t-FBB-7934C-34">
+  </arc>
+  <arc id="e-FBB-79368-71" source="t-FBB-7934C-34" target="p-FBB-79329-15">
+  </arc>
+  <arc id="e-FBB-79368-72" source="p-FBB-79329-15" target="t-FBB-79341-19">
+  </arc>
+  <arc id="e-FBB-79369-73" source="t-FBB-79341-19" target="p-FBB-7932B-16">
+  </arc>
+  <arc id="e-FBB-79369-74" source="p-FBB-7932B-16" target="t-FBB-79342-20">
+  </arc>
+  <arc id="e-FBB-7936B-75" source="t-FBB-79342-20" target="p-FBB-79329-15">
+  </arc>
+  <arc id="e-FBB-7936B-76" source="p-FBB-79329-15" target="t-FBB-79343-21">
+  </arc>
+ </page>
+ </net>
+</pnml>

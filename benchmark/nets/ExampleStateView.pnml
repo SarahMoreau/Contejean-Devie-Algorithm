@@ -1,0 +1,201 @@
+<pnml xmlns="http://www.pnml.org/version-2009/grammar/pnml">
+ <net id="n-FC9-A93CB-0" type ="http://www.pnml.org/version-2009/grammar/ptnet">
+  <name>
+   <text>ExampleStateView</text>
+  </name>
+ <page id="g-FC9-A93D0-1">
+  <place id="p-FC9-A93D2-2">
+  <name>
+   <text>p0</text>
+  </name>
+  </place>
+  <place id="p-FC9-A93D3-3">
+  <name>
+   <text>p1</text>
+  </name>
+   <initialMarking>
+    <text>1</text>
+   </initialMarking>
+  </place>
+  <place id="p-FC9-A93D5-4">
+  <name>
+   <text>p10</text>
+  </name>
+  </place>
+  <place id="p-FC9-A93D5-5">
+  <name>
+   <text>p11</text>
+  </name>
+   <initialMarking>
+    <text>1</text>
+   </initialMarking>
+  </place>
+  <place id="p-FC9-A93D7-6">
+  <name>
+   <text>p12</text>
+  </name>
+   <initialMarking>
+    <text>1</text>
+   </initialMarking>
+  </place>
+  <place id="p-FC9-A93D7-7">
+  <name>
+   <text>p2</text>
+  </name>
+   <initialMarking>
+    <text>1</text>
+   </initialMarking>
+  </place>
+  <place id="p-FC9-A93D8-8">
+  <name>
+   <text>p3</text>
+  </name>
+  </place>
+  <place id="p-FC9-A93D9-9">
+  <name>
+   <text>p4</text>
+  </name>
+  </place>
+  <place id="p-FC9-A93D9-10">
+  <name>
+   <text>p5</text>
+  </name>
+   <initialMarking>
+    <text>1</text>
+   </initialMarking>
+  </place>
+  <place id="p-FC9-A93DB-11">
+  <name>
+   <text>p6</text>
+  </name>
+  </place>
+  <place id="p-FC9-A93DB-12">
+  <name>
+   <text>p7</text>
+  </name>
+  </place>
+  <place id="p-FC9-A93DC-13">
+  <name>
+   <text>p8</text>
+  </name>
+  </place>
+  <place id="p-FC9-A93DC-14">
+  <name>
+   <text>p9</text>
+  </name>
+  </place>
+  <transition id="t-FC9-A93DE-15">
+  <name>
+   <text>t0</text>
+  </name>
+  </transition>
+  <transition id="t-FC9-A93DF-16">
+  <name>
+   <text>t1</text>
+  </name>
+  </transition>
+  <transition id="t-FC9-A93DF-17">
+  <name>
+   <text>t2</text>
+  </name>
+  </transition>
+  <transition id="t-FC9-A93E0-18">
+  <name>
+   <text>t3</text>
+  </name>
+  </transition>
+  <transition id="t-FC9-A93E0-19">
+  <name>
+   <text>t4</text>
+  </name>
+  </transition>
+  <transition id="t-FC9-A93E1-20">
+  <name>
+   <text>t5</text>
+  </name>
+  </transition>
+  <transition id="t-FC9-A93E2-21">
+  <name>
+   <text>t6</text>
+  </name>
+  </transition>
+  <transition id="t-FC9-A93E2-22">
+  <name>
+   <text>t7</text>
+  </name>
+  </transition>
+  <transition id="t-FC9-A93E3-23">
+  <name>
+   <text>t8</text>
+  </name>
+  </transition>
+  <transition id="t-FC9-A93E3-24">
+  <name>
+   <text>t9</text>
+  </name>
+  </transition>
+  <arc id="e-FC9-A93E4-25" source="p-FC9-A93D2-2" target="t-FC9-A93DE-15">
+  </arc>
+  <arc id="e-FC9-A93E5-26" source="p-FC9-A93D9-10" target="t-FC9-A93DF-17">
+  </arc>
+  <arc id="e-FC9-A93E6-27" source="t-FC9-A93DF-17" target="p-FC9-A93DB-11">
+  </arc>
+  <arc id="e-FC9-A93E6-28" source="p-FC9-A93D3-3" target="t-FC9-A93E0-18">
+  </arc>
+  <arc id="e-FC9-A93E7-29" source="p-FC9-A93D9-9" target="t-FC9-A93E0-18">
+  </arc>
+  <arc id="e-FC9-A93E7-30" source="p-FC9-A93D9-10" target="t-FC9-A93E0-18">
+  </arc>
+  <arc id="e-FC9-A93E8-31" source="t-FC9-A93E0-18" target="p-FC9-A93DB-11">
+  </arc>
+  <arc id="e-FC9-A93E9-32" source="p-FC9-A93D7-6" target="t-FC9-A93E0-19">
+  </arc>
+  <arc id="e-FC9-A93EA-33" source="t-FC9-A93E0-19" target="p-FC9-A93D2-2">
+  </arc>
+  <arc id="e-FC9-A93EB-34" source="t-FC9-A93E0-19" target="p-FC9-A93D9-9">
+  </arc>
+  <arc id="e-FC9-A93EB-35" source="t-FC9-A93E0-19" target="p-FC9-A93DB-12">
+  </arc>
+  <arc id="e-FC9-A93EC-36" source="p-FC9-A93D7-7" target="t-FC9-A93DE-15">
+  </arc>
+  <arc id="e-FC9-A93ED-37" source="p-FC9-A93D8-8" target="t-FC9-A93E1-20">
+  </arc>
+  <arc id="e-FC9-A93ED-38" source="p-FC9-A93DB-11" target="t-FC9-A93E1-20">
+  </arc>
+  <arc id="e-FC9-A93EE-39" source="p-FC9-A93DB-12" target="t-FC9-A93E1-20">
+  </arc>
+  <arc id="e-FC9-A93EE-40" source="t-FC9-A93E1-20" target="p-FC9-A93DC-13">
+  </arc>
+  <arc id="e-FC9-A93EF-41" source="p-FC9-A93DC-13" target="t-FC9-A93E2-21">
+  </arc>
+  <arc id="e-FC9-A93EF-42" source="t-FC9-A93E2-21" target="p-FC9-A93D7-6">
+  </arc>
+  <arc id="e-FC9-A93F0-43" source="p-FC9-A93DC-14" target="t-FC9-A93E2-22">
+  </arc>
+  <arc id="e-FC9-A93F0-44" source="t-FC9-A93E2-22" target="p-FC9-A93D7-7">
+  </arc>
+  <arc id="e-FC9-A93FB-45" source="p-FC9-A93D5-4" target="t-FC9-A93E3-23">
+  </arc>
+  <arc id="e-FC9-A93FC-46" source="t-FC9-A93E3-23" target="p-FC9-A93D3-3">
+  </arc>
+  <arc id="e-FC9-A93FC-47" source="t-FC9-A93DE-15" target="p-FC9-A93D8-8">
+  </arc>
+  <arc id="e-FC9-A93FD-48" source="p-FC9-A93D5-5" target="t-FC9-A93E3-24">
+  </arc>
+  <arc id="e-FC9-A93FD-49" source="t-FC9-A93E3-24" target="p-FC9-A93D9-10">
+  </arc>
+  <arc id="e-FC9-A93FE-50" source="p-FC9-A93D2-2" target="t-FC9-A93DF-16">
+  </arc>
+  <arc id="e-FC9-A93FE-51" source="p-FC9-A93D3-3" target="t-FC9-A93DF-16">
+  </arc>
+  <arc id="e-FC9-A93FF-52" source="p-FC9-A93D7-7" target="t-FC9-A93DF-16">
+  </arc>
+  <arc id="e-FC9-A93FF-53" source="t-FC9-A93DF-16" target="p-FC9-A93DC-14">
+  </arc>
+  <arc id="e-FC9-A9400-54" source="t-FC9-A93DF-16" target="p-FC9-A93D5-4">
+  </arc>
+  <arc id="e-FC9-A9401-55" source="p-FC9-A93D9-9" target="t-FC9-A93DF-17">
+  </arc>
+ </page>
+ </net>
+</pnml>

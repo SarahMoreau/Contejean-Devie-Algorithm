@@ -1,0 +1,262 @@
+<pnml xmlns="http://www.pnml.org/version-2009/grammar/pnml">
+ <net id="n-FEF-300F1-0" type ="http://www.pnml.org/version-2009/grammar/ptnet">
+  <name>
+   <text>automation3</text>
+  </name>
+ <page id="g-FEF-300F5-1">
+  <place id="p-FEF-300F6-2">
+  <name>
+   <text>p0</text>
+  </name>
+   <initialMarking>
+    <text>1</text>
+   </initialMarking>
+  </place>
+  <place id="p-FEF-300F8-3">
+  <name>
+   <text>p1</text>
+  </name>
+  </place>
+  <place id="p-FEF-300F9-4">
+  <name>
+   <text>p10</text>
+  </name>
+  </place>
+  <place id="p-FEF-300FA-5">
+  <name>
+   <text>p11</text>
+  </name>
+  </place>
+  <place id="p-FEF-300FB-6">
+  <name>
+   <text>p12</text>
+  </name>
+  </place>
+  <place id="p-FEF-300FB-7">
+  <name>
+   <text>p13</text>
+  </name>
+  </place>
+  <place id="p-FEF-300FC-8">
+  <name>
+   <text>p14</text>
+  </name>
+  </place>
+  <place id="p-FEF-300FC-9">
+  <name>
+   <text>p15</text>
+  </name>
+  </place>
+  <place id="p-FEF-300FD-10">
+  <name>
+   <text>p16</text>
+  </name>
+  </place>
+  <place id="p-FEF-300FE-11">
+  <name>
+   <text>p2</text>
+  </name>
+  </place>
+  <place id="p-FEF-300FF-12">
+  <name>
+   <text>p3</text>
+  </name>
+   <initialMarking>
+    <text>1</text>
+   </initialMarking>
+  </place>
+  <place id="p-FEF-30100-13">
+  <name>
+   <text>p4</text>
+  </name>
+   <initialMarking>
+    <text>1</text>
+   </initialMarking>
+  </place>
+  <place id="p-FEF-30100-14">
+  <name>
+   <text>p5</text>
+  </name>
+   <initialMarking>
+    <text>1</text>
+   </initialMarking>
+  </place>
+  <place id="p-FEF-30102-15">
+  <name>
+   <text>p6</text>
+  </name>
+  </place>
+  <place id="p-FEF-30103-16">
+  <name>
+   <text>p7</text>
+  </name>
+  </place>
+  <place id="p-FEF-30104-17">
+  <name>
+   <text>p8</text>
+  </name>
+  </place>
+  <place id="p-FEF-30104-18">
+  <name>
+   <text>p9</text>
+  </name>
+  </place>
+  <transition id="t-FEF-30105-19">
+  <name>
+   <text>t0</text>
+  </name>
+  </transition>
+  <transition id="t-FEF-30106-20">
+  <name>
+   <text>t1</text>
+  </name>
+  </transition>
+  <transition id="t-FEF-30107-21">
+  <name>
+   <text>t10</text>
+  </name>
+  </transition>
+  <transition id="t-FEF-30108-22">
+  <name>
+   <text>t11</text>
+  </name>
+  </transition>
+  <transition id="t-FEF-30109-23">
+  <name>
+   <text>t12</text>
+  </name>
+  </transition>
+  <transition id="t-FEF-3010A-24">
+  <name>
+   <text>t13</text>
+  </name>
+  </transition>
+  <transition id="t-FEF-3010A-25">
+  <name>
+   <text>t14</text>
+  </name>
+  </transition>
+  <transition id="t-FEF-3010B-26">
+  <name>
+   <text>t15</text>
+  </name>
+  </transition>
+  <transition id="t-FEF-3010C-27">
+  <name>
+   <text>t2</text>
+  </name>
+  </transition>
+  <transition id="t-FEF-3010D-28">
+  <name>
+   <text>t3</text>
+  </name>
+  </transition>
+  <transition id="t-FEF-3010D-29">
+  <name>
+   <text>t4</text>
+  </name>
+  </transition>
+  <transition id="t-FEF-3010E-30">
+  <name>
+   <text>t5</text>
+  </name>
+  </transition>
+  <transition id="t-FEF-3010F-31">
+  <name>
+   <text>t6</text>
+  </name>
+  </transition>
+  <transition id="t-FEF-30110-32">
+  <name>
+   <text>t7</text>
+  </name>
+  </transition>
+  <transition id="t-FEF-30110-33">
+  <name>
+   <text>t8</text>
+  </name>
+  </transition>
+  <transition id="t-FEF-30111-34">
+  <name>
+   <text>t9</text>
+  </name>
+  </transition>
+  <arc id="e-FEF-30112-35" source="p-FEF-300F6-2" target="t-FEF-30105-19">
+  </arc>
+  <arc id="e-FEF-30114-36" source="t-FEF-30109-23" target="p-FEF-30104-18">
+  </arc>
+  <arc id="e-FEF-30114-37" source="p-FEF-300FC-8" target="t-FEF-3010A-24">
+  </arc>
+  <arc id="e-FEF-30115-38" source="t-FEF-3010A-24" target="p-FEF-300F9-4">
+  </arc>
+  <arc id="e-FEF-30116-39" source="p-FEF-300FC-9" target="t-FEF-3010A-25">
+  </arc>
+  <arc id="e-FEF-30116-40" source="t-FEF-3010A-25" target="p-FEF-300FB-6">
+  </arc>
+  <arc id="e-FEF-30117-41" source="p-FEF-300FD-10" target="t-FEF-3010B-26">
+  </arc>
+  <arc id="e-FEF-30117-42" source="t-FEF-3010B-26" target="p-FEF-300FA-5">
+  </arc>
+  <arc id="e-FEF-30118-43" source="p-FEF-300FE-11" target="t-FEF-3010C-27">
+  </arc>
+  <arc id="e-FEF-30118-44" source="p-FEF-300FA-5" target="t-FEF-3010C-27">
+  </arc>
+  <arc id="e-FEF-30119-45" source="t-FEF-3010C-27" target="p-FEF-300FF-12">
+  </arc>
+  <arc id="e-FEF-30122-46" source="t-FEF-30105-19" target="p-FEF-300F8-3">
+  </arc>
+  <arc id="e-FEF-30123-47" source="p-FEF-300FF-12" target="t-FEF-3010D-28">
+  </arc>
+  <arc id="e-FEF-30125-48" source="t-FEF-3010D-28" target="p-FEF-300FE-11">
+  </arc>
+  <arc id="e-FEF-30126-49" source="t-FEF-3010D-28" target="p-FEF-300FC-9">
+  </arc>
+  <arc id="e-FEF-30126-50" source="p-FEF-30102-15" target="t-FEF-3010D-29">
+  </arc>
+  <arc id="e-FEF-30127-51" source="p-FEF-30103-16" target="t-FEF-3010D-29">
+  </arc>
+  <arc id="e-FEF-30127-52" source="t-FEF-3010D-29" target="p-FEF-30104-17">
+  </arc>
+  <arc id="e-FEF-30128-53" source="p-FEF-30100-13" target="t-FEF-3010E-30">
+  </arc>
+  <arc id="e-FEF-30128-54" source="p-FEF-300FB-6" target="t-FEF-3010E-30">
+  </arc>
+  <arc id="e-FEF-30129-55" source="t-FEF-3010E-30" target="p-FEF-30103-16">
+  </arc>
+  <arc id="e-FEF-3012A-56" source="p-FEF-30100-14" target="t-FEF-3010F-31">
+  </arc>
+  <arc id="e-FEF-3012A-57" source="t-FEF-30105-19" target="p-FEF-300FB-7">
+  </arc>
+  <arc id="e-FEF-3012B-58" source="p-FEF-30104-18" target="t-FEF-3010F-31">
+  </arc>
+  <arc id="e-FEF-3012B-59" source="t-FEF-3010F-31" target="p-FEF-30102-15">
+  </arc>
+  <arc id="e-FEF-3012C-60" source="p-FEF-30104-17" target="t-FEF-30110-32">
+  </arc>
+  <arc id="e-FEF-3012D-61" source="t-FEF-30110-32" target="p-FEF-30100-13">
+  </arc>
+  <arc id="e-FEF-3012D-62" source="t-FEF-30110-32" target="p-FEF-30100-14">
+  </arc>
+  <arc id="e-FEF-3012E-63" source="t-FEF-30110-32" target="p-FEF-300FC-8">
+  </arc>
+  <arc id="e-FEF-3012E-64" source="t-FEF-30110-32" target="p-FEF-300FD-10">
+  </arc>
+  <arc id="e-FEF-3012F-65" source="p-FEF-30104-18" target="t-FEF-30110-33">
+  </arc>
+  <arc id="e-FEF-30130-66" source="p-FEF-300F9-4" target="t-FEF-30111-34">
+  </arc>
+  <arc id="e-FEF-30130-67" source="p-FEF-300F8-3" target="t-FEF-30106-20">
+  </arc>
+  <arc id="e-FEF-30131-68" source="p-FEF-300F9-4" target="t-FEF-30106-20">
+  </arc>
+  <arc id="e-FEF-30131-69" source="t-FEF-30106-20" target="p-FEF-300F6-2">
+  </arc>
+  <arc id="e-FEF-30132-70" source="p-FEF-300FB-6" target="t-FEF-30107-21">
+  </arc>
+  <arc id="e-FEF-30133-71" source="p-FEF-300FA-5" target="t-FEF-30108-22">
+  </arc>
+  <arc id="e-FEF-30134-72" source="p-FEF-300FB-7" target="t-FEF-30109-23">
+  </arc>
+ </page>
+ </net>
+</pnml>

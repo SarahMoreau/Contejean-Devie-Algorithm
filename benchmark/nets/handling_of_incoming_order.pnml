@@ -1,0 +1,237 @@
+<pnml xmlns="http://www.pnml.org/version-2009/grammar/pnml">
+ <net id="n-106D-DFFBE-0" type ="http://www.pnml.org/version-2009/grammar/ptnet">
+  <name>
+   <text>handling_of_incoming_order</text>
+  </name>
+ <page id="g-106D-DFFC3-1">
+  <place id="p-106D-DFFC5-2">
+  <name>
+   <text>p0</text>
+  </name>
+   <initialMarking>
+    <text>1</text>
+   </initialMarking>
+  </place>
+  <place id="p-106D-DFFC7-3">
+  <name>
+   <text>p1</text>
+  </name>
+  </place>
+  <place id="p-106D-DFFC8-4">
+  <name>
+   <text>p10</text>
+  </name>
+  </place>
+  <place id="p-106D-DFFC8-5">
+  <name>
+   <text>p11</text>
+  </name>
+  </place>
+  <place id="p-106D-DFFC9-6">
+  <name>
+   <text>p12</text>
+  </name>
+  </place>
+  <place id="p-106D-DFFCA-7">
+  <name>
+   <text>p13</text>
+  </name>
+  </place>
+  <place id="p-106D-DFFCA-8">
+  <name>
+   <text>p14</text>
+  </name>
+  </place>
+  <place id="p-106D-DFFCB-9">
+  <name>
+   <text>p15</text>
+  </name>
+  </place>
+  <place id="p-106D-DFFCC-10">
+  <name>
+   <text>p16</text>
+  </name>
+  </place>
+  <place id="p-106D-DFFCC-11">
+  <name>
+   <text>p2</text>
+  </name>
+  </place>
+  <place id="p-106D-DFFCD-12">
+  <name>
+   <text>p3</text>
+  </name>
+  </place>
+  <place id="p-106D-DFFCE-13">
+  <name>
+   <text>p4</text>
+  </name>
+  </place>
+  <place id="p-106D-DFFCE-14">
+  <name>
+   <text>p5</text>
+  </name>
+  </place>
+  <place id="p-106D-DFFCF-15">
+  <name>
+   <text>p6</text>
+  </name>
+  </place>
+  <place id="p-106D-DFFD1-16">
+  <name>
+   <text>p7</text>
+  </name>
+  </place>
+  <place id="p-106D-DFFD2-17">
+  <name>
+   <text>p8</text>
+  </name>
+  </place>
+  <place id="p-106D-DFFD2-18">
+  <name>
+   <text>p9</text>
+  </name>
+  </place>
+  <transition id="t-106D-DFFD3-19">
+  <name>
+   <text>t0</text>
+  </name>
+  </transition>
+  <transition id="t-106D-DFFD4-20">
+  <name>
+   <text>t1</text>
+  </name>
+  </transition>
+  <transition id="t-106D-DFFD5-21">
+  <name>
+   <text>t10</text>
+  </name>
+  </transition>
+  <transition id="t-106D-DFFD6-22">
+  <name>
+   <text>t11</text>
+  </name>
+  </transition>
+  <transition id="t-106D-DFFD7-23">
+  <name>
+   <text>t12</text>
+  </name>
+  </transition>
+  <transition id="t-106D-DFFD8-24">
+  <name>
+   <text>t13</text>
+  </name>
+  </transition>
+  <transition id="t-106D-DFFD8-25">
+  <name>
+   <text>t2</text>
+  </name>
+  </transition>
+  <transition id="t-106D-DFFD9-26">
+  <name>
+   <text>t3</text>
+  </name>
+  </transition>
+  <transition id="t-106D-DFFDA-27">
+  <name>
+   <text>t4</text>
+  </name>
+  </transition>
+  <transition id="t-106D-DFFDB-28">
+  <name>
+   <text>t5</text>
+  </name>
+  </transition>
+  <transition id="t-106D-DFFDC-29">
+  <name>
+   <text>t6</text>
+  </name>
+  </transition>
+  <transition id="t-106D-DFFDC-30">
+  <name>
+   <text>t7</text>
+  </name>
+  </transition>
+  <transition id="t-106D-DFFDD-31">
+  <name>
+   <text>t8</text>
+  </name>
+  </transition>
+  <transition id="t-106D-DFFDE-32">
+  <name>
+   <text>t9</text>
+  </name>
+  </transition>
+  <arc id="e-106D-DFFDF-33" source="p-106D-DFFC5-2" target="t-106D-DFFD3-19">
+  </arc>
+  <arc id="e-106D-DFFE0-34" source="t-106D-DFFD6-22" target="p-106D-DFFCA-7">
+  </arc>
+  <arc id="e-106D-DFFE1-35" source="p-106D-DFFD2-18" target="t-106D-DFFD7-23">
+  </arc>
+  <arc id="e-106D-DFFE1-36" source="p-106D-DFFC9-6" target="t-106D-DFFD7-23">
+  </arc>
+  <arc id="e-106D-DFFE2-37" source="t-106D-DFFD7-23" target="p-106D-DFFCA-7">
+  </arc>
+  <arc id="e-106D-DFFE3-38" source="p-106D-DFFCA-7" target="t-106D-DFFD8-24">
+  </arc>
+  <arc id="e-106D-DFFE3-39" source="t-106D-DFFD8-24" target="p-106D-DFFCC-10">
+  </arc>
+  <arc id="e-106D-DFFE4-40" source="p-106D-DFFCC-11" target="t-106D-DFFD8-25">
+  </arc>
+  <arc id="e-106D-DFFE4-41" source="t-106D-DFFD8-25" target="p-106D-DFFCE-14">
+  </arc>
+  <arc id="e-106D-DFFE6-42" source="p-106D-DFFCD-12" target="t-106D-DFFD9-26">
+  </arc>
+  <arc id="e-106D-DFFE6-43" source="p-106D-DFFCB-9" target="t-106D-DFFD9-26">
+  </arc>
+  <arc id="e-106D-DFFE7-44" source="t-106D-DFFD3-19" target="p-106D-DFFC7-3">
+  </arc>
+  <arc id="e-106D-DFFE7-45" source="t-106D-DFFD9-26" target="p-106D-DFFCE-13">
+  </arc>
+  <arc id="e-106D-DFFE8-46" source="p-106D-DFFCD-12" target="t-106D-DFFDA-27">
+  </arc>
+  <arc id="e-106D-DFFF3-47" source="p-106D-DFFCA-8" target="t-106D-DFFDA-27">
+  </arc>
+  <arc id="e-106D-DFFF3-48" source="t-106D-DFFDA-27" target="p-106D-DFFC8-4">
+  </arc>
+  <arc id="e-106D-DFFF4-49" source="p-106D-DFFCE-14" target="t-106D-DFFDB-28">
+  </arc>
+  <arc id="e-106D-DFFF4-50" source="t-106D-DFFDB-28" target="p-106D-DFFD1-16">
+  </arc>
+  <arc id="e-106D-DFFF5-51" source="t-106D-DFFDB-28" target="p-106D-DFFCA-8">
+  </arc>
+  <arc id="e-106D-DFFF6-52" source="p-106D-DFFCE-14" target="t-106D-DFFDC-29">
+  </arc>
+  <arc id="e-106D-DFFF6-53" source="t-106D-DFFDC-29" target="p-106D-DFFD2-17">
+  </arc>
+  <arc id="e-106D-DFFF7-54" source="t-106D-DFFDC-29" target="p-106D-DFFCB-9">
+  </arc>
+  <arc id="e-106D-DFFF8-55" source="t-106D-DFFD3-19" target="p-106D-DFFCC-11">
+  </arc>
+  <arc id="e-106D-DFFF8-56" source="p-106D-DFFCE-13" target="t-106D-DFFDC-30">
+  </arc>
+  <arc id="e-106D-DFFF9-57" source="t-106D-DFFDC-30" target="p-106D-DFFCF-15">
+  </arc>
+  <arc id="e-106D-DFFF9-58" source="p-106D-DFFCF-15" target="t-106D-DFFDD-31">
+  </arc>
+  <arc id="e-106D-DFFFA-59" source="t-106D-DFFDD-31" target="p-106D-DFFD2-18">
+  </arc>
+  <arc id="e-106D-DFFFB-60" source="p-106D-DFFD1-16" target="t-106D-DFFDE-32">
+  </arc>
+  <arc id="e-106D-DFFFB-61" source="t-106D-DFFDE-32" target="p-106D-DFFC8-5">
+  </arc>
+  <arc id="e-106D-DFFFC-62" source="p-106D-DFFC7-3" target="t-106D-DFFD4-20">
+  </arc>
+  <arc id="e-106D-DFFFC-63" source="t-106D-DFFD4-20" target="p-106D-DFFCD-12">
+  </arc>
+  <arc id="e-106D-DFFFD-64" source="p-106D-DFFD2-17" target="t-106D-DFFD5-21">
+  </arc>
+  <arc id="e-106D-DFFFD-65" source="t-106D-DFFD5-21" target="p-106D-DFFC9-6">
+  </arc>
+  <arc id="e-106D-DFFFF-66" source="p-106D-DFFC8-4" target="t-106D-DFFD6-22">
+  </arc>
+  <arc id="e-106D-DFFFF-67" source="p-106D-DFFC8-5" target="t-106D-DFFD6-22">
+  </arc>
+ </page>
+ </net>
+</pnml>

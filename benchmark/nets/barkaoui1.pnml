@@ -1,0 +1,192 @@
+<pnml xmlns="http://www.pnml.org/version-2009/grammar/pnml">
+ <net id="n-FF3-3D20C-0" type ="http://www.pnml.org/version-2009/grammar/ptnet">
+  <name>
+   <text>barkaoui1</text>
+  </name>
+ <page id="g-FF3-3D210-1">
+  <place id="p-FF3-3D212-2">
+  <name>
+   <text>p0</text>
+  </name>
+   <initialMarking>
+    <text>1</text>
+   </initialMarking>
+  </place>
+  <place id="p-FF3-3D214-3">
+  <name>
+   <text>p1</text>
+  </name>
+  </place>
+  <place id="p-FF3-3D215-4">
+  <name>
+   <text>p10</text>
+  </name>
+  </place>
+  <place id="p-FF3-3D216-5">
+  <name>
+   <text>p2</text>
+  </name>
+  </place>
+  <place id="p-FF3-3D217-6">
+  <name>
+   <text>p3</text>
+  </name>
+  </place>
+  <place id="p-FF3-3D217-7">
+  <name>
+   <text>p4</text>
+  </name>
+  </place>
+  <place id="p-FF3-3D219-8">
+  <name>
+   <text>p5</text>
+  </name>
+  </place>
+  <place id="p-FF3-3D219-9">
+  <name>
+   <text>p6</text>
+  </name>
+  </place>
+  <place id="p-FF3-3D21A-10">
+  <name>
+   <text>p7</text>
+  </name>
+  </place>
+  <place id="p-FF3-3D21A-11">
+  <name>
+   <text>p8</text>
+  </name>
+  </place>
+  <place id="p-FF3-3D21B-12">
+  <name>
+   <text>p9</text>
+  </name>
+  </place>
+  <transition id="t-FF3-3D21C-13">
+  <name>
+   <text>t0</text>
+  </name>
+  </transition>
+  <transition id="t-FF3-3D21D-14">
+  <name>
+   <text>t1</text>
+  </name>
+  </transition>
+  <transition id="t-FF3-3D21E-15">
+  <name>
+   <text>t10</text>
+  </name>
+  </transition>
+  <transition id="t-FF3-3D21F-16">
+  <name>
+   <text>t11</text>
+  </name>
+  </transition>
+  <transition id="t-FF3-3D220-17">
+  <name>
+   <text>t12</text>
+  </name>
+  </transition>
+  <transition id="t-FF3-3D221-18">
+  <name>
+   <text>t2</text>
+  </name>
+  </transition>
+  <transition id="t-FF3-3D221-19">
+  <name>
+   <text>t3</text>
+  </name>
+  </transition>
+  <transition id="t-FF3-3D222-20">
+  <name>
+   <text>t4</text>
+  </name>
+  </transition>
+  <transition id="t-FF3-3D222-21">
+  <name>
+   <text>t5</text>
+  </name>
+  </transition>
+  <transition id="t-FF3-3D223-22">
+  <name>
+   <text>t6</text>
+  </name>
+  </transition>
+  <transition id="t-FF3-3D223-23">
+  <name>
+   <text>t7</text>
+  </name>
+  </transition>
+  <transition id="t-FF3-3D224-24">
+  <name>
+   <text>t8</text>
+  </name>
+  </transition>
+  <transition id="t-FF3-3D225-25">
+  <name>
+   <text>t9</text>
+  </name>
+  </transition>
+  <arc id="e-FF3-3D226-26" source="p-FF3-3D212-2" target="t-FF3-3D21C-13">
+  </arc>
+  <arc id="e-FF3-3D227-27" source="p-FF3-3D215-4" target="t-FF3-3D220-17">
+  </arc>
+  <arc id="e-FF3-3D227-28" source="t-FF3-3D220-17" target="p-FF3-3D219-9">
+  </arc>
+  <arc id="e-FF3-3D228-29" source="p-FF3-3D216-5" target="t-FF3-3D221-18">
+  </arc>
+  <arc id="e-FF3-3D228-30" source="t-FF3-3D221-18" target="p-FF3-3D217-7">
+  </arc>
+  <arc id="e-FF3-3D229-31" source="p-FF3-3D217-6" target="t-FF3-3D221-19">
+  </arc>
+  <arc id="e-FF3-3D229-32" source="t-FF3-3D221-19" target="p-FF3-3D219-9">
+  </arc>
+  <arc id="e-FF3-3D22A-33" source="p-FF3-3D217-6" target="t-FF3-3D222-20">
+  </arc>
+  <arc id="e-FF3-3D22A-34" source="t-FF3-3D222-20" target="p-FF3-3D219-9">
+  </arc>
+  <arc id="e-FF3-3D22C-35" source="p-FF3-3D217-7" target="t-FF3-3D222-21">
+  </arc>
+  <arc id="e-FF3-3D22D-36" source="t-FF3-3D222-21" target="p-FF3-3D21A-10">
+  </arc>
+  <arc id="e-FF3-3D22D-37" source="t-FF3-3D21C-13" target="p-FF3-3D214-3">
+  </arc>
+  <arc id="e-FF3-3D22E-38" source="p-FF3-3D219-9" target="t-FF3-3D223-22">
+  </arc>
+  <arc id="e-FF3-3D22E-39" source="p-FF3-3D21A-10" target="t-FF3-3D223-22">
+  </arc>
+  <arc id="e-FF3-3D22F-40" source="t-FF3-3D223-22" target="p-FF3-3D212-2">
+  </arc>
+  <arc id="e-FF3-3D22F-41" source="p-FF3-3D217-7" target="t-FF3-3D223-23">
+  </arc>
+  <arc id="e-FF3-3D230-42" source="t-FF3-3D223-23" target="p-FF3-3D219-8">
+  </arc>
+  <arc id="e-FF3-3D230-43" source="p-FF3-3D219-8" target="t-FF3-3D224-24">
+  </arc>
+  <arc id="e-FF3-3D231-44" source="p-FF3-3D219-9" target="t-FF3-3D224-24">
+  </arc>
+  <arc id="e-FF3-3D231-45" source="t-FF3-3D224-24" target="p-FF3-3D21A-11">
+  </arc>
+  <arc id="e-FF3-3D232-46" source="t-FF3-3D224-24" target="p-FF3-3D215-4">
+  </arc>
+  <arc id="e-FF3-3D233-47" source="p-FF3-3D21A-11" target="t-FF3-3D225-25">
+  </arc>
+  <arc id="e-FF3-3D23D-48" source="t-FF3-3D21C-13" target="p-FF3-3D216-5">
+  </arc>
+  <arc id="e-FF3-3D23E-49" source="t-FF3-3D225-25" target="p-FF3-3D21B-12">
+  </arc>
+  <arc id="e-FF3-3D23E-50" source="p-FF3-3D214-3" target="t-FF3-3D21D-14">
+  </arc>
+  <arc id="e-FF3-3D23F-51" source="t-FF3-3D21D-14" target="p-FF3-3D217-6">
+  </arc>
+  <arc id="e-FF3-3D23F-52" source="p-FF3-3D21B-12" target="t-FF3-3D21E-15">
+  </arc>
+  <arc id="e-FF3-3D240-53" source="t-FF3-3D21E-15" target="p-FF3-3D219-8">
+  </arc>
+  <arc id="e-FF3-3D241-54" source="p-FF3-3D21B-12" target="t-FF3-3D21F-16">
+  </arc>
+  <arc id="e-FF3-3D241-55" source="t-FF3-3D21F-16" target="p-FF3-3D21A-10">
+  </arc>
+ </page>
+ </net>
+</pnml>

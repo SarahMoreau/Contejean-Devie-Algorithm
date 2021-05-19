@@ -1,0 +1,205 @@
+<pnml xmlns="http://www.pnml.org/version-2009/grammar/pnml">
+ <net id="n-1101-8CFC-0" type ="http://www.pnml.org/version-2009/grammar/ptnet">
+  <name>
+   <text>philosophers_2</text>
+  </name>
+ <page id="g-1101-8D00-1">
+  <place id="p-1101-8D01-2">
+  <name>
+   <text>p0</text>
+  </name>
+   <initialMarking>
+    <text>1</text>
+   </initialMarking>
+  </place>
+  <place id="p-1101-8D04-3">
+  <name>
+   <text>p1</text>
+  </name>
+  </place>
+  <place id="p-1101-8D05-4">
+  <name>
+   <text>p10</text>
+  </name>
+  </place>
+  <place id="p-1101-8D05-5">
+  <name>
+   <text>p11</text>
+  </name>
+  </place>
+  <place id="p-1101-8D06-6">
+  <name>
+   <text>p12</text>
+  </name>
+  </place>
+  <place id="p-1101-8D07-7">
+  <name>
+   <text>p13</text>
+  </name>
+  </place>
+  <place id="p-1101-8D08-8">
+  <name>
+   <text>p2</text>
+  </name>
+  </place>
+  <place id="p-1101-8D08-9">
+  <name>
+   <text>p3</text>
+  </name>
+   <initialMarking>
+    <text>1</text>
+   </initialMarking>
+  </place>
+  <place id="p-1101-8D09-10">
+  <name>
+   <text>p4</text>
+  </name>
+   <initialMarking>
+    <text>1</text>
+   </initialMarking>
+  </place>
+  <place id="p-1101-8D0A-11">
+  <name>
+   <text>p5</text>
+  </name>
+  </place>
+  <place id="p-1101-8D0B-12">
+  <name>
+   <text>p6</text>
+  </name>
+  </place>
+  <place id="p-1101-8D0C-13">
+  <name>
+   <text>p7</text>
+  </name>
+  </place>
+  <place id="p-1101-8D0C-14">
+  <name>
+   <text>p8</text>
+  </name>
+   <initialMarking>
+    <text>1</text>
+   </initialMarking>
+  </place>
+  <place id="p-1101-8D0D-15">
+  <name>
+   <text>p9</text>
+  </name>
+  </place>
+  <transition id="t-1101-8D0E-16">
+  <name>
+   <text>t0</text>
+  </name>
+  </transition>
+  <transition id="t-1101-8D0F-17">
+  <name>
+   <text>t1</text>
+  </name>
+  </transition>
+  <transition id="t-1101-8D10-18">
+  <name>
+   <text>t2</text>
+  </name>
+  </transition>
+  <transition id="t-1101-8D11-19">
+  <name>
+   <text>t3</text>
+  </name>
+  </transition>
+  <transition id="t-1101-8D11-20">
+  <name>
+   <text>t4</text>
+  </name>
+  </transition>
+  <transition id="t-1101-8D12-21">
+  <name>
+   <text>t5</text>
+  </name>
+  </transition>
+  <transition id="t-1101-8D12-22">
+  <name>
+   <text>t6</text>
+  </name>
+  </transition>
+  <transition id="t-1101-8D13-23">
+  <name>
+   <text>t7</text>
+  </name>
+  </transition>
+  <transition id="t-1101-8D14-24">
+  <name>
+   <text>t8</text>
+  </name>
+  </transition>
+  <transition id="t-1101-8D14-25">
+  <name>
+   <text>t9</text>
+  </name>
+  </transition>
+  <arc id="e-1101-8D15-26" source="p-1101-8D01-2" target="t-1101-8D0E-16">
+  </arc>
+  <arc id="e-1101-8D16-27" source="p-1101-8D0A-11" target="t-1101-8D11-19">
+  </arc>
+  <arc id="e-1101-8D17-28" source="p-1101-8D0B-12" target="t-1101-8D11-19">
+  </arc>
+  <arc id="e-1101-8D17-29" source="t-1101-8D11-19" target="p-1101-8D0C-13">
+  </arc>
+  <arc id="e-1101-8D18-30" source="p-1101-8D0C-13" target="t-1101-8D11-20">
+  </arc>
+  <arc id="e-1101-8D18-31" source="t-1101-8D11-20" target="p-1101-8D01-2">
+  </arc>
+  <arc id="e-1101-8D19-32" source="t-1101-8D11-20" target="p-1101-8D08-9">
+  </arc>
+  <arc id="e-1101-8D19-33" source="t-1101-8D11-20" target="p-1101-8D09-10">
+  </arc>
+  <arc id="e-1101-8D1A-34" source="p-1101-8D0C-14" target="t-1101-8D12-21">
+  </arc>
+  <arc id="e-1101-8D1C-35" source="t-1101-8D12-21" target="p-1101-8D0D-15">
+  </arc>
+  <arc id="e-1101-8D1C-36" source="t-1101-8D12-21" target="p-1101-8D05-4">
+  </arc>
+  <arc id="e-1101-8D1D-37" source="t-1101-8D0E-16" target="p-1101-8D04-3">
+  </arc>
+  <arc id="e-1101-8D1D-38" source="p-1101-8D09-10" target="t-1101-8D12-22">
+  </arc>
+  <arc id="e-1101-8D1E-39" source="p-1101-8D0D-15" target="t-1101-8D12-22">
+  </arc>
+  <arc id="e-1101-8D1E-40" source="t-1101-8D12-22" target="p-1101-8D05-5">
+  </arc>
+  <arc id="e-1101-8D1F-41" source="p-1101-8D08-9" target="t-1101-8D13-23">
+  </arc>
+  <arc id="e-1101-8D1F-42" source="p-1101-8D05-4" target="t-1101-8D13-23">
+  </arc>
+  <arc id="e-1101-8D20-43" source="t-1101-8D13-23" target="p-1101-8D06-6">
+  </arc>
+  <arc id="e-1101-8D20-44" source="p-1101-8D05-5" target="t-1101-8D14-24">
+  </arc>
+  <arc id="e-1101-8D21-45" source="p-1101-8D06-6" target="t-1101-8D14-24">
+  </arc>
+  <arc id="e-1101-8D2A-46" source="t-1101-8D14-24" target="p-1101-8D07-7">
+  </arc>
+  <arc id="e-1101-8D2C-47" source="p-1101-8D07-7" target="t-1101-8D14-25">
+  </arc>
+  <arc id="e-1101-8D2C-48" source="t-1101-8D0E-16" target="p-1101-8D08-8">
+  </arc>
+  <arc id="e-1101-8D2D-49" source="t-1101-8D14-25" target="p-1101-8D08-9">
+  </arc>
+  <arc id="e-1101-8D2D-50" source="t-1101-8D14-25" target="p-1101-8D09-10">
+  </arc>
+  <arc id="e-1101-8D2E-51" source="t-1101-8D14-25" target="p-1101-8D0C-14">
+  </arc>
+  <arc id="e-1101-8D2E-52" source="p-1101-8D04-3" target="t-1101-8D0F-17">
+  </arc>
+  <arc id="e-1101-8D2F-53" source="p-1101-8D08-9" target="t-1101-8D0F-17">
+  </arc>
+  <arc id="e-1101-8D2F-54" source="t-1101-8D0F-17" target="p-1101-8D0A-11">
+  </arc>
+  <arc id="e-1101-8D30-55" source="p-1101-8D08-8" target="t-1101-8D10-18">
+  </arc>
+  <arc id="e-1101-8D30-56" source="p-1101-8D09-10" target="t-1101-8D10-18">
+  </arc>
+  <arc id="e-1101-8D31-57" source="t-1101-8D10-18" target="p-1101-8D0B-12">
+  </arc>
+ </page>
+ </net>
+</pnml>

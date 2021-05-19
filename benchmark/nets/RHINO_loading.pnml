@@ -1,0 +1,82 @@
+<pnml xmlns="http://www.pnml.org/version-2009/grammar/pnml">
+ <net id="n-FDD-E9CDC-0" type ="http://www.pnml.org/version-2009/grammar/ptnet">
+  <name>
+   <text>RHINO_loading</text>
+  </name>
+ <page id="g-FDD-E9CE0-1">
+  <place id="p-FDD-E9CE1-2">
+  <name>
+   <text>p0</text>
+  </name>
+   <initialMarking>
+    <text>1</text>
+   </initialMarking>
+  </place>
+  <place id="p-FDD-E9CE3-3">
+  <name>
+   <text>p1</text>
+  </name>
+  </place>
+  <place id="p-FDD-E9CE4-4">
+  <name>
+   <text>p2</text>
+  </name>
+  </place>
+  <place id="p-FDD-E9CE5-5">
+  <name>
+   <text>p3</text>
+  </name>
+  </place>
+  <place id="p-FDD-E9CE6-6">
+  <name>
+   <text>p4</text>
+  </name>
+  </place>
+  <place id="p-FDD-E9CE7-7">
+  <name>
+   <text>p5</text>
+  </name>
+  </place>
+  <transition id="t-FDD-E9CE7-8">
+  <name>
+   <text>t0</text>
+  </name>
+  </transition>
+  <transition id="t-FDD-E9CE9-9">
+  <name>
+   <text>t1</text>
+  </name>
+  </transition>
+  <transition id="t-FDD-E9CEA-10">
+  <name>
+   <text>t2</text>
+  </name>
+  </transition>
+  <transition id="t-FDD-E9CEA-11">
+  <name>
+   <text>t3</text>
+  </name>
+  </transition>
+  <arc id="e-FDD-E9CEB-12" source="p-FDD-E9CE1-2" target="t-FDD-E9CE7-8">
+  </arc>
+  <arc id="e-FDD-E9CED-13" source="t-FDD-E9CEA-11" target="p-FDD-E9CE7-7">
+  </arc>
+  <arc id="e-FDD-E9CED-14" source="t-FDD-E9CE7-8" target="p-FDD-E9CE3-3">
+  </arc>
+  <arc id="e-FDD-E9CEE-15" source="p-FDD-E9CE3-3" target="t-FDD-E9CE9-9">
+  </arc>
+  <arc id="e-FDD-E9CEE-16" source="t-FDD-E9CE9-9" target="p-FDD-E9CE4-4">
+  </arc>
+  <arc id="e-FDD-E9D17-17" source="t-FDD-E9CE9-9" target="p-FDD-E9CE5-5">
+  </arc>
+  <arc id="e-FDD-E9D18-18" source="p-FDD-E9CE5-5" target="t-FDD-E9CEA-10">
+  </arc>
+  <arc id="e-FDD-E9D18-19" source="t-FDD-E9CEA-10" target="p-FDD-E9CE6-6">
+  </arc>
+  <arc id="e-FDD-E9D19-20" source="p-FDD-E9CE4-4" target="t-FDD-E9CEA-11">
+  </arc>
+  <arc id="e-FDD-E9D1A-21" source="p-FDD-E9CE6-6" target="t-FDD-E9CEA-11">
+  </arc>
+ </page>
+ </net>
+</pnml>

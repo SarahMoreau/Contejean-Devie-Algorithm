@@ -1,0 +1,406 @@
+<pnml xmlns="http://www.pnml.org/version-2009/grammar/pnml">
+ <net id="n-FE9-1C99B-0" type ="http://www.pnml.org/version-2009/grammar/ptnet">
+  <name>
+   <text>alfa_net_copy_milling_machine_subprocess_quality</text>
+  </name>
+ <page id="g-FE9-1C9A1-1">
+  <place id="p-FE9-1C9A3-2">
+  <name>
+   <text>p0</text>
+  </name>
+   <initialMarking>
+    <text>1</text>
+   </initialMarking>
+  </place>
+  <place id="p-FE9-1C9A6-3">
+  <name>
+   <text>p1</text>
+  </name>
+  </place>
+  <place id="p-FE9-1C9A7-4">
+  <name>
+   <text>p10</text>
+  </name>
+  </place>
+  <place id="p-FE9-1C9A8-5">
+  <name>
+   <text>p11</text>
+  </name>
+  </place>
+  <place id="p-FE9-1C9A8-6">
+  <name>
+   <text>p12</text>
+  </name>
+  </place>
+  <place id="p-FE9-1C9A9-7">
+  <name>
+   <text>p13</text>
+  </name>
+  </place>
+  <place id="p-FE9-1C9AA-8">
+  <name>
+   <text>p14</text>
+  </name>
+  </place>
+  <place id="p-FE9-1C9AB-9">
+  <name>
+   <text>p15</text>
+  </name>
+  </place>
+  <place id="p-FE9-1C9AB-10">
+  <name>
+   <text>p16</text>
+  </name>
+  </place>
+  <place id="p-FE9-1C9AC-11">
+  <name>
+   <text>p17</text>
+  </name>
+  </place>
+  <place id="p-FE9-1C9AD-12">
+  <name>
+   <text>p18</text>
+  </name>
+  </place>
+  <place id="p-FE9-1C9AE-13">
+  <name>
+   <text>p19</text>
+  </name>
+  </place>
+  <place id="p-FE9-1C9AF-14">
+  <name>
+   <text>p2</text>
+  </name>
+  </place>
+  <place id="p-FE9-1C9AF-15">
+  <name>
+   <text>p20</text>
+  </name>
+  </place>
+  <place id="p-FE9-1C9B1-16">
+  <name>
+   <text>p21</text>
+  </name>
+  </place>
+  <place id="p-FE9-1C9B2-17">
+  <name>
+   <text>p22</text>
+  </name>
+  </place>
+  <place id="p-FE9-1C9B2-18">
+  <name>
+   <text>p23</text>
+  </name>
+  </place>
+  <place id="p-FE9-1C9B3-19">
+  <name>
+   <text>p24</text>
+  </name>
+  </place>
+  <place id="p-FE9-1C9B4-20">
+  <name>
+   <text>p25</text>
+  </name>
+  </place>
+  <place id="p-FE9-1C9B5-21">
+  <name>
+   <text>p26</text>
+  </name>
+  </place>
+  <place id="p-FE9-1C9B5-22">
+  <name>
+   <text>p27</text>
+  </name>
+  </place>
+  <place id="p-FE9-1C9B6-23">
+  <name>
+   <text>p28</text>
+  </name>
+  </place>
+  <place id="p-FE9-1C9B7-24">
+  <name>
+   <text>p3</text>
+  </name>
+  </place>
+  <place id="p-FE9-1C9B8-25">
+  <name>
+   <text>p4</text>
+  </name>
+  </place>
+  <place id="p-FE9-1C9B9-26">
+  <name>
+   <text>p5</text>
+  </name>
+  </place>
+  <place id="p-FE9-1C9B9-27">
+  <name>
+   <text>p6</text>
+  </name>
+  </place>
+  <place id="p-FE9-1C9BB-28">
+  <name>
+   <text>p7</text>
+  </name>
+  </place>
+  <place id="p-FE9-1C9BB-29">
+  <name>
+   <text>p8</text>
+  </name>
+  </place>
+  <place id="p-FE9-1C9BC-30">
+  <name>
+   <text>p9</text>
+  </name>
+  </place>
+  <transition id="t-FE9-1C9BC-31">
+  <name>
+   <text>t0</text>
+  </name>
+  </transition>
+  <transition id="t-FE9-1C9BE-32">
+  <name>
+   <text>t1</text>
+  </name>
+  </transition>
+  <transition id="t-FE9-1C9BF-33">
+  <name>
+   <text>t10</text>
+  </name>
+  </transition>
+  <transition id="t-FE9-1C9C0-34">
+  <name>
+   <text>t11</text>
+  </name>
+  </transition>
+  <transition id="t-FE9-1C9C0-35">
+  <name>
+   <text>t12</text>
+  </name>
+  </transition>
+  <transition id="t-FE9-1C9C2-36">
+  <name>
+   <text>t13</text>
+  </name>
+  </transition>
+  <transition id="t-FE9-1C9C2-37">
+  <name>
+   <text>t14</text>
+  </name>
+  </transition>
+  <transition id="t-FE9-1C9C3-38">
+  <name>
+   <text>t15</text>
+  </name>
+  </transition>
+  <transition id="t-FE9-1C9C3-39">
+  <name>
+   <text>t16</text>
+  </name>
+  </transition>
+  <transition id="t-FE9-1C9C5-40">
+  <name>
+   <text>t17</text>
+  </name>
+  </transition>
+  <transition id="t-FE9-1C9C5-41">
+  <name>
+   <text>t18</text>
+  </name>
+  </transition>
+  <transition id="t-FE9-1C9C6-42">
+  <name>
+   <text>t19</text>
+  </name>
+  </transition>
+  <transition id="t-FE9-1C9C7-43">
+  <name>
+   <text>t2</text>
+  </name>
+  </transition>
+  <transition id="t-FE9-1C9C8-44">
+  <name>
+   <text>t20</text>
+  </name>
+  </transition>
+  <transition id="t-FE9-1C9C9-45">
+  <name>
+   <text>t21</text>
+  </name>
+  </transition>
+  <transition id="t-FE9-1C9C9-46">
+  <name>
+   <text>t22</text>
+  </name>
+  </transition>
+  <transition id="t-FE9-1C9CA-47">
+  <name>
+   <text>t23</text>
+  </name>
+  </transition>
+  <transition id="t-FE9-1C9D3-48">
+  <name>
+   <text>t24</text>
+  </name>
+  </transition>
+  <transition id="t-FE9-1C9D4-49">
+  <name>
+   <text>t3</text>
+  </name>
+  </transition>
+  <transition id="t-FE9-1C9D5-50">
+  <name>
+   <text>t4</text>
+  </name>
+  </transition>
+  <transition id="t-FE9-1C9D6-51">
+  <name>
+   <text>t5</text>
+  </name>
+  </transition>
+  <transition id="t-FE9-1C9D7-52">
+  <name>
+   <text>t6</text>
+  </name>
+  </transition>
+  <transition id="t-FE9-1C9D7-53">
+  <name>
+   <text>t7</text>
+  </name>
+  </transition>
+  <transition id="t-FE9-1C9D8-54">
+  <name>
+   <text>t8</text>
+  </name>
+  </transition>
+  <transition id="t-FE9-1C9D9-55">
+  <name>
+   <text>t9</text>
+  </name>
+  </transition>
+  <arc id="e-FE9-1C9DA-56" source="p-FE9-1C9A3-2" target="t-FE9-1C9BC-31">
+  </arc>
+  <arc id="e-FE9-1C9DB-57" source="p-FE9-1C9A8-5" target="t-FE9-1C9C0-34">
+  </arc>
+  <arc id="e-FE9-1C9DC-58" source="t-FE9-1C9C0-34" target="p-FE9-1C9A8-6">
+  </arc>
+  <arc id="e-FE9-1C9DD-59" source="p-FE9-1C9AA-8" target="t-FE9-1C9C0-35">
+  </arc>
+  <arc id="e-FE9-1C9DE-60" source="t-FE9-1C9C0-35" target="p-FE9-1C9AB-9">
+  </arc>
+  <arc id="e-FE9-1C9DE-61" source="p-FE9-1C9A8-6" target="t-FE9-1C9C2-36">
+  </arc>
+  <arc id="e-FE9-1C9DF-62" source="t-FE9-1C9C2-36" target="p-FE9-1C9A9-7">
+  </arc>
+  <arc id="e-FE9-1C9DF-63" source="p-FE9-1C9AB-9" target="t-FE9-1C9C2-37">
+  </arc>
+  <arc id="e-FE9-1C9E0-64" source="t-FE9-1C9C2-37" target="p-FE9-1C9AB-10">
+  </arc>
+  <arc id="e-FE9-1C9E1-65" source="p-FE9-1C9A9-7" target="t-FE9-1C9C3-38">
+  </arc>
+  <arc id="e-FE9-1C9E2-66" source="p-FE9-1C9AB-10" target="t-FE9-1C9C3-38">
+  </arc>
+  <arc id="e-FE9-1C9E2-67" source="t-FE9-1C9BC-31" target="p-FE9-1C9A6-3">
+  </arc>
+  <arc id="e-FE9-1C9E3-68" source="t-FE9-1C9C3-38" target="p-FE9-1C9AC-11">
+  </arc>
+  <arc id="e-FE9-1C9E3-69" source="t-FE9-1C9C3-38" target="p-FE9-1C9AE-13">
+  </arc>
+  <arc id="e-FE9-1C9E4-70" source="t-FE9-1C9C3-38" target="p-FE9-1C9B1-16">
+  </arc>
+  <arc id="e-FE9-1C9E5-71" source="p-FE9-1C9AC-11" target="t-FE9-1C9C3-39">
+  </arc>
+  <arc id="e-FE9-1C9E5-72" source="t-FE9-1C9C3-39" target="p-FE9-1C9AD-12">
+  </arc>
+  <arc id="e-FE9-1C9E6-73" source="p-FE9-1C9AE-13" target="t-FE9-1C9C5-40">
+  </arc>
+  <arc id="e-FE9-1C9E6-74" source="t-FE9-1C9C5-40" target="p-FE9-1C9AF-15">
+  </arc>
+  <arc id="e-FE9-1C9E7-75" source="p-FE9-1C9B1-16" target="t-FE9-1C9C5-41">
+  </arc>
+  <arc id="e-FE9-1C9E8-76" source="t-FE9-1C9C5-41" target="p-FE9-1C9B5-21">
+  </arc>
+  <arc id="e-FE9-1C9E9-77" source="p-FE9-1C9B5-21" target="t-FE9-1C9C6-42">
+  </arc>
+  <arc id="e-FE9-1C9E9-78" source="p-FE9-1C9A6-3" target="t-FE9-1C9BE-32">
+  </arc>
+  <arc id="e-FE9-1C9EA-79" source="t-FE9-1C9C6-42" target="p-FE9-1C9B1-16">
+  </arc>
+  <arc id="e-FE9-1C9EB-80" source="p-FE9-1C9AF-14" target="t-FE9-1C9C7-43">
+  </arc>
+  <arc id="e-FE9-1C9EB-81" source="t-FE9-1C9C7-43" target="p-FE9-1C9B7-24">
+  </arc>
+  <arc id="e-FE9-1C9EC-82" source="p-FE9-1C9B5-21" target="t-FE9-1C9C8-44">
+  </arc>
+  <arc id="e-FE9-1C9ED-83" source="t-FE9-1C9C8-44" target="p-FE9-1C9B2-17">
+  </arc>
+  <arc id="e-FE9-1C9ED-84" source="t-FE9-1C9C8-44" target="p-FE9-1C9B2-18">
+  </arc>
+  <arc id="e-FE9-1C9EE-85" source="p-FE9-1C9AD-12" target="t-FE9-1C9C9-45">
+  </arc>
+  <arc id="e-FE9-1C9EE-86" source="p-FE9-1C9AF-15" target="t-FE9-1C9C9-45">
+  </arc>
+  <arc id="e-FE9-1C9EF-87" source="p-FE9-1C9B2-17" target="t-FE9-1C9C9-45">
+  </arc>
+  <arc id="e-FE9-1C9F0-88" source="p-FE9-1C9B2-18" target="t-FE9-1C9C9-45">
+  </arc>
+  <arc id="e-FE9-1C9F1-89" source="t-FE9-1C9BE-32" target="p-FE9-1C9AF-14">
+  </arc>
+  <arc id="e-FE9-1C9F1-90" source="t-FE9-1C9C9-45" target="p-FE9-1C9B3-19">
+  </arc>
+  <arc id="e-FE9-1C9F2-91" source="p-FE9-1C9B3-19" target="t-FE9-1C9C9-46">
+  </arc>
+  <arc id="e-FE9-1C9F3-92" source="t-FE9-1C9C9-46" target="p-FE9-1C9B5-22">
+  </arc>
+  <arc id="e-FE9-1C9F3-93" source="p-FE9-1C9B5-22" target="t-FE9-1C9CA-47">
+  </arc>
+  <arc id="e-FE9-1C9F4-94" source="t-FE9-1C9CA-47" target="p-FE9-1C9B6-23">
+  </arc>
+  <arc id="e-FE9-1C9F4-95" source="p-FE9-1C9B6-23" target="t-FE9-1C9D3-48">
+  </arc>
+  <arc id="e-FE9-1C9FB-96" source="t-FE9-1C9D3-48" target="p-FE9-1C9A3-2">
+  </arc>
+  <arc id="e-FE9-1C9FC-97" source="p-FE9-1C9B8-25" target="t-FE9-1C9D4-49">
+  </arc>
+  <arc id="e-FE9-1C9FD-98" source="t-FE9-1C9D4-49" target="p-FE9-1C9B9-26">
+  </arc>
+  <arc id="e-FE9-1C9FE-99" source="p-FE9-1C9B9-27" target="t-FE9-1C9D5-50">
+  </arc>
+  <arc id="e-FE9-1C9FF-100" source="t-FE9-1C9BE-32" target="p-FE9-1C9B8-25">
+  </arc>
+  <arc id="e-FE9-1C9FF-101" source="t-FE9-1C9D5-50" target="p-FE9-1C9BB-28">
+  </arc>
+  <arc id="e-FE9-1CA00-102" source="p-FE9-1C9B7-24" target="t-FE9-1C9D6-51">
+  </arc>
+  <arc id="e-FE9-1CA00-103" source="p-FE9-1C9B9-26" target="t-FE9-1C9D6-51">
+  </arc>
+  <arc id="e-FE9-1CA01-104" source="t-FE9-1C9D6-51" target="p-FE9-1C9BB-29">
+  </arc>
+  <arc id="e-FE9-1CA02-105" source="p-FE9-1C9BB-29" target="t-FE9-1C9D7-52">
+  </arc>
+  <arc id="e-FE9-1CA02-106" source="t-FE9-1C9D7-52" target="p-FE9-1C9BC-30">
+  </arc>
+  <arc id="e-FE9-1CA03-107" source="p-FE9-1C9BC-30" target="t-FE9-1C9D7-53">
+  </arc>
+  <arc id="e-FE9-1CA03-108" source="t-FE9-1C9D7-53" target="p-FE9-1C9B4-20">
+  </arc>
+  <arc id="e-FE9-1CA04-109" source="p-FE9-1C9B4-20" target="t-FE9-1C9D8-54">
+  </arc>
+  <arc id="e-FE9-1CA04-110" source="t-FE9-1C9D8-54" target="p-FE9-1C9A3-2">
+  </arc>
+  <arc id="e-FE9-1CA06-111" source="t-FE9-1C9BE-32" target="p-FE9-1C9B9-27">
+  </arc>
+  <arc id="e-FE9-1CA06-112" source="p-FE9-1C9BB-28" target="t-FE9-1C9D9-55">
+  </arc>
+  <arc id="e-FE9-1CA07-113" source="p-FE9-1C9B4-20" target="t-FE9-1C9D9-55">
+  </arc>
+  <arc id="e-FE9-1CA07-114" source="t-FE9-1C9D9-55" target="p-FE9-1C9A7-4">
+  </arc>
+  <arc id="e-FE9-1CA08-115" source="p-FE9-1C9A7-4" target="t-FE9-1C9BF-33">
+  </arc>
+  <arc id="e-FE9-1CA09-116" source="t-FE9-1C9BF-33" target="p-FE9-1C9A8-5">
+  </arc>
+  <arc id="e-FE9-1CA09-117" source="t-FE9-1C9BF-33" target="p-FE9-1C9AA-8">
+  </arc>
+ </page>
+ </net>
+</pnml>

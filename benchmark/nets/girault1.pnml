@@ -1,0 +1,156 @@
+<pnml xmlns="http://www.pnml.org/version-2009/grammar/pnml">
+ <net id="n-105F-B0779-0" type ="http://www.pnml.org/version-2009/grammar/ptnet">
+  <name>
+   <text>girault1</text>
+  </name>
+ <page id="g-105F-B077D-1">
+  <place id="p-105F-B077E-2">
+  <name>
+   <text>p0</text>
+  </name>
+   <initialMarking>
+    <text>1</text>
+   </initialMarking>
+  </place>
+  <place id="p-105F-B0781-3">
+  <name>
+   <text>p1</text>
+  </name>
+   <initialMarking>
+    <text>1</text>
+   </initialMarking>
+  </place>
+  <place id="p-105F-B0781-4">
+  <name>
+   <text>p10</text>
+  </name>
+  </place>
+  <place id="p-105F-B0782-5">
+  <name>
+   <text>p11</text>
+  </name>
+   <initialMarking>
+    <text>1</text>
+   </initialMarking>
+  </place>
+  <place id="p-105F-B0784-6">
+  <name>
+   <text>p2</text>
+  </name>
+  </place>
+  <place id="p-105F-B0784-7">
+  <name>
+   <text>p3</text>
+  </name>
+  </place>
+  <place id="p-105F-B0785-8">
+  <name>
+   <text>p4</text>
+  </name>
+  </place>
+  <place id="p-105F-B0785-9">
+  <name>
+   <text>p5</text>
+  </name>
+  </place>
+  <place id="p-105F-B0787-10">
+  <name>
+   <text>p6</text>
+  </name>
+  </place>
+  <place id="p-105F-B0787-11">
+  <name>
+   <text>p7</text>
+  </name>
+  </place>
+  <place id="p-105F-B0788-12">
+  <name>
+   <text>p8</text>
+  </name>
+  </place>
+  <place id="p-105F-B0788-13">
+  <name>
+   <text>p9</text>
+  </name>
+  </place>
+  <transition id="t-105F-B0789-14">
+  <name>
+   <text>t0</text>
+  </name>
+  </transition>
+  <transition id="t-105F-B078B-15">
+  <name>
+   <text>t1</text>
+  </name>
+  </transition>
+  <transition id="t-105F-B078C-16">
+  <name>
+   <text>t2</text>
+  </name>
+  </transition>
+  <transition id="t-105F-B078C-17">
+  <name>
+   <text>t3</text>
+  </name>
+  </transition>
+  <transition id="t-105F-B078D-18">
+  <name>
+   <text>t4</text>
+  </name>
+  </transition>
+  <transition id="t-105F-B078E-19">
+  <name>
+   <text>t5</text>
+  </name>
+  </transition>
+  <arc id="e-105F-B078F-20" source="p-105F-B0782-5" target="t-105F-B0789-14">
+  </arc>
+  <arc id="e-105F-B0790-21" source="p-105F-B0781-3" target="t-105F-B078C-16">
+  </arc>
+  <arc id="e-105F-B0791-22" source="t-105F-B078C-16" target="p-105F-B0784-7">
+  </arc>
+  <arc id="e-105F-B0791-23" source="t-105F-B078C-16" target="p-105F-B0785-9">
+  </arc>
+  <arc id="e-105F-B0792-24" source="p-105F-B0785-8" target="t-105F-B078C-17">
+  </arc>
+  <arc id="e-105F-B0792-25" source="p-105F-B0787-10" target="t-105F-B078C-17">
+  </arc>
+  <arc id="e-105F-B0793-26" source="t-105F-B078C-17" target="p-105F-B0788-12">
+  </arc>
+  <arc id="e-105F-B0793-27" source="p-105F-B0785-9" target="t-105F-B078D-18">
+  </arc>
+  <arc id="e-105F-B0794-28" source="p-105F-B0787-11" target="t-105F-B078D-18">
+  </arc>
+  <arc id="e-105F-B0795-29" source="t-105F-B078D-18" target="p-105F-B0781-4">
+  </arc>
+  <arc id="e-105F-B0795-30" source="p-105F-B0788-12" target="t-105F-B078E-19">
+  </arc>
+  <arc id="e-105F-B0796-31" source="t-105F-B0789-14" target="p-105F-B0784-6">
+  </arc>
+  <arc id="e-105F-B0797-32" source="p-105F-B0788-13" target="t-105F-B078E-19">
+  </arc>
+  <arc id="e-105F-B0797-33" source="p-105F-B0781-4" target="t-105F-B078E-19">
+  </arc>
+  <arc id="e-105F-B0798-34" source="t-105F-B078E-19" target="p-105F-B077E-2">
+  </arc>
+  <arc id="e-105F-B0798-35" source="t-105F-B078E-19" target="p-105F-B0781-3">
+  </arc>
+  <arc id="e-105F-B0799-36" source="t-105F-B078E-19" target="p-105F-B0782-5">
+  </arc>
+  <arc id="e-105F-B0799-37" source="t-105F-B0789-14" target="p-105F-B0785-8">
+  </arc>
+  <arc id="e-105F-B079A-38" source="p-105F-B077E-2" target="t-105F-B078B-15">
+  </arc>
+  <arc id="e-105F-B079A-39" source="p-105F-B0784-6" target="t-105F-B078B-15">
+  </arc>
+  <arc id="e-105F-B079B-40" source="p-105F-B0784-7" target="t-105F-B078B-15">
+  </arc>
+  <arc id="e-105F-B079C-41" source="t-105F-B078B-15" target="p-105F-B0787-10">
+  </arc>
+  <arc id="e-105F-B079C-42" source="t-105F-B078B-15" target="p-105F-B0787-11">
+  </arc>
+  <arc id="e-105F-B079D-43" source="t-105F-B078B-15" target="p-105F-B0788-13">
+  </arc>
+ </page>
+ </net>
+</pnml>

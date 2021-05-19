@@ -1,0 +1,314 @@
+<pnml xmlns="http://www.pnml.org/version-2009/grammar/pnml">
+ <net id="n-1105-15C82-0" type ="http://www.pnml.org/version-2009/grammar/ptnet">
+  <name>
+   <text>philosophers_5</text>
+  </name>
+ <page id="g-1105-15C86-1">
+  <place id="p-1105-15C88-2">
+  <name>
+   <text>p0</text>
+  </name>
+   <initialMarking>
+    <text>1</text>
+   </initialMarking>
+  </place>
+  <place id="p-1105-15C8A-3">
+  <name>
+   <text>p1</text>
+  </name>
+   <initialMarking>
+    <text>1</text>
+   </initialMarking>
+  </place>
+  <place id="p-1105-15C8B-4">
+  <name>
+   <text>p10</text>
+  </name>
+  </place>
+  <place id="p-1105-15C8C-5">
+  <name>
+   <text>p11</text>
+  </name>
+  </place>
+  <place id="p-1105-15C8D-6">
+  <name>
+   <text>p12</text>
+  </name>
+  </place>
+  <place id="p-1105-15C8D-7">
+  <name>
+   <text>p13</text>
+  </name>
+  </place>
+  <place id="p-1105-15C8E-8">
+  <name>
+   <text>p14</text>
+  </name>
+  </place>
+  <place id="p-1105-15C8F-9">
+  <name>
+   <text>p15</text>
+  </name>
+  </place>
+  <place id="p-1105-15C90-10">
+  <name>
+   <text>p16</text>
+  </name>
+  </place>
+  <place id="p-1105-15C90-11">
+  <name>
+   <text>p17</text>
+  </name>
+  </place>
+  <place id="p-1105-15C91-12">
+  <name>
+   <text>p18</text>
+  </name>
+  </place>
+  <place id="p-1105-15C92-13">
+  <name>
+   <text>p19</text>
+  </name>
+  </place>
+  <place id="p-1105-15C93-14">
+  <name>
+   <text>p2</text>
+  </name>
+   <initialMarking>
+    <text>1</text>
+   </initialMarking>
+  </place>
+  <place id="p-1105-15C93-15">
+  <name>
+   <text>p3</text>
+  </name>
+   <initialMarking>
+    <text>1</text>
+   </initialMarking>
+  </place>
+  <place id="p-1105-15C94-16">
+  <name>
+   <text>p4</text>
+  </name>
+   <initialMarking>
+    <text>1</text>
+   </initialMarking>
+  </place>
+  <place id="p-1105-15C95-17">
+  <name>
+   <text>p5</text>
+  </name>
+   <initialMarking>
+    <text>1</text>
+   </initialMarking>
+  </place>
+  <place id="p-1105-15C96-18">
+  <name>
+   <text>p6</text>
+  </name>
+   <initialMarking>
+    <text>1</text>
+   </initialMarking>
+  </place>
+  <place id="p-1105-15C96-19">
+  <name>
+   <text>p7</text>
+  </name>
+   <initialMarking>
+    <text>1</text>
+   </initialMarking>
+  </place>
+  <place id="p-1105-15C97-20">
+  <name>
+   <text>p8</text>
+  </name>
+   <initialMarking>
+    <text>1</text>
+   </initialMarking>
+  </place>
+  <place id="p-1105-15C98-21">
+  <name>
+   <text>p9</text>
+  </name>
+   <initialMarking>
+    <text>1</text>
+   </initialMarking>
+  </place>
+  <transition id="t-1105-15C99-22">
+  <name>
+   <text>t0</text>
+  </name>
+  </transition>
+  <transition id="t-1105-15C9A-23">
+  <name>
+   <text>t1</text>
+  </name>
+  </transition>
+  <transition id="t-1105-15C9B-24">
+  <name>
+   <text>t10</text>
+  </name>
+  </transition>
+  <transition id="t-1105-15C9B-25">
+  <name>
+   <text>t11</text>
+  </name>
+  </transition>
+  <transition id="t-1105-15C9D-26">
+  <name>
+   <text>t12</text>
+  </name>
+  </transition>
+  <transition id="t-1105-15C9D-27">
+  <name>
+   <text>t13</text>
+  </name>
+  </transition>
+  <transition id="t-1105-15C9E-28">
+  <name>
+   <text>t14</text>
+  </name>
+  </transition>
+  <transition id="t-1105-15C9E-29">
+  <name>
+   <text>t2</text>
+  </name>
+  </transition>
+  <transition id="t-1105-15CA0-30">
+  <name>
+   <text>t3</text>
+  </name>
+  </transition>
+  <transition id="t-1105-15CA0-31">
+  <name>
+   <text>t4</text>
+  </name>
+  </transition>
+  <transition id="t-1105-15CA1-32">
+  <name>
+   <text>t5</text>
+  </name>
+  </transition>
+  <transition id="t-1105-15CA1-33">
+  <name>
+   <text>t6</text>
+  </name>
+  </transition>
+  <transition id="t-1105-15CA2-34">
+  <name>
+   <text>t7</text>
+  </name>
+  </transition>
+  <transition id="t-1105-15CA3-35">
+  <name>
+   <text>t8</text>
+  </name>
+  </transition>
+  <transition id="t-1105-15CA4-36">
+  <name>
+   <text>t9</text>
+  </name>
+  </transition>
+  <arc id="e-1105-15CA5-37" source="p-1105-15C88-2" target="t-1105-15C99-22">
+  </arc>
+  <arc id="e-1105-15CA6-38" source="t-1105-15C9B-24" target="p-1105-15C95-17">
+  </arc>
+  <arc id="e-1105-15CA6-39" source="p-1105-15C90-10" target="t-1105-15C9B-25">
+  </arc>
+  <arc id="e-1105-15CA7-40" source="t-1105-15C9B-25" target="p-1105-15C8A-3">
+  </arc>
+  <arc id="e-1105-15CB1-41" source="t-1105-15C9B-25" target="p-1105-15C93-14">
+  </arc>
+  <arc id="e-1105-15CB2-42" source="t-1105-15C9B-25" target="p-1105-15C96-18">
+  </arc>
+  <arc id="e-1105-15CB2-43" source="p-1105-15C90-11" target="t-1105-15C9D-26">
+  </arc>
+  <arc id="e-1105-15CB3-44" source="t-1105-15C9D-26" target="p-1105-15C93-14">
+  </arc>
+  <arc id="e-1105-15CB3-45" source="t-1105-15C9D-26" target="p-1105-15C93-15">
+  </arc>
+  <arc id="e-1105-15CB4-46" source="t-1105-15C9D-26" target="p-1105-15C96-19">
+  </arc>
+  <arc id="e-1105-15CB4-47" source="p-1105-15C91-12" target="t-1105-15C9D-27">
+  </arc>
+  <arc id="e-1105-15CB5-48" source="p-1105-15C95-17" target="t-1105-15C99-22">
+  </arc>
+  <arc id="e-1105-15CB5-49" source="t-1105-15C9D-27" target="p-1105-15C93-15">
+  </arc>
+  <arc id="e-1105-15CB6-50" source="t-1105-15C9D-27" target="p-1105-15C94-16">
+  </arc>
+  <arc id="e-1105-15CB6-51" source="t-1105-15C9D-27" target="p-1105-15C97-20">
+  </arc>
+  <arc id="e-1105-15CB8-52" source="p-1105-15C92-13" target="t-1105-15C9E-28">
+  </arc>
+  <arc id="e-1105-15CB8-53" source="t-1105-15C9E-28" target="p-1105-15C88-2">
+  </arc>
+  <arc id="e-1105-15CB9-54" source="t-1105-15C9E-28" target="p-1105-15C94-16">
+  </arc>
+  <arc id="e-1105-15CB9-55" source="t-1105-15C9E-28" target="p-1105-15C98-21">
+  </arc>
+  <arc id="e-1105-15CBA-56" source="p-1105-15C93-14" target="t-1105-15C9E-29">
+  </arc>
+  <arc id="e-1105-15CBA-57" source="p-1105-15C96-19" target="t-1105-15C9E-29">
+  </arc>
+  <arc id="e-1105-15CBB-58" source="t-1105-15C9E-29" target="p-1105-15C8D-6">
+  </arc>
+  <arc id="e-1105-15CBC-59" source="t-1105-15C99-22" target="p-1105-15C8B-4">
+  </arc>
+  <arc id="e-1105-15CBC-60" source="p-1105-15C93-15" target="t-1105-15CA0-30">
+  </arc>
+  <arc id="e-1105-15CBD-61" source="p-1105-15C97-20" target="t-1105-15CA0-30">
+  </arc>
+  <arc id="e-1105-15CBD-62" source="t-1105-15CA0-30" target="p-1105-15C8D-7">
+  </arc>
+  <arc id="e-1105-15CBE-63" source="p-1105-15C94-16" target="t-1105-15CA0-31">
+  </arc>
+  <arc id="e-1105-15CBF-64" source="p-1105-15C98-21" target="t-1105-15CA0-31">
+  </arc>
+  <arc id="e-1105-15CC0-65" source="t-1105-15CA0-31" target="p-1105-15C8E-8">
+  </arc>
+  <arc id="e-1105-15CC0-66" source="p-1105-15C8A-3" target="t-1105-15CA1-32">
+  </arc>
+  <arc id="e-1105-15CC1-67" source="p-1105-15C8B-4" target="t-1105-15CA1-32">
+  </arc>
+  <arc id="e-1105-15CC1-68" source="t-1105-15CA1-32" target="p-1105-15C8F-9">
+  </arc>
+  <arc id="e-1105-15CC2-69" source="p-1105-15C93-14" target="t-1105-15CA1-33">
+  </arc>
+  <arc id="e-1105-15CC2-70" source="p-1105-15C8A-3" target="t-1105-15C9A-23">
+  </arc>
+  <arc id="e-1105-15CC3-71" source="p-1105-15C8C-5" target="t-1105-15CA1-33">
+  </arc>
+  <arc id="e-1105-15CC3-72" source="t-1105-15CA1-33" target="p-1105-15C90-10">
+  </arc>
+  <arc id="e-1105-15CC4-73" source="p-1105-15C93-15" target="t-1105-15CA2-34">
+  </arc>
+  <arc id="e-1105-15CC4-74" source="p-1105-15C8D-6" target="t-1105-15CA2-34">
+  </arc>
+  <arc id="e-1105-15CC5-75" source="t-1105-15CA2-34" target="p-1105-15C90-11">
+  </arc>
+  <arc id="e-1105-15CC7-76" source="p-1105-15C94-16" target="t-1105-15CA3-35">
+  </arc>
+  <arc id="e-1105-15CC7-77" source="p-1105-15C8D-7" target="t-1105-15CA3-35">
+  </arc>
+  <arc id="e-1105-15CC8-78" source="t-1105-15CA3-35" target="p-1105-15C91-12">
+  </arc>
+  <arc id="e-1105-15CC8-79" source="p-1105-15C88-2" target="t-1105-15CA4-36">
+  </arc>
+  <arc id="e-1105-15CC9-80" source="p-1105-15C8E-8" target="t-1105-15CA4-36">
+  </arc>
+  <arc id="e-1105-15CCA-81" source="p-1105-15C96-18" target="t-1105-15C9A-23">
+  </arc>
+  <arc id="e-1105-15CCA-82" source="t-1105-15CA4-36" target="p-1105-15C92-13">
+  </arc>
+  <arc id="e-1105-15CCB-83" source="t-1105-15C9A-23" target="p-1105-15C8C-5">
+  </arc>
+  <arc id="e-1105-15CCB-84" source="p-1105-15C8F-9" target="t-1105-15C9B-24">
+  </arc>
+  <arc id="e-1105-15CCC-85" source="t-1105-15C9B-24" target="p-1105-15C88-2">
+  </arc>
+  <arc id="e-1105-15CCC-86" source="t-1105-15C9B-24" target="p-1105-15C8A-3">
+  </arc>
+ </page>
+ </net>
+</pnml>

@@ -1,0 +1,76 @@
+<pnml xmlns="http://www.pnml.org/version-2009/grammar/pnml">
+ <net id="n-1121-718F0-0" type ="http://www.pnml.org/version-2009/grammar/ptnet">
+  <name>
+   <text>pn_silva_05c</text>
+  </name>
+ <page id="g-1121-718F4-1">
+  <place id="p-1121-718F5-2">
+  <name>
+   <text>p0</text>
+  </name>
+   <initialMarking>
+    <text>1</text>
+   </initialMarking>
+  </place>
+  <place id="p-1121-718F7-3">
+  <name>
+   <text>p1</text>
+  </name>
+  </place>
+  <place id="p-1121-718F8-4">
+  <name>
+   <text>p2</text>
+  </name>
+  </place>
+  <place id="p-1121-718F9-5">
+  <name>
+   <text>p3</text>
+  </name>
+  </place>
+  <place id="p-1121-718F9-6">
+  <name>
+   <text>p4</text>
+  </name>
+  </place>
+  <transition id="t-1121-718FB-7">
+  <name>
+   <text>t0</text>
+  </name>
+  </transition>
+  <transition id="t-1121-718FC-8">
+  <name>
+   <text>t1</text>
+  </name>
+  </transition>
+  <transition id="t-1121-718FC-9">
+  <name>
+   <text>t2</text>
+  </name>
+  </transition>
+  <arc id="e-1121-718FD-10" source="p-1121-718F5-2" target="t-1121-718FB-7">
+  </arc>
+  <arc id="e-1121-718FE-11" source="p-1121-718F9-6" target="t-1121-718FC-9">
+  </arc>
+  <arc id="e-1121-718FF-12" source="t-1121-718FC-9" target="p-1121-718F8-4">
+  </arc>
+  <arc id="e-1121-71900-13" source="t-1121-718FC-9" target="p-1121-718F9-5">
+  </arc>
+  <arc id="e-1121-71901-14" source="t-1121-718FB-7" target="p-1121-718F7-3">
+  </arc>
+  <arc id="e-1121-71901-15" source="t-1121-718FB-7" target="p-1121-718F8-4">
+  </arc>
+  <arc id="e-1121-71902-16" source="t-1121-718FB-7" target="p-1121-718F9-5">
+  </arc>
+  <arc id="e-1121-71902-17" source="p-1121-718F7-3" target="t-1121-718FC-8">
+  </arc>
+  <arc id="e-1121-71902-18" source="p-1121-718F8-4" target="t-1121-718FC-8">
+  </arc>
+  <arc id="e-1121-71903-19" source="p-1121-718F9-5" target="t-1121-718FC-8">
+  </arc>
+  <arc id="e-1121-71903-20" source="t-1121-718FC-8" target="p-1121-718F5-2">
+  </arc>
+  <arc id="e-1121-71904-21" source="t-1121-718FC-8" target="p-1121-718F9-6">
+  </arc>
+ </page>
+ </net>
+</pnml>

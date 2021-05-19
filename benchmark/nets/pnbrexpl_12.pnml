@@ -1,0 +1,219 @@
+<pnml xmlns="http://www.pnml.org/version-2009/grammar/pnml">
+ <net id="n-1139-C2514-0" type ="http://www.pnml.org/version-2009/grammar/ptnet">
+  <name>
+   <text>pnbrexpl_12</text>
+  </name>
+ <page id="g-1139-C2518-1">
+  <place id="p-1139-C2519-2">
+  <name>
+   <text>p0</text>
+  </name>
+  </place>
+  <place id="p-1139-C251B-3">
+  <name>
+   <text>p1</text>
+  </name>
+   <initialMarking>
+    <text>1</text>
+   </initialMarking>
+  </place>
+  <place id="p-1139-C251C-4">
+  <name>
+   <text>p10</text>
+  </name>
+  </place>
+  <place id="p-1139-C251D-5">
+  <name>
+   <text>p11</text>
+  </name>
+  </place>
+  <place id="p-1139-C251E-6">
+  <name>
+   <text>p12</text>
+  </name>
+  </place>
+  <place id="p-1139-C251F-7">
+  <name>
+   <text>p13</text>
+  </name>
+  </place>
+  <place id="p-1139-C2520-8">
+  <name>
+   <text>p2</text>
+  </name>
+  </place>
+  <place id="p-1139-C2520-9">
+  <name>
+   <text>p3</text>
+  </name>
+  </place>
+  <place id="p-1139-C2521-10">
+  <name>
+   <text>p4</text>
+  </name>
+  </place>
+  <place id="p-1139-C2522-11">
+  <name>
+   <text>p5</text>
+  </name>
+   <initialMarking>
+    <text>1</text>
+   </initialMarking>
+  </place>
+  <place id="p-1139-C2523-12">
+  <name>
+   <text>p6</text>
+  </name>
+  </place>
+  <place id="p-1139-C2523-13">
+  <name>
+   <text>p7</text>
+  </name>
+  </place>
+  <place id="p-1139-C2524-14">
+  <name>
+   <text>p8</text>
+  </name>
+   <initialMarking>
+    <text>1</text>
+   </initialMarking>
+  </place>
+  <place id="p-1139-C2525-15">
+  <name>
+   <text>p9</text>
+  </name>
+  </place>
+  <transition id="t-1139-C2525-16">
+  <name>
+   <text>t0</text>
+  </name>
+  </transition>
+  <transition id="t-1139-C2526-17">
+  <name>
+   <text>t1</text>
+  </name>
+  </transition>
+  <transition id="t-1139-C2527-18">
+  <name>
+   <text>t10</text>
+  </name>
+  </transition>
+  <transition id="t-1139-C2528-19">
+  <name>
+   <text>t11</text>
+  </name>
+  </transition>
+  <transition id="t-1139-C2528-20">
+  <name>
+   <text>t12</text>
+  </name>
+  </transition>
+  <transition id="t-1139-C2529-21">
+  <name>
+   <text>t2</text>
+  </name>
+  </transition>
+  <transition id="t-1139-C252A-22">
+  <name>
+   <text>t3</text>
+  </name>
+  </transition>
+  <transition id="t-1139-C252A-23">
+  <name>
+   <text>t4</text>
+  </name>
+  </transition>
+  <transition id="t-1139-C252C-24">
+  <name>
+   <text>t5</text>
+  </name>
+  </transition>
+  <transition id="t-1139-C252D-25">
+  <name>
+   <text>t6</text>
+  </name>
+  </transition>
+  <transition id="t-1139-C252D-26">
+  <name>
+   <text>t7</text>
+  </name>
+  </transition>
+  <transition id="t-1139-C252E-27">
+  <name>
+   <text>t8</text>
+  </name>
+  </transition>
+  <transition id="t-1139-C252F-28">
+  <name>
+   <text>t9</text>
+  </name>
+  </transition>
+  <arc id="e-1139-C2530-29" source="p-1139-C2519-2" target="t-1139-C2525-16">
+  </arc>
+  <arc id="e-1139-C2531-30" source="p-1139-C251C-4" target="t-1139-C2528-20">
+  </arc>
+  <arc id="e-1139-C2532-31" source="p-1139-C251E-6" target="t-1139-C2528-20">
+  </arc>
+  <arc id="e-1139-C2532-32" source="p-1139-C251F-7" target="t-1139-C2528-20">
+  </arc>
+  <arc id="e-1139-C2533-33" source="t-1139-C2528-20" target="p-1139-C2519-2">
+  </arc>
+  <arc id="e-1139-C2534-34" source="t-1139-C2528-20" target="p-1139-C251B-3">
+  </arc>
+  <arc id="e-1139-C2534-35" source="p-1139-C2520-8" target="t-1139-C2529-21">
+  </arc>
+  <arc id="e-1139-C2535-36" source="t-1139-C2529-21" target="p-1139-C2521-10">
+  </arc>
+  <arc id="e-1139-C2536-37" source="t-1139-C2529-21" target="p-1139-C2522-11">
+  </arc>
+  <arc id="e-1139-C2536-38" source="p-1139-C2520-9" target="t-1139-C252A-22">
+  </arc>
+  <arc id="e-1139-C2537-39" source="t-1139-C252A-22" target="p-1139-C2523-12">
+  </arc>
+  <arc id="e-1139-C2538-40" source="t-1139-C2525-16" target="p-1139-C2520-8">
+  </arc>
+  <arc id="e-1139-C2538-41" source="p-1139-C2521-10" target="t-1139-C252A-23">
+  </arc>
+  <arc id="e-1139-C2539-42" source="t-1139-C252A-23" target="p-1139-C2524-14">
+  </arc>
+  <arc id="e-1139-C2539-43" source="p-1139-C2522-11" target="t-1139-C252C-24">
+  </arc>
+  <arc id="e-1139-C253A-44" source="p-1139-C2523-12" target="t-1139-C252C-24">
+  </arc>
+  <arc id="e-1139-C2543-45" source="t-1139-C252C-24" target="p-1139-C2525-15">
+  </arc>
+  <arc id="e-1139-C2544-46" source="p-1139-C2523-12" target="t-1139-C252D-25">
+  </arc>
+  <arc id="e-1139-C2544-47" source="t-1139-C252D-25" target="p-1139-C2523-13">
+  </arc>
+  <arc id="e-1139-C2545-48" source="p-1139-C2523-13" target="t-1139-C252D-26">
+  </arc>
+  <arc id="e-1139-C2546-49" source="t-1139-C252D-26" target="p-1139-C251B-3">
+  </arc>
+  <arc id="e-1139-C2547-50" source="p-1139-C2525-15" target="t-1139-C252E-27">
+  </arc>
+  <arc id="e-1139-C2547-51" source="p-1139-C251B-3" target="t-1139-C2526-17">
+  </arc>
+  <arc id="e-1139-C2548-52" source="t-1139-C252E-27" target="p-1139-C251C-4">
+  </arc>
+  <arc id="e-1139-C2549-53" source="p-1139-C2524-14" target="t-1139-C252F-28">
+  </arc>
+  <arc id="e-1139-C2549-54" source="t-1139-C252F-28" target="p-1139-C251E-6">
+  </arc>
+  <arc id="e-1139-C254A-55" source="t-1139-C252F-28" target="p-1139-C251F-7">
+  </arc>
+  <arc id="e-1139-C254A-56" source="t-1139-C2526-17" target="p-1139-C2520-9">
+  </arc>
+  <arc id="e-1139-C254B-57" source="p-1139-C2524-14" target="t-1139-C2527-18">
+  </arc>
+  <arc id="e-1139-C254B-58" source="t-1139-C2527-18" target="p-1139-C251D-5">
+  </arc>
+  <arc id="e-1139-C254C-59" source="t-1139-C2527-18" target="p-1139-C251E-6">
+  </arc>
+  <arc id="e-1139-C254C-60" source="p-1139-C251D-5" target="t-1139-C2528-19">
+  </arc>
+  <arc id="e-1139-C254D-61" source="t-1139-C2528-19" target="p-1139-C251F-7">
+  </arc>
+ </page>
+ </net>
+</pnml>

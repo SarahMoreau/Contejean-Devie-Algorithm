@@ -1,0 +1,114 @@
+<pnml xmlns="http://www.pnml.org/version-2009/grammar/pnml">
+ <net id="n-1071-EE0E3-0" type ="http://www.pnml.org/version-2009/grammar/ptnet">
+  <name>
+   <text>health_care_process</text>
+  </name>
+ <page id="g-1071-EE0E7-1">
+  <place id="p-1071-EE0E8-2">
+  <name>
+   <text>p0</text>
+  </name>
+   <initialMarking>
+    <text>1</text>
+   </initialMarking>
+  </place>
+  <place id="p-1071-EE0EA-3">
+  <name>
+   <text>p1</text>
+  </name>
+  </place>
+  <place id="p-1071-EE0EC-4">
+  <name>
+   <text>p2</text>
+  </name>
+  </place>
+  <place id="p-1071-EE0ED-5">
+  <name>
+   <text>p3</text>
+  </name>
+  </place>
+  <place id="p-1071-EE0ED-6">
+  <name>
+   <text>p4</text>
+  </name>
+  </place>
+  <place id="p-1071-EE0EE-7">
+  <name>
+   <text>p5</text>
+  </name>
+  </place>
+  <transition id="t-1071-EE0EE-8">
+  <name>
+   <text>t0</text>
+  </name>
+  </transition>
+  <transition id="t-1071-EE0F0-9">
+  <name>
+   <text>t1</text>
+  </name>
+  </transition>
+  <transition id="t-1071-EE0F1-10">
+  <name>
+   <text>t2</text>
+  </name>
+  </transition>
+  <transition id="t-1071-EE0F2-11">
+  <name>
+   <text>t3</text>
+  </name>
+  </transition>
+  <transition id="t-1071-EE0F2-12">
+  <name>
+   <text>t4</text>
+  </name>
+  </transition>
+  <transition id="t-1071-EE0F3-13">
+  <name>
+   <text>t5</text>
+  </name>
+  </transition>
+  <transition id="t-1071-EE0F4-14">
+  <name>
+   <text>t6</text>
+  </name>
+  </transition>
+  <transition id="t-1071-EE0F5-15">
+  <name>
+   <text>t7</text>
+  </name>
+  </transition>
+  <arc id="e-1071-EE0F5-16" source="p-1071-EE0E8-2" target="t-1071-EE0EE-8">
+  </arc>
+  <arc id="e-1071-EE0F6-17" source="t-1071-EE0F2-12" target="p-1071-EE0EA-3">
+  </arc>
+  <arc id="e-1071-EE0F7-18" source="p-1071-EE0ED-5" target="t-1071-EE0F3-13">
+  </arc>
+  <arc id="e-1071-EE0F7-19" source="t-1071-EE0F3-13" target="p-1071-EE0ED-6">
+  </arc>
+  <arc id="e-1071-EE0F8-20" source="p-1071-EE0ED-6" target="t-1071-EE0F4-14">
+  </arc>
+  <arc id="e-1071-EE0F9-21" source="t-1071-EE0F4-14" target="p-1071-EE0ED-5">
+  </arc>
+  <arc id="e-1071-EE0FA-22" source="p-1071-EE0ED-5" target="t-1071-EE0F5-15">
+  </arc>
+  <arc id="e-1071-EE0FA-23" source="t-1071-EE0F5-15" target="p-1071-EE0EE-7">
+  </arc>
+  <arc id="e-1071-EE0FB-24" source="t-1071-EE0EE-8" target="p-1071-EE0EA-3">
+  </arc>
+  <arc id="e-1071-EE0FB-25" source="p-1071-EE0EA-3" target="t-1071-EE0F0-9">
+  </arc>
+  <arc id="e-1071-EE0FC-26" source="t-1071-EE0F0-9" target="p-1071-EE0EC-4">
+  </arc>
+  <arc id="e-1071-EE0FC-27" source="p-1071-EE0EA-3" target="t-1071-EE0F1-10">
+  </arc>
+  <arc id="e-1071-EE0FD-28" source="t-1071-EE0F1-10" target="p-1071-EE0EE-7">
+  </arc>
+  <arc id="e-1071-EE0FD-29" source="p-1071-EE0EA-3" target="t-1071-EE0F2-11">
+  </arc>
+  <arc id="e-1071-EE0FE-30" source="t-1071-EE0F2-11" target="p-1071-EE0ED-5">
+  </arc>
+  <arc id="e-1071-EE0FE-31" source="p-1071-EE0EC-4" target="t-1071-EE0F2-12">
+  </arc>
+ </page>
+ </net>
+</pnml>

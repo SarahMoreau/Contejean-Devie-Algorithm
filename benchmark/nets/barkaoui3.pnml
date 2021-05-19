@@ -1,0 +1,249 @@
+<pnml xmlns="http://www.pnml.org/version-2009/grammar/pnml">
+ <net id="n-FF7-49F09-0" type ="http://www.pnml.org/version-2009/grammar/ptnet">
+  <name>
+   <text>barkaoui3</text>
+  </name>
+ <page id="g-FF7-49F0D-1">
+  <place id="p-FF7-49F0E-2">
+  <name>
+   <text>p0</text>
+  </name>
+   <initialMarking>
+    <text>1</text>
+   </initialMarking>
+  </place>
+  <place id="p-FF7-49F10-3">
+  <name>
+   <text>p1</text>
+  </name>
+   <initialMarking>
+    <text>1</text>
+   </initialMarking>
+  </place>
+  <place id="p-FF7-49F12-4">
+  <name>
+   <text>p10</text>
+  </name>
+  </place>
+  <place id="p-FF7-49F12-5">
+  <name>
+   <text>p11</text>
+  </name>
+  </place>
+  <place id="p-FF7-49F13-6">
+  <name>
+   <text>p12</text>
+  </name>
+  </place>
+  <place id="p-FF7-49F14-7">
+  <name>
+   <text>p13</text>
+  </name>
+  </place>
+  <place id="p-FF7-49F14-8">
+  <name>
+   <text>p14</text>
+  </name>
+  </place>
+  <place id="p-FF7-49F15-9">
+  <name>
+   <text>p15</text>
+  </name>
+  </place>
+  <place id="p-FF7-49F16-10">
+  <name>
+   <text>p16</text>
+  </name>
+  </place>
+  <place id="p-FF7-49F16-11">
+  <name>
+   <text>p17</text>
+  </name>
+  </place>
+  <place id="p-FF7-49F17-12">
+  <name>
+   <text>p2</text>
+  </name>
+   <initialMarking>
+    <text>1</text>
+   </initialMarking>
+  </place>
+  <place id="p-FF7-49F17-13">
+  <name>
+   <text>p3</text>
+  </name>
+  </place>
+  <place id="p-FF7-49F18-14">
+  <name>
+   <text>p4</text>
+  </name>
+  </place>
+  <place id="p-FF7-49F19-15">
+  <name>
+   <text>p5</text>
+  </name>
+  </place>
+  <place id="p-FF7-49F19-16">
+  <name>
+   <text>p6</text>
+  </name>
+  </place>
+  <place id="p-FF7-49F1A-17">
+  <name>
+   <text>p7</text>
+  </name>
+  </place>
+  <place id="p-FF7-49F1B-18">
+  <name>
+   <text>p8</text>
+  </name>
+  </place>
+  <place id="p-FF7-49F1C-19">
+  <name>
+   <text>p9</text>
+  </name>
+  </place>
+  <transition id="t-FF7-49F1C-20">
+  <name>
+   <text>t0</text>
+  </name>
+  </transition>
+  <transition id="t-FF7-49F1D-21">
+  <name>
+   <text>t1</text>
+  </name>
+  </transition>
+  <transition id="t-FF7-49F1F-22">
+  <name>
+   <text>t10</text>
+  </name>
+  </transition>
+  <transition id="t-FF7-49F20-23">
+  <name>
+   <text>t11</text>
+  </name>
+  </transition>
+  <transition id="t-FF7-49F21-24">
+  <name>
+   <text>t12</text>
+  </name>
+  </transition>
+  <transition id="t-FF7-49F21-25">
+  <name>
+   <text>t2</text>
+  </name>
+  </transition>
+  <transition id="t-FF7-49F23-26">
+  <name>
+   <text>t3</text>
+  </name>
+  </transition>
+  <transition id="t-FF7-49F23-27">
+  <name>
+   <text>t4</text>
+  </name>
+  </transition>
+  <transition id="t-FF7-49F24-28">
+  <name>
+   <text>t5</text>
+  </name>
+  </transition>
+  <transition id="t-FF7-49F24-29">
+  <name>
+   <text>t6</text>
+  </name>
+  </transition>
+  <transition id="t-FF7-49F26-30">
+  <name>
+   <text>t7</text>
+  </name>
+  </transition>
+  <transition id="t-FF7-49F26-31">
+  <name>
+   <text>t8</text>
+  </name>
+  </transition>
+  <transition id="t-FF7-49F27-32">
+  <name>
+   <text>t9</text>
+  </name>
+  </transition>
+  <arc id="e-FF7-49F28-33" source="p-FF7-49F0E-2" target="t-FF7-49F1C-20">
+  </arc>
+  <arc id="e-FF7-49F29-34" source="p-FF7-49F16-10" target="t-FF7-49F20-23">
+  </arc>
+  <arc id="e-FF7-49F2A-35" source="p-FF7-49F16-11" target="t-FF7-49F20-23">
+  </arc>
+  <arc id="e-FF7-49F2A-36" source="t-FF7-49F20-23" target="p-FF7-49F17-12">
+  </arc>
+  <arc id="e-FF7-49F2B-37" source="p-FF7-49F10-3" target="t-FF7-49F21-24">
+  </arc>
+  <arc id="e-FF7-49F2C-38" source="p-FF7-49F19-16" target="t-FF7-49F21-24">
+  </arc>
+  <arc id="e-FF7-49F2C-39" source="t-FF7-49F21-24" target="p-FF7-49F12-4">
+  </arc>
+  <arc id="e-FF7-49F2D-40" source="p-FF7-49F18-14" target="t-FF7-49F21-25">
+  </arc>
+  <arc id="e-FF7-49F2D-41" source="p-FF7-49F1B-18" target="t-FF7-49F21-25">
+  </arc>
+  <arc id="e-FF7-49F2E-42" source="t-FF7-49F21-25" target="p-FF7-49F19-15">
+  </arc>
+  <arc id="e-FF7-49F2E-43" source="p-FF7-49F19-15" target="t-FF7-49F23-26">
+  </arc>
+  <arc id="e-FF7-49F2F-44" source="t-FF7-49F1C-20" target="p-FF7-49F17-13">
+  </arc>
+  <arc id="e-FF7-49F30-45" source="t-FF7-49F23-26" target="p-FF7-49F0E-2">
+  </arc>
+  <arc id="e-FF7-49F30-46" source="t-FF7-49F23-26" target="p-FF7-49F1C-19">
+  </arc>
+  <arc id="e-FF7-49F3B-47" source="p-FF7-49F1C-19" target="t-FF7-49F23-27">
+  </arc>
+  <arc id="e-FF7-49F3C-48" source="p-FF7-49F13-6" target="t-FF7-49F23-27">
+  </arc>
+  <arc id="e-FF7-49F3C-49" source="t-FF7-49F23-27" target="p-FF7-49F14-7">
+  </arc>
+  <arc id="e-FF7-49F3D-50" source="p-FF7-49F12-5" target="t-FF7-49F24-28">
+  </arc>
+  <arc id="e-FF7-49F3E-51" source="t-FF7-49F24-28" target="p-FF7-49F1B-18">
+  </arc>
+  <arc id="e-FF7-49F3E-52" source="t-FF7-49F24-28" target="p-FF7-49F13-6">
+  </arc>
+  <arc id="e-FF7-49F3F-53" source="p-FF7-49F12-4" target="t-FF7-49F24-29">
+  </arc>
+  <arc id="e-FF7-49F3F-54" source="t-FF7-49F24-29" target="p-FF7-49F1A-17">
+  </arc>
+  <arc id="e-FF7-49F40-55" source="t-FF7-49F1C-20" target="p-FF7-49F19-16">
+  </arc>
+  <arc id="e-FF7-49F40-56" source="t-FF7-49F24-29" target="p-FF7-49F12-5">
+  </arc>
+  <arc id="e-FF7-49F41-57" source="p-FF7-49F14-7" target="t-FF7-49F26-30">
+  </arc>
+  <arc id="e-FF7-49F42-58" source="t-FF7-49F26-30" target="p-FF7-49F10-3">
+  </arc>
+  <arc id="e-FF7-49F43-59" source="p-FF7-49F10-3" target="t-FF7-49F26-31">
+  </arc>
+  <arc id="e-FF7-49F43-60" source="p-FF7-49F15-9" target="t-FF7-49F26-31">
+  </arc>
+  <arc id="e-FF7-49F44-61" source="t-FF7-49F26-31" target="p-FF7-49F14-8">
+  </arc>
+  <arc id="e-FF7-49F44-62" source="p-FF7-49F14-8" target="t-FF7-49F27-32">
+  </arc>
+  <arc id="e-FF7-49F45-63" source="t-FF7-49F27-32" target="p-FF7-49F14-7">
+  </arc>
+  <arc id="e-FF7-49F45-64" source="t-FF7-49F27-32" target="p-FF7-49F16-10">
+  </arc>
+  <arc id="e-FF7-49F46-65" source="p-FF7-49F17-13" target="t-FF7-49F1D-21">
+  </arc>
+  <arc id="e-FF7-49F47-66" source="p-FF7-49F1A-17" target="t-FF7-49F1D-21">
+  </arc>
+  <arc id="e-FF7-49F47-67" source="t-FF7-49F1D-21" target="p-FF7-49F18-14">
+  </arc>
+  <arc id="e-FF7-49F48-68" source="p-FF7-49F17-12" target="t-FF7-49F1F-22">
+  </arc>
+  <arc id="e-FF7-49F48-69" source="t-FF7-49F1F-22" target="p-FF7-49F15-9">
+  </arc>
+  <arc id="e-FF7-49F49-70" source="t-FF7-49F1F-22" target="p-FF7-49F16-11">
+  </arc>
+ </page>
+ </net>
+</pnml>

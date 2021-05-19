@@ -1,0 +1,143 @@
+<pnml xmlns="http://www.pnml.org/version-2009/grammar/pnml">
+ <net id="n-102D-86CC-0" type ="http://www.pnml.org/version-2009/grammar/ptnet">
+  <name>
+   <text>cortadella1</text>
+  </name>
+ <page id="g-102D-86DE-1">
+  <place id="p-102D-86DF-2">
+  <name>
+   <text>p0</text>
+  </name>
+  </place>
+  <place id="p-102D-86E1-3">
+  <name>
+   <text>p1</text>
+  </name>
+  </place>
+  <place id="p-102D-86E2-4">
+  <name>
+   <text>p2</text>
+  </name>
+  </place>
+  <place id="p-102D-86E2-5">
+  <name>
+   <text>p3</text>
+  </name>
+  </place>
+  <place id="p-102D-86E3-6">
+  <name>
+   <text>p4</text>
+  </name>
+  </place>
+  <place id="p-102D-86E4-7">
+  <name>
+   <text>p5</text>
+  </name>
+  </place>
+  <place id="p-102D-86E5-8">
+  <name>
+   <text>p6</text>
+  </name>
+  </place>
+  <place id="p-102D-86E5-9">
+  <name>
+   <text>p7</text>
+  </name>
+  </place>
+  <place id="p-102D-86E6-10">
+  <name>
+   <text>p8</text>
+  </name>
+   <initialMarking>
+    <text>1</text>
+   </initialMarking>
+  </place>
+  <transition id="t-102D-86E7-11">
+  <name>
+   <text>t0</text>
+  </name>
+  </transition>
+  <transition id="t-102D-86E8-12">
+  <name>
+   <text>t1</text>
+  </name>
+  </transition>
+  <transition id="t-102D-86E9-13">
+  <name>
+   <text>t2</text>
+  </name>
+  </transition>
+  <transition id="t-102D-86EA-14">
+  <name>
+   <text>t3</text>
+  </name>
+  </transition>
+  <transition id="t-102D-86EB-15">
+  <name>
+   <text>t4</text>
+  </name>
+  </transition>
+  <transition id="t-102D-86EB-16">
+  <name>
+   <text>t5</text>
+  </name>
+  </transition>
+  <arc id="e-102D-86EC-17" source="p-102D-86E6-10" target="t-102D-86E7-11">
+  </arc>
+  <arc id="e-102D-86ED-18" source="t-102D-86E8-12" target="p-102D-86E5-9">
+  </arc>
+  <arc id="e-102D-8709-19" source="p-102D-86DF-2" target="t-102D-86E9-13">
+  </arc>
+  <arc id="e-102D-870A-20" source="p-102D-86E2-4" target="t-102D-86E9-13">
+  </arc>
+  <arc id="e-102D-870A-21" source="t-102D-86E9-13" target="p-102D-86E2-5">
+  </arc>
+  <arc id="e-102D-870B-22" source="t-102D-86E9-13" target="p-102D-86E4-7">
+  </arc>
+  <arc id="e-102D-870B-23" source="p-102D-86E1-3" target="t-102D-86EA-14">
+  </arc>
+  <arc id="e-102D-870C-24" source="p-102D-86E2-5" target="t-102D-86EA-14">
+  </arc>
+  <arc id="e-102D-870D-25" source="t-102D-86EA-14" target="p-102D-86E2-4">
+  </arc>
+  <arc id="e-102D-870D-26" source="t-102D-86EA-14" target="p-102D-86E5-8">
+  </arc>
+  <arc id="e-102D-870E-27" source="p-102D-86E2-4" target="t-102D-86EB-15">
+  </arc>
+  <arc id="e-102D-870E-28" source="t-102D-86E7-11" target="p-102D-86DF-2">
+  </arc>
+  <arc id="e-102D-870F-29" source="p-102D-86E3-6" target="t-102D-86EB-15">
+  </arc>
+  <arc id="e-102D-870F-30" source="p-102D-86E4-7" target="t-102D-86EB-15">
+  </arc>
+  <arc id="e-102D-8710-31" source="p-102D-86E5-8" target="t-102D-86EB-15">
+  </arc>
+  <arc id="e-102D-8710-32" source="t-102D-86EB-15" target="p-102D-86E6-10">
+  </arc>
+  <arc id="e-102D-8711-33" source="p-102D-86E2-5" target="t-102D-86EB-16">
+  </arc>
+  <arc id="e-102D-8711-34" source="p-102D-86E4-7" target="t-102D-86EB-16">
+  </arc>
+  <arc id="e-102D-8712-35" source="p-102D-86E5-8" target="t-102D-86EB-16">
+  </arc>
+  <arc id="e-102D-8713-36" source="p-102D-86E5-9" target="t-102D-86EB-16">
+  </arc>
+  <arc id="e-102D-8713-37" source="t-102D-86EB-16" target="p-102D-86E6-10">
+  </arc>
+  <arc id="e-102D-8714-38" source="t-102D-86E7-11" target="p-102D-86E1-3">
+  </arc>
+  <arc id="e-102D-8714-39" source="t-102D-86E7-11" target="p-102D-86E2-4">
+  </arc>
+  <arc id="e-102D-8715-40" source="t-102D-86E7-11" target="p-102D-86E3-6">
+  </arc>
+  <arc id="e-102D-8715-41" source="p-102D-86E6-10" target="t-102D-86E8-12">
+  </arc>
+  <arc id="e-102D-8716-42" source="t-102D-86E8-12" target="p-102D-86DF-2">
+  </arc>
+  <arc id="e-102D-8716-43" source="t-102D-86E8-12" target="p-102D-86E1-3">
+  </arc>
+  <arc id="e-102D-8717-44" source="t-102D-86E8-12" target="p-102D-86E2-5">
+  </arc>
+ </page>
+ </net>
+</pnml>

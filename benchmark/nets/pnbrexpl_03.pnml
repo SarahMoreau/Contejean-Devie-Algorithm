@@ -1,0 +1,137 @@
+<pnml xmlns="http://www.pnml.org/version-2009/grammar/pnml">
+ <net id="n-112B-92B01-0" type ="http://www.pnml.org/version-2009/grammar/ptnet">
+  <name>
+   <text>pnbrexpl_03</text>
+  </name>
+ <page id="g-112B-92B06-1">
+  <place id="p-112B-92B07-2">
+  <name>
+   <text>p0</text>
+  </name>
+   <initialMarking>
+    <text>1</text>
+   </initialMarking>
+  </place>
+  <place id="p-112B-92B09-3">
+  <name>
+   <text>p1</text>
+  </name>
+  </place>
+  <place id="p-112B-92B0A-4">
+  <name>
+   <text>p2</text>
+  </name>
+  </place>
+  <place id="p-112B-92B0B-5">
+  <name>
+   <text>p3</text>
+  </name>
+  </place>
+  <place id="p-112B-92B0B-6">
+  <name>
+   <text>p4</text>
+  </name>
+  </place>
+  <place id="p-112B-92B0C-7">
+  <name>
+   <text>p5</text>
+  </name>
+  </place>
+  <place id="p-112B-92B0D-8">
+  <name>
+   <text>p6</text>
+  </name>
+  </place>
+  <place id="p-112B-92B0E-9">
+  <name>
+   <text>p7</text>
+  </name>
+  </place>
+  <place id="p-112B-92B0E-10">
+  <name>
+   <text>p8</text>
+  </name>
+  </place>
+  <transition id="t-112B-92B0F-11">
+  <name>
+   <text>t0</text>
+  </name>
+  </transition>
+  <transition id="t-112B-92B11-12">
+  <name>
+   <text>t1</text>
+  </name>
+  </transition>
+  <transition id="t-112B-92B11-13">
+  <name>
+   <text>t2</text>
+  </name>
+  </transition>
+  <transition id="t-112B-92B12-14">
+  <name>
+   <text>t3</text>
+  </name>
+  </transition>
+  <transition id="t-112B-92B13-15">
+  <name>
+   <text>t4</text>
+  </name>
+  </transition>
+  <transition id="t-112B-92B14-16">
+  <name>
+   <text>t5</text>
+  </name>
+  </transition>
+  <transition id="t-112B-92B2B-17">
+  <name>
+   <text>t6</text>
+  </name>
+  </transition>
+  <transition id="t-112B-92B2C-18">
+  <name>
+   <text>t7</text>
+  </name>
+  </transition>
+  <arc id="e-112B-92B2D-19" source="p-112B-92B07-2" target="t-112B-92B0F-11">
+  </arc>
+  <arc id="e-112B-92B2E-20" source="t-112B-92B12-14" target="p-112B-92B0C-7">
+  </arc>
+  <arc id="e-112B-92B2F-21" source="t-112B-92B12-14" target="p-112B-92B0D-8">
+  </arc>
+  <arc id="e-112B-92B30-22" source="p-112B-92B0C-7" target="t-112B-92B13-15">
+  </arc>
+  <arc id="e-112B-92B30-23" source="t-112B-92B13-15" target="p-112B-92B0E-9">
+  </arc>
+  <arc id="e-112B-92B31-24" source="p-112B-92B0D-8" target="t-112B-92B14-16">
+  </arc>
+  <arc id="e-112B-92B31-25" source="t-112B-92B14-16" target="p-112B-92B0E-10">
+  </arc>
+  <arc id="e-112B-92B32-26" source="p-112B-92B0E-9" target="t-112B-92B2B-17">
+  </arc>
+  <arc id="e-112B-92B33-27" source="t-112B-92B2B-17" target="p-112B-92B0C-7">
+  </arc>
+  <arc id="e-112B-92B33-28" source="p-112B-92B0C-7" target="t-112B-92B2C-18">
+  </arc>
+  <arc id="e-112B-92B34-29" source="p-112B-92B0E-10" target="t-112B-92B2C-18">
+  </arc>
+  <arc id="e-112B-92B34-30" source="t-112B-92B0F-11" target="p-112B-92B09-3">
+  </arc>
+  <arc id="e-112B-92B35-31" source="t-112B-92B2C-18" target="p-112B-92B07-2">
+  </arc>
+  <arc id="e-112B-92B35-32" source="t-112B-92B0F-11" target="p-112B-92B0B-5">
+  </arc>
+  <arc id="e-112B-92B36-33" source="p-112B-92B09-3" target="t-112B-92B11-12">
+  </arc>
+  <arc id="e-112B-92B37-34" source="t-112B-92B11-12" target="p-112B-92B0A-4">
+  </arc>
+  <arc id="e-112B-92B37-35" source="p-112B-92B0B-5" target="t-112B-92B11-13">
+  </arc>
+  <arc id="e-112B-92B38-36" source="t-112B-92B11-13" target="p-112B-92B0B-6">
+  </arc>
+  <arc id="e-112B-92B39-37" source="p-112B-92B0A-4" target="t-112B-92B12-14">
+  </arc>
+  <arc id="e-112B-92B39-38" source="p-112B-92B0B-6" target="t-112B-92B12-14">
+  </arc>
+ </page>
+ </net>
+</pnml>

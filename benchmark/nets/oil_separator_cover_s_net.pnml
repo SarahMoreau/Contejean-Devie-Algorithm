@@ -1,0 +1,408 @@
+<pnml xmlns="http://www.pnml.org/version-2009/grammar/pnml">
+ <net id="n-10F1-C7A7E-0" type ="http://www.pnml.org/version-2009/grammar/ptnet">
+  <name>
+   <text>oil_separator_cover_s_net</text>
+  </name>
+ <page id="g-10F1-C7A83-1">
+  <place id="p-10F1-C7A85-2">
+  <name>
+   <text>p0</text>
+  </name>
+   <initialMarking>
+    <text>1</text>
+   </initialMarking>
+  </place>
+  <place id="p-10F1-C7A86-3">
+  <name>
+   <text>p1</text>
+  </name>
+  </place>
+  <place id="p-10F1-C7A88-4">
+  <name>
+   <text>p10</text>
+  </name>
+  </place>
+  <place id="p-10F1-C7A89-5">
+  <name>
+   <text>p11</text>
+  </name>
+  </place>
+  <place id="p-10F1-C7A89-6">
+  <name>
+   <text>p12</text>
+  </name>
+  </place>
+  <place id="p-10F1-C7A8A-7">
+  <name>
+   <text>p13</text>
+  </name>
+  </place>
+  <place id="p-10F1-C7A8B-8">
+  <name>
+   <text>p14</text>
+  </name>
+  </place>
+  <place id="p-10F1-C7A8C-9">
+  <name>
+   <text>p15</text>
+  </name>
+  </place>
+  <place id="p-10F1-C7A8C-10">
+  <name>
+   <text>p16</text>
+  </name>
+  </place>
+  <place id="p-10F1-C7A8D-11">
+  <name>
+   <text>p17</text>
+  </name>
+  </place>
+  <place id="p-10F1-C7A8E-12">
+  <name>
+   <text>p18</text>
+  </name>
+  </place>
+  <place id="p-10F1-C7A8F-13">
+  <name>
+   <text>p19</text>
+  </name>
+  </place>
+  <place id="p-10F1-C7A8F-14">
+  <name>
+   <text>p2</text>
+  </name>
+  </place>
+  <place id="p-10F1-C7A90-15">
+  <name>
+   <text>p20</text>
+  </name>
+  </place>
+  <place id="p-10F1-C7A92-16">
+  <name>
+   <text>p21</text>
+  </name>
+  </place>
+  <place id="p-10F1-C7A92-17">
+  <name>
+   <text>p22</text>
+  </name>
+  </place>
+  <place id="p-10F1-C7A93-18">
+  <name>
+   <text>p23</text>
+  </name>
+  </place>
+  <place id="p-10F1-C7A94-19">
+  <name>
+   <text>p24</text>
+  </name>
+  </place>
+  <place id="p-10F1-C7A95-20">
+  <name>
+   <text>p25</text>
+  </name>
+  </place>
+  <place id="p-10F1-C7A95-21">
+  <name>
+   <text>p26</text>
+  </name>
+  </place>
+  <place id="p-10F1-C7A96-22">
+  <name>
+   <text>p27</text>
+  </name>
+  </place>
+  <place id="p-10F1-C7AAB-23">
+  <name>
+   <text>p28</text>
+  </name>
+  </place>
+  <place id="p-10F1-C7AAC-24">
+  <name>
+   <text>p3</text>
+  </name>
+  </place>
+  <place id="p-10F1-C7AAC-25">
+  <name>
+   <text>p4</text>
+  </name>
+  </place>
+  <place id="p-10F1-C7AAD-26">
+  <name>
+   <text>p5</text>
+  </name>
+  </place>
+  <place id="p-10F1-C7AAE-27">
+  <name>
+   <text>p6</text>
+  </name>
+  </place>
+  <place id="p-10F1-C7AAF-28">
+  <name>
+   <text>p7</text>
+  </name>
+  </place>
+  <place id="p-10F1-C7AAF-29">
+  <name>
+   <text>p8</text>
+  </name>
+  </place>
+  <place id="p-10F1-C7AB0-30">
+  <name>
+   <text>p9</text>
+  </name>
+  </place>
+  <transition id="t-10F1-C7AB1-31">
+  <name>
+   <text>t0</text>
+  </name>
+  </transition>
+  <transition id="t-10F1-C7AB2-32">
+  <name>
+   <text>t1</text>
+  </name>
+  </transition>
+  <transition id="t-10F1-C7AB3-33">
+  <name>
+   <text>t10</text>
+  </name>
+  </transition>
+  <transition id="t-10F1-C7AB4-34">
+  <name>
+   <text>t11</text>
+  </name>
+  </transition>
+  <transition id="t-10F1-C7AB4-35">
+  <name>
+   <text>t12</text>
+  </name>
+  </transition>
+  <transition id="t-10F1-C7AB6-36">
+  <name>
+   <text>t13</text>
+  </name>
+  </transition>
+  <transition id="t-10F1-C7AB6-37">
+  <name>
+   <text>t14</text>
+  </name>
+  </transition>
+  <transition id="t-10F1-C7AB7-38">
+  <name>
+   <text>t15</text>
+  </name>
+  </transition>
+  <transition id="t-10F1-C7AB8-39">
+  <name>
+   <text>t16</text>
+  </name>
+  </transition>
+  <transition id="t-10F1-C7AB9-40">
+  <name>
+   <text>t17</text>
+  </name>
+  </transition>
+  <transition id="t-10F1-C7AB9-41">
+  <name>
+   <text>t18</text>
+  </name>
+  </transition>
+  <transition id="t-10F1-C7ABA-42">
+  <name>
+   <text>t19</text>
+  </name>
+  </transition>
+  <transition id="t-10F1-C7ABB-43">
+  <name>
+   <text>t2</text>
+  </name>
+  </transition>
+  <transition id="t-10F1-C7ABC-44">
+  <name>
+   <text>t20</text>
+  </name>
+  </transition>
+  <transition id="t-10F1-C7ABD-45">
+  <name>
+   <text>t21</text>
+  </name>
+  </transition>
+  <transition id="t-10F1-C7ABD-46">
+  <name>
+   <text>t22</text>
+  </name>
+  </transition>
+  <transition id="t-10F1-C7ABE-47">
+  <name>
+   <text>t23</text>
+  </name>
+  </transition>
+  <transition id="t-10F1-C7AC9-48">
+  <name>
+   <text>t24</text>
+  </name>
+  </transition>
+  <transition id="t-10F1-C7AC9-49">
+  <name>
+   <text>t3</text>
+  </name>
+  </transition>
+  <transition id="t-10F1-C7ACA-50">
+  <name>
+   <text>t4</text>
+  </name>
+  </transition>
+  <transition id="t-10F1-C7ACB-51">
+  <name>
+   <text>t5</text>
+  </name>
+  </transition>
+  <transition id="t-10F1-C7ACC-52">
+  <name>
+   <text>t6</text>
+  </name>
+  </transition>
+  <transition id="t-10F1-C7ACD-53">
+  <name>
+   <text>t7</text>
+  </name>
+  </transition>
+  <transition id="t-10F1-C7ACD-54">
+  <name>
+   <text>t8</text>
+  </name>
+  </transition>
+  <transition id="t-10F1-C7ACE-55">
+  <name>
+   <text>t9</text>
+  </name>
+  </transition>
+  <arc id="e-10F1-C7AD0-56" source="p-10F1-C7A85-2" target="t-10F1-C7AB1-31">
+  </arc>
+  <arc id="e-10F1-C7AD1-57" source="p-10F1-C7A89-5" target="t-10F1-C7AB4-34">
+  </arc>
+  <arc id="e-10F1-C7AD1-58" source="t-10F1-C7AB4-34" target="p-10F1-C7A89-6">
+  </arc>
+  <arc id="e-10F1-C7AD2-59" source="p-10F1-C7A8B-8" target="t-10F1-C7AB4-35">
+  </arc>
+  <arc id="e-10F1-C7AD3-60" source="t-10F1-C7AB4-35" target="p-10F1-C7A8C-9">
+  </arc>
+  <arc id="e-10F1-C7AD3-61" source="p-10F1-C7A89-6" target="t-10F1-C7AB6-36">
+  </arc>
+  <arc id="e-10F1-C7AD4-62" source="t-10F1-C7AB6-36" target="p-10F1-C7A8A-7">
+  </arc>
+  <arc id="e-10F1-C7AD5-63" source="p-10F1-C7A8C-9" target="t-10F1-C7AB6-37">
+  </arc>
+  <arc id="e-10F1-C7AD5-64" source="t-10F1-C7AB6-37" target="p-10F1-C7A8C-10">
+  </arc>
+  <arc id="e-10F1-C7AD6-65" source="p-10F1-C7A8A-7" target="t-10F1-C7AB7-38">
+  </arc>
+  <arc id="e-10F1-C7AD7-66" source="p-10F1-C7A8C-10" target="t-10F1-C7AB7-38">
+  </arc>
+  <arc id="e-10F1-C7AD7-67" source="t-10F1-C7AB1-31" target="p-10F1-C7A86-3">
+  </arc>
+  <arc id="e-10F1-C7AD8-68" source="t-10F1-C7AB7-38" target="p-10F1-C7A8D-11">
+  </arc>
+  <arc id="e-10F1-C7AD9-69" source="t-10F1-C7AB7-38" target="p-10F1-C7A8F-13">
+  </arc>
+  <arc id="e-10F1-C7AD9-70" source="t-10F1-C7AB7-38" target="p-10F1-C7A92-16">
+  </arc>
+  <arc id="e-10F1-C7ADA-71" source="p-10F1-C7A8D-11" target="t-10F1-C7AB8-39">
+  </arc>
+  <arc id="e-10F1-C7ADA-72" source="t-10F1-C7AB8-39" target="p-10F1-C7A8E-12">
+  </arc>
+  <arc id="e-10F1-C7ADB-73" source="p-10F1-C7A8F-13" target="t-10F1-C7AB9-40">
+  </arc>
+  <arc id="e-10F1-C7ADB-74" source="t-10F1-C7AB9-40" target="p-10F1-C7A90-15">
+  </arc>
+  <arc id="e-10F1-C7ADC-75" source="p-10F1-C7A92-16" target="t-10F1-C7AB9-41">
+  </arc>
+  <arc id="e-10F1-C7ADD-76" source="t-10F1-C7AB9-41" target="p-10F1-C7AAB-23">
+  </arc>
+  <arc id="e-10F1-C7ADE-77" source="p-10F1-C7AAB-23" target="t-10F1-C7ABA-42">
+  </arc>
+  <arc id="e-10F1-C7ADE-78" source="p-10F1-C7A86-3" target="t-10F1-C7AB2-32">
+  </arc>
+  <arc id="e-10F1-C7ADF-79" source="t-10F1-C7ABA-42" target="p-10F1-C7A92-16">
+  </arc>
+  <arc id="e-10F1-C7AE0-80" source="p-10F1-C7A8F-14" target="t-10F1-C7ABB-43">
+  </arc>
+  <arc id="e-10F1-C7AE0-81" source="t-10F1-C7ABB-43" target="p-10F1-C7AAC-24">
+  </arc>
+  <arc id="e-10F1-C7AE1-82" source="p-10F1-C7AAB-23" target="t-10F1-C7ABC-44">
+  </arc>
+  <arc id="e-10F1-C7AE2-83" source="t-10F1-C7ABC-44" target="p-10F1-C7A92-17">
+  </arc>
+  <arc id="e-10F1-C7AE2-84" source="t-10F1-C7ABC-44" target="p-10F1-C7A93-18">
+  </arc>
+  <arc id="e-10F1-C7AE3-85" source="p-10F1-C7A8E-12" target="t-10F1-C7ABD-45">
+  </arc>
+  <arc id="e-10F1-C7AE3-86" source="p-10F1-C7A90-15" target="t-10F1-C7ABD-45">
+  </arc>
+  <arc id="e-10F1-C7AE4-87" source="p-10F1-C7A92-17" target="t-10F1-C7ABD-45">
+  </arc>
+  <arc id="e-10F1-C7AE5-88" source="p-10F1-C7A93-18" target="t-10F1-C7ABD-45">
+  </arc>
+  <arc id="e-10F1-C7AE6-89" source="t-10F1-C7AB2-32" target="p-10F1-C7A8F-14">
+  </arc>
+  <arc id="e-10F1-C7AE7-90" source="t-10F1-C7ABD-45" target="p-10F1-C7A94-19">
+  </arc>
+  <arc id="e-10F1-C7AF6-91" source="p-10F1-C7A94-19" target="t-10F1-C7ABD-46">
+  </arc>
+  <arc id="e-10F1-C7AF7-92" source="t-10F1-C7ABD-46" target="p-10F1-C7A95-20">
+  </arc>
+  <arc id="e-10F1-C7AF7-93" source="p-10F1-C7A95-20" target="t-10F1-C7ABE-47">
+  </arc>
+  <arc id="e-10F1-C7AFC-94" source="t-10F1-C7ABE-47" target="p-10F1-C7A95-21">
+  </arc>
+  <arc id="e-10F1-C7AFC-95" source="p-10F1-C7A95-21" target="t-10F1-C7AC9-48">
+  </arc>
+  <arc id="e-10F1-C7AFD-96" source="t-10F1-C7AC9-48" target="p-10F1-C7A85-2">
+  </arc>
+  <arc id="e-10F1-C7AFD-97" source="p-10F1-C7AAC-25" target="t-10F1-C7AC9-49">
+  </arc>
+  <arc id="e-10F1-C7AFE-98" source="t-10F1-C7AC9-49" target="p-10F1-C7AAD-26">
+  </arc>
+  <arc id="e-10F1-C7AFE-99" source="p-10F1-C7AAC-24" target="t-10F1-C7ACA-50">
+  </arc>
+  <arc id="e-10F1-C7AFF-100" source="t-10F1-C7AB2-32" target="p-10F1-C7AAC-25">
+  </arc>
+  <arc id="e-10F1-C7B00-101" source="p-10F1-C7AAD-26" target="t-10F1-C7ACA-50">
+  </arc>
+  <arc id="e-10F1-C7B01-102" source="t-10F1-C7ACA-50" target="p-10F1-C7AAF-29">
+  </arc>
+  <arc id="e-10F1-C7B01-103" source="p-10F1-C7AAE-27" target="t-10F1-C7ACB-51">
+  </arc>
+  <arc id="e-10F1-C7B02-104" source="t-10F1-C7ACB-51" target="p-10F1-C7AAF-28">
+  </arc>
+  <arc id="e-10F1-C7B03-105" source="p-10F1-C7AAF-29" target="t-10F1-C7ACC-52">
+  </arc>
+  <arc id="e-10F1-C7B03-106" source="t-10F1-C7ACC-52" target="p-10F1-C7AB0-30">
+  </arc>
+  <arc id="e-10F1-C7B04-107" source="p-10F1-C7AB0-30" target="t-10F1-C7ACD-53">
+  </arc>
+  <arc id="e-10F1-C7B04-108" source="t-10F1-C7ACD-53" target="p-10F1-C7A96-22">
+  </arc>
+  <arc id="e-10F1-C7B05-109" source="p-10F1-C7AAF-28" target="t-10F1-C7ACD-54">
+  </arc>
+  <arc id="e-10F1-C7B05-110" source="p-10F1-C7A96-22" target="t-10F1-C7ACD-54">
+  </arc>
+  <arc id="e-10F1-C7B06-111" source="t-10F1-C7AB2-32" target="p-10F1-C7AAE-27">
+  </arc>
+  <arc id="e-10F1-C7B06-112" source="t-10F1-C7ACD-54" target="p-10F1-C7A85-2">
+  </arc>
+  <arc id="e-10F1-C7B08-113" source="p-10F1-C7AAF-28" target="t-10F1-C7ACE-55">
+  </arc>
+  <arc id="e-10F1-C7B08-114" source="p-10F1-C7A96-22" target="t-10F1-C7ACE-55">
+  </arc>
+  <arc id="e-10F1-C7B09-115" source="t-10F1-C7ACE-55" target="p-10F1-C7A88-4">
+  </arc>
+  <arc id="e-10F1-C7B09-116" source="p-10F1-C7A88-4" target="t-10F1-C7AB3-33">
+  </arc>
+  <arc id="e-10F1-C7B0A-117" source="t-10F1-C7AB3-33" target="p-10F1-C7A89-5">
+  </arc>
+  <arc id="e-10F1-C7B0B-118" source="t-10F1-C7AB3-33" target="p-10F1-C7A8B-8">
+  </arc>
+ </page>
+ </net>
+</pnml>

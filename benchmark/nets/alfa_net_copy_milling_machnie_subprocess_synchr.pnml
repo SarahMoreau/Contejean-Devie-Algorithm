@@ -1,0 +1,435 @@
+<pnml xmlns="http://www.pnml.org/version-2009/grammar/pnml">
+ <net id="n-FEB-2324A-0" type ="http://www.pnml.org/version-2009/grammar/ptnet">
+  <name>
+   <text>alfa_net_copy_milling_machnie_subprocess_synchr</text>
+  </name>
+ <page id="g-FEB-23252-1">
+  <place id="p-FEB-23253-2">
+  <name>
+   <text>p0</text>
+  </name>
+   <initialMarking>
+    <text>1</text>
+   </initialMarking>
+  </place>
+  <place id="p-FEB-23256-3">
+  <name>
+   <text>p1</text>
+  </name>
+  </place>
+  <place id="p-FEB-23257-4">
+  <name>
+   <text>p10</text>
+  </name>
+  </place>
+  <place id="p-FEB-23257-5">
+  <name>
+   <text>p11</text>
+  </name>
+  </place>
+  <place id="p-FEB-23259-6">
+  <name>
+   <text>p12</text>
+  </name>
+  </place>
+  <place id="p-FEB-2325A-7">
+  <name>
+   <text>p13</text>
+  </name>
+  </place>
+  <place id="p-FEB-2325B-8">
+  <name>
+   <text>p14</text>
+  </name>
+  </place>
+  <place id="p-FEB-2325B-9">
+  <name>
+   <text>p15</text>
+  </name>
+  </place>
+  <place id="p-FEB-2325C-10">
+  <name>
+   <text>p16</text>
+  </name>
+  </place>
+  <place id="p-FEB-2325D-11">
+  <name>
+   <text>p17</text>
+  </name>
+  </place>
+  <place id="p-FEB-2325E-12">
+  <name>
+   <text>p18</text>
+  </name>
+  </place>
+  <place id="p-FEB-2325E-13">
+  <name>
+   <text>p19</text>
+  </name>
+  </place>
+  <place id="p-FEB-2325F-14">
+  <name>
+   <text>p2</text>
+  </name>
+  </place>
+  <place id="p-FEB-23260-15">
+  <name>
+   <text>p20</text>
+  </name>
+  </place>
+  <place id="p-FEB-23261-16">
+  <name>
+   <text>p21</text>
+  </name>
+  </place>
+  <place id="p-FEB-23261-17">
+  <name>
+   <text>p22</text>
+  </name>
+  </place>
+  <place id="p-FEB-23262-18">
+  <name>
+   <text>p23</text>
+  </name>
+  </place>
+  <place id="p-FEB-23264-19">
+  <name>
+   <text>p24</text>
+  </name>
+  </place>
+  <place id="p-FEB-23264-20">
+  <name>
+   <text>p25</text>
+  </name>
+  </place>
+  <place id="p-FEB-23265-21">
+  <name>
+   <text>p26</text>
+  </name>
+  </place>
+  <place id="p-FEB-23266-22">
+  <name>
+   <text>p27</text>
+  </name>
+  </place>
+  <place id="p-FEB-23267-23">
+  <name>
+   <text>p28</text>
+  </name>
+  </place>
+  <place id="p-FEB-23267-24">
+  <name>
+   <text>p29</text>
+  </name>
+  </place>
+  <place id="p-FEB-23268-25">
+  <name>
+   <text>p3</text>
+  </name>
+  </place>
+  <place id="p-FEB-23269-26">
+  <name>
+   <text>p30</text>
+  </name>
+  </place>
+  <place id="p-FEB-2326A-27">
+  <name>
+   <text>p31</text>
+  </name>
+  </place>
+  <place id="p-FEB-2326A-28">
+  <name>
+   <text>p4</text>
+  </name>
+  </place>
+  <place id="p-FEB-2326B-29">
+  <name>
+   <text>p5</text>
+  </name>
+  </place>
+  <place id="p-FEB-2326C-30">
+  <name>
+   <text>p6</text>
+  </name>
+  </place>
+  <place id="p-FEB-2326D-31">
+  <name>
+   <text>p7</text>
+  </name>
+  </place>
+  <place id="p-FEB-2326D-32">
+  <name>
+   <text>p8</text>
+  </name>
+  </place>
+  <place id="p-FEB-2326E-33">
+  <name>
+   <text>p9</text>
+  </name>
+  </place>
+  <transition id="t-FEB-2326F-34">
+  <name>
+   <text>t0</text>
+  </name>
+  </transition>
+  <transition id="t-FEB-23270-35">
+  <name>
+   <text>t1</text>
+  </name>
+  </transition>
+  <transition id="t-FEB-23271-36">
+  <name>
+   <text>t10</text>
+  </name>
+  </transition>
+  <transition id="t-FEB-23272-37">
+  <name>
+   <text>t11</text>
+  </name>
+  </transition>
+  <transition id="t-FEB-23273-38">
+  <name>
+   <text>t12</text>
+  </name>
+  </transition>
+  <transition id="t-FEB-23274-39">
+  <name>
+   <text>t13</text>
+  </name>
+  </transition>
+  <transition id="t-FEB-23274-40">
+  <name>
+   <text>t14</text>
+  </name>
+  </transition>
+  <transition id="t-FEB-23275-41">
+  <name>
+   <text>t15</text>
+  </name>
+  </transition>
+  <transition id="t-FEB-23276-42">
+  <name>
+   <text>t16</text>
+  </name>
+  </transition>
+  <transition id="t-FEB-23277-43">
+  <name>
+   <text>t17</text>
+  </name>
+  </transition>
+  <transition id="t-FEB-23278-44">
+  <name>
+   <text>t18</text>
+  </name>
+  </transition>
+  <transition id="t-FEB-23278-45">
+  <name>
+   <text>t19</text>
+  </name>
+  </transition>
+  <transition id="t-FEB-2327A-46">
+  <name>
+   <text>t2</text>
+  </name>
+  </transition>
+  <transition id="t-FEB-2327A-47">
+  <name>
+   <text>t20</text>
+  </name>
+  </transition>
+  <transition id="t-FEB-23284-48">
+  <name>
+   <text>t21</text>
+  </name>
+  </transition>
+  <transition id="t-FEB-23285-49">
+  <name>
+   <text>t22</text>
+  </name>
+  </transition>
+  <transition id="t-FEB-23287-50">
+  <name>
+   <text>t23</text>
+  </name>
+  </transition>
+  <transition id="t-FEB-23287-51">
+  <name>
+   <text>t24</text>
+  </name>
+  </transition>
+  <transition id="t-FEB-23288-52">
+  <name>
+   <text>t25</text>
+  </name>
+  </transition>
+  <transition id="t-FEB-23289-53">
+  <name>
+   <text>t26</text>
+  </name>
+  </transition>
+  <transition id="t-FEB-2328A-54">
+  <name>
+   <text>t3</text>
+  </name>
+  </transition>
+  <transition id="t-FEB-2328A-55">
+  <name>
+   <text>t4</text>
+  </name>
+  </transition>
+  <transition id="t-FEB-2328B-56">
+  <name>
+   <text>t5</text>
+  </name>
+  </transition>
+  <transition id="t-FEB-2328D-57">
+  <name>
+   <text>t6</text>
+  </name>
+  </transition>
+  <transition id="t-FEB-2328E-58">
+  <name>
+   <text>t7</text>
+  </name>
+  </transition>
+  <transition id="t-FEB-2328E-59">
+  <name>
+   <text>t8</text>
+  </name>
+  </transition>
+  <transition id="t-FEB-2328F-60">
+  <name>
+   <text>t9</text>
+  </name>
+  </transition>
+  <arc id="e-FEB-23291-61" source="p-FEB-23253-2" target="t-FEB-2326F-34">
+  </arc>
+  <arc id="e-FEB-23292-62" source="t-FEB-23272-37" target="p-FEB-23264-20">
+  </arc>
+  <arc id="e-FEB-23292-63" source="p-FEB-23264-20" target="t-FEB-23273-38">
+  </arc>
+  <arc id="e-FEB-23293-64" source="t-FEB-23273-38" target="p-FEB-23265-21">
+  </arc>
+  <arc id="e-FEB-23294-65" source="p-FEB-2326D-31" target="t-FEB-23274-39">
+  </arc>
+  <arc id="e-FEB-23294-66" source="p-FEB-2326D-32" target="t-FEB-23274-39">
+  </arc>
+  <arc id="e-FEB-23295-67" source="t-FEB-23274-39" target="p-FEB-2326E-33">
+  </arc>
+  <arc id="e-FEB-23295-68" source="p-FEB-2326E-33" target="t-FEB-23274-40">
+  </arc>
+  <arc id="e-FEB-23296-69" source="t-FEB-23274-40" target="p-FEB-23257-4">
+  </arc>
+  <arc id="e-FEB-23296-70" source="t-FEB-23274-40" target="p-FEB-23257-5">
+  </arc>
+  <arc id="e-FEB-23297-71" source="p-FEB-23257-4" target="t-FEB-23275-41">
+  </arc>
+  <arc id="e-FEB-23298-72" source="t-FEB-2326F-34" target="p-FEB-23269-26">
+  </arc>
+  <arc id="e-FEB-23299-73" source="p-FEB-23257-5" target="t-FEB-23275-41">
+  </arc>
+  <arc id="e-FEB-2329A-74" source="t-FEB-23275-41" target="p-FEB-23259-6">
+  </arc>
+  <arc id="e-FEB-2329A-75" source="p-FEB-23259-6" target="t-FEB-23276-42">
+  </arc>
+  <arc id="e-FEB-2329B-76" source="t-FEB-23276-42" target="p-FEB-2325A-7">
+  </arc>
+  <arc id="e-FEB-2329B-77" source="t-FEB-23276-42" target="p-FEB-2325B-8">
+  </arc>
+  <arc id="e-FEB-2329C-78" source="p-FEB-2325A-7" target="t-FEB-23277-43">
+  </arc>
+  <arc id="e-FEB-2329C-79" source="t-FEB-23277-43" target="p-FEB-2325B-9">
+  </arc>
+  <arc id="e-FEB-2329D-80" source="p-FEB-2325B-8" target="t-FEB-23278-44">
+  </arc>
+  <arc id="e-FEB-2329E-81" source="t-FEB-23278-44" target="p-FEB-2325C-10">
+  </arc>
+  <arc id="e-FEB-2329E-82" source="p-FEB-2325B-9" target="t-FEB-23278-45">
+  </arc>
+  <arc id="e-FEB-2329F-83" source="t-FEB-2326F-34" target="p-FEB-2326A-27">
+  </arc>
+  <arc id="e-FEB-2329F-84" source="t-FEB-23278-45" target="p-FEB-2325D-11">
+  </arc>
+  <arc id="e-FEB-232A0-85" source="p-FEB-2326A-27" target="t-FEB-2327A-46">
+  </arc>
+  <arc id="e-FEB-232A1-86" source="t-FEB-2327A-46" target="p-FEB-23261-16">
+  </arc>
+  <arc id="e-FEB-232A2-87" source="p-FEB-2325C-10" target="t-FEB-2327A-47">
+  </arc>
+  <arc id="e-FEB-232A2-88" source="t-FEB-2327A-47" target="p-FEB-2325E-12">
+  </arc>
+  <arc id="e-FEB-232A3-89" source="p-FEB-2325D-11" target="t-FEB-23284-48">
+  </arc>
+  <arc id="e-FEB-232A4-90" source="t-FEB-23284-48" target="p-FEB-2325E-13">
+  </arc>
+  <arc id="e-FEB-232A4-91" source="p-FEB-2325E-12" target="t-FEB-23285-49">
+  </arc>
+  <arc id="e-FEB-232A5-92" source="t-FEB-23285-49" target="p-FEB-23260-15">
+  </arc>
+  <arc id="e-FEB-232A5-93" source="p-FEB-2325E-13" target="t-FEB-23287-50">
+  </arc>
+  <arc id="e-FEB-232A6-94" source="p-FEB-23269-26" target="t-FEB-23270-35">
+  </arc>
+  <arc id="e-FEB-232A7-95" source="p-FEB-23260-15" target="t-FEB-23287-50">
+  </arc>
+  <arc id="e-FEB-232AB-96" source="t-FEB-23287-50" target="p-FEB-23266-22">
+  </arc>
+  <arc id="e-FEB-232AD-97" source="p-FEB-23266-22" target="t-FEB-23287-51">
+  </arc>
+  <arc id="e-FEB-232AD-98" source="t-FEB-23287-51" target="p-FEB-23267-23">
+  </arc>
+  <arc id="e-FEB-232AE-99" source="p-FEB-23265-21" target="t-FEB-23288-52">
+  </arc>
+  <arc id="e-FEB-232AE-100" source="p-FEB-23267-23" target="t-FEB-23288-52">
+  </arc>
+  <arc id="e-FEB-232AF-101" source="t-FEB-23288-52" target="p-FEB-23267-24">
+  </arc>
+  <arc id="e-FEB-232B0-102" source="p-FEB-23267-24" target="t-FEB-23289-53">
+  </arc>
+  <arc id="e-FEB-232B0-103" source="t-FEB-23289-53" target="p-FEB-23253-2">
+  </arc>
+  <arc id="e-FEB-232B1-104" source="p-FEB-23256-3" target="t-FEB-2328A-54">
+  </arc>
+  <arc id="e-FEB-232B1-105" source="t-FEB-23270-35" target="p-FEB-23256-3">
+  </arc>
+  <arc id="e-FEB-232B2-106" source="t-FEB-2328A-54" target="p-FEB-23268-25">
+  </arc>
+  <arc id="e-FEB-232B3-107" source="p-FEB-2325F-14" target="t-FEB-2328A-55">
+  </arc>
+  <arc id="e-FEB-232B4-108" source="t-FEB-2328A-55" target="p-FEB-2326A-28">
+  </arc>
+  <arc id="e-FEB-232B4-109" source="p-FEB-23261-16" target="t-FEB-2328B-56">
+  </arc>
+  <arc id="e-FEB-232B5-110" source="t-FEB-2328B-56" target="p-FEB-23261-17">
+  </arc>
+  <arc id="e-FEB-232B6-111" source="t-FEB-2328B-56" target="p-FEB-23262-18">
+  </arc>
+  <arc id="e-FEB-232B6-112" source="p-FEB-23268-25" target="t-FEB-2328D-57">
+  </arc>
+  <arc id="e-FEB-232B7-113" source="t-FEB-2328D-57" target="p-FEB-2326B-29">
+  </arc>
+  <arc id="e-FEB-232B7-114" source="p-FEB-2326A-28" target="t-FEB-2328E-58">
+  </arc>
+  <arc id="e-FEB-232B8-115" source="t-FEB-2328E-58" target="p-FEB-2326C-30">
+  </arc>
+  <arc id="e-FEB-232B8-116" source="t-FEB-23270-35" target="p-FEB-2325F-14">
+  </arc>
+  <arc id="e-FEB-232B9-117" source="p-FEB-23261-17" target="t-FEB-2328E-59">
+  </arc>
+  <arc id="e-FEB-232BA-118" source="p-FEB-23262-18" target="t-FEB-2328E-59">
+  </arc>
+  <arc id="e-FEB-232BA-119" source="t-FEB-2328E-59" target="p-FEB-23264-19">
+  </arc>
+  <arc id="e-FEB-232BB-120" source="p-FEB-2326B-29" target="t-FEB-2328F-60">
+  </arc>
+  <arc id="e-FEB-232BC-121" source="t-FEB-2328F-60" target="p-FEB-2326D-31">
+  </arc>
+  <arc id="e-FEB-232BC-122" source="p-FEB-2326C-30" target="t-FEB-23271-36">
+  </arc>
+  <arc id="e-FEB-232BD-123" source="t-FEB-23271-36" target="p-FEB-2326D-32">
+  </arc>
+  <arc id="e-FEB-232BE-124" source="p-FEB-23264-19" target="t-FEB-23272-37">
+  </arc>
+ </page>
+ </net>
+</pnml>

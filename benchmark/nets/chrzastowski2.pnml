@@ -1,0 +1,315 @@
+<pnml xmlns="http://www.pnml.org/version-2009/grammar/pnml">
+ <net id="n-1019-B8F45-0" type ="http://www.pnml.org/version-2009/grammar/ptnet">
+  <name>
+   <text>chrzastowski2</text>
+  </name>
+ <page id="g-1019-B8F4A-1">
+  <place id="p-1019-B8F4B-2">
+  <name>
+   <text>p0</text>
+  </name>
+   <initialMarking>
+    <text>1</text>
+   </initialMarking>
+  </place>
+  <place id="p-1019-B8F4E-3">
+  <name>
+   <text>p1</text>
+  </name>
+  </place>
+  <place id="p-1019-B8F4F-4">
+  <name>
+   <text>p10</text>
+  </name>
+  </place>
+  <place id="p-1019-B8F4F-5">
+  <name>
+   <text>p11</text>
+  </name>
+  </place>
+  <place id="p-1019-B8F51-6">
+  <name>
+   <text>p12</text>
+  </name>
+  </place>
+  <place id="p-1019-B8F51-7">
+  <name>
+   <text>p13</text>
+  </name>
+  </place>
+  <place id="p-1019-B8F52-8">
+  <name>
+   <text>p14</text>
+  </name>
+  </place>
+  <place id="p-1019-B8F53-9">
+  <name>
+   <text>p15</text>
+  </name>
+  </place>
+  <place id="p-1019-B8F54-10">
+  <name>
+   <text>p16</text>
+  </name>
+  </place>
+  <place id="p-1019-B8F54-11">
+  <name>
+   <text>p17</text>
+  </name>
+  </place>
+  <place id="p-1019-B8F55-12">
+  <name>
+   <text>p18</text>
+  </name>
+  </place>
+  <place id="p-1019-B8F56-13">
+  <name>
+   <text>p19</text>
+  </name>
+  </place>
+  <place id="p-1019-B8F57-14">
+  <name>
+   <text>p2</text>
+  </name>
+  </place>
+  <place id="p-1019-B8F57-15">
+  <name>
+   <text>p20</text>
+  </name>
+  </place>
+  <place id="p-1019-B8F58-16">
+  <name>
+   <text>p21</text>
+  </name>
+  </place>
+  <place id="p-1019-B8F59-17">
+  <name>
+   <text>p3</text>
+  </name>
+  </place>
+  <place id="p-1019-B8F59-18">
+  <name>
+   <text>p4</text>
+  </name>
+  </place>
+  <place id="p-1019-B8F5A-19">
+  <name>
+   <text>p5</text>
+  </name>
+  </place>
+  <place id="p-1019-B8F5B-20">
+  <name>
+   <text>p6</text>
+  </name>
+  </place>
+  <place id="p-1019-B8F5B-21">
+  <name>
+   <text>p7</text>
+  </name>
+  </place>
+  <place id="p-1019-B8F5C-22">
+  <name>
+   <text>p8</text>
+  </name>
+  </place>
+  <place id="p-1019-B8F5D-23">
+  <name>
+   <text>p9</text>
+  </name>
+  </place>
+  <transition id="t-1019-B8F5E-24">
+  <name>
+   <text>t0</text>
+  </name>
+  </transition>
+  <transition id="t-1019-B8F5F-25">
+  <name>
+   <text>t1</text>
+  </name>
+  </transition>
+  <transition id="t-1019-B8F5F-26">
+  <name>
+   <text>t10</text>
+  </name>
+  </transition>
+  <transition id="t-1019-B8F61-27">
+  <name>
+   <text>t11</text>
+  </name>
+  </transition>
+  <transition id="t-1019-B8F61-28">
+  <name>
+   <text>t12</text>
+  </name>
+  </transition>
+  <transition id="t-1019-B8F62-29">
+  <name>
+   <text>t13</text>
+  </name>
+  </transition>
+  <transition id="t-1019-B8F63-30">
+  <name>
+   <text>t14</text>
+  </name>
+  </transition>
+  <transition id="t-1019-B8F64-31">
+  <name>
+   <text>t15</text>
+  </name>
+  </transition>
+  <transition id="t-1019-B8F64-32">
+  <name>
+   <text>t16</text>
+  </name>
+  </transition>
+  <transition id="t-1019-B8F65-33">
+  <name>
+   <text>t17</text>
+  </name>
+  </transition>
+  <transition id="t-1019-B8F66-34">
+  <name>
+   <text>t18</text>
+  </name>
+  </transition>
+  <transition id="t-1019-B8F67-35">
+  <name>
+   <text>t19</text>
+  </name>
+  </transition>
+  <transition id="t-1019-B8F67-36">
+  <name>
+   <text>t2</text>
+  </name>
+  </transition>
+  <transition id="t-1019-B8F68-37">
+  <name>
+   <text>t20</text>
+  </name>
+  </transition>
+  <transition id="t-1019-B8F69-38">
+  <name>
+   <text>t3</text>
+  </name>
+  </transition>
+  <transition id="t-1019-B8F6A-39">
+  <name>
+   <text>t4</text>
+  </name>
+  </transition>
+  <transition id="t-1019-B8F6A-40">
+  <name>
+   <text>t5</text>
+  </name>
+  </transition>
+  <transition id="t-1019-B8F6B-41">
+  <name>
+   <text>t6</text>
+  </name>
+  </transition>
+  <transition id="t-1019-B8F6C-42">
+  <name>
+   <text>t7</text>
+  </name>
+  </transition>
+  <transition id="t-1019-B8F6D-43">
+  <name>
+   <text>t8</text>
+  </name>
+  </transition>
+  <transition id="t-1019-B8F6D-44">
+  <name>
+   <text>t9</text>
+  </name>
+  </transition>
+  <arc id="e-1019-B8F6E-45" source="p-1019-B8F4B-2" target="t-1019-B8F5E-24">
+  </arc>
+  <arc id="e-1019-B8F6F-46" source="t-1019-B8F61-28" target="p-1019-B8F4F-5">
+  </arc>
+  <arc id="e-1019-B8F79-47" source="t-1019-B8F61-28" target="p-1019-B8F52-8">
+  </arc>
+  <arc id="e-1019-B8F7A-48" source="p-1019-B8F52-8" target="t-1019-B8F62-29">
+  </arc>
+  <arc id="e-1019-B8F7C-49" source="t-1019-B8F62-29" target="p-1019-B8F53-9">
+  </arc>
+  <arc id="e-1019-B8F7C-50" source="p-1019-B8F53-9" target="t-1019-B8F63-30">
+  </arc>
+  <arc id="e-1019-B8F7D-51" source="t-1019-B8F63-30" target="p-1019-B8F54-10">
+  </arc>
+  <arc id="e-1019-B8F7D-52" source="p-1019-B8F4F-5" target="t-1019-B8F64-31">
+  </arc>
+  <arc id="e-1019-B8F7E-53" source="t-1019-B8F64-31" target="p-1019-B8F58-16">
+  </arc>
+  <arc id="e-1019-B8F7F-54" source="p-1019-B8F54-10" target="t-1019-B8F64-32">
+  </arc>
+  <arc id="e-1019-B8F7F-55" source="t-1019-B8F64-32" target="p-1019-B8F54-11">
+  </arc>
+  <arc id="e-1019-B8F80-56" source="t-1019-B8F5E-24" target="p-1019-B8F4E-3">
+  </arc>
+  <arc id="e-1019-B8F80-57" source="p-1019-B8F58-16" target="t-1019-B8F65-33">
+  </arc>
+  <arc id="e-1019-B8F81-58" source="t-1019-B8F65-33" target="p-1019-B8F55-12">
+  </arc>
+  <arc id="e-1019-B8F81-59" source="p-1019-B8F54-11" target="t-1019-B8F66-34">
+  </arc>
+  <arc id="e-1019-B8F82-60" source="p-1019-B8F55-12" target="t-1019-B8F66-34">
+  </arc>
+  <arc id="e-1019-B8F83-61" source="t-1019-B8F66-34" target="p-1019-B8F56-13">
+  </arc>
+  <arc id="e-1019-B8F84-62" source="p-1019-B8F56-13" target="t-1019-B8F67-35">
+  </arc>
+  <arc id="e-1019-B8F84-63" source="t-1019-B8F67-35" target="p-1019-B8F57-15">
+  </arc>
+  <arc id="e-1019-B8F85-64" source="p-1019-B8F57-14" target="t-1019-B8F67-36">
+  </arc>
+  <arc id="e-1019-B8F85-65" source="t-1019-B8F67-36" target="p-1019-B8F59-17">
+  </arc>
+  <arc id="e-1019-B8F86-66" source="p-1019-B8F57-15" target="t-1019-B8F68-37">
+  </arc>
+  <arc id="e-1019-B8F86-67" source="p-1019-B8F4E-3" target="t-1019-B8F5F-25">
+  </arc>
+  <arc id="e-1019-B8F87-68" source="t-1019-B8F68-37" target="p-1019-B8F4B-2">
+  </arc>
+  <arc id="e-1019-B8F87-69" source="p-1019-B8F59-17" target="t-1019-B8F69-38">
+  </arc>
+  <arc id="e-1019-B8F88-70" source="t-1019-B8F69-38" target="p-1019-B8F59-18">
+  </arc>
+  <arc id="e-1019-B8F89-71" source="p-1019-B8F59-18" target="t-1019-B8F6A-39">
+  </arc>
+  <arc id="e-1019-B8F8A-72" source="t-1019-B8F6A-39" target="p-1019-B8F5A-19">
+  </arc>
+  <arc id="e-1019-B8F8A-73" source="p-1019-B8F5A-19" target="t-1019-B8F6A-40">
+  </arc>
+  <arc id="e-1019-B8F8B-74" source="t-1019-B8F6A-40" target="p-1019-B8F5B-20">
+  </arc>
+  <arc id="e-1019-B8F8C-75" source="p-1019-B8F5B-20" target="t-1019-B8F6B-41">
+  </arc>
+  <arc id="e-1019-B8F8C-76" source="t-1019-B8F6B-41" target="p-1019-B8F5B-21">
+  </arc>
+  <arc id="e-1019-B8F8D-77" source="p-1019-B8F5B-21" target="t-1019-B8F6C-42">
+  </arc>
+  <arc id="e-1019-B8F8D-78" source="t-1019-B8F5F-25" target="p-1019-B8F57-14">
+  </arc>
+  <arc id="e-1019-B8F8E-79" source="t-1019-B8F6C-42" target="p-1019-B8F5C-22">
+  </arc>
+  <arc id="e-1019-B8F8E-80" source="p-1019-B8F5C-22" target="t-1019-B8F6D-43">
+  </arc>
+  <arc id="e-1019-B8F8F-81" source="t-1019-B8F6D-43" target="p-1019-B8F5D-23">
+  </arc>
+  <arc id="e-1019-B8F8F-82" source="p-1019-B8F5D-23" target="t-1019-B8F6D-44">
+  </arc>
+  <arc id="e-1019-B8F90-83" source="t-1019-B8F6D-44" target="p-1019-B8F4F-4">
+  </arc>
+  <arc id="e-1019-B8F91-84" source="p-1019-B8F4F-4" target="t-1019-B8F5F-26">
+  </arc>
+  <arc id="e-1019-B8F92-85" source="t-1019-B8F5F-26" target="p-1019-B8F51-6">
+  </arc>
+  <arc id="e-1019-B8F92-86" source="p-1019-B8F51-6" target="t-1019-B8F61-27">
+  </arc>
+  <arc id="e-1019-B8F93-87" source="t-1019-B8F61-27" target="p-1019-B8F51-7">
+  </arc>
+  <arc id="e-1019-B8F94-88" source="p-1019-B8F51-7" target="t-1019-B8F61-28">
+  </arc>
+ </page>
+ </net>
+</pnml>

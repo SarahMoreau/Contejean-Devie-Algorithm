@@ -1,0 +1,293 @@
+<pnml xmlns="http://www.pnml.org/version-2009/grammar/pnml">
+ <net id="n-108F-6B848-0" type ="http://www.pnml.org/version-2009/grammar/ptnet">
+  <name>
+   <text>kavi1</text>
+  </name>
+ <page id="g-108F-6B84D-1">
+  <place id="p-108F-6B84F-2">
+  <name>
+   <text>p0</text>
+  </name>
+   <initialMarking>
+    <text>1</text>
+   </initialMarking>
+  </place>
+  <place id="p-108F-6B850-3">
+  <name>
+   <text>p1</text>
+  </name>
+   <initialMarking>
+    <text>1</text>
+   </initialMarking>
+  </place>
+  <place id="p-108F-6B851-4">
+  <name>
+   <text>p10</text>
+  </name>
+  </place>
+  <place id="p-108F-6B852-5">
+  <name>
+   <text>p11</text>
+  </name>
+  </place>
+  <place id="p-108F-6B854-6">
+  <name>
+   <text>p12</text>
+  </name>
+  </place>
+  <place id="p-108F-6B854-7">
+  <name>
+   <text>p13</text>
+  </name>
+  </place>
+  <place id="p-108F-6B855-8">
+  <name>
+   <text>p14</text>
+  </name>
+  </place>
+  <place id="p-108F-6B856-9">
+  <name>
+   <text>p15</text>
+  </name>
+  </place>
+  <place id="p-108F-6B857-10">
+  <name>
+   <text>p16</text>
+  </name>
+  </place>
+  <place id="p-108F-6B858-11">
+  <name>
+   <text>p17</text>
+  </name>
+  </place>
+  <place id="p-108F-6B858-12">
+  <name>
+   <text>p2</text>
+  </name>
+  </place>
+  <place id="p-108F-6B859-13">
+  <name>
+   <text>p3</text>
+  </name>
+  </place>
+  <place id="p-108F-6B859-14">
+  <name>
+   <text>p4</text>
+  </name>
+  </place>
+  <place id="p-108F-6B85B-15">
+  <name>
+   <text>p5</text>
+  </name>
+  </place>
+  <place id="p-108F-6B85B-16">
+  <name>
+   <text>p6</text>
+  </name>
+  </place>
+  <place id="p-108F-6B85C-17">
+  <name>
+   <text>p7</text>
+  </name>
+  </place>
+  <place id="p-108F-6B85C-18">
+  <name>
+   <text>p8</text>
+  </name>
+  </place>
+  <place id="p-108F-6B885-19">
+  <name>
+   <text>p9</text>
+  </name>
+  </place>
+  <transition id="t-108F-6B88D-20">
+  <name>
+   <text>t0</text>
+  </name>
+  </transition>
+  <transition id="t-108F-6B88F-21">
+  <name>
+   <text>t1</text>
+  </name>
+  </transition>
+  <transition id="t-108F-6B890-22">
+  <name>
+   <text>t10</text>
+  </name>
+  </transition>
+  <transition id="t-108F-6B892-23">
+  <name>
+   <text>t11</text>
+  </name>
+  </transition>
+  <transition id="t-108F-6B892-24">
+  <name>
+   <text>t12</text>
+  </name>
+  </transition>
+  <transition id="t-108F-6B893-25">
+  <name>
+   <text>t13</text>
+  </name>
+  </transition>
+  <transition id="t-108F-6B894-26">
+  <name>
+   <text>t14</text>
+  </name>
+  </transition>
+  <transition id="t-108F-6B895-27">
+  <name>
+   <text>t15</text>
+  </name>
+  </transition>
+  <transition id="t-108F-6B896-28">
+  <name>
+   <text>t16</text>
+  </name>
+  </transition>
+  <transition id="t-108F-6B896-29">
+  <name>
+   <text>t17</text>
+  </name>
+  </transition>
+  <transition id="t-108F-6B897-30">
+  <name>
+   <text>t18</text>
+  </name>
+  </transition>
+  <transition id="t-108F-6B898-31">
+  <name>
+   <text>t19</text>
+  </name>
+  </transition>
+  <transition id="t-108F-6B899-32">
+  <name>
+   <text>t2</text>
+  </name>
+  </transition>
+  <transition id="t-108F-6B89A-33">
+  <name>
+   <text>t3</text>
+  </name>
+  </transition>
+  <transition id="t-108F-6B89A-34">
+  <name>
+   <text>t4</text>
+  </name>
+  </transition>
+  <transition id="t-108F-6B89B-35">
+  <name>
+   <text>t5</text>
+  </name>
+  </transition>
+  <transition id="t-108F-6B89C-36">
+  <name>
+   <text>t6</text>
+  </name>
+  </transition>
+  <transition id="t-108F-6B89D-37">
+  <name>
+   <text>t7</text>
+  </name>
+  </transition>
+  <transition id="t-108F-6B89D-38">
+  <name>
+   <text>t8</text>
+  </name>
+  </transition>
+  <transition id="t-108F-6B89E-39">
+  <name>
+   <text>t9</text>
+  </name>
+  </transition>
+  <arc id="e-108F-6B89F-40" source="p-108F-6B84F-2" target="t-108F-6B88D-20">
+  </arc>
+  <arc id="e-108F-6B8A1-41" source="p-108F-6B856-9" target="t-108F-6B892-24">
+  </arc>
+  <arc id="e-108F-6B8A1-42" source="t-108F-6B892-24" target="p-108F-6B855-8">
+  </arc>
+  <arc id="e-108F-6B8A2-43" source="p-108F-6B850-3" target="t-108F-6B893-25">
+  </arc>
+  <arc id="e-108F-6B8A2-44" source="t-108F-6B893-25" target="p-108F-6B859-13">
+  </arc>
+  <arc id="e-108F-6B8A3-45" source="p-108F-6B850-3" target="t-108F-6B894-26">
+  </arc>
+  <arc id="e-108F-6B8AD-46" source="t-108F-6B894-26" target="p-108F-6B859-14">
+  </arc>
+  <arc id="e-108F-6B8AD-47" source="p-108F-6B859-14" target="t-108F-6B895-27">
+  </arc>
+  <arc id="e-108F-6B8AF-48" source="p-108F-6B885-19" target="t-108F-6B895-27">
+  </arc>
+  <arc id="e-108F-6B8AF-49" source="t-108F-6B895-27" target="p-108F-6B856-9">
+  </arc>
+  <arc id="e-108F-6B8B0-50" source="t-108F-6B895-27" target="p-108F-6B857-10">
+  </arc>
+  <arc id="e-108F-6B8B1-51" source="t-108F-6B88D-20" target="p-108F-6B858-12">
+  </arc>
+  <arc id="e-108F-6B8B1-52" source="p-108F-6B857-10" target="t-108F-6B896-28">
+  </arc>
+  <arc id="e-108F-6B8B2-53" source="t-108F-6B896-28" target="p-108F-6B858-11">
+  </arc>
+  <arc id="e-108F-6B8B2-54" source="p-108F-6B859-13" target="t-108F-6B896-29">
+  </arc>
+  <arc id="e-108F-6B8B3-55" source="t-108F-6B896-29" target="p-108F-6B858-11">
+  </arc>
+  <arc id="e-108F-6B8B4-56" source="p-108F-6B858-11" target="t-108F-6B897-30">
+  </arc>
+  <arc id="e-108F-6B8B4-57" source="t-108F-6B897-30" target="p-108F-6B850-3">
+  </arc>
+  <arc id="e-108F-6B8B5-58" source="p-108F-6B854-7" target="t-108F-6B898-31">
+  </arc>
+  <arc id="e-108F-6B8B5-59" source="p-108F-6B855-8" target="t-108F-6B898-31">
+  </arc>
+  <arc id="e-108F-6B8B7-60" source="t-108F-6B898-31" target="p-108F-6B84F-2">
+  </arc>
+  <arc id="e-108F-6B8B7-61" source="p-108F-6B858-12" target="t-108F-6B899-32">
+  </arc>
+  <arc id="e-108F-6B8B8-62" source="t-108F-6B88D-20" target="p-108F-6B85C-17">
+  </arc>
+  <arc id="e-108F-6B8B8-63" source="t-108F-6B899-32" target="p-108F-6B85B-16">
+  </arc>
+  <arc id="e-108F-6B8B9-64" source="p-108F-6B85B-15" target="t-108F-6B89A-33">
+  </arc>
+  <arc id="e-108F-6B8B9-65" source="t-108F-6B89A-33" target="p-108F-6B851-4">
+  </arc>
+  <arc id="e-108F-6B8BA-66" source="p-108F-6B851-4" target="t-108F-6B89A-34">
+  </arc>
+  <arc id="e-108F-6B8BB-67" source="t-108F-6B89A-34" target="p-108F-6B852-5">
+  </arc>
+  <arc id="e-108F-6B8BB-68" source="p-108F-6B851-4" target="t-108F-6B89B-35">
+  </arc>
+  <arc id="e-108F-6B8BC-69" source="t-108F-6B89B-35" target="p-108F-6B854-6">
+  </arc>
+  <arc id="e-108F-6B8BC-70" source="p-108F-6B854-6" target="t-108F-6B89C-36">
+  </arc>
+  <arc id="e-108F-6B8BD-71" source="t-108F-6B89C-36" target="p-108F-6B851-4">
+  </arc>
+  <arc id="e-108F-6B8BE-72" source="p-108F-6B852-5" target="t-108F-6B89D-37">
+  </arc>
+  <arc id="e-108F-6B8BF-73" source="p-108F-6B858-12" target="t-108F-6B88F-21">
+  </arc>
+  <arc id="e-108F-6B8BF-74" source="t-108F-6B89D-37" target="p-108F-6B854-7">
+  </arc>
+  <arc id="e-108F-6B8C0-75" source="p-108F-6B85B-16" target="t-108F-6B89D-38">
+  </arc>
+  <arc id="e-108F-6B8C0-76" source="t-108F-6B89D-38" target="p-108F-6B854-7">
+  </arc>
+  <arc id="e-108F-6B8C1-77" source="p-108F-6B85C-17" target="t-108F-6B89E-39">
+  </arc>
+  <arc id="e-108F-6B8C1-78" source="t-108F-6B89E-39" target="p-108F-6B85C-18">
+  </arc>
+  <arc id="e-108F-6B8C2-79" source="t-108F-6B88F-21" target="p-108F-6B85B-15">
+  </arc>
+  <arc id="e-108F-6B8C3-80" source="p-108F-6B85C-17" target="t-108F-6B890-22">
+  </arc>
+  <arc id="e-108F-6B8C3-81" source="t-108F-6B890-22" target="p-108F-6B885-19">
+  </arc>
+  <arc id="e-108F-6B8C4-82" source="p-108F-6B85C-18" target="t-108F-6B892-23">
+  </arc>
+  <arc id="e-108F-6B8C4-83" source="t-108F-6B892-23" target="p-108F-6B855-8">
+  </arc>
+ </page>
+ </net>
+</pnml>

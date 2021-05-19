@@ -1,0 +1,414 @@
+<pnml xmlns="http://www.pnml.org/version-2009/grammar/pnml">
+ <net id="n-FED-299C9-0" type ="http://www.pnml.org/version-2009/grammar/ptnet">
+  <name>
+   <text>alfa_net_copy_milling_subprocess</text>
+  </name>
+ <page id="g-FED-299CF-1">
+  <place id="p-FED-299D0-2">
+  <name>
+   <text>p0</text>
+  </name>
+   <initialMarking>
+    <text>1</text>
+   </initialMarking>
+  </place>
+  <place id="p-FED-299D2-3">
+  <name>
+   <text>p1</text>
+  </name>
+  </place>
+  <place id="p-FED-299D4-4">
+  <name>
+   <text>p10</text>
+  </name>
+  </place>
+  <place id="p-FED-299D5-5">
+  <name>
+   <text>p11</text>
+  </name>
+  </place>
+  <place id="p-FED-299D5-6">
+  <name>
+   <text>p12</text>
+  </name>
+  </place>
+  <place id="p-FED-299D6-7">
+  <name>
+   <text>p13</text>
+  </name>
+  </place>
+  <place id="p-FED-299D7-8">
+  <name>
+   <text>p14</text>
+  </name>
+  </place>
+  <place id="p-FED-299D8-9">
+  <name>
+   <text>p15</text>
+  </name>
+  </place>
+  <place id="p-FED-299D8-10">
+  <name>
+   <text>p16</text>
+  </name>
+  </place>
+  <place id="p-FED-299D9-11">
+  <name>
+   <text>p17</text>
+  </name>
+  </place>
+  <place id="p-FED-299DA-12">
+  <name>
+   <text>p18</text>
+  </name>
+  </place>
+  <place id="p-FED-299DB-13">
+  <name>
+   <text>p19</text>
+  </name>
+  </place>
+  <place id="p-FED-299DC-14">
+  <name>
+   <text>p2</text>
+  </name>
+  </place>
+  <place id="p-FED-299DC-15">
+  <name>
+   <text>p20</text>
+  </name>
+  </place>
+  <place id="p-FED-299DE-16">
+  <name>
+   <text>p21</text>
+  </name>
+  </place>
+  <place id="p-FED-299DF-17">
+  <name>
+   <text>p22</text>
+  </name>
+  </place>
+  <place id="p-FED-299DF-18">
+  <name>
+   <text>p23</text>
+  </name>
+  </place>
+  <place id="p-FED-299E0-19">
+  <name>
+   <text>p24</text>
+  </name>
+  </place>
+  <place id="p-FED-299E1-20">
+  <name>
+   <text>p25</text>
+  </name>
+  </place>
+  <place id="p-FED-299E2-21">
+  <name>
+   <text>p26</text>
+  </name>
+  </place>
+  <place id="p-FED-299E3-22">
+  <name>
+   <text>p27</text>
+  </name>
+  </place>
+  <place id="p-FED-299E3-23">
+  <name>
+   <text>p28</text>
+  </name>
+  </place>
+  <place id="p-FED-299E4-24">
+  <name>
+   <text>p29</text>
+  </name>
+  </place>
+  <place id="p-FED-299E5-25">
+  <name>
+   <text>p3</text>
+  </name>
+  </place>
+  <place id="p-FED-299E6-26">
+  <name>
+   <text>p4</text>
+  </name>
+  </place>
+  <place id="p-FED-299E6-27">
+  <name>
+   <text>p5</text>
+  </name>
+  </place>
+  <place id="p-FED-299E8-28">
+  <name>
+   <text>p6</text>
+  </name>
+  </place>
+  <place id="p-FED-299E8-29">
+  <name>
+   <text>p7</text>
+  </name>
+  </place>
+  <place id="p-FED-299E9-30">
+  <name>
+   <text>p8</text>
+  </name>
+  </place>
+  <place id="p-FED-299E9-31">
+  <name>
+   <text>p9</text>
+  </name>
+  </place>
+  <transition id="t-FED-299EB-32">
+  <name>
+   <text>t0</text>
+  </name>
+  </transition>
+  <transition id="t-FED-299EC-33">
+  <name>
+   <text>t1</text>
+  </name>
+  </transition>
+  <transition id="t-FED-299ED-34">
+  <name>
+   <text>t10</text>
+  </name>
+  </transition>
+  <transition id="t-FED-299ED-35">
+  <name>
+   <text>t11</text>
+  </name>
+  </transition>
+  <transition id="t-FED-299EF-36">
+  <name>
+   <text>t12</text>
+  </name>
+  </transition>
+  <transition id="t-FED-299EF-37">
+  <name>
+   <text>t13</text>
+  </name>
+  </transition>
+  <transition id="t-FED-299F0-38">
+  <name>
+   <text>t14</text>
+  </name>
+  </transition>
+  <transition id="t-FED-299F1-39">
+  <name>
+   <text>t15</text>
+  </name>
+  </transition>
+  <transition id="t-FED-299F2-40">
+  <name>
+   <text>t16</text>
+  </name>
+  </transition>
+  <transition id="t-FED-299F3-41">
+  <name>
+   <text>t17</text>
+  </name>
+  </transition>
+  <transition id="t-FED-299F3-42">
+  <name>
+   <text>t18</text>
+  </name>
+  </transition>
+  <transition id="t-FED-299F4-43">
+  <name>
+   <text>t19</text>
+  </name>
+  </transition>
+  <transition id="t-FED-299F5-44">
+  <name>
+   <text>t2</text>
+  </name>
+  </transition>
+  <transition id="t-FED-299F6-45">
+  <name>
+   <text>t20</text>
+  </name>
+  </transition>
+  <transition id="t-FED-299F7-46">
+  <name>
+   <text>t21</text>
+  </name>
+  </transition>
+  <transition id="t-FED-299F7-47">
+  <name>
+   <text>t22</text>
+  </name>
+  </transition>
+  <transition id="t-FED-29A03-48">
+  <name>
+   <text>t23</text>
+  </name>
+  </transition>
+  <transition id="t-FED-29A03-49">
+  <name>
+   <text>t24</text>
+  </name>
+  </transition>
+  <transition id="t-FED-29A04-50">
+  <name>
+   <text>t25</text>
+  </name>
+  </transition>
+  <transition id="t-FED-29A06-51">
+  <name>
+   <text>t3</text>
+  </name>
+  </transition>
+  <transition id="t-FED-29A06-52">
+  <name>
+   <text>t4</text>
+  </name>
+  </transition>
+  <transition id="t-FED-29A07-53">
+  <name>
+   <text>t5</text>
+  </name>
+  </transition>
+  <transition id="t-FED-29A08-54">
+  <name>
+   <text>t6</text>
+  </name>
+  </transition>
+  <transition id="t-FED-29A09-55">
+  <name>
+   <text>t7</text>
+  </name>
+  </transition>
+  <transition id="t-FED-29A09-56">
+  <name>
+   <text>t8</text>
+  </name>
+  </transition>
+  <transition id="t-FED-29A0A-57">
+  <name>
+   <text>t9</text>
+  </name>
+  </transition>
+  <arc id="e-FED-29A0B-58" source="p-FED-299D0-2" target="t-FED-299EB-32">
+  </arc>
+  <arc id="e-FED-29A0C-59" source="p-FED-299E8-29" target="t-FED-299EF-36">
+  </arc>
+  <arc id="e-FED-29A0D-60" source="p-FED-299E9-30" target="t-FED-299EF-36">
+  </arc>
+  <arc id="e-FED-29A0E-61" source="t-FED-299EF-36" target="p-FED-299E9-31">
+  </arc>
+  <arc id="e-FED-29A0F-62" source="p-FED-299E9-31" target="t-FED-299EF-37">
+  </arc>
+  <arc id="e-FED-29A0F-63" source="t-FED-299EF-37" target="p-FED-299D4-4">
+  </arc>
+  <arc id="e-FED-29A10-64" source="t-FED-299EF-37" target="p-FED-299D5-5">
+  </arc>
+  <arc id="e-FED-29A11-65" source="p-FED-299D4-4" target="t-FED-299F0-38">
+  </arc>
+  <arc id="e-FED-29A11-66" source="p-FED-299D5-5" target="t-FED-299F0-38">
+  </arc>
+  <arc id="e-FED-29A12-67" source="t-FED-299F0-38" target="p-FED-299D5-6">
+  </arc>
+  <arc id="e-FED-29A12-68" source="p-FED-299D5-6" target="t-FED-299F1-39">
+  </arc>
+  <arc id="e-FED-29A13-69" source="t-FED-299EB-32" target="p-FED-299D2-3">
+  </arc>
+  <arc id="e-FED-29A14-70" source="t-FED-299F1-39" target="p-FED-299D6-7">
+  </arc>
+  <arc id="e-FED-29A14-71" source="t-FED-299F1-39" target="p-FED-299D7-8">
+  </arc>
+  <arc id="e-FED-29A15-72" source="p-FED-299D6-7" target="t-FED-299F2-40">
+  </arc>
+  <arc id="e-FED-29A16-73" source="t-FED-299F2-40" target="p-FED-299D8-9">
+  </arc>
+  <arc id="e-FED-29A16-74" source="p-FED-299D7-8" target="t-FED-299F3-41">
+  </arc>
+  <arc id="e-FED-29A17-75" source="t-FED-299F3-41" target="p-FED-299D8-10">
+  </arc>
+  <arc id="e-FED-29A18-76" source="p-FED-299D8-9" target="t-FED-299F3-42">
+  </arc>
+  <arc id="e-FED-29A18-77" source="t-FED-299F3-42" target="p-FED-299D9-11">
+  </arc>
+  <arc id="e-FED-29A19-78" source="p-FED-299D8-10" target="t-FED-299F4-43">
+  </arc>
+  <arc id="e-FED-29A1A-79" source="t-FED-299F4-43" target="p-FED-299DA-12">
+  </arc>
+  <arc id="e-FED-29A1A-80" source="t-FED-299EB-32" target="p-FED-299DC-14">
+  </arc>
+  <arc id="e-FED-29A1B-81" source="p-FED-299D2-3" target="t-FED-299F5-44">
+  </arc>
+  <arc id="e-FED-29A1B-82" source="t-FED-299F5-44" target="p-FED-299E5-25">
+  </arc>
+  <arc id="e-FED-29A1C-83" source="p-FED-299D9-11" target="t-FED-299F6-45">
+  </arc>
+  <arc id="e-FED-29A1C-84" source="t-FED-299F6-45" target="p-FED-299DB-13">
+  </arc>
+  <arc id="e-FED-29A1E-85" source="p-FED-299DA-12" target="t-FED-299F7-46">
+  </arc>
+  <arc id="e-FED-29A1F-86" source="t-FED-299F7-46" target="p-FED-299DC-15">
+  </arc>
+  <arc id="e-FED-29A20-87" source="p-FED-299DB-13" target="t-FED-299F7-47">
+  </arc>
+  <arc id="e-FED-29A20-88" source="p-FED-299DC-15" target="t-FED-299F7-47">
+  </arc>
+  <arc id="e-FED-29A21-89" source="t-FED-299F7-47" target="p-FED-299E3-22">
+  </arc>
+  <arc id="e-FED-29A21-90" source="p-FED-299E3-22" target="t-FED-29A03-48">
+  </arc>
+  <arc id="e-FED-29A22-91" source="p-FED-299D0-2" target="t-FED-299EC-33">
+  </arc>
+  <arc id="e-FED-29A23-92" source="t-FED-29A03-48" target="p-FED-299E3-23">
+  </arc>
+  <arc id="e-FED-29A23-93" source="p-FED-299E2-21" target="t-FED-29A03-49">
+  </arc>
+  <arc id="e-FED-29A24-94" source="p-FED-299E3-23" target="t-FED-29A03-49">
+  </arc>
+  <arc id="e-FED-29A24-95" source="t-FED-29A03-49" target="p-FED-299E4-24">
+  </arc>
+  <arc id="e-FED-29A29-96" source="p-FED-299E4-24" target="t-FED-29A04-50">
+  </arc>
+  <arc id="e-FED-29A2A-97" source="t-FED-29A04-50" target="p-FED-299D0-2">
+  </arc>
+  <arc id="e-FED-29A2B-98" source="p-FED-299DC-14" target="t-FED-29A06-51">
+  </arc>
+  <arc id="e-FED-29A2C-99" source="t-FED-29A06-51" target="p-FED-299E6-26">
+  </arc>
+  <arc id="e-FED-29A2C-100" source="p-FED-299DE-16" target="t-FED-29A06-52">
+  </arc>
+  <arc id="e-FED-29A2D-101" source="t-FED-29A06-52" target="p-FED-299DF-17">
+  </arc>
+  <arc id="e-FED-29A2D-102" source="t-FED-299EC-33" target="p-FED-299DE-16">
+  </arc>
+  <arc id="e-FED-29A2E-103" source="t-FED-29A06-52" target="p-FED-299DF-18">
+  </arc>
+  <arc id="e-FED-29A2F-104" source="p-FED-299E5-25" target="t-FED-29A07-53">
+  </arc>
+  <arc id="e-FED-29A2F-105" source="t-FED-29A07-53" target="p-FED-299E6-27">
+  </arc>
+  <arc id="e-FED-29A30-106" source="p-FED-299E6-26" target="t-FED-29A08-54">
+  </arc>
+  <arc id="e-FED-29A30-107" source="t-FED-29A08-54" target="p-FED-299E8-28">
+  </arc>
+  <arc id="e-FED-29A31-108" source="p-FED-299DF-17" target="t-FED-29A09-55">
+  </arc>
+  <arc id="e-FED-29A32-109" source="p-FED-299DF-18" target="t-FED-29A09-55">
+  </arc>
+  <arc id="e-FED-29A33-110" source="t-FED-29A09-55" target="p-FED-299E0-19">
+  </arc>
+  <arc id="e-FED-29A33-111" source="p-FED-299E6-27" target="t-FED-29A09-56">
+  </arc>
+  <arc id="e-FED-29A34-112" source="t-FED-29A09-56" target="p-FED-299E8-29">
+  </arc>
+  <arc id="e-FED-29A34-113" source="p-FED-299E0-19" target="t-FED-299ED-34">
+  </arc>
+  <arc id="e-FED-29A35-114" source="p-FED-299E8-28" target="t-FED-29A0A-57">
+  </arc>
+  <arc id="e-FED-29A35-115" source="t-FED-29A0A-57" target="p-FED-299E9-30">
+  </arc>
+  <arc id="e-FED-29A36-116" source="t-FED-299ED-34" target="p-FED-299E1-20">
+  </arc>
+  <arc id="e-FED-29A37-117" source="p-FED-299E1-20" target="t-FED-299ED-35">
+  </arc>
+  <arc id="e-FED-29A37-118" source="t-FED-299ED-35" target="p-FED-299E2-21">
+  </arc>
+ </page>
+ </net>
+</pnml>

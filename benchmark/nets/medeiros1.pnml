@@ -1,0 +1,180 @@
+<pnml xmlns="http://www.pnml.org/version-2009/grammar/pnml">
+ <net id="n-10CD-4D5A3-0" type ="http://www.pnml.org/version-2009/grammar/ptnet">
+  <name>
+   <text>medeiros1</text>
+  </name>
+ <page id="g-10CD-4D5A8-1">
+  <place id="p-10CD-4D5A9-2">
+  <name>
+   <text>p0</text>
+  </name>
+   <initialMarking>
+    <text>1</text>
+   </initialMarking>
+  </place>
+  <place id="p-10CD-4D5AC-3">
+  <name>
+   <text>p1</text>
+  </name>
+  </place>
+  <place id="p-10CD-4D5AD-4">
+  <name>
+   <text>p2</text>
+  </name>
+  </place>
+  <place id="p-10CD-4D5AD-5">
+  <name>
+   <text>p3</text>
+  </name>
+  </place>
+  <place id="p-10CD-4D5AF-6">
+  <name>
+   <text>p4</text>
+  </name>
+  </place>
+  <place id="p-10CD-4D5AF-7">
+  <name>
+   <text>p5</text>
+  </name>
+  </place>
+  <place id="p-10CD-4D5B0-8">
+  <name>
+   <text>p6</text>
+  </name>
+  </place>
+  <place id="p-10CD-4D5B0-9">
+  <name>
+   <text>p7</text>
+  </name>
+  </place>
+  <place id="p-10CD-4D5B1-10">
+  <name>
+   <text>p8</text>
+  </name>
+  </place>
+  <transition id="t-10CD-4D5B2-11">
+  <name>
+   <text>t0</text>
+  </name>
+  </transition>
+  <transition id="t-10CD-4D5B3-12">
+  <name>
+   <text>t1</text>
+  </name>
+  </transition>
+  <transition id="t-10CD-4D5B4-13">
+  <name>
+   <text>t10</text>
+  </name>
+  </transition>
+  <transition id="t-10CD-4D5B5-14">
+  <name>
+   <text>t11</text>
+  </name>
+  </transition>
+  <transition id="t-10CD-4D5B6-15">
+  <name>
+   <text>t12</text>
+  </name>
+  </transition>
+  <transition id="t-10CD-4D5B7-16">
+  <name>
+   <text>t2</text>
+  </name>
+  </transition>
+  <transition id="t-10CD-4D5B7-17">
+  <name>
+   <text>t3</text>
+  </name>
+  </transition>
+  <transition id="t-10CD-4D5B8-18">
+  <name>
+   <text>t4</text>
+  </name>
+  </transition>
+  <transition id="t-10CD-4D5B9-19">
+  <name>
+   <text>t5</text>
+  </name>
+  </transition>
+  <transition id="t-10CD-4D5BA-20">
+  <name>
+   <text>t6</text>
+  </name>
+  </transition>
+  <transition id="t-10CD-4D5BA-21">
+  <name>
+   <text>t7</text>
+  </name>
+  </transition>
+  <transition id="t-10CD-4D5BB-22">
+  <name>
+   <text>t8</text>
+  </name>
+  </transition>
+  <transition id="t-10CD-4D5BC-23">
+  <name>
+   <text>t9</text>
+  </name>
+  </transition>
+  <arc id="e-10CD-4D5BD-24" source="p-10CD-4D5A9-2" target="t-10CD-4D5B2-11">
+  </arc>
+  <arc id="e-10CD-4D5BE-25" source="p-10CD-4D5B1-10" target="t-10CD-4D5B6-15">
+  </arc>
+  <arc id="e-10CD-4D5BF-26" source="t-10CD-4D5B6-15" target="p-10CD-4D5A9-2">
+  </arc>
+  <arc id="e-10CD-4D5C0-27" source="p-10CD-4D5AC-3" target="t-10CD-4D5B7-16">
+  </arc>
+  <arc id="e-10CD-4D5C0-28" source="p-10CD-4D5AD-4" target="t-10CD-4D5B7-16">
+  </arc>
+  <arc id="e-10CD-4D5C1-29" source="t-10CD-4D5B7-16" target="p-10CD-4D5AD-5">
+  </arc>
+  <arc id="e-10CD-4D5C1-30" source="p-10CD-4D5AC-3" target="t-10CD-4D5B7-17">
+  </arc>
+  <arc id="e-10CD-4D5C2-31" source="p-10CD-4D5AD-4" target="t-10CD-4D5B7-17">
+  </arc>
+  <arc id="e-10CD-4D5C2-32" source="t-10CD-4D5B7-17" target="p-10CD-4D5AF-6">
+  </arc>
+  <arc id="e-10CD-4D5C3-33" source="p-10CD-4D5AD-5" target="t-10CD-4D5B8-18">
+  </arc>
+  <arc id="e-10CD-4D5C4-34" source="t-10CD-4D5B8-18" target="p-10CD-4D5AF-6">
+  </arc>
+  <arc id="e-10CD-4D5C4-35" source="t-10CD-4D5B2-11" target="p-10CD-4D5AC-3">
+  </arc>
+  <arc id="e-10CD-4D5C5-36" source="p-10CD-4D5B0-8" target="t-10CD-4D5B9-19">
+  </arc>
+  <arc id="e-10CD-4D5C6-37" source="t-10CD-4D5B9-19" target="p-10CD-4D5AD-5">
+  </arc>
+  <arc id="e-10CD-4D5C6-38" source="p-10CD-4D5AF-6" target="t-10CD-4D5BA-20">
+  </arc>
+  <arc id="e-10CD-4D5C7-39" source="t-10CD-4D5BA-20" target="p-10CD-4D5B0-9">
+  </arc>
+  <arc id="e-10CD-4D5C7-40" source="p-10CD-4D5B0-9" target="t-10CD-4D5BA-21">
+  </arc>
+  <arc id="e-10CD-4D5C8-41" source="t-10CD-4D5BA-21" target="p-10CD-4D5B0-8">
+  </arc>
+  <arc id="e-10CD-4D5C8-42" source="p-10CD-4D5B0-8" target="t-10CD-4D5BB-22">
+  </arc>
+  <arc id="e-10CD-4D5C9-43" source="t-10CD-4D5BB-22" target="p-10CD-4D5B1-10">
+  </arc>
+  <arc id="e-10CD-4D5C9-44" source="p-10CD-4D5B0-9" target="t-10CD-4D5BC-23">
+  </arc>
+  <arc id="e-10CD-4D5CA-45" source="t-10CD-4D5BC-23" target="p-10CD-4D5B1-10">
+  </arc>
+  <arc id="e-10CD-4D5CA-46" source="t-10CD-4D5B2-11" target="p-10CD-4D5AD-4">
+  </arc>
+  <arc id="e-10CD-4D5D6-47" source="p-10CD-4D5A9-2" target="t-10CD-4D5B3-12">
+  </arc>
+  <arc id="e-10CD-4D5D7-48" source="t-10CD-4D5B3-12" target="p-10CD-4D5AF-7">
+  </arc>
+  <arc id="e-10CD-4D5D8-49" source="p-10CD-4D5B0-9" target="t-10CD-4D5B4-13">
+  </arc>
+  <arc id="e-10CD-4D5D8-50" source="t-10CD-4D5B4-13" target="p-10CD-4D5B1-10">
+  </arc>
+  <arc id="e-10CD-4D5D9-51" source="p-10CD-4D5AF-7" target="t-10CD-4D5B5-14">
+  </arc>
+  <arc id="e-10CD-4D5D9-52" source="t-10CD-4D5B5-14" target="p-10CD-4D5B1-10">
+  </arc>
+ </page>
+ </net>
+</pnml>

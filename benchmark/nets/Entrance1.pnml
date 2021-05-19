@@ -1,0 +1,86 @@
+<pnml xmlns="http://www.pnml.org/version-2009/grammar/pnml">
+ <net id="n-FC7-A2D75-0" type ="http://www.pnml.org/version-2009/grammar/ptnet">
+  <name>
+   <text>Entrance1</text>
+  </name>
+ <page id="g-FC7-A2D78-1">
+  <place id="p-FC7-A2D7A-2">
+  <name>
+   <text>p0</text>
+  </name>
+  </place>
+  <place id="p-FC7-A2D7C-3">
+  <name>
+   <text>p1</text>
+  </name>
+  </place>
+  <place id="p-FC7-A2D7D-4">
+  <name>
+   <text>p2</text>
+  </name>
+   <initialMarking>
+    <text>1</text>
+   </initialMarking>
+  </place>
+  <place id="p-FC7-A2D7D-5">
+  <name>
+   <text>p3</text>
+  </name>
+  </place>
+  <transition id="t-FC7-A2D7E-6">
+  <name>
+   <text>t0</text>
+  </name>
+  </transition>
+  <transition id="t-FC7-A2D7F-7">
+  <name>
+   <text>t1</text>
+  </name>
+  </transition>
+  <transition id="t-FC7-A2D81-8">
+  <name>
+   <text>t2</text>
+  </name>
+  </transition>
+  <transition id="t-FC7-A2D81-9">
+  <name>
+   <text>t3</text>
+  </name>
+  </transition>
+  <transition id="t-FC7-A2D82-10">
+  <name>
+   <text>t4</text>
+  </name>
+  </transition>
+  <transition id="t-FC7-A2D82-11">
+  <name>
+   <text>t5</text>
+  </name>
+  </transition>
+  <arc id="e-FC7-A2DAA-12" source="p-FC7-A2D7D-4" target="t-FC7-A2D7E-6">
+  </arc>
+  <arc id="e-FC7-A2DAB-13" source="t-FC7-A2D82-10" target="p-FC7-A2D7D-4">
+  </arc>
+  <arc id="e-FC7-A2DAC-14" source="p-FC7-A2D7A-2" target="t-FC7-A2D82-11">
+  </arc>
+  <arc id="e-FC7-A2DAD-15" source="t-FC7-A2D82-11" target="p-FC7-A2D7D-5">
+  </arc>
+  <arc id="e-FC7-A2DAD-16" source="t-FC7-A2D7E-6" target="p-FC7-A2D7C-3">
+  </arc>
+  <arc id="e-FC7-A2DAE-17" source="p-FC7-A2D7D-5" target="t-FC7-A2D7F-7">
+  </arc>
+  <arc id="e-FC7-A2DAE-18" source="t-FC7-A2D7F-7" target="p-FC7-A2D7D-4">
+  </arc>
+  <arc id="e-FC7-A2DAE-19" source="p-FC7-A2D7C-3" target="t-FC7-A2D81-8">
+  </arc>
+  <arc id="e-FC7-A2DAF-20" source="t-FC7-A2D81-8" target="p-FC7-A2D7D-4">
+  </arc>
+  <arc id="e-FC7-A2DB0-21" source="p-FC7-A2D7C-3" target="t-FC7-A2D81-9">
+  </arc>
+  <arc id="e-FC7-A2DB0-22" source="t-FC7-A2D81-9" target="p-FC7-A2D7A-2">
+  </arc>
+  <arc id="e-FC7-A2DB1-23" source="p-FC7-A2D7A-2" target="t-FC7-A2D82-10">
+  </arc>
+ </page>
+ </net>
+</pnml>

@@ -1,0 +1,199 @@
+<pnml xmlns="http://www.pnml.org/version-2009/grammar/pnml">
+ <net id="n-113B-C8AE5-0" type ="http://www.pnml.org/version-2009/grammar/ptnet">
+  <name>
+   <text>pnbrexpl_15</text>
+  </name>
+ <page id="g-113B-C8AE9-1">
+  <place id="p-113B-C8AEA-2">
+  <name>
+   <text>p0</text>
+  </name>
+   <initialMarking>
+    <text>1</text>
+   </initialMarking>
+  </place>
+  <place id="p-113B-C8AED-3">
+  <name>
+   <text>p1</text>
+  </name>
+  </place>
+  <place id="p-113B-C8AEE-4">
+  <name>
+   <text>p10</text>
+  </name>
+  </place>
+  <place id="p-113B-C8AEE-5">
+  <name>
+   <text>p11</text>
+  </name>
+  </place>
+  <place id="p-113B-C8AEF-6">
+  <name>
+   <text>p12</text>
+  </name>
+  </place>
+  <place id="p-113B-C8AF0-7">
+  <name>
+   <text>p2</text>
+  </name>
+  </place>
+  <place id="p-113B-C8AF1-8">
+  <name>
+   <text>p3</text>
+  </name>
+  </place>
+  <place id="p-113B-C8AF1-9">
+  <name>
+   <text>p4</text>
+  </name>
+  </place>
+  <place id="p-113B-C8AF2-10">
+  <name>
+   <text>p5</text>
+  </name>
+  </place>
+  <place id="p-113B-C8AF3-11">
+  <name>
+   <text>p6</text>
+  </name>
+   <initialMarking>
+    <text>1</text>
+   </initialMarking>
+  </place>
+  <place id="p-113B-C8AF4-12">
+  <name>
+   <text>p7</text>
+  </name>
+   <initialMarking>
+    <text>1</text>
+   </initialMarking>
+  </place>
+  <place id="p-113B-C8AF5-13">
+  <name>
+   <text>p8</text>
+  </name>
+  </place>
+  <place id="p-113B-C8AF5-14">
+  <name>
+   <text>p9</text>
+  </name>
+  </place>
+  <transition id="t-113B-C8AF6-15">
+  <name>
+   <text>t0</text>
+  </name>
+  </transition>
+  <transition id="t-113B-C8AF7-16">
+  <name>
+   <text>t1</text>
+  </name>
+  </transition>
+  <transition id="t-113B-C8AF8-17">
+  <name>
+   <text>t10</text>
+  </name>
+  </transition>
+  <transition id="t-113B-C8AF9-18">
+  <name>
+   <text>t11</text>
+  </name>
+  </transition>
+  <transition id="t-113B-C8AF9-19">
+  <name>
+   <text>t2</text>
+  </name>
+  </transition>
+  <transition id="t-113B-C8AFA-20">
+  <name>
+   <text>t3</text>
+  </name>
+  </transition>
+  <transition id="t-113B-C8AFB-21">
+  <name>
+   <text>t4</text>
+  </name>
+  </transition>
+  <transition id="t-113B-C8AFC-22">
+  <name>
+   <text>t5</text>
+  </name>
+  </transition>
+  <transition id="t-113B-C8AFC-23">
+  <name>
+   <text>t6</text>
+  </name>
+  </transition>
+  <transition id="t-113B-C8AFD-24">
+  <name>
+   <text>t7</text>
+  </name>
+  </transition>
+  <transition id="t-113B-C8AFD-25">
+  <name>
+   <text>t8</text>
+  </name>
+  </transition>
+  <transition id="t-113B-C8AFE-26">
+  <name>
+   <text>t9</text>
+  </name>
+  </transition>
+  <arc id="e-113B-C8AFF-27" source="p-113B-C8AEA-2" target="t-113B-C8AF6-15">
+  </arc>
+  <arc id="e-113B-C8B00-28" source="p-113B-C8AF0-7" target="t-113B-C8AF9-19">
+  </arc>
+  <arc id="e-113B-C8B00-29" source="p-113B-C8AF3-11" target="t-113B-C8AF9-19">
+  </arc>
+  <arc id="e-113B-C8B01-30" source="t-113B-C8AF9-19" target="p-113B-C8AF1-8">
+  </arc>
+  <arc id="e-113B-C8B01-31" source="p-113B-C8AF1-8" target="t-113B-C8AFA-20">
+  </arc>
+  <arc id="e-113B-C8B02-32" source="t-113B-C8AFA-20" target="p-113B-C8AF1-9">
+  </arc>
+  <arc id="e-113B-C8B02-33" source="p-113B-C8AF1-9" target="t-113B-C8AFB-21">
+  </arc>
+  <arc id="e-113B-C8B03-34" source="t-113B-C8AFB-21" target="p-113B-C8AF2-10">
+  </arc>
+  <arc id="e-113B-C8B03-35" source="t-113B-C8AFB-21" target="p-113B-C8AF3-11">
+  </arc>
+  <arc id="e-113B-C8B04-36" source="p-113B-C8AF2-10" target="t-113B-C8AFC-22">
+  </arc>
+  <arc id="e-113B-C8B04-37" source="t-113B-C8AFC-22" target="p-113B-C8AEA-2">
+  </arc>
+  <arc id="e-113B-C8B05-38" source="t-113B-C8AF6-15" target="p-113B-C8AED-3">
+  </arc>
+  <arc id="e-113B-C8B05-39" source="p-113B-C8AF4-12" target="t-113B-C8AFC-23">
+  </arc>
+  <arc id="e-113B-C8B06-40" source="t-113B-C8AFC-23" target="p-113B-C8AF5-13">
+  </arc>
+  <arc id="e-113B-C8B08-41" source="p-113B-C8AF5-13" target="t-113B-C8AFD-24">
+  </arc>
+  <arc id="e-113B-C8B08-42" source="t-113B-C8AFD-24" target="p-113B-C8AF5-14">
+  </arc>
+  <arc id="e-113B-C8B09-43" source="p-113B-C8AF3-11" target="t-113B-C8AFD-25">
+  </arc>
+  <arc id="e-113B-C8B09-44" source="p-113B-C8AF5-14" target="t-113B-C8AFD-25">
+  </arc>
+  <arc id="e-113B-C8B13-45" source="t-113B-C8AFD-25" target="p-113B-C8AEE-4">
+  </arc>
+  <arc id="e-113B-C8B13-46" source="p-113B-C8AEE-4" target="t-113B-C8AFE-26">
+  </arc>
+  <arc id="e-113B-C8B14-47" source="t-113B-C8AFE-26" target="p-113B-C8AEE-5">
+  </arc>
+  <arc id="e-113B-C8B15-48" source="p-113B-C8AED-3" target="t-113B-C8AF7-16">
+  </arc>
+  <arc id="e-113B-C8B15-49" source="t-113B-C8AF7-16" target="p-113B-C8AF0-7">
+  </arc>
+  <arc id="e-113B-C8B16-50" source="p-113B-C8AEE-5" target="t-113B-C8AF8-17">
+  </arc>
+  <arc id="e-113B-C8B16-51" source="t-113B-C8AF8-17" target="p-113B-C8AF3-11">
+  </arc>
+  <arc id="e-113B-C8B17-52" source="t-113B-C8AF8-17" target="p-113B-C8AEF-6">
+  </arc>
+  <arc id="e-113B-C8B18-53" source="p-113B-C8AEF-6" target="t-113B-C8AF9-18">
+  </arc>
+  <arc id="e-113B-C8B19-54" source="t-113B-C8AF9-18" target="p-113B-C8AF4-12">
+  </arc>
+ </page>
+ </net>
+</pnml>

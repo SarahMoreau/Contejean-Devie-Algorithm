@@ -1,0 +1,141 @@
+<pnml xmlns="http://www.pnml.org/version-2009/grammar/pnml">
+ <net id="n-1049-65660-0" type ="http://www.pnml.org/version-2009/grammar/ptnet">
+  <name>
+   <text>exOR</text>
+  </name>
+ <page id="g-1049-65664-1">
+  <place id="p-1049-65665-2">
+  <name>
+   <text>p0</text>
+  </name>
+   <initialMarking>
+    <text>1</text>
+   </initialMarking>
+  </place>
+  <place id="p-1049-65667-3">
+  <name>
+   <text>p1</text>
+  </name>
+  </place>
+  <place id="p-1049-65668-4">
+  <name>
+   <text>p2</text>
+  </name>
+  </place>
+  <place id="p-1049-65669-5">
+  <name>
+   <text>p3</text>
+  </name>
+  </place>
+  <place id="p-1049-65669-6">
+  <name>
+   <text>p4</text>
+  </name>
+  </place>
+  <place id="p-1049-6566A-7">
+  <name>
+   <text>p5</text>
+  </name>
+  </place>
+  <place id="p-1049-6566B-8">
+  <name>
+   <text>p6</text>
+  </name>
+  </place>
+  <place id="p-1049-6566C-9">
+  <name>
+   <text>p7</text>
+  </name>
+  </place>
+  <place id="p-1049-6566C-10">
+  <name>
+   <text>p8</text>
+  </name>
+  </place>
+  <place id="p-1049-6566D-11">
+  <name>
+   <text>p9</text>
+  </name>
+  </place>
+  <transition id="t-1049-6566E-12">
+  <name>
+   <text>t0</text>
+  </name>
+  </transition>
+  <transition id="t-1049-6566F-13">
+  <name>
+   <text>t1</text>
+  </name>
+  </transition>
+  <transition id="t-1049-65670-14">
+  <name>
+   <text>t2</text>
+  </name>
+  </transition>
+  <transition id="t-1049-65671-15">
+  <name>
+   <text>t3</text>
+  </name>
+  </transition>
+  <transition id="t-1049-65672-16">
+  <name>
+   <text>t4</text>
+  </name>
+  </transition>
+  <transition id="t-1049-65673-17">
+  <name>
+   <text>t5</text>
+  </name>
+  </transition>
+  <transition id="t-1049-65673-18">
+  <name>
+   <text>t6</text>
+  </name>
+  </transition>
+  <arc id="e-1049-65674-19" source="p-1049-6566A-7" target="t-1049-6566E-12">
+  </arc>
+  <arc id="e-1049-65675-20" source="p-1049-65665-2" target="t-1049-65671-15">
+  </arc>
+  <arc id="e-1049-65676-21" source="t-1049-65671-15" target="p-1049-65667-3">
+  </arc>
+  <arc id="e-1049-65677-22" source="t-1049-65671-15" target="p-1049-6566C-9">
+  </arc>
+  <arc id="e-1049-65677-23" source="p-1049-65668-4" target="t-1049-65672-16">
+  </arc>
+  <arc id="e-1049-65678-24" source="t-1049-65672-16" target="p-1049-65669-5">
+  </arc>
+  <arc id="e-1049-65678-25" source="t-1049-65672-16" target="p-1049-6566C-10">
+  </arc>
+  <arc id="e-1049-65679-26" source="p-1049-65669-6" target="t-1049-65673-17">
+  </arc>
+  <arc id="e-1049-65679-27" source="t-1049-65673-17" target="p-1049-6566A-7">
+  </arc>
+  <arc id="e-1049-6567A-28" source="t-1049-65673-17" target="p-1049-6566D-11">
+  </arc>
+  <arc id="e-1049-6567B-29" source="p-1049-6566C-9" target="t-1049-65673-18">
+  </arc>
+  <arc id="e-1049-6567B-30" source="p-1049-6566B-8" target="t-1049-6566E-12">
+  </arc>
+  <arc id="e-1049-6567C-31" source="p-1049-6566C-10" target="t-1049-65673-18">
+  </arc>
+  <arc id="e-1049-6567C-32" source="p-1049-6566D-11" target="t-1049-65673-18">
+  </arc>
+  <arc id="e-1049-6567D-33" source="t-1049-65673-18" target="p-1049-6566B-8">
+  </arc>
+  <arc id="e-1049-6567E-34" source="t-1049-6566E-12" target="p-1049-65665-2">
+  </arc>
+  <arc id="e-1049-6567E-35" source="p-1049-65667-3" target="t-1049-6566F-13">
+  </arc>
+  <arc id="e-1049-6567F-36" source="p-1049-6566B-8" target="t-1049-6566F-13">
+  </arc>
+  <arc id="e-1049-6567F-37" source="t-1049-6566F-13" target="p-1049-65668-4">
+  </arc>
+  <arc id="e-1049-65680-38" source="p-1049-65669-5" target="t-1049-65670-14">
+  </arc>
+  <arc id="e-1049-65680-39" source="p-1049-6566B-8" target="t-1049-65670-14">
+  </arc>
+  <arc id="e-1049-65681-40" source="t-1049-65670-14" target="p-1049-65669-6">
+  </arc>
+ </page>
+ </net>
+</pnml>

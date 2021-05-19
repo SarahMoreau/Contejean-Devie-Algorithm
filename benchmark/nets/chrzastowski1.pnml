@@ -1,0 +1,162 @@
+<pnml xmlns="http://www.pnml.org/version-2009/grammar/pnml">
+ <net id="n-1017-B215B-0" type ="http://www.pnml.org/version-2009/grammar/ptnet">
+  <name>
+   <text>chrzastowski1</text>
+  </name>
+ <page id="g-1017-B215E-1">
+  <place id="p-1017-B215F-2">
+  <name>
+   <text>p0</text>
+  </name>
+  </place>
+  <place id="p-1017-B2162-3">
+  <name>
+   <text>p1</text>
+  </name>
+  </place>
+  <place id="p-1017-B2163-4">
+  <name>
+   <text>p2</text>
+  </name>
+  </place>
+  <place id="p-1017-B2163-5">
+  <name>
+   <text>p3</text>
+  </name>
+  </place>
+  <place id="p-1017-B2164-6">
+  <name>
+   <text>p4</text>
+  </name>
+  </place>
+  <place id="p-1017-B2165-7">
+  <name>
+   <text>p5</text>
+  </name>
+  </place>
+  <place id="p-1017-B2166-8">
+  <name>
+   <text>p6</text>
+  </name>
+  </place>
+  <place id="p-1017-B2166-9">
+  <name>
+   <text>p7</text>
+  </name>
+  </place>
+  <place id="p-1017-B2167-10">
+  <name>
+   <text>p8</text>
+  </name>
+  </place>
+  <place id="p-1017-B2167-11">
+  <name>
+   <text>p9</text>
+  </name>
+   <initialMarking>
+    <text>1</text>
+   </initialMarking>
+  </place>
+  <transition id="t-1017-B2168-12">
+  <name>
+   <text>t0</text>
+  </name>
+  </transition>
+  <transition id="t-1017-B216A-13">
+  <name>
+   <text>t1</text>
+  </name>
+  </transition>
+  <transition id="t-1017-B216B-14">
+  <name>
+   <text>t2</text>
+  </name>
+  </transition>
+  <transition id="t-1017-B216B-15">
+  <name>
+   <text>t3</text>
+  </name>
+  </transition>
+  <transition id="t-1017-B216C-16">
+  <name>
+   <text>t4</text>
+  </name>
+  </transition>
+  <transition id="t-1017-B216D-17">
+  <name>
+   <text>t5</text>
+  </name>
+  </transition>
+  <transition id="t-1017-B216D-18">
+  <name>
+   <text>t6</text>
+  </name>
+  </transition>
+  <transition id="t-1017-B216E-19">
+  <name>
+   <text>t7</text>
+  </name>
+  </transition>
+  <transition id="t-1017-B216F-20">
+  <name>
+   <text>t8</text>
+  </name>
+  </transition>
+  <transition id="t-1017-B216F-21">
+  <name>
+   <text>t9</text>
+  </name>
+  </transition>
+  <arc id="e-1017-B2171-22" source="p-1017-B2167-11" target="t-1017-B2168-12">
+  </arc>
+  <arc id="e-1017-B2171-23" source="p-1017-B2163-4" target="t-1017-B216B-15">
+  </arc>
+  <arc id="e-1017-B2172-24" source="t-1017-B216B-15" target="p-1017-B2163-5">
+  </arc>
+  <arc id="e-1017-B2173-25" source="p-1017-B2163-5" target="t-1017-B216C-16">
+  </arc>
+  <arc id="e-1017-B2173-26" source="t-1017-B216C-16" target="p-1017-B2164-6">
+  </arc>
+  <arc id="e-1017-B2174-27" source="p-1017-B2163-4" target="t-1017-B216D-17">
+  </arc>
+  <arc id="e-1017-B2174-28" source="t-1017-B216D-17" target="p-1017-B2164-6">
+  </arc>
+  <arc id="e-1017-B2175-29" source="p-1017-B2162-3" target="t-1017-B216D-18">
+  </arc>
+  <arc id="e-1017-B2175-30" source="t-1017-B216D-18" target="p-1017-B2166-8">
+  </arc>
+  <arc id="e-1017-B2176-31" source="p-1017-B2165-7" target="t-1017-B216E-19">
+  </arc>
+  <arc id="e-1017-B2177-32" source="p-1017-B2166-8" target="t-1017-B216E-19">
+  </arc>
+  <arc id="e-1017-B2177-33" source="t-1017-B2168-12" target="p-1017-B215F-2">
+  </arc>
+  <arc id="e-1017-B2178-34" source="t-1017-B216E-19" target="p-1017-B2166-9">
+  </arc>
+  <arc id="e-1017-B2178-35" source="p-1017-B2166-9" target="t-1017-B216F-20">
+  </arc>
+  <arc id="e-1017-B2179-36" source="t-1017-B216F-20" target="p-1017-B2167-10">
+  </arc>
+  <arc id="e-1017-B2179-37" source="p-1017-B2164-6" target="t-1017-B216F-21">
+  </arc>
+  <arc id="e-1017-B217A-38" source="p-1017-B2167-10" target="t-1017-B216F-21">
+  </arc>
+  <arc id="e-1017-B217A-39" source="t-1017-B216F-21" target="p-1017-B2167-11">
+  </arc>
+  <arc id="e-1017-B217B-40" source="t-1017-B2168-12" target="p-1017-B2162-3">
+  </arc>
+  <arc id="e-1017-B217B-41" source="p-1017-B2167-11" target="t-1017-B216A-13">
+  </arc>
+  <arc id="e-1017-B217C-42" source="t-1017-B216A-13" target="p-1017-B215F-2">
+  </arc>
+  <arc id="e-1017-B217C-43" source="t-1017-B216A-13" target="p-1017-B2162-3">
+  </arc>
+  <arc id="e-1017-B217D-44" source="p-1017-B215F-2" target="t-1017-B216B-14">
+  </arc>
+  <arc id="e-1017-B217E-45" source="t-1017-B216B-14" target="p-1017-B2163-4">
+  </arc>
+  <arc id="e-1017-B217E-46" source="t-1017-B216B-14" target="p-1017-B2165-7">
+  </arc>
+ </page>
+ </net>
+</pnml>

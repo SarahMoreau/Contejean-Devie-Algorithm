@@ -1,0 +1,79 @@
+<pnml xmlns="http://www.pnml.org/version-2009/grammar/pnml">
+ <net id="n-111F-6AE63-0" type ="http://www.pnml.org/version-2009/grammar/ptnet">
+  <name>
+   <text>pn_silva_05b</text>
+  </name>
+ <page id="g-111F-6AE66-1">
+  <place id="p-111F-6AE67-2">
+  <name>
+   <text>p0</text>
+  </name>
+   <initialMarking>
+    <text>1</text>
+   </initialMarking>
+  </place>
+  <place id="p-111F-6AE6A-3">
+  <name>
+   <text>p1</text>
+  </name>
+  </place>
+  <place id="p-111F-6AE6B-4">
+  <name>
+   <text>p2</text>
+  </name>
+  </place>
+  <place id="p-111F-6AE6B-5">
+  <name>
+   <text>p3</text>
+  </name>
+  </place>
+  <place id="p-111F-6AE6C-6">
+  <name>
+   <text>p4</text>
+  </name>
+  </place>
+  <transition id="t-111F-6AE6D-7">
+  <name>
+   <text>t0</text>
+  </name>
+  </transition>
+  <transition id="t-111F-6AE6E-8">
+  <name>
+   <text>t1</text>
+  </name>
+  </transition>
+  <transition id="t-111F-6AE6F-9">
+  <name>
+   <text>t2</text>
+  </name>
+  </transition>
+  <transition id="t-111F-6AE6F-10">
+  <name>
+   <text>t3</text>
+  </name>
+  </transition>
+  <arc id="e-111F-6AE71-11" source="p-111F-6AE67-2" target="t-111F-6AE6D-7">
+  </arc>
+  <arc id="e-111F-6AE72-12" source="p-111F-6AE6C-6" target="t-111F-6AE6F-10">
+  </arc>
+  <arc id="e-111F-6AE72-13" source="t-111F-6AE6F-10" target="p-111F-6AE67-2">
+  </arc>
+  <arc id="e-111F-6AE73-14" source="t-111F-6AE6D-7" target="p-111F-6AE6A-3">
+  </arc>
+  <arc id="e-111F-6AE73-15" source="t-111F-6AE6D-7" target="p-111F-6AE6B-4">
+  </arc>
+  <arc id="e-111F-6AE74-16" source="p-111F-6AE6A-3" target="t-111F-6AE6E-8">
+  </arc>
+  <arc id="e-111F-6AE75-17" source="t-111F-6AE6E-8" target="p-111F-6AE6B-5">
+  </arc>
+  <arc id="e-111F-6AE75-18" source="t-111F-6AE6E-8" target="p-111F-6AE6C-6">
+  </arc>
+  <arc id="e-111F-6AE76-19" source="p-111F-6AE6B-4" target="t-111F-6AE6F-9">
+  </arc>
+  <arc id="e-111F-6AEB2-20" source="t-111F-6AE6F-9" target="p-111F-6AE6B-5">
+  </arc>
+  <arc id="e-111F-6AEB2-21" source="p-111F-6AE6B-5" target="t-111F-6AE6F-10">
+  </arc>
+ </page>
+ </net>
+</pnml>

@@ -1,0 +1,165 @@
+<pnml xmlns="http://www.pnml.org/version-2009/grammar/pnml">
+ <net id="n-FF5-4390C-0" type ="http://www.pnml.org/version-2009/grammar/ptnet">
+  <name>
+   <text>barkaoui2</text>
+  </name>
+ <page id="g-FF5-43910-1">
+  <place id="p-FF5-43911-2">
+  <name>
+   <text>p0</text>
+  </name>
+  </place>
+  <place id="p-FF5-43913-3">
+  <name>
+   <text>p1</text>
+  </name>
+   <initialMarking>
+    <text>1</text>
+   </initialMarking>
+  </place>
+  <place id="p-FF5-43914-4">
+  <name>
+   <text>p2</text>
+  </name>
+   <initialMarking>
+    <text>1</text>
+   </initialMarking>
+  </place>
+  <place id="p-FF5-43915-5">
+  <name>
+   <text>p3</text>
+  </name>
+   <initialMarking>
+    <text>1</text>
+   </initialMarking>
+  </place>
+  <place id="p-FF5-43916-6">
+  <name>
+   <text>p4</text>
+  </name>
+  </place>
+  <place id="p-FF5-43916-7">
+  <name>
+   <text>p5</text>
+  </name>
+  </place>
+  <place id="p-FF5-43917-8">
+  <name>
+   <text>p6</text>
+  </name>
+   <initialMarking>
+    <text>1</text>
+   </initialMarking>
+  </place>
+  <place id="p-FF5-43918-9">
+  <name>
+   <text>p7</text>
+  </name>
+  </place>
+  <place id="p-FF5-43919-10">
+  <name>
+   <text>p8</text>
+  </name>
+  </place>
+  <place id="p-FF5-43919-11">
+  <name>
+   <text>p9</text>
+  </name>
+  </place>
+  <transition id="t-FF5-4391A-12">
+  <name>
+   <text>t0</text>
+  </name>
+  </transition>
+  <transition id="t-FF5-4391C-13">
+  <name>
+   <text>t1</text>
+  </name>
+  </transition>
+  <transition id="t-FF5-4391C-14">
+  <name>
+   <text>t2</text>
+  </name>
+  </transition>
+  <transition id="t-FF5-4391D-15">
+  <name>
+   <text>t3</text>
+  </name>
+  </transition>
+  <transition id="t-FF5-4391E-16">
+  <name>
+   <text>t4</text>
+  </name>
+  </transition>
+  <transition id="t-FF5-4391E-17">
+  <name>
+   <text>t5</text>
+  </name>
+  </transition>
+  <transition id="t-FF5-4391F-18">
+  <name>
+   <text>t6</text>
+  </name>
+  </transition>
+  <transition id="t-FF5-43920-19">
+  <name>
+   <text>t7</text>
+  </name>
+  </transition>
+  <arc id="e-FF5-43921-20" source="p-FF5-43911-2" target="t-FF5-4391A-12">
+  </arc>
+  <arc id="e-FF5-43922-21" source="t-FF5-4391C-14" target="p-FF5-43916-7">
+  </arc>
+  <arc id="e-FF5-43923-22" source="p-FF5-43916-6" target="t-FF5-4391D-15">
+  </arc>
+  <arc id="e-FF5-43923-23" source="p-FF5-43917-8" target="t-FF5-4391D-15">
+  </arc>
+  <arc id="e-FF5-43924-24" source="t-FF5-4391D-15" target="p-FF5-43918-9">
+  </arc>
+  <arc id="e-FF5-43925-25" source="p-FF5-43913-3" target="t-FF5-4391E-16">
+  </arc>
+  <arc id="e-FF5-43926-26" source="p-FF5-43915-5" target="t-FF5-4391E-16">
+  </arc>
+  <arc id="e-FF5-43926-27" source="p-FF5-43916-7" target="t-FF5-4391E-16">
+  </arc>
+  <arc id="e-FF5-43927-28" source="t-FF5-4391E-16" target="p-FF5-43919-10">
+  </arc>
+  <arc id="e-FF5-43927-29" source="p-FF5-43918-9" target="t-FF5-4391E-17">
+  </arc>
+  <arc id="e-FF5-43928-30" source="t-FF5-4391E-17" target="p-FF5-43915-5">
+  </arc>
+  <arc id="e-FF5-43928-31" source="t-FF5-4391A-12" target="p-FF5-43913-3">
+  </arc>
+  <arc id="e-FF5-43929-32" source="t-FF5-4391E-17" target="p-FF5-43917-8">
+  </arc>
+  <arc id="e-FF5-43929-33" source="t-FF5-4391E-17" target="p-FF5-43919-11">
+  </arc>
+  <arc id="e-FF5-4392A-34" source="p-FF5-43919-10" target="t-FF5-4391F-18">
+  </arc>
+  <arc id="e-FF5-4392A-35" source="t-FF5-4391F-18" target="p-FF5-43915-5">
+  </arc>
+  <arc id="e-FF5-4392B-36" source="t-FF5-4391F-18" target="p-FF5-43917-8">
+  </arc>
+  <arc id="e-FF5-4392C-37" source="t-FF5-4391F-18" target="p-FF5-43919-11">
+  </arc>
+  <arc id="e-FF5-4392C-38" source="p-FF5-43919-11" target="t-FF5-43920-19">
+  </arc>
+  <arc id="e-FF5-4392D-39" source="t-FF5-43920-19" target="p-FF5-43911-2">
+  </arc>
+  <arc id="e-FF5-4392D-40" source="t-FF5-4391A-12" target="p-FF5-43914-4">
+  </arc>
+  <arc id="e-FF5-4392E-41" source="p-FF5-43913-3" target="t-FF5-4391C-13">
+  </arc>
+  <arc id="e-FF5-4392E-42" source="p-FF5-43914-4" target="t-FF5-4391C-13">
+  </arc>
+  <arc id="e-FF5-4392F-43" source="p-FF5-43915-5" target="t-FF5-4391C-13">
+  </arc>
+  <arc id="e-FF5-4392F-44" source="t-FF5-4391C-13" target="p-FF5-43916-6">
+  </arc>
+  <arc id="e-FF5-43930-45" source="p-FF5-43914-4" target="t-FF5-4391C-14">
+  </arc>
+  <arc id="e-FF5-4393A-46" source="p-FF5-43917-8" target="t-FF5-4391C-14">
+  </arc>
+ </page>
+ </net>
+</pnml>

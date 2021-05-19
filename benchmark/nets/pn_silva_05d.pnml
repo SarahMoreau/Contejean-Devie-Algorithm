@@ -1,0 +1,150 @@
+<pnml xmlns="http://www.pnml.org/version-2009/grammar/pnml">
+ <net id="n-1123-78211-0" type ="http://www.pnml.org/version-2009/grammar/ptnet">
+  <name>
+   <text>pn_silva_05d</text>
+  </name>
+ <page id="g-1123-78215-1">
+  <place id="p-1123-78217-2">
+  <name>
+   <text>p0</text>
+  </name>
+  </place>
+  <place id="p-1123-78219-3">
+  <name>
+   <text>p1</text>
+  </name>
+   <initialMarking>
+    <text>1</text>
+   </initialMarking>
+  </place>
+  <place id="p-1123-7821A-4">
+  <name>
+   <text>p2</text>
+  </name>
+  </place>
+  <place id="p-1123-7821B-5">
+  <name>
+   <text>p3</text>
+  </name>
+  </place>
+  <place id="p-1123-7821B-6">
+  <name>
+   <text>p4</text>
+  </name>
+  </place>
+  <place id="p-1123-7821C-7">
+  <name>
+   <text>p5</text>
+  </name>
+   <initialMarking>
+    <text>1</text>
+   </initialMarking>
+  </place>
+  <place id="p-1123-7821D-8">
+  <name>
+   <text>p6</text>
+  </name>
+  </place>
+  <place id="p-1123-7821D-9">
+  <name>
+   <text>p7</text>
+  </name>
+  </place>
+  <place id="p-1123-7821E-10">
+  <name>
+   <text>p8</text>
+  </name>
+  </place>
+  <place id="p-1123-7821F-11">
+  <name>
+   <text>p9</text>
+  </name>
+   <initialMarking>
+    <text>1</text>
+   </initialMarking>
+  </place>
+  <transition id="t-1123-78220-12">
+  <name>
+   <text>t0</text>
+  </name>
+  </transition>
+  <transition id="t-1123-78221-13">
+  <name>
+   <text>t1</text>
+  </name>
+  </transition>
+  <transition id="t-1123-78221-14">
+  <name>
+   <text>t2</text>
+  </name>
+  </transition>
+  <transition id="t-1123-78223-15">
+  <name>
+   <text>t3</text>
+  </name>
+  </transition>
+  <transition id="t-1123-78223-16">
+  <name>
+   <text>t4</text>
+  </name>
+  </transition>
+  <transition id="t-1123-78224-17">
+  <name>
+   <text>t5</text>
+  </name>
+  </transition>
+  <arc id="e-1123-78225-18" source="p-1123-78219-3" target="t-1123-78220-12">
+  </arc>
+  <arc id="e-1123-78226-19" source="t-1123-78221-13" target="p-1123-7821D-9">
+  </arc>
+  <arc id="e-1123-78227-20" source="p-1123-7821A-4" target="t-1123-78221-14">
+  </arc>
+  <arc id="e-1123-78227-21" source="p-1123-7821D-8" target="t-1123-78221-14">
+  </arc>
+  <arc id="e-1123-78228-22" source="t-1123-78221-14" target="p-1123-7821B-5">
+  </arc>
+  <arc id="e-1123-78228-23" source="t-1123-78221-14" target="p-1123-7821C-7">
+  </arc>
+  <arc id="e-1123-78229-24" source="p-1123-7821C-7" target="t-1123-78223-15">
+  </arc>
+  <arc id="e-1123-78229-25" source="p-1123-7821D-9" target="t-1123-78223-15">
+  </arc>
+  <arc id="e-1123-7822A-26" source="t-1123-78223-15" target="p-1123-7821B-6">
+  </arc>
+  <arc id="e-1123-7822A-27" source="t-1123-78223-15" target="p-1123-7821E-10">
+  </arc>
+  <arc id="e-1123-7822B-28" source="p-1123-7821B-5" target="t-1123-78223-16">
+  </arc>
+  <arc id="e-1123-7822B-29" source="p-1123-7821C-7" target="t-1123-78220-12">
+  </arc>
+  <arc id="e-1123-7822C-30" source="p-1123-7821B-6" target="t-1123-78223-16">
+  </arc>
+  <arc id="e-1123-7822C-31" source="t-1123-78223-16" target="p-1123-78219-3">
+  </arc>
+  <arc id="e-1123-7822D-32" source="t-1123-78223-16" target="p-1123-7821D-8">
+  </arc>
+  <arc id="e-1123-7822E-33" source="p-1123-7821D-8" target="t-1123-78224-17">
+  </arc>
+  <arc id="e-1123-7822E-34" source="p-1123-7821E-10" target="t-1123-78224-17">
+  </arc>
+  <arc id="e-1123-7822F-35" source="t-1123-78224-17" target="p-1123-7821C-7">
+  </arc>
+  <arc id="e-1123-7822F-36" source="t-1123-78224-17" target="p-1123-7821F-11">
+  </arc>
+  <arc id="e-1123-78230-37" source="t-1123-78220-12" target="p-1123-78217-2">
+  </arc>
+  <arc id="e-1123-78230-38" source="t-1123-78220-12" target="p-1123-7821A-4">
+  </arc>
+  <arc id="e-1123-78231-39" source="t-1123-78220-12" target="p-1123-7821B-6">
+  </arc>
+  <arc id="e-1123-78231-40" source="p-1123-78217-2" target="t-1123-78221-13">
+  </arc>
+  <arc id="e-1123-78232-41" source="p-1123-7821B-6" target="t-1123-78221-13">
+  </arc>
+  <arc id="e-1123-78232-42" source="p-1123-7821F-11" target="t-1123-78221-13">
+  </arc>
+  <arc id="e-1123-78233-43" source="t-1123-78221-13" target="p-1123-7821D-8">
+  </arc>
+ </page>
+ </net>
+</pnml>

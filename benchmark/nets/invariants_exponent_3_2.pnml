@@ -1,0 +1,82 @@
+<pnml xmlns="http://www.pnml.org/version-2009/grammar/pnml">
+ <net id="n-1081-3C160-0" type ="http://www.pnml.org/version-2009/grammar/ptnet">
+  <name>
+   <text>invariants_exponent_3_2</text>
+  </name>
+ <page id="g-1081-3C163-1">
+  <place id="p-1081-3C164-2">
+  <name>
+   <text>p0</text>
+  </name>
+   <initialMarking>
+    <text>1</text>
+   </initialMarking>
+  </place>
+  <place id="p-1081-3C167-3">
+  <name>
+   <text>p1</text>
+  </name>
+   <initialMarking>
+    <text>1</text>
+   </initialMarking>
+  </place>
+  <place id="p-1081-3C168-4">
+  <name>
+   <text>p2</text>
+  </name>
+   <initialMarking>
+    <text>1</text>
+   </initialMarking>
+  </place>
+  <place id="p-1081-3C169-5">
+  <name>
+   <text>p3</text>
+  </name>
+  </place>
+  <place id="p-1081-3C169-6">
+  <name>
+   <text>p4</text>
+  </name>
+  </place>
+  <place id="p-1081-3C16A-7">
+  <name>
+   <text>p5</text>
+  </name>
+  </place>
+  <transition id="t-1081-3C16B-8">
+  <name>
+   <text>t0</text>
+  </name>
+  </transition>
+  <transition id="t-1081-3C16C-9">
+  <name>
+   <text>t1</text>
+  </name>
+  </transition>
+  <arc id="e-1081-3C16D-10" source="p-1081-3C164-2" target="t-1081-3C16B-8">
+  </arc>
+  <arc id="e-1081-3C16E-11" source="t-1081-3C16C-9" target="p-1081-3C164-2">
+  </arc>
+  <arc id="e-1081-3C16F-12" source="t-1081-3C16C-9" target="p-1081-3C167-3">
+  </arc>
+  <arc id="e-1081-3C16F-13" source="t-1081-3C16C-9" target="p-1081-3C168-4">
+  </arc>
+  <arc id="e-1081-3C196-14" source="p-1081-3C167-3" target="t-1081-3C16B-8">
+  </arc>
+  <arc id="e-1081-3C196-15" source="p-1081-3C168-4" target="t-1081-3C16B-8">
+  </arc>
+  <arc id="e-1081-3C197-16" source="t-1081-3C16B-8" target="p-1081-3C169-5">
+  </arc>
+  <arc id="e-1081-3C197-17" source="t-1081-3C16B-8" target="p-1081-3C169-6">
+  </arc>
+  <arc id="e-1081-3C198-18" source="t-1081-3C16B-8" target="p-1081-3C16A-7">
+  </arc>
+  <arc id="e-1081-3C199-19" source="p-1081-3C169-5" target="t-1081-3C16C-9">
+  </arc>
+  <arc id="e-1081-3C199-20" source="p-1081-3C169-6" target="t-1081-3C16C-9">
+  </arc>
+  <arc id="e-1081-3C19A-21" source="p-1081-3C16A-7" target="t-1081-3C16C-9">
+  </arc>
+ </page>
+ </net>
+</pnml>

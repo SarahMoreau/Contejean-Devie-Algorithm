@@ -1,0 +1,154 @@
+<pnml xmlns="http://www.pnml.org/version-2009/grammar/pnml">
+ <net id="n-10CF-55C87-0" type ="http://www.pnml.org/version-2009/grammar/ptnet">
+  <name>
+   <text>medeiros2</text>
+  </name>
+ <page id="g-10CF-55CA2-1">
+  <place id="p-10CF-55CA4-2">
+  <name>
+   <text>p0</text>
+  </name>
+   <initialMarking>
+    <text>1</text>
+   </initialMarking>
+  </place>
+  <place id="p-10CF-55CA6-3">
+  <name>
+   <text>p1</text>
+  </name>
+  </place>
+  <place id="p-10CF-55CA7-4">
+  <name>
+   <text>p2</text>
+  </name>
+  </place>
+  <place id="p-10CF-55CA8-5">
+  <name>
+   <text>p3</text>
+  </name>
+  </place>
+  <place id="p-10CF-55CA9-6">
+  <name>
+   <text>p4</text>
+  </name>
+  </place>
+  <place id="p-10CF-55CA9-7">
+  <name>
+   <text>p5</text>
+  </name>
+  </place>
+  <place id="p-10CF-55CAB-8">
+  <name>
+   <text>p6</text>
+  </name>
+  </place>
+  <place id="p-10CF-55CAB-9">
+  <name>
+   <text>p7</text>
+  </name>
+  </place>
+  <place id="p-10CF-55CAC-10">
+  <name>
+   <text>p8</text>
+  </name>
+  </place>
+  <place id="p-10CF-55CAC-11">
+  <name>
+   <text>p9</text>
+  </name>
+  </place>
+  <transition id="t-10CF-55CAD-12">
+  <name>
+   <text>t0</text>
+  </name>
+  </transition>
+  <transition id="t-10CF-55CAF-13">
+  <name>
+   <text>t1</text>
+  </name>
+  </transition>
+  <transition id="t-10CF-55CB0-14">
+  <name>
+   <text>t2</text>
+  </name>
+  </transition>
+  <transition id="t-10CF-55CB0-15">
+  <name>
+   <text>t3</text>
+  </name>
+  </transition>
+  <transition id="t-10CF-55CB1-16">
+  <name>
+   <text>t4</text>
+  </name>
+  </transition>
+  <transition id="t-10CF-55CB2-17">
+  <name>
+   <text>t5</text>
+  </name>
+  </transition>
+  <transition id="t-10CF-55CB3-18">
+  <name>
+   <text>t6</text>
+  </name>
+  </transition>
+  <transition id="t-10CF-55CB3-19">
+  <name>
+   <text>t7</text>
+  </name>
+  </transition>
+  <arc id="e-10CF-55CB4-20" source="p-10CF-55CA4-2" target="t-10CF-55CAD-12">
+  </arc>
+  <arc id="e-10CF-55CB5-21" source="t-10CF-55CB0-14" target="p-10CF-55CAB-8">
+  </arc>
+  <arc id="e-10CF-55CB6-22" source="p-10CF-55CA7-4" target="t-10CF-55CB0-15">
+  </arc>
+  <arc id="e-10CF-55CB7-23" source="t-10CF-55CB0-15" target="p-10CF-55CAB-9">
+  </arc>
+  <arc id="e-10CF-55CB8-24" source="t-10CF-55CB0-15" target="p-10CF-55CAC-10">
+  </arc>
+  <arc id="e-10CF-55CB8-25" source="p-10CF-55CA8-5" target="t-10CF-55CB1-16">
+  </arc>
+  <arc id="e-10CF-55CB9-26" source="t-10CF-55CB1-16" target="p-10CF-55CA9-7">
+  </arc>
+  <arc id="e-10CF-55CB9-27" source="t-10CF-55CB1-16" target="p-10CF-55CAB-9">
+  </arc>
+  <arc id="e-10CF-55CBA-28" source="p-10CF-55CA9-6" target="t-10CF-55CB2-17">
+  </arc>
+  <arc id="e-10CF-55CBA-29" source="t-10CF-55CB2-17" target="p-10CF-55CAB-8">
+  </arc>
+  <arc id="e-10CF-55CBB-30" source="t-10CF-55CB2-17" target="p-10CF-55CAC-10">
+  </arc>
+  <arc id="e-10CF-55CBB-31" source="t-10CF-55CAD-12" target="p-10CF-55CA6-3">
+  </arc>
+  <arc id="e-10CF-55CBC-32" source="p-10CF-55CA9-7" target="t-10CF-55CB3-18">
+  </arc>
+  <arc id="e-10CF-55CBC-33" source="p-10CF-55CAB-8" target="t-10CF-55CB3-18">
+  </arc>
+  <arc id="e-10CF-55CBD-34" source="p-10CF-55CAB-9" target="t-10CF-55CB3-18">
+  </arc>
+  <arc id="e-10CF-55CBD-35" source="p-10CF-55CAC-10" target="t-10CF-55CB3-18">
+  </arc>
+  <arc id="e-10CF-55CBF-36" source="t-10CF-55CB3-18" target="p-10CF-55CAC-11">
+  </arc>
+  <arc id="e-10CF-55CBF-37" source="p-10CF-55CAC-11" target="t-10CF-55CB3-19">
+  </arc>
+  <arc id="e-10CF-55CC0-38" source="t-10CF-55CB3-19" target="p-10CF-55CA4-2">
+  </arc>
+  <arc id="e-10CF-55CC0-39" source="t-10CF-55CAD-12" target="p-10CF-55CA7-4">
+  </arc>
+  <arc id="e-10CF-55CC1-40" source="p-10CF-55CA6-3" target="t-10CF-55CAF-13">
+  </arc>
+  <arc id="e-10CF-55CC1-41" source="p-10CF-55CA7-4" target="t-10CF-55CAF-13">
+  </arc>
+  <arc id="e-10CF-55CC2-42" source="t-10CF-55CAF-13" target="p-10CF-55CA8-5">
+  </arc>
+  <arc id="e-10CF-55CC2-43" source="t-10CF-55CAF-13" target="p-10CF-55CA9-6">
+  </arc>
+  <arc id="e-10CF-55CC3-44" source="p-10CF-55CA6-3" target="t-10CF-55CB0-14">
+  </arc>
+  <arc id="e-10CF-55CC3-45" source="t-10CF-55CB0-14" target="p-10CF-55CA9-7">
+  </arc>
+ </page>
+ </net>
+</pnml>

@@ -1,0 +1,190 @@
+<pnml xmlns="http://www.pnml.org/version-2009/grammar/pnml">
+ <net id="n-1135-B4939-0" type ="http://www.pnml.org/version-2009/grammar/ptnet">
+  <name>
+   <text>pnbrexpl_08</text>
+  </name>
+ <page id="g-1135-B493D-1">
+  <place id="p-1135-B493F-2">
+  <name>
+   <text>p0</text>
+  </name>
+   <initialMarking>
+    <text>1</text>
+   </initialMarking>
+  </place>
+  <place id="p-1135-B4942-3">
+  <name>
+   <text>p1</text>
+  </name>
+  </place>
+  <place id="p-1135-B4943-4">
+  <name>
+   <text>p10</text>
+  </name>
+  </place>
+  <place id="p-1135-B4944-5">
+  <name>
+   <text>p11</text>
+  </name>
+  </place>
+  <place id="p-1135-B4944-6">
+  <name>
+   <text>p12</text>
+  </name>
+  </place>
+  <place id="p-1135-B4945-7">
+  <name>
+   <text>p2</text>
+  </name>
+  </place>
+  <place id="p-1135-B4946-8">
+  <name>
+   <text>p3</text>
+  </name>
+  </place>
+  <place id="p-1135-B4947-9">
+  <name>
+   <text>p4</text>
+  </name>
+  </place>
+  <place id="p-1135-B4947-10">
+  <name>
+   <text>p5</text>
+  </name>
+  </place>
+  <place id="p-1135-B4948-11">
+  <name>
+   <text>p6</text>
+  </name>
+  </place>
+  <place id="p-1135-B4949-12">
+  <name>
+   <text>p7</text>
+  </name>
+  </place>
+  <place id="p-1135-B494A-13">
+  <name>
+   <text>p8</text>
+  </name>
+  </place>
+  <place id="p-1135-B494A-14">
+  <name>
+   <text>p9</text>
+  </name>
+  </place>
+  <transition id="t-1135-B494B-15">
+  <name>
+   <text>t0</text>
+  </name>
+  </transition>
+  <transition id="t-1135-B494C-16">
+  <name>
+   <text>t1</text>
+  </name>
+  </transition>
+  <transition id="t-1135-B494D-17">
+  <name>
+   <text>t10</text>
+  </name>
+  </transition>
+  <transition id="t-1135-B494E-18">
+  <name>
+   <text>t2</text>
+  </name>
+  </transition>
+  <transition id="t-1135-B494F-19">
+  <name>
+   <text>t3</text>
+  </name>
+  </transition>
+  <transition id="t-1135-B494F-20">
+  <name>
+   <text>t4</text>
+  </name>
+  </transition>
+  <transition id="t-1135-B4950-21">
+  <name>
+   <text>t5</text>
+  </name>
+  </transition>
+  <transition id="t-1135-B4951-22">
+  <name>
+   <text>t6</text>
+  </name>
+  </transition>
+  <transition id="t-1135-B4952-23">
+  <name>
+   <text>t7</text>
+  </name>
+  </transition>
+  <transition id="t-1135-B4952-24">
+  <name>
+   <text>t8</text>
+  </name>
+  </transition>
+  <transition id="t-1135-B4953-25">
+  <name>
+   <text>t9</text>
+  </name>
+  </transition>
+  <arc id="e-1135-B4954-26" source="p-1135-B4942-3" target="t-1135-B494B-15">
+  </arc>
+  <arc id="e-1135-B4956-27" source="p-1135-B4945-7" target="t-1135-B494F-19">
+  </arc>
+  <arc id="e-1135-B4956-28" source="p-1135-B4947-9" target="t-1135-B494F-19">
+  </arc>
+  <arc id="e-1135-B4957-29" source="t-1135-B494F-19" target="p-1135-B4947-10">
+  </arc>
+  <arc id="e-1135-B4957-30" source="t-1135-B494F-19" target="p-1135-B4948-11">
+  </arc>
+  <arc id="e-1135-B4958-31" source="t-1135-B494F-19" target="p-1135-B4949-12">
+  </arc>
+  <arc id="e-1135-B4958-32" source="p-1135-B4947-10" target="t-1135-B494F-20">
+  </arc>
+  <arc id="e-1135-B4959-33" source="t-1135-B494F-20" target="p-1135-B494A-13">
+  </arc>
+  <arc id="e-1135-B4959-34" source="p-1135-B4948-11" target="t-1135-B4950-21">
+  </arc>
+  <arc id="e-1135-B495A-35" source="t-1135-B4950-21" target="p-1135-B494A-14">
+  </arc>
+  <arc id="e-1135-B495B-36" source="p-1135-B4949-12" target="t-1135-B4951-22">
+  </arc>
+  <arc id="e-1135-B495B-37" source="t-1135-B494B-15" target="p-1135-B4945-7">
+  </arc>
+  <arc id="e-1135-B495C-38" source="t-1135-B4951-22" target="p-1135-B4943-4">
+  </arc>
+  <arc id="e-1135-B495C-39" source="p-1135-B494A-13" target="t-1135-B4952-23">
+  </arc>
+  <arc id="e-1135-B495D-40" source="p-1135-B494A-14" target="t-1135-B4952-23">
+  </arc>
+  <arc id="e-1135-B495D-41" source="p-1135-B4943-4" target="t-1135-B4952-23">
+  </arc>
+  <arc id="e-1135-B495E-42" source="t-1135-B4952-23" target="p-1135-B4944-5">
+  </arc>
+  <arc id="e-1135-B495E-43" source="p-1135-B4944-5" target="t-1135-B4952-24">
+  </arc>
+  <arc id="e-1135-B495F-44" source="t-1135-B4952-24" target="p-1135-B4944-6">
+  </arc>
+  <arc id="e-1135-B495F-45" source="p-1135-B4944-6" target="t-1135-B4953-25">
+  </arc>
+  <arc id="e-1135-B4960-46" source="t-1135-B4953-25" target="p-1135-B4945-7">
+  </arc>
+  <arc id="e-1135-B496B-47" source="t-1135-B4953-25" target="p-1135-B4947-9">
+  </arc>
+  <arc id="e-1135-B496C-48" source="p-1135-B4946-8" target="t-1135-B494C-16">
+  </arc>
+  <arc id="e-1135-B496C-49" source="t-1135-B494C-16" target="p-1135-B4947-9">
+  </arc>
+  <arc id="e-1135-B496D-50" source="p-1135-B4944-6" target="t-1135-B494D-17">
+  </arc>
+  <arc id="e-1135-B496D-51" source="t-1135-B494D-17" target="p-1135-B493F-2">
+  </arc>
+  <arc id="e-1135-B496E-52" source="p-1135-B493F-2" target="t-1135-B494E-18">
+  </arc>
+  <arc id="e-1135-B496F-53" source="t-1135-B494E-18" target="p-1135-B4942-3">
+  </arc>
+  <arc id="e-1135-B496F-54" source="t-1135-B494E-18" target="p-1135-B4946-8">
+  </arc>
+ </page>
+ </net>
+</pnml>

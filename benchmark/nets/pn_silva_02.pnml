@@ -1,0 +1,89 @@
+<pnml xmlns="http://www.pnml.org/version-2009/grammar/pnml">
+ <net id="n-1119-5695B-0" type ="http://www.pnml.org/version-2009/grammar/ptnet">
+  <name>
+   <text>pn_silva_02</text>
+  </name>
+ <page id="g-1119-5695F-1">
+  <place id="p-1119-56960-2">
+  <name>
+   <text>p0</text>
+  </name>
+   <initialMarking>
+    <text>1</text>
+   </initialMarking>
+  </place>
+  <place id="p-1119-56962-3">
+  <name>
+   <text>p1</text>
+  </name>
+  </place>
+  <place id="p-1119-56963-4">
+  <name>
+   <text>p2</text>
+  </name>
+  </place>
+  <place id="p-1119-56964-5">
+  <name>
+   <text>p3</text>
+  </name>
+  </place>
+  <place id="p-1119-56964-6">
+  <name>
+   <text>p4</text>
+  </name>
+   <initialMarking>
+    <text>1</text>
+   </initialMarking>
+  </place>
+  <place id="p-1119-56965-7">
+  <name>
+   <text>p5</text>
+  </name>
+  </place>
+  <transition id="t-1119-56966-8">
+  <name>
+   <text>t0</text>
+  </name>
+  </transition>
+  <transition id="t-1119-56968-9">
+  <name>
+   <text>t1</text>
+  </name>
+  </transition>
+  <transition id="t-1119-56968-10">
+  <name>
+   <text>t2</text>
+  </name>
+  </transition>
+  <transition id="t-1119-56969-11">
+  <name>
+   <text>t3</text>
+  </name>
+  </transition>
+  <arc id="e-1119-5698E-12" source="p-1119-56960-2" target="t-1119-56966-8">
+  </arc>
+  <arc id="e-1119-5698F-13" source="p-1119-56965-7" target="t-1119-56969-11">
+  </arc>
+  <arc id="e-1119-56990-14" source="t-1119-56969-11" target="p-1119-56960-2">
+  </arc>
+  <arc id="e-1119-56991-15" source="t-1119-56969-11" target="p-1119-56964-6">
+  </arc>
+  <arc id="e-1119-56991-16" source="t-1119-56966-8" target="p-1119-56962-3">
+  </arc>
+  <arc id="e-1119-56992-17" source="p-1119-56962-3" target="t-1119-56968-9">
+  </arc>
+  <arc id="e-1119-56992-18" source="p-1119-56964-6" target="t-1119-56968-9">
+  </arc>
+  <arc id="e-1119-56993-19" source="t-1119-56968-9" target="p-1119-56963-4">
+  </arc>
+  <arc id="e-1119-56993-20" source="t-1119-56968-9" target="p-1119-56965-7">
+  </arc>
+  <arc id="e-1119-56994-21" source="p-1119-56963-4" target="t-1119-56968-10">
+  </arc>
+  <arc id="e-1119-56994-22" source="t-1119-56968-10" target="p-1119-56964-5">
+  </arc>
+  <arc id="e-1119-56995-23" source="p-1119-56964-5" target="t-1119-56969-11">
+  </arc>
+ </page>
+ </net>
+</pnml>

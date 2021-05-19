@@ -1,0 +1,101 @@
+<pnml xmlns="http://www.pnml.org/version-2009/grammar/pnml">
+ <net id="n-117B-A8608-0" type ="http://www.pnml.org/version-2009/grammar/ptnet">
+  <name>
+   <text>traffic_lights</text>
+  </name>
+ <page id="g-117B-A860C-1">
+  <place id="p-117B-A860D-2">
+  <name>
+   <text>p0</text>
+  </name>
+   <initialMarking>
+    <text>1</text>
+   </initialMarking>
+  </place>
+  <place id="p-117B-A860F-3">
+  <name>
+   <text>p1</text>
+  </name>
+  </place>
+  <place id="p-117B-A8610-4">
+  <name>
+   <text>p2</text>
+  </name>
+  </place>
+  <place id="p-117B-A8611-5">
+  <name>
+   <text>p3</text>
+  </name>
+   <initialMarking>
+    <text>1</text>
+   </initialMarking>
+  </place>
+  <place id="p-117B-A8611-6">
+  <name>
+   <text>p4</text>
+  </name>
+  </place>
+  <place id="p-117B-A8639-7">
+  <name>
+   <text>p5</text>
+  </name>
+   <initialMarking>
+    <text>1</text>
+   </initialMarking>
+  </place>
+  <transition id="t-117B-A863A-8">
+  <name>
+   <text>t0</text>
+  </name>
+  </transition>
+  <transition id="t-117B-A863B-9">
+  <name>
+   <text>t1</text>
+  </name>
+  </transition>
+  <transition id="t-117B-A863C-10">
+  <name>
+   <text>t2</text>
+  </name>
+  </transition>
+  <transition id="t-117B-A863D-11">
+  <name>
+   <text>t3</text>
+  </name>
+  </transition>
+  <transition id="t-117B-A863D-12">
+  <name>
+   <text>t4</text>
+  </name>
+  </transition>
+  <arc id="e-117B-A863F-13" source="p-117B-A860D-2" target="t-117B-A863A-8">
+  </arc>
+  <arc id="e-117B-A8640-14" source="p-117B-A8639-7" target="t-117B-A863D-11">
+  </arc>
+  <arc id="e-117B-A8640-15" source="t-117B-A863D-11" target="p-117B-A8611-6">
+  </arc>
+  <arc id="e-117B-A8641-16" source="p-117B-A8611-6" target="t-117B-A863D-12">
+  </arc>
+  <arc id="e-117B-A8641-17" source="t-117B-A863D-12" target="p-117B-A860D-2">
+  </arc>
+  <arc id="e-117B-A8642-18" source="t-117B-A863D-12" target="p-117B-A8639-7">
+  </arc>
+  <arc id="e-117B-A8642-19" source="p-117B-A8611-5" target="t-117B-A863A-8">
+  </arc>
+  <arc id="e-117B-A8643-20" source="t-117B-A863A-8" target="p-117B-A860F-3">
+  </arc>
+  <arc id="e-117B-A8644-21" source="p-117B-A860F-3" target="t-117B-A863B-9">
+  </arc>
+  <arc id="e-117B-A8644-22" source="t-117B-A863B-9" target="p-117B-A8610-4">
+  </arc>
+  <arc id="e-117B-A8645-23" source="p-117B-A8610-4" target="t-117B-A863C-10">
+  </arc>
+  <arc id="e-117B-A8646-24" source="t-117B-A863C-10" target="p-117B-A860D-2">
+  </arc>
+  <arc id="e-117B-A8646-25" source="t-117B-A863C-10" target="p-117B-A8611-5">
+  </arc>
+  <arc id="e-117B-A8647-26" source="p-117B-A860D-2" target="t-117B-A863D-11">
+  </arc>
+ </page>
+ </net>
+</pnml>

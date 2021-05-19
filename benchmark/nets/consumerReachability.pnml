@@ -1,0 +1,80 @@
+<pnml xmlns="http://www.pnml.org/version-2009/grammar/pnml">
+ <net id="n-102B-1866-0" type ="http://www.pnml.org/version-2009/grammar/ptnet">
+  <name>
+   <text>consumerReachability</text>
+  </name>
+ <page id="g-102B-186A-1">
+  <place id="p-102B-186B-2">
+  <name>
+   <text>p0</text>
+  </name>
+   <initialMarking>
+    <text>1</text>
+   </initialMarking>
+  </place>
+  <place id="p-102B-186D-3">
+  <name>
+   <text>p1</text>
+  </name>
+  </place>
+  <place id="p-102B-186F-4">
+  <name>
+   <text>p2</text>
+  </name>
+  </place>
+  <place id="p-102B-186F-5">
+  <name>
+   <text>p3</text>
+  </name>
+   <initialMarking>
+    <text>1</text>
+   </initialMarking>
+  </place>
+  <place id="p-102B-1870-6">
+  <name>
+   <text>p4</text>
+  </name>
+  </place>
+  <transition id="t-102B-1871-7">
+  <name>
+   <text>t0</text>
+  </name>
+  </transition>
+  <transition id="t-102B-1873-8">
+  <name>
+   <text>t1</text>
+  </name>
+  </transition>
+  <transition id="t-102B-1873-9">
+  <name>
+   <text>t2</text>
+  </name>
+  </transition>
+  <transition id="t-102B-1874-10">
+  <name>
+   <text>t3</text>
+  </name>
+  </transition>
+  <arc id="e-102B-1875-11" source="p-102B-186B-2" target="t-102B-1871-7">
+  </arc>
+  <arc id="e-102B-1876-12" source="t-102B-1874-10" target="p-102B-186F-5">
+  </arc>
+  <arc id="e-102B-1876-13" source="t-102B-1871-7" target="p-102B-186D-3">
+  </arc>
+  <arc id="e-102B-189A-14" source="p-102B-186D-3" target="t-102B-1873-8">
+  </arc>
+  <arc id="e-102B-189D-15" source="t-102B-1873-8" target="p-102B-186B-2">
+  </arc>
+  <arc id="e-102B-189D-16" source="t-102B-1873-8" target="p-102B-186F-4">
+  </arc>
+  <arc id="e-102B-189E-17" source="p-102B-186F-4" target="t-102B-1873-9">
+  </arc>
+  <arc id="e-102B-189F-18" source="p-102B-186F-5" target="t-102B-1873-9">
+  </arc>
+  <arc id="e-102B-189F-19" source="t-102B-1873-9" target="p-102B-1870-6">
+  </arc>
+  <arc id="e-102B-18A0-20" source="p-102B-1870-6" target="t-102B-1874-10">
+  </arc>
+ </page>
+ </net>
+</pnml>

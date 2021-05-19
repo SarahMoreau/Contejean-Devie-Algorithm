@@ -1,0 +1,174 @@
+<pnml xmlns="http://www.pnml.org/version-2009/grammar/pnml">
+ <net id="n-1043-51CC0-0" type ="http://www.pnml.org/version-2009/grammar/ptnet">
+  <name>
+   <text>esparza1</text>
+  </name>
+ <page id="g-1043-51CC3-1">
+  <place id="p-1043-51CC4-2">
+  <name>
+   <text>p0</text>
+  </name>
+   <initialMarking>
+    <text>1</text>
+   </initialMarking>
+  </place>
+  <place id="p-1043-51CC7-3">
+  <name>
+   <text>p1</text>
+  </name>
+   <initialMarking>
+    <text>1</text>
+   </initialMarking>
+  </place>
+  <place id="p-1043-51CC8-4">
+  <name>
+   <text>p10</text>
+  </name>
+  </place>
+  <place id="p-1043-51CC9-5">
+  <name>
+   <text>p2</text>
+  </name>
+  </place>
+  <place id="p-1043-51CC9-6">
+  <name>
+   <text>p3</text>
+  </name>
+  </place>
+  <place id="p-1043-51CCA-7">
+  <name>
+   <text>p4</text>
+  </name>
+  </place>
+  <place id="p-1043-51CCB-8">
+  <name>
+   <text>p5</text>
+  </name>
+  </place>
+  <place id="p-1043-51CCB-9">
+  <name>
+   <text>p6</text>
+  </name>
+  </place>
+  <place id="p-1043-51CCC-10">
+  <name>
+   <text>p7</text>
+  </name>
+  </place>
+  <place id="p-1043-51CCD-11">
+  <name>
+   <text>p8</text>
+  </name>
+  </place>
+  <place id="p-1043-51CCD-12">
+  <name>
+   <text>p9</text>
+  </name>
+  </place>
+  <transition id="t-1043-51CCE-13">
+  <name>
+   <text>t0</text>
+  </name>
+  </transition>
+  <transition id="t-1043-51CE3-14">
+  <name>
+   <text>t1</text>
+  </name>
+  </transition>
+  <transition id="t-1043-51CE4-15">
+  <name>
+   <text>t2</text>
+  </name>
+  </transition>
+  <transition id="t-1043-51CE4-16">
+  <name>
+   <text>t3</text>
+  </name>
+  </transition>
+  <transition id="t-1043-51CE6-17">
+  <name>
+   <text>t4</text>
+  </name>
+  </transition>
+  <transition id="t-1043-51CE6-18">
+  <name>
+   <text>t5</text>
+  </name>
+  </transition>
+  <transition id="t-1043-51CE7-19">
+  <name>
+   <text>t6</text>
+  </name>
+  </transition>
+  <transition id="t-1043-51CE7-20">
+  <name>
+   <text>t7</text>
+  </name>
+  </transition>
+  <transition id="t-1043-51CE8-21">
+  <name>
+   <text>t8</text>
+  </name>
+  </transition>
+  <transition id="t-1043-51CE9-22">
+  <name>
+   <text>t9</text>
+  </name>
+  </transition>
+  <arc id="e-1043-51CEA-23" source="p-1043-51CC4-2" target="t-1043-51CCE-13">
+  </arc>
+  <arc id="e-1043-51CEB-24" source="t-1043-51CE4-16" target="p-1043-51CCB-8">
+  </arc>
+  <arc id="e-1043-51CEC-25" source="p-1043-51CCB-8" target="t-1043-51CE6-17">
+  </arc>
+  <arc id="e-1043-51CED-26" source="t-1043-51CE6-17" target="p-1043-51CC9-5">
+  </arc>
+  <arc id="e-1043-51CED-27" source="p-1043-51CC9-6" target="t-1043-51CE6-18">
+  </arc>
+  <arc id="e-1043-51CEE-28" source="p-1043-51CCA-7" target="t-1043-51CE6-18">
+  </arc>
+  <arc id="e-1043-51CEE-29" source="t-1043-51CE6-18" target="p-1043-51CCB-9">
+  </arc>
+  <arc id="e-1043-51CEF-30" source="t-1043-51CE6-18" target="p-1043-51CC8-4">
+  </arc>
+  <arc id="e-1043-51CF0-31" source="p-1043-51CCB-8" target="t-1043-51CE7-19">
+  </arc>
+  <arc id="e-1043-51CF0-32" source="t-1043-51CE7-19" target="p-1043-51CCC-10">
+  </arc>
+  <arc id="e-1043-51CF1-33" source="p-1043-51CCB-9" target="t-1043-51CE7-20">
+  </arc>
+  <arc id="e-1043-51CF1-34" source="t-1043-51CCE-13" target="p-1043-51CC9-5">
+  </arc>
+  <arc id="e-1043-51CF2-35" source="t-1043-51CE7-20" target="p-1043-51CCD-11">
+  </arc>
+  <arc id="e-1043-51CF2-36" source="t-1043-51CE7-20" target="p-1043-51CCD-12">
+  </arc>
+  <arc id="e-1043-51CF3-37" source="p-1043-51CCC-10" target="t-1043-51CE8-21">
+  </arc>
+  <arc id="e-1043-51CF3-38" source="p-1043-51CCD-11" target="t-1043-51CE8-21">
+  </arc>
+  <arc id="e-1043-51CF4-39" source="t-1043-51CE8-21" target="p-1043-51CC4-2">
+  </arc>
+  <arc id="e-1043-51CF4-40" source="p-1043-51CCD-12" target="t-1043-51CE9-22">
+  </arc>
+  <arc id="e-1043-51CF5-41" source="p-1043-51CC8-4" target="t-1043-51CE9-22">
+  </arc>
+  <arc id="e-1043-51CF5-42" source="t-1043-51CE9-22" target="p-1043-51CCA-7">
+  </arc>
+  <arc id="e-1043-51CF6-43" source="t-1043-51CCE-13" target="p-1043-51CC9-6">
+  </arc>
+  <arc id="e-1043-51CF6-44" source="p-1043-51CC7-3" target="t-1043-51CE3-14">
+  </arc>
+  <arc id="e-1043-51CF7-45" source="t-1043-51CE3-14" target="p-1043-51CCA-7">
+  </arc>
+  <arc id="e-1043-51D02-46" source="p-1043-51CC7-3" target="t-1043-51CE4-15">
+  </arc>
+  <arc id="e-1043-51D02-47" source="t-1043-51CE4-15" target="p-1043-51CCD-12">
+  </arc>
+  <arc id="e-1043-51D03-48" source="t-1043-51CE4-15" target="p-1043-51CC8-4">
+  </arc>
+  <arc id="e-1043-51D03-49" source="p-1043-51CC9-5" target="t-1043-51CE4-16">
+  </arc>
+ </page>
+ </net>
+</pnml>

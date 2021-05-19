@@ -1,0 +1,111 @@
+<pnml xmlns="http://www.pnml.org/version-2009/grammar/pnml">
+ <net id="n-1141-DD11F-0" type ="http://www.pnml.org/version-2009/grammar/ptnet">
+  <name>
+   <text>prod_cons</text>
+  </name>
+ <page id="g-1141-DD123-1">
+  <place id="p-1141-DD133-2">
+  <name>
+   <text>p0</text>
+  </name>
+   <initialMarking>
+    <text>1</text>
+   </initialMarking>
+  </place>
+  <place id="p-1141-DD136-3">
+  <name>
+   <text>p1</text>
+  </name>
+  </place>
+  <place id="p-1141-DD136-4">
+  <name>
+   <text>p2</text>
+  </name>
+  </place>
+  <place id="p-1141-DD137-5">
+  <name>
+   <text>p3</text>
+  </name>
+  </place>
+  <place id="p-1141-DD172-6">
+  <name>
+   <text>p4</text>
+  </name>
+   <initialMarking>
+    <text>1</text>
+   </initialMarking>
+  </place>
+  <place id="p-1141-DD173-7">
+  <name>
+   <text>p5</text>
+  </name>
+   <initialMarking>
+    <text>1</text>
+   </initialMarking>
+  </place>
+  <place id="p-1141-DD174-8">
+  <name>
+   <text>p6</text>
+  </name>
+  </place>
+  <place id="p-1141-DD175-9">
+  <name>
+   <text>p7</text>
+  </name>
+  </place>
+  <transition id="t-1141-DD175-10">
+  <name>
+   <text>t0</text>
+  </name>
+  </transition>
+  <transition id="t-1141-DD177-11">
+  <name>
+   <text>t1</text>
+  </name>
+  </transition>
+  <transition id="t-1141-DD178-12">
+  <name>
+   <text>t2</text>
+  </name>
+  </transition>
+  <transition id="t-1141-DD178-13">
+  <name>
+   <text>t3</text>
+  </name>
+  </transition>
+  <transition id="t-1141-DD179-14">
+  <name>
+   <text>t4</text>
+  </name>
+  </transition>
+  <arc id="e-1141-DD188-15" source="p-1141-DD133-2" target="t-1141-DD175-10">
+  </arc>
+  <arc id="e-1141-DD189-16" source="p-1141-DD173-7" target="t-1141-DD178-13">
+  </arc>
+  <arc id="e-1141-DD18A-17" source="t-1141-DD178-13" target="p-1141-DD172-6">
+  </arc>
+  <arc id="e-1141-DD18B-18" source="t-1141-DD178-13" target="p-1141-DD174-8">
+  </arc>
+  <arc id="e-1141-DD18C-19" source="p-1141-DD174-8" target="t-1141-DD179-14">
+  </arc>
+  <arc id="e-1141-DD18C-20" source="t-1141-DD179-14" target="p-1141-DD175-9">
+  </arc>
+  <arc id="e-1141-DD18D-21" source="t-1141-DD175-10" target="p-1141-DD136-3">
+  </arc>
+  <arc id="e-1141-DD18D-22" source="p-1141-DD136-3" target="t-1141-DD177-11">
+  </arc>
+  <arc id="e-1141-DD18D-23" source="p-1141-DD172-6" target="t-1141-DD177-11">
+  </arc>
+  <arc id="e-1141-DD18E-24" source="t-1141-DD177-11" target="p-1141-DD136-4">
+  </arc>
+  <arc id="e-1141-DD18E-25" source="t-1141-DD177-11" target="p-1141-DD137-5">
+  </arc>
+  <arc id="e-1141-DD18F-26" source="p-1141-DD136-4" target="t-1141-DD178-12">
+  </arc>
+  <arc id="e-1141-DD18F-27" source="t-1141-DD178-12" target="p-1141-DD133-2">
+  </arc>
+  <arc id="e-1141-DD190-28" source="p-1141-DD137-5" target="t-1141-DD178-13">
+  </arc>
+ </page>
+ </net>
+</pnml>

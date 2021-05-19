@@ -1,0 +1,117 @@
+<pnml xmlns="http://www.pnml.org/version-2009/grammar/pnml">
+ <net id="n-FCB-AF79B-0" type ="http://www.pnml.org/version-2009/grammar/ptnet">
+  <name>
+   <text>Exe5_split</text>
+  </name>
+ <page id="g-FCB-AF79F-1">
+  <place id="p-FCB-AF7CA-2">
+  <name>
+   <text>p0</text>
+  </name>
+  </place>
+  <place id="p-FCB-AF7CC-3">
+  <name>
+   <text>p1</text>
+  </name>
+  </place>
+  <place id="p-FCB-AF7CD-4">
+  <name>
+   <text>p2</text>
+  </name>
+  </place>
+  <place id="p-FCB-AF7CE-5">
+  <name>
+   <text>p3</text>
+  </name>
+  </place>
+  <place id="p-FCB-AF7CF-6">
+  <name>
+   <text>p4</text>
+  </name>
+   <initialMarking>
+    <text>1</text>
+   </initialMarking>
+  </place>
+  <place id="p-FCB-AF7D0-7">
+  <name>
+   <text>p5</text>
+  </name>
+   <initialMarking>
+    <text>1</text>
+   </initialMarking>
+  </place>
+  <place id="p-FCB-AF7D0-8">
+  <name>
+   <text>p6</text>
+  </name>
+  </place>
+  <place id="p-FCB-AF7D1-9">
+  <name>
+   <text>p7</text>
+  </name>
+  </place>
+  <transition id="t-FCB-AF7D2-10">
+  <name>
+   <text>t0</text>
+  </name>
+  </transition>
+  <transition id="t-FCB-AF7D3-11">
+  <name>
+   <text>t1</text>
+  </name>
+  </transition>
+  <transition id="t-FCB-AF7D4-12">
+  <name>
+   <text>t2</text>
+  </name>
+  </transition>
+  <transition id="t-FCB-AF7D5-13">
+  <name>
+   <text>t3</text>
+  </name>
+  </transition>
+  <transition id="t-FCB-AF7D6-14">
+  <name>
+   <text>t4</text>
+  </name>
+  </transition>
+  <transition id="t-FCB-AF7D6-15">
+  <name>
+   <text>t5</text>
+  </name>
+  </transition>
+  <arc id="e-FCB-AF7D7-16" source="p-FCB-AF7CF-6" target="t-FCB-AF7D2-10">
+  </arc>
+  <arc id="e-FCB-AF7D8-17" source="t-FCB-AF7D4-12" target="p-FCB-AF7CE-5">
+  </arc>
+  <arc id="e-FCB-AF7D9-18" source="p-FCB-AF7CC-3" target="t-FCB-AF7D5-13">
+  </arc>
+  <arc id="e-FCB-AF7D9-19" source="t-FCB-AF7D5-13" target="p-FCB-AF7CD-4">
+  </arc>
+  <arc id="e-FCB-AF7DA-20" source="p-FCB-AF7D0-8" target="t-FCB-AF7D6-14">
+  </arc>
+  <arc id="e-FCB-AF7DB-21" source="t-FCB-AF7D6-14" target="p-FCB-AF7D0-7">
+  </arc>
+  <arc id="e-FCB-AF7DB-22" source="p-FCB-AF7D1-9" target="t-FCB-AF7D6-15">
+  </arc>
+  <arc id="e-FCB-AF7DC-23" source="t-FCB-AF7D6-15" target="p-FCB-AF7CF-6">
+  </arc>
+  <arc id="e-FCB-AF7DC-24" source="p-FCB-AF7D0-7" target="t-FCB-AF7D2-10">
+  </arc>
+  <arc id="e-FCB-AF7DD-25" source="t-FCB-AF7D2-10" target="p-FCB-AF7CA-2">
+  </arc>
+  <arc id="e-FCB-AF7DD-26" source="t-FCB-AF7D2-10" target="p-FCB-AF7CC-3">
+  </arc>
+  <arc id="e-FCB-AF7DE-27" source="p-FCB-AF7CD-4" target="t-FCB-AF7D3-11">
+  </arc>
+  <arc id="e-FCB-AF7DE-28" source="p-FCB-AF7CE-5" target="t-FCB-AF7D3-11">
+  </arc>
+  <arc id="e-FCB-AF7DF-29" source="t-FCB-AF7D3-11" target="p-FCB-AF7D0-8">
+  </arc>
+  <arc id="e-FCB-AF7DF-30" source="t-FCB-AF7D3-11" target="p-FCB-AF7D1-9">
+  </arc>
+  <arc id="e-FCB-AF7E0-31" source="p-FCB-AF7CA-2" target="t-FCB-AF7D4-12">
+  </arc>
+ </page>
+ </net>
+</pnml>

@@ -1,0 +1,126 @@
+<pnml xmlns="http://www.pnml.org/version-2009/grammar/pnml">
+ <net id="n-1111-3CA5C-0" type ="http://www.pnml.org/version-2009/grammar/ptnet">
+  <name>
+   <text>pn_desel_02</text>
+  </name>
+ <page id="g-1111-3CA5F-1">
+  <place id="p-1111-3CA60-2">
+  <name>
+   <text>p0</text>
+  </name>
+   <initialMarking>
+    <text>1</text>
+   </initialMarking>
+  </place>
+  <place id="p-1111-3CA63-3">
+  <name>
+   <text>p1</text>
+  </name>
+   <initialMarking>
+    <text>1</text>
+   </initialMarking>
+  </place>
+  <place id="p-1111-3CA64-4">
+  <name>
+   <text>p2</text>
+  </name>
+  </place>
+  <place id="p-1111-3CA64-5">
+  <name>
+   <text>p3</text>
+  </name>
+  </place>
+  <place id="p-1111-3CA65-6">
+  <name>
+   <text>p4</text>
+  </name>
+   <initialMarking>
+    <text>1</text>
+   </initialMarking>
+  </place>
+  <place id="p-1111-3CA66-7">
+  <name>
+   <text>p5</text>
+  </name>
+   <initialMarking>
+    <text>1</text>
+   </initialMarking>
+  </place>
+  <place id="p-1111-3CA67-8">
+  <name>
+   <text>p6</text>
+  </name>
+  </place>
+  <place id="p-1111-3CA67-9">
+  <name>
+   <text>p7</text>
+  </name>
+  </place>
+  <transition id="t-1111-3CA68-10">
+  <name>
+   <text>t0</text>
+  </name>
+  </transition>
+  <transition id="t-1111-3CA69-11">
+  <name>
+   <text>t1</text>
+  </name>
+  </transition>
+  <transition id="t-1111-3CA6A-12">
+  <name>
+   <text>t2</text>
+  </name>
+  </transition>
+  <transition id="t-1111-3CA6B-13">
+  <name>
+   <text>t3</text>
+  </name>
+  </transition>
+  <transition id="t-1111-3CA6C-14">
+  <name>
+   <text>t4</text>
+  </name>
+  </transition>
+  <arc id="e-1111-3CA6C-15" source="p-1111-3CA60-2" target="t-1111-3CA68-10">
+  </arc>
+  <arc id="e-1111-3CA6D-16" source="p-1111-3CA67-9" target="t-1111-3CA6A-12">
+  </arc>
+  <arc id="e-1111-3CA6E-17" source="t-1111-3CA6A-12" target="p-1111-3CA60-2">
+  </arc>
+  <arc id="e-1111-3CA6E-18" source="t-1111-3CA6A-12" target="p-1111-3CA65-6">
+  </arc>
+  <arc id="e-1111-3CA70-19" source="p-1111-3CA65-6" target="t-1111-3CA6B-13">
+  </arc>
+  <arc id="e-1111-3CA70-20" source="p-1111-3CA67-8" target="t-1111-3CA6B-13">
+  </arc>
+  <arc id="e-1111-3CA71-21" source="t-1111-3CA6B-13" target="p-1111-3CA66-7">
+  </arc>
+  <arc id="e-1111-3CA71-22" source="t-1111-3CA6B-13" target="p-1111-3CA67-9">
+  </arc>
+  <arc id="e-1111-3CA71-23" source="p-1111-3CA65-6" target="t-1111-3CA6C-14">
+  </arc>
+  <arc id="e-1111-3CA72-24" source="p-1111-3CA66-7" target="t-1111-3CA6C-14">
+  </arc>
+  <arc id="e-1111-3CA72-25" source="t-1111-3CA6C-14" target="p-1111-3CA67-8">
+  </arc>
+  <arc id="e-1111-3CA73-26" source="p-1111-3CA64-4" target="t-1111-3CA68-10">
+  </arc>
+  <arc id="e-1111-3CA73-27" source="t-1111-3CA6C-14" target="p-1111-3CA67-9">
+  </arc>
+  <arc id="e-1111-3CA74-28" source="t-1111-3CA68-10" target="p-1111-3CA63-3">
+  </arc>
+  <arc id="e-1111-3CA74-29" source="t-1111-3CA68-10" target="p-1111-3CA64-5">
+  </arc>
+  <arc id="e-1111-3CA75-30" source="p-1111-3CA60-2" target="t-1111-3CA69-11">
+  </arc>
+  <arc id="e-1111-3CA76-31" source="p-1111-3CA63-3" target="t-1111-3CA69-11">
+  </arc>
+  <arc id="e-1111-3CA76-32" source="t-1111-3CA69-11" target="p-1111-3CA64-4">
+  </arc>
+  <arc id="e-1111-3CA77-33" source="t-1111-3CA69-11" target="p-1111-3CA64-5">
+  </arc>
+  <arc id="e-1111-3CA77-34" source="p-1111-3CA64-5" target="t-1111-3CA6A-12">
+  </arc>
+ </page>
+ </net>
+</pnml>

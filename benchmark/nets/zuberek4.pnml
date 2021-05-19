@@ -1,0 +1,402 @@
+<pnml xmlns="http://www.pnml.org/version-2009/grammar/pnml">
+ <net id="n-119F-2B677-0" type ="http://www.pnml.org/version-2009/grammar/ptnet">
+  <name>
+   <text>zuberek4</text>
+  </name>
+ <page id="g-119F-2B67C-1">
+  <place id="p-119F-2B67E-2">
+  <name>
+   <text>p0</text>
+  </name>
+  </place>
+  <place id="p-119F-2B67F-3">
+  <name>
+   <text>p1</text>
+  </name>
+   <initialMarking>
+    <text>1</text>
+   </initialMarking>
+  </place>
+  <place id="p-119F-2B681-4">
+  <name>
+   <text>p10</text>
+  </name>
+  </place>
+  <place id="p-119F-2B682-5">
+  <name>
+   <text>p11</text>
+  </name>
+  </place>
+  <place id="p-119F-2B683-6">
+  <name>
+   <text>p12</text>
+  </name>
+  </place>
+  <place id="p-119F-2B683-7">
+  <name>
+   <text>p13</text>
+  </name>
+  </place>
+  <place id="p-119F-2B685-8">
+  <name>
+   <text>p14</text>
+  </name>
+  </place>
+  <place id="p-119F-2B685-9">
+  <name>
+   <text>p15</text>
+  </name>
+   <initialMarking>
+    <text>1</text>
+   </initialMarking>
+  </place>
+  <place id="p-119F-2B686-10">
+  <name>
+   <text>p16</text>
+  </name>
+  </place>
+  <place id="p-119F-2B687-11">
+  <name>
+   <text>p17</text>
+  </name>
+  </place>
+  <place id="p-119F-2B688-12">
+  <name>
+   <text>p18</text>
+  </name>
+  </place>
+  <place id="p-119F-2B688-13">
+  <name>
+   <text>p19</text>
+  </name>
+  </place>
+  <place id="p-119F-2B689-14">
+  <name>
+   <text>p2</text>
+  </name>
+  </place>
+  <place id="p-119F-2B68A-15">
+  <name>
+   <text>p20</text>
+  </name>
+  </place>
+  <place id="p-119F-2B68A-16">
+  <name>
+   <text>p21</text>
+  </name>
+  </place>
+  <place id="p-119F-2B68C-17">
+  <name>
+   <text>p22</text>
+  </name>
+   <initialMarking>
+    <text>1</text>
+   </initialMarking>
+  </place>
+  <place id="p-119F-2B68C-18">
+  <name>
+   <text>p23</text>
+  </name>
+  </place>
+  <place id="p-119F-2B68D-19">
+  <name>
+   <text>p24</text>
+  </name>
+  </place>
+  <place id="p-119F-2B68F-20">
+  <name>
+   <text>p25</text>
+  </name>
+  </place>
+  <place id="p-119F-2B68F-21">
+  <name>
+   <text>p26</text>
+  </name>
+  </place>
+  <place id="p-119F-2B690-22">
+  <name>
+   <text>p27</text>
+  </name>
+  </place>
+  <place id="p-119F-2B691-23">
+  <name>
+   <text>p28</text>
+  </name>
+   <initialMarking>
+    <text>1</text>
+   </initialMarking>
+  </place>
+  <place id="p-119F-2B692-24">
+  <name>
+   <text>p29</text>
+  </name>
+   <initialMarking>
+    <text>1</text>
+   </initialMarking>
+  </place>
+  <place id="p-119F-2B693-25">
+  <name>
+   <text>p3</text>
+  </name>
+  </place>
+  <place id="p-119F-2B693-26">
+  <name>
+   <text>p4</text>
+  </name>
+  </place>
+  <place id="p-119F-2B694-27">
+  <name>
+   <text>p5</text>
+  </name>
+  </place>
+  <place id="p-119F-2B695-28">
+  <name>
+   <text>p6</text>
+  </name>
+  </place>
+  <place id="p-119F-2B696-29">
+  <name>
+   <text>p7</text>
+  </name>
+  </place>
+  <place id="p-119F-2B696-30">
+  <name>
+   <text>p8</text>
+  </name>
+   <initialMarking>
+    <text>1</text>
+   </initialMarking>
+  </place>
+  <place id="p-119F-2B697-31">
+  <name>
+   <text>p9</text>
+  </name>
+  </place>
+  <transition id="t-119F-2B698-32">
+  <name>
+   <text>t0</text>
+  </name>
+  </transition>
+  <transition id="t-119F-2B69A-33">
+  <name>
+   <text>t1</text>
+  </name>
+  </transition>
+  <transition id="t-119F-2B69A-34">
+  <name>
+   <text>t10</text>
+  </name>
+  </transition>
+  <transition id="t-119F-2B69B-35">
+  <name>
+   <text>t11</text>
+  </name>
+  </transition>
+  <transition id="t-119F-2B69C-36">
+  <name>
+   <text>t12</text>
+  </name>
+  </transition>
+  <transition id="t-119F-2B69D-37">
+  <name>
+   <text>t13</text>
+  </name>
+  </transition>
+  <transition id="t-119F-2B69E-38">
+  <name>
+   <text>t14</text>
+  </name>
+  </transition>
+  <transition id="t-119F-2B69E-39">
+  <name>
+   <text>t15</text>
+  </name>
+  </transition>
+  <transition id="t-119F-2B6A0-40">
+  <name>
+   <text>t16</text>
+  </name>
+  </transition>
+  <transition id="t-119F-2B6A0-41">
+  <name>
+   <text>t17</text>
+  </name>
+  </transition>
+  <transition id="t-119F-2B6A1-42">
+  <name>
+   <text>t18</text>
+  </name>
+  </transition>
+  <transition id="t-119F-2B6A1-43">
+  <name>
+   <text>t19</text>
+  </name>
+  </transition>
+  <transition id="t-119F-2B6A3-44">
+  <name>
+   <text>t2</text>
+  </name>
+  </transition>
+  <transition id="t-119F-2B6AD-45">
+  <name>
+   <text>t20</text>
+  </name>
+  </transition>
+  <transition id="t-119F-2B6AE-46">
+  <name>
+   <text>t3</text>
+  </name>
+  </transition>
+  <transition id="t-119F-2B6AE-47">
+  <name>
+   <text>t4</text>
+  </name>
+  </transition>
+  <transition id="t-119F-2B6B0-48">
+  <name>
+   <text>t5</text>
+  </name>
+  </transition>
+  <transition id="t-119F-2B6B0-49">
+  <name>
+   <text>t6</text>
+  </name>
+  </transition>
+  <transition id="t-119F-2B6B1-50">
+  <name>
+   <text>t7</text>
+  </name>
+  </transition>
+  <transition id="t-119F-2B6B1-51">
+  <name>
+   <text>t8</text>
+  </name>
+  </transition>
+  <transition id="t-119F-2B6B3-52">
+  <name>
+   <text>t9</text>
+  </name>
+  </transition>
+  <arc id="e-119F-2B6B4-53" source="p-119F-2B67E-2" target="t-119F-2B698-32">
+  </arc>
+  <arc id="e-119F-2B6B5-54" source="p-119F-2B68F-21" target="t-119F-2B69B-35">
+  </arc>
+  <arc id="e-119F-2B6B5-55" source="t-119F-2B69B-35" target="p-119F-2B68A-16">
+  </arc>
+  <arc id="e-119F-2B6B6-56" source="t-119F-2B69B-35" target="p-119F-2B690-22">
+  </arc>
+  <arc id="e-119F-2B6B7-57" source="p-119F-2B695-28" target="t-119F-2B69C-36">
+  </arc>
+  <arc id="e-119F-2B6B7-58" source="t-119F-2B69C-36" target="p-119F-2B693-25">
+  </arc>
+  <arc id="e-119F-2B6B8-59" source="p-119F-2B683-7" target="t-119F-2B69D-37">
+  </arc>
+  <arc id="e-119F-2B6B9-60" source="t-119F-2B69D-37" target="p-119F-2B681-4">
+  </arc>
+  <arc id="e-119F-2B6BA-61" source="p-119F-2B68A-15" target="t-119F-2B69E-38">
+  </arc>
+  <arc id="e-119F-2B6BB-62" source="t-119F-2B69E-38" target="p-119F-2B687-11">
+  </arc>
+  <arc id="e-119F-2B6BB-63" source="p-119F-2B690-22" target="t-119F-2B69E-39">
+  </arc>
+  <arc id="e-119F-2B6BC-64" source="p-119F-2B693-25" target="t-119F-2B698-32">
+  </arc>
+  <arc id="e-119F-2B6BC-65" source="t-119F-2B69E-39" target="p-119F-2B68D-19">
+  </arc>
+  <arc id="e-119F-2B6BD-66" source="p-119F-2B691-23" target="t-119F-2B6A0-40">
+  </arc>
+  <arc id="e-119F-2B6BD-67" source="p-119F-2B692-24" target="t-119F-2B6A0-40">
+  </arc>
+  <arc id="e-119F-2B6BE-68" source="t-119F-2B6A0-40" target="p-119F-2B694-27">
+  </arc>
+  <arc id="e-119F-2B6BF-69" source="p-119F-2B693-26" target="t-119F-2B6A0-41">
+  </arc>
+  <arc id="e-119F-2B6BF-70" source="t-119F-2B6A0-41" target="p-119F-2B683-6">
+  </arc>
+  <arc id="e-119F-2B6C0-71" source="p-119F-2B682-5" target="t-119F-2B6A1-42">
+  </arc>
+  <arc id="e-119F-2B6C1-72" source="t-119F-2B6A1-42" target="p-119F-2B688-13">
+  </arc>
+  <arc id="e-119F-2B6C1-73" source="p-119F-2B688-12" target="t-119F-2B6A1-43">
+  </arc>
+  <arc id="e-119F-2B6C2-74" source="t-119F-2B6A1-43" target="p-119F-2B68F-21">
+  </arc>
+  <arc id="e-119F-2B6C3-75" source="t-119F-2B698-32" target="p-119F-2B67F-3">
+  </arc>
+  <arc id="e-119F-2B6C3-76" source="p-119F-2B689-14" target="t-119F-2B6A3-44">
+  </arc>
+  <arc id="e-119F-2B6C4-77" source="p-119F-2B694-27" target="t-119F-2B6A3-44">
+  </arc>
+  <arc id="e-119F-2B6C4-78" source="t-119F-2B6A3-44" target="p-119F-2B67E-2">
+  </arc>
+  <arc id="e-119F-2B6C5-79" source="t-119F-2B6A3-44" target="p-119F-2B695-28">
+  </arc>
+  <arc id="e-119F-2B6C6-80" source="p-119F-2B68F-20" target="t-119F-2B6AD-45">
+  </arc>
+  <arc id="e-119F-2B6C6-81" source="t-119F-2B6AD-45" target="p-119F-2B691-23">
+  </arc>
+  <arc id="e-119F-2B6C7-82" source="t-119F-2B6AD-45" target="p-119F-2B692-24">
+  </arc>
+  <arc id="e-119F-2B6C7-83" source="p-119F-2B696-29" target="t-119F-2B6AE-46">
+  </arc>
+  <arc id="e-119F-2B6C9-84" source="p-119F-2B681-4" target="t-119F-2B6AE-46">
+  </arc>
+  <arc id="e-119F-2B6C9-85" source="t-119F-2B6AE-46" target="p-119F-2B696-30">
+  </arc>
+  <arc id="e-119F-2B6CA-86" source="t-119F-2B698-32" target="p-119F-2B693-26">
+  </arc>
+  <arc id="e-119F-2B6CA-87" source="t-119F-2B6AE-46" target="p-119F-2B682-5">
+  </arc>
+  <arc id="e-119F-2B6CB-88" source="p-119F-2B696-30" target="t-119F-2B6AE-47">
+  </arc>
+  <arc id="e-119F-2B6CB-89" source="t-119F-2B6AE-47" target="p-119F-2B697-31">
+  </arc>
+  <arc id="e-119F-2B6CC-90" source="p-119F-2B697-31" target="t-119F-2B6B0-48">
+  </arc>
+  <arc id="e-119F-2B6D1-91" source="p-119F-2B683-6" target="t-119F-2B6B0-48">
+  </arc>
+  <arc id="e-119F-2B6D1-92" source="t-119F-2B6B0-48" target="p-119F-2B696-29">
+  </arc>
+  <arc id="e-119F-2B6D2-93" source="t-119F-2B6B0-48" target="p-119F-2B683-7">
+  </arc>
+  <arc id="e-119F-2B6D2-94" source="p-119F-2B685-8" target="t-119F-2B6B0-49">
+  </arc>
+  <arc id="e-119F-2B6D3-95" source="p-119F-2B687-11" target="t-119F-2B6B0-49">
+  </arc>
+  <arc id="e-119F-2B6D5-96" source="t-119F-2B6B0-49" target="p-119F-2B685-9">
+  </arc>
+  <arc id="e-119F-2B6D6-97" source="p-119F-2B67F-3" target="t-119F-2B69A-33">
+  </arc>
+  <arc id="e-119F-2B6D6-98" source="t-119F-2B6B0-49" target="p-119F-2B688-12">
+  </arc>
+  <arc id="e-119F-2B6D7-99" source="p-119F-2B685-9" target="t-119F-2B6B1-50">
+  </arc>
+  <arc id="e-119F-2B6D7-100" source="t-119F-2B6B1-50" target="p-119F-2B686-10">
+  </arc>
+  <arc id="e-119F-2B6D8-101" source="p-119F-2B686-10" target="t-119F-2B6B1-51">
+  </arc>
+  <arc id="e-119F-2B6D9-102" source="p-119F-2B688-13" target="t-119F-2B6B1-51">
+  </arc>
+  <arc id="e-119F-2B6D9-103" source="t-119F-2B6B1-51" target="p-119F-2B685-8">
+  </arc>
+  <arc id="e-119F-2B6DA-104" source="t-119F-2B6B1-51" target="p-119F-2B68A-15">
+  </arc>
+  <arc id="e-119F-2B6DA-105" source="p-119F-2B68A-16" target="t-119F-2B6B3-52">
+  </arc>
+  <arc id="e-119F-2B6DB-106" source="p-119F-2B68D-19" target="t-119F-2B6B3-52">
+  </arc>
+  <arc id="e-119F-2B6DB-107" source="t-119F-2B6B3-52" target="p-119F-2B68C-17">
+  </arc>
+  <arc id="e-119F-2B6DD-108" source="t-119F-2B69A-33" target="p-119F-2B689-14">
+  </arc>
+  <arc id="e-119F-2B6DD-109" source="t-119F-2B6B3-52" target="p-119F-2B68F-20">
+  </arc>
+  <arc id="e-119F-2B6DE-110" source="p-119F-2B68C-17" target="t-119F-2B69A-34">
+  </arc>
+  <arc id="e-119F-2B6DE-111" source="t-119F-2B69A-34" target="p-119F-2B68C-18">
+  </arc>
+  <arc id="e-119F-2B6DF-112" source="p-119F-2B68C-18" target="t-119F-2B69B-35">
+  </arc>
+ </page>
+ </net>
+</pnml>

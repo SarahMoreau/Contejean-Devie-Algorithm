@@ -1,0 +1,238 @@
+<pnml xmlns="http://www.pnml.org/version-2009/grammar/pnml">
+ <net id="n-FDB-E3730-0" type ="http://www.pnml.org/version-2009/grammar/ptnet">
+  <name>
+   <text>PWM_patterns</text>
+  </name>
+ <page id="g-FDB-E3734-1">
+  <place id="p-FDB-E3735-2">
+  <name>
+   <text>p0</text>
+  </name>
+   <initialMarking>
+    <text>1</text>
+   </initialMarking>
+  </place>
+  <place id="p-FDB-E3738-3">
+  <name>
+   <text>p1</text>
+  </name>
+  </place>
+  <place id="p-FDB-E3739-4">
+  <name>
+   <text>p10</text>
+  </name>
+  </place>
+  <place id="p-FDB-E373A-5">
+  <name>
+   <text>p11</text>
+  </name>
+  </place>
+  <place id="p-FDB-E373A-6">
+  <name>
+   <text>p12</text>
+  </name>
+  </place>
+  <place id="p-FDB-E373B-7">
+  <name>
+   <text>p13</text>
+  </name>
+  </place>
+  <place id="p-FDB-E373C-8">
+  <name>
+   <text>p14</text>
+  </name>
+  </place>
+  <place id="p-FDB-E373D-9">
+  <name>
+   <text>p15</text>
+  </name>
+  </place>
+  <place id="p-FDB-E373D-10">
+  <name>
+   <text>p16</text>
+  </name>
+  </place>
+  <place id="p-FDB-E373E-11">
+  <name>
+   <text>p17</text>
+  </name>
+  </place>
+  <place id="p-FDB-E373F-12">
+  <name>
+   <text>p18</text>
+  </name>
+  </place>
+  <place id="p-FDB-E373F-13">
+  <name>
+   <text>p2</text>
+  </name>
+  </place>
+  <place id="p-FDB-E3740-14">
+  <name>
+   <text>p3</text>
+  </name>
+  </place>
+  <place id="p-FDB-E3741-15">
+  <name>
+   <text>p4</text>
+  </name>
+  </place>
+  <place id="p-FDB-E3741-16">
+  <name>
+   <text>p5</text>
+  </name>
+  </place>
+  <place id="p-FDB-E3742-17">
+  <name>
+   <text>p6</text>
+  </name>
+  </place>
+  <place id="p-FDB-E3742-18">
+  <name>
+   <text>p7</text>
+  </name>
+  </place>
+  <place id="p-FDB-E3743-19">
+  <name>
+   <text>p8</text>
+  </name>
+  </place>
+  <place id="p-FDB-E3744-20">
+  <name>
+   <text>p9</text>
+  </name>
+  </place>
+  <transition id="t-FDB-E3745-21">
+  <name>
+   <text>t0</text>
+  </name>
+  </transition>
+  <transition id="t-FDB-E3746-22">
+  <name>
+   <text>t1</text>
+  </name>
+  </transition>
+  <transition id="t-FDB-E3747-23">
+  <name>
+   <text>t10</text>
+  </name>
+  </transition>
+  <transition id="t-FDB-E3747-24">
+  <name>
+   <text>t2</text>
+  </name>
+  </transition>
+  <transition id="t-FDB-E3749-25">
+  <name>
+   <text>t3</text>
+  </name>
+  </transition>
+  <transition id="t-FDB-E374A-26">
+  <name>
+   <text>t4</text>
+  </name>
+  </transition>
+  <transition id="t-FDB-E374B-27">
+  <name>
+   <text>t5</text>
+  </name>
+  </transition>
+  <transition id="t-FDB-E374B-28">
+  <name>
+   <text>t6</text>
+  </name>
+  </transition>
+  <transition id="t-FDB-E374C-29">
+  <name>
+   <text>t7</text>
+  </name>
+  </transition>
+  <transition id="t-FDB-E374D-30">
+  <name>
+   <text>t8</text>
+  </name>
+  </transition>
+  <transition id="t-FDB-E374E-31">
+  <name>
+   <text>t9</text>
+  </name>
+  </transition>
+  <arc id="e-FDB-E374E-32" source="p-FDB-E3735-2" target="t-FDB-E3745-21">
+  </arc>
+  <arc id="e-FDB-E374F-33" source="p-FDB-E373E-11" target="t-FDB-E3747-23">
+  </arc>
+  <arc id="e-FDB-E3750-34" source="p-FDB-E373F-12" target="t-FDB-E3747-23">
+  </arc>
+  <arc id="e-FDB-E3751-35" source="t-FDB-E3747-23" target="p-FDB-E3735-2">
+  </arc>
+  <arc id="e-FDB-E3752-36" source="p-FDB-E3740-14" target="t-FDB-E3747-24">
+  </arc>
+  <arc id="e-FDB-E3752-37" source="p-FDB-E3741-15" target="t-FDB-E3747-24">
+  </arc>
+  <arc id="e-FDB-E3753-38" source="t-FDB-E3747-24" target="p-FDB-E3742-17">
+  </arc>
+  <arc id="e-FDB-E3753-39" source="p-FDB-E3741-16" target="t-FDB-E3749-25">
+  </arc>
+  <arc id="e-FDB-E3754-40" source="t-FDB-E3749-25" target="p-FDB-E3742-18">
+  </arc>
+  <arc id="e-FDB-E3754-41" source="p-FDB-E3742-17" target="t-FDB-E374A-26">
+  </arc>
+  <arc id="e-FDB-E3755-42" source="t-FDB-E374A-26" target="p-FDB-E3743-19">
+  </arc>
+  <arc id="e-FDB-E3756-43" source="t-FDB-E3745-21" target="p-FDB-E3738-3">
+  </arc>
+  <arc id="e-FDB-E3756-44" source="p-FDB-E3742-18" target="t-FDB-E374B-27">
+  </arc>
+  <arc id="e-FDB-E3757-45" source="t-FDB-E374B-27" target="p-FDB-E3744-20">
+  </arc>
+  <arc id="e-FDB-E3757-46" source="p-FDB-E3743-19" target="t-FDB-E374B-28">
+  </arc>
+  <arc id="e-FDB-E3758-47" source="t-FDB-E374B-28" target="p-FDB-E3739-4">
+  </arc>
+  <arc id="e-FDB-E3763-48" source="p-FDB-E3744-20" target="t-FDB-E374C-29">
+  </arc>
+  <arc id="e-FDB-E3763-49" source="p-FDB-E3739-4" target="t-FDB-E374C-29">
+  </arc>
+  <arc id="e-FDB-E3764-50" source="t-FDB-E374C-29" target="p-FDB-E373A-5">
+  </arc>
+  <arc id="e-FDB-E3764-51" source="t-FDB-E374C-29" target="p-FDB-E373A-6">
+  </arc>
+  <arc id="e-FDB-E3765-52" source="t-FDB-E374C-29" target="p-FDB-E373B-7">
+  </arc>
+  <arc id="e-FDB-E3765-53" source="t-FDB-E374C-29" target="p-FDB-E373C-8">
+  </arc>
+  <arc id="e-FDB-E3766-54" source="t-FDB-E3745-21" target="p-FDB-E373F-13">
+  </arc>
+  <arc id="e-FDB-E3766-55" source="p-FDB-E373A-5" target="t-FDB-E374D-30">
+  </arc>
+  <arc id="e-FDB-E3767-56" source="p-FDB-E373A-6" target="t-FDB-E374D-30">
+  </arc>
+  <arc id="e-FDB-E3768-57" source="p-FDB-E373B-7" target="t-FDB-E374D-30">
+  </arc>
+  <arc id="e-FDB-E3768-58" source="p-FDB-E373C-8" target="t-FDB-E374D-30">
+  </arc>
+  <arc id="e-FDB-E3769-59" source="t-FDB-E374D-30" target="p-FDB-E373D-9">
+  </arc>
+  <arc id="e-FDB-E376A-60" source="p-FDB-E373D-9" target="t-FDB-E374E-31">
+  </arc>
+  <arc id="e-FDB-E376A-61" source="t-FDB-E374E-31" target="p-FDB-E373D-10">
+  </arc>
+  <arc id="e-FDB-E376B-62" source="t-FDB-E374E-31" target="p-FDB-E373E-11">
+  </arc>
+  <arc id="e-FDB-E376C-63" source="t-FDB-E374E-31" target="p-FDB-E373F-12">
+  </arc>
+  <arc id="e-FDB-E376C-64" source="t-FDB-E3745-21" target="p-FDB-E3740-14">
+  </arc>
+  <arc id="e-FDB-E376D-65" source="t-FDB-E3745-21" target="p-FDB-E3741-15">
+  </arc>
+  <arc id="e-FDB-E376D-66" source="p-FDB-E3738-3" target="t-FDB-E3746-22">
+  </arc>
+  <arc id="e-FDB-E376E-67" source="p-FDB-E373F-13" target="t-FDB-E3746-22">
+  </arc>
+  <arc id="e-FDB-E376E-68" source="t-FDB-E3746-22" target="p-FDB-E3741-16">
+  </arc>
+  <arc id="e-FDB-E376F-69" source="p-FDB-E373D-10" target="t-FDB-E3747-23">
+  </arc>
+ </page>
+ </net>
+</pnml>

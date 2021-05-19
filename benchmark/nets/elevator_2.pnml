@@ -1,0 +1,124 @@
+<pnml xmlns="http://www.pnml.org/version-2009/grammar/pnml">
+ <net id="n-103F-44C84-0" type ="http://www.pnml.org/version-2009/grammar/ptnet">
+  <name>
+   <text>elevator_2</text>
+  </name>
+ <page id="g-103F-44C88-1">
+  <place id="p-103F-44C89-2">
+  <name>
+   <text>p0</text>
+  </name>
+   <initialMarking>
+    <text>1</text>
+   </initialMarking>
+  </place>
+  <place id="p-103F-44C8B-3">
+  <name>
+   <text>p1</text>
+  </name>
+  </place>
+  <place id="p-103F-44C8C-4">
+  <name>
+   <text>p2</text>
+  </name>
+  </place>
+  <place id="p-103F-44C8D-5">
+  <name>
+   <text>p3</text>
+  </name>
+  </place>
+  <place id="p-103F-44C8E-6">
+  <name>
+   <text>p4</text>
+  </name>
+  </place>
+  <place id="p-103F-44C8E-7">
+  <name>
+   <text>p5</text>
+  </name>
+  </place>
+  <place id="p-103F-44C8F-8">
+  <name>
+   <text>p6</text>
+  </name>
+  </place>
+  <place id="p-103F-44C90-9">
+  <name>
+   <text>p7</text>
+  </name>
+  </place>
+  <transition id="t-103F-44C91-10">
+  <name>
+   <text>t0</text>
+  </name>
+  </transition>
+  <transition id="t-103F-44C92-11">
+  <name>
+   <text>t1</text>
+  </name>
+  </transition>
+  <transition id="t-103F-44C93-12">
+  <name>
+   <text>t2</text>
+  </name>
+  </transition>
+  <transition id="t-103F-44C93-13">
+  <name>
+   <text>t3</text>
+  </name>
+  </transition>
+  <transition id="t-103F-44C94-14">
+  <name>
+   <text>t4</text>
+  </name>
+  </transition>
+  <transition id="t-103F-44C95-15">
+  <name>
+   <text>t5</text>
+  </name>
+  </transition>
+  <transition id="t-103F-44C96-16">
+  <name>
+   <text>t6</text>
+  </name>
+  </transition>
+  <transition id="t-103F-44C96-17">
+  <name>
+   <text>t7</text>
+  </name>
+  </transition>
+  <arc id="e-103F-44C98-18" source="p-103F-44C89-2" target="t-103F-44C91-10">
+  </arc>
+  <arc id="e-103F-44C99-19" source="t-103F-44C94-14" target="p-103F-44C8E-7">
+  </arc>
+  <arc id="e-103F-44C99-20" source="p-103F-44C8E-7" target="t-103F-44C95-15">
+  </arc>
+  <arc id="e-103F-44C9A-21" source="t-103F-44C95-15" target="p-103F-44C8F-8">
+  </arc>
+  <arc id="e-103F-44C9A-22" source="p-103F-44C8F-8" target="t-103F-44C96-16">
+  </arc>
+  <arc id="e-103F-44C9B-23" source="t-103F-44C96-16" target="p-103F-44C90-9">
+  </arc>
+  <arc id="e-103F-44C9B-24" source="p-103F-44C90-9" target="t-103F-44C96-17">
+  </arc>
+  <arc id="e-103F-44C9C-25" source="t-103F-44C96-17" target="p-103F-44C89-2">
+  </arc>
+  <arc id="e-103F-44C9C-26" source="t-103F-44C91-10" target="p-103F-44C8B-3">
+  </arc>
+  <arc id="e-103F-44C9D-27" source="p-103F-44C8B-3" target="t-103F-44C92-11">
+  </arc>
+  <arc id="e-103F-44C9D-28" source="t-103F-44C92-11" target="p-103F-44C8C-4">
+  </arc>
+  <arc id="e-103F-44C9E-29" source="p-103F-44C8C-4" target="t-103F-44C93-12">
+  </arc>
+  <arc id="e-103F-44C9F-30" source="t-103F-44C93-12" target="p-103F-44C8D-5">
+  </arc>
+  <arc id="e-103F-44CA0-31" source="p-103F-44C8D-5" target="t-103F-44C93-13">
+  </arc>
+  <arc id="e-103F-44CA0-32" source="t-103F-44C93-13" target="p-103F-44C8E-6">
+  </arc>
+  <arc id="e-103F-44CA1-33" source="p-103F-44C8E-6" target="t-103F-44C94-14">
+  </arc>
+ </page>
+ </net>
+</pnml>

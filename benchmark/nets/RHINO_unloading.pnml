@@ -1,0 +1,82 @@
+<pnml xmlns="http://www.pnml.org/version-2009/grammar/pnml">
+ <net id="n-FDF-F0537-0" type ="http://www.pnml.org/version-2009/grammar/ptnet">
+  <name>
+   <text>RHINO_unloading</text>
+  </name>
+ <page id="g-FDF-F053B-1">
+  <place id="p-FDF-F053C-2">
+  <name>
+   <text>p0</text>
+  </name>
+   <initialMarking>
+    <text>1</text>
+   </initialMarking>
+  </place>
+  <place id="p-FDF-F053E-3">
+  <name>
+   <text>p1</text>
+  </name>
+  </place>
+  <place id="p-FDF-F053F-4">
+  <name>
+   <text>p2</text>
+  </name>
+  </place>
+  <place id="p-FDF-F0540-5">
+  <name>
+   <text>p3</text>
+  </name>
+  </place>
+  <place id="p-FDF-F0541-6">
+  <name>
+   <text>p4</text>
+  </name>
+  </place>
+  <place id="p-FDF-F0541-7">
+  <name>
+   <text>p5</text>
+  </name>
+  </place>
+  <transition id="t-FDF-F0542-8">
+  <name>
+   <text>t0</text>
+  </name>
+  </transition>
+  <transition id="t-FDF-F0543-9">
+  <name>
+   <text>t1</text>
+  </name>
+  </transition>
+  <transition id="t-FDF-F0544-10">
+  <name>
+   <text>t2</text>
+  </name>
+  </transition>
+  <transition id="t-FDF-F0545-11">
+  <name>
+   <text>t3</text>
+  </name>
+  </transition>
+  <arc id="e-FDF-F0546-12" source="p-FDF-F053C-2" target="t-FDF-F0542-8">
+  </arc>
+  <arc id="e-FDF-F0547-13" source="t-FDF-F0545-11" target="p-FDF-F0541-7">
+  </arc>
+  <arc id="e-FDF-F0547-14" source="t-FDF-F0542-8" target="p-FDF-F053E-3">
+  </arc>
+  <arc id="e-FDF-F0548-15" source="t-FDF-F0542-8" target="p-FDF-F053F-4">
+  </arc>
+  <arc id="e-FDF-F056F-16" source="p-FDF-F053F-4" target="t-FDF-F0543-9">
+  </arc>
+  <arc id="e-FDF-F0570-17" source="t-FDF-F0543-9" target="p-FDF-F0540-5">
+  </arc>
+  <arc id="e-FDF-F0570-18" source="p-FDF-F053E-3" target="t-FDF-F0544-10">
+  </arc>
+  <arc id="e-FDF-F0571-19" source="p-FDF-F0540-5" target="t-FDF-F0544-10">
+  </arc>
+  <arc id="e-FDF-F0572-20" source="t-FDF-F0544-10" target="p-FDF-F0541-6">
+  </arc>
+  <arc id="e-FDF-F0572-21" source="p-FDF-F0541-6" target="t-FDF-F0545-11">
+  </arc>
+ </page>
+ </net>
+</pnml>

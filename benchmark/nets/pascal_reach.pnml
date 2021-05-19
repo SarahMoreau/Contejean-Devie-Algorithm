@@ -1,0 +1,159 @@
+<pnml xmlns="http://www.pnml.org/version-2009/grammar/pnml">
+ <net id="n-10FD-EFA50-0" type ="http://www.pnml.org/version-2009/grammar/ptnet">
+  <name>
+   <text>pascal_reach</text>
+  </name>
+ <page id="g-10FD-EFA53-1">
+  <place id="p-10FD-EFA55-2">
+  <name>
+   <text>p0</text>
+  </name>
+   <initialMarking>
+    <text>1</text>
+   </initialMarking>
+  </place>
+  <place id="p-10FD-EFA58-3">
+  <name>
+   <text>p1</text>
+  </name>
+  </place>
+  <place id="p-10FD-EFA59-4">
+  <name>
+   <text>p2</text>
+  </name>
+  </place>
+  <place id="p-10FD-EFA5A-5">
+  <name>
+   <text>p3</text>
+  </name>
+  </place>
+  <place id="p-10FD-EFA5A-6">
+  <name>
+   <text>p4</text>
+  </name>
+   <initialMarking>
+    <text>1</text>
+   </initialMarking>
+  </place>
+  <place id="p-10FD-EFA5B-7">
+  <name>
+   <text>p5</text>
+  </name>
+   <initialMarking>
+    <text>1</text>
+   </initialMarking>
+  </place>
+  <place id="p-10FD-EFA5C-8">
+  <name>
+   <text>p6</text>
+  </name>
+  </place>
+  <place id="p-10FD-EFA5D-9">
+  <name>
+   <text>p7</text>
+  </name>
+  </place>
+  <place id="p-10FD-EFA5D-10">
+  <name>
+   <text>p8</text>
+  </name>
+  </place>
+  <place id="p-10FD-EFA5E-11">
+  <name>
+   <text>p9</text>
+  </name>
+   <initialMarking>
+    <text>1</text>
+   </initialMarking>
+  </place>
+  <transition id="t-10FD-EFA5F-12">
+  <name>
+   <text>t0</text>
+  </name>
+  </transition>
+  <transition id="t-10FD-EFA60-13">
+  <name>
+   <text>t1</text>
+  </name>
+  </transition>
+  <transition id="t-10FD-EFA61-14">
+  <name>
+   <text>t2</text>
+  </name>
+  </transition>
+  <transition id="t-10FD-EFA62-15">
+  <name>
+   <text>t3</text>
+  </name>
+  </transition>
+  <transition id="t-10FD-EFA62-16">
+  <name>
+   <text>t4</text>
+  </name>
+  </transition>
+  <transition id="t-10FD-EFA63-17">
+  <name>
+   <text>t5</text>
+  </name>
+  </transition>
+  <transition id="t-10FD-EFA64-18">
+  <name>
+   <text>t6</text>
+  </name>
+  </transition>
+  <transition id="t-10FD-EFA65-19">
+  <name>
+   <text>t7</text>
+  </name>
+  </transition>
+  <arc id="e-10FD-EFA66-20" source="p-10FD-EFA55-2" target="t-10FD-EFA5F-12">
+  </arc>
+  <arc id="e-10FD-EFA67-21" source="p-10FD-EFA5A-5" target="t-10FD-EFA62-15">
+  </arc>
+  <arc id="e-10FD-EFA67-22" source="t-10FD-EFA62-15" target="p-10FD-EFA55-2">
+  </arc>
+  <arc id="e-10FD-EFA68-23" source="t-10FD-EFA62-15" target="p-10FD-EFA5B-7">
+  </arc>
+  <arc id="e-10FD-EFA68-24" source="p-10FD-EFA5A-6" target="t-10FD-EFA62-16">
+  </arc>
+  <arc id="e-10FD-EFA69-25" source="p-10FD-EFA5E-11" target="t-10FD-EFA62-16">
+  </arc>
+  <arc id="e-10FD-EFA6A-26" source="t-10FD-EFA62-16" target="p-10FD-EFA5C-8">
+  </arc>
+  <arc id="e-10FD-EFA6B-27" source="p-10FD-EFA5B-7" target="t-10FD-EFA63-17">
+  </arc>
+  <arc id="e-10FD-EFA6B-28" source="p-10FD-EFA5C-8" target="t-10FD-EFA63-17">
+  </arc>
+  <arc id="e-10FD-EFA6C-29" source="t-10FD-EFA63-17" target="p-10FD-EFA5D-9">
+  </arc>
+  <arc id="e-10FD-EFA6C-30" source="p-10FD-EFA5D-9" target="t-10FD-EFA64-18">
+  </arc>
+  <arc id="e-10FD-EFA6D-31" source="p-10FD-EFA5B-7" target="t-10FD-EFA5F-12">
+  </arc>
+  <arc id="e-10FD-EFA6D-32" source="t-10FD-EFA64-18" target="p-10FD-EFA5B-7">
+  </arc>
+  <arc id="e-10FD-EFA6E-33" source="t-10FD-EFA64-18" target="p-10FD-EFA5D-10">
+  </arc>
+  <arc id="e-10FD-EFA6E-34" source="p-10FD-EFA5D-10" target="t-10FD-EFA65-19">
+  </arc>
+  <arc id="e-10FD-EFA6F-35" source="t-10FD-EFA65-19" target="p-10FD-EFA5A-6">
+  </arc>
+  <arc id="e-10FD-EFA6F-36" source="t-10FD-EFA65-19" target="p-10FD-EFA5E-11">
+  </arc>
+  <arc id="e-10FD-EFA70-37" source="t-10FD-EFA5F-12" target="p-10FD-EFA58-3">
+  </arc>
+  <arc id="e-10FD-EFA71-38" source="p-10FD-EFA58-3" target="t-10FD-EFA60-13">
+  </arc>
+  <arc id="e-10FD-EFA71-39" source="p-10FD-EFA5A-6" target="t-10FD-EFA60-13">
+  </arc>
+  <arc id="e-10FD-EFA72-40" source="t-10FD-EFA60-13" target="p-10FD-EFA59-4">
+  </arc>
+  <arc id="e-10FD-EFA72-41" source="p-10FD-EFA59-4" target="t-10FD-EFA61-14">
+  </arc>
+  <arc id="e-10FD-EFA73-42" source="t-10FD-EFA61-14" target="p-10FD-EFA5A-5">
+  </arc>
+  <arc id="e-10FD-EFA73-43" source="t-10FD-EFA61-14" target="p-10FD-EFA5A-6">
+  </arc>
+ </page>
+ </net>
+</pnml>

@@ -1,0 +1,74 @@
+<pnml xmlns="http://www.pnml.org/version-2009/grammar/pnml">
+ <net id="n-1125-7EA15-0" type ="http://www.pnml.org/version-2009/grammar/ptnet">
+  <name>
+   <text>pn_silva_05e</text>
+  </name>
+ <page id="g-1125-7EA19-1">
+  <place id="p-1125-7EA1A-2">
+  <name>
+   <text>p0</text>
+  </name>
+  </place>
+  <place id="p-1125-7EA1B-3">
+  <name>
+   <text>p1</text>
+  </name>
+   <initialMarking>
+    <text>1</text>
+   </initialMarking>
+  </place>
+  <place id="p-1125-7EA1D-4">
+  <name>
+   <text>p2</text>
+  </name>
+  </place>
+  <place id="p-1125-7EA1D-5">
+  <name>
+   <text>p3</text>
+  </name>
+  </place>
+  <transition id="t-1125-7EA1E-6">
+  <name>
+   <text>t0</text>
+  </name>
+  </transition>
+  <transition id="t-1125-7EA1F-7">
+  <name>
+   <text>t1</text>
+  </name>
+  </transition>
+  <transition id="t-1125-7EA20-8">
+  <name>
+   <text>t2</text>
+  </name>
+  </transition>
+  <transition id="t-1125-7EA21-9">
+  <name>
+   <text>t3</text>
+  </name>
+  </transition>
+  <arc id="e-1125-7EA22-10" source="p-1125-7EA1B-3" target="t-1125-7EA1E-6">
+  </arc>
+  <arc id="e-1125-7EA22-11" source="p-1125-7EA1D-5" target="t-1125-7EA21-9">
+  </arc>
+  <arc id="e-1125-7EA23-12" source="t-1125-7EA21-9" target="p-1125-7EA1B-3">
+  </arc>
+  <arc id="e-1125-7EA24-13" source="t-1125-7EA1E-6" target="p-1125-7EA1A-2">
+  </arc>
+  <arc id="e-1125-7EA25-14" source="t-1125-7EA1E-6" target="p-1125-7EA1D-4">
+  </arc>
+  <arc id="e-1125-7EA25-15" source="p-1125-7EA1B-3" target="t-1125-7EA1F-7">
+  </arc>
+  <arc id="e-1125-7EA26-16" source="t-1125-7EA1F-7" target="p-1125-7EA1A-2">
+  </arc>
+  <arc id="e-1125-7EA26-17" source="t-1125-7EA1F-7" target="p-1125-7EA1D-5">
+  </arc>
+  <arc id="e-1125-7EA26-18" source="p-1125-7EA1D-4" target="t-1125-7EA20-8">
+  </arc>
+  <arc id="e-1125-7EA27-19" source="t-1125-7EA20-8" target="p-1125-7EA1B-3">
+  </arc>
+  <arc id="e-1125-7EA27-20" source="p-1125-7EA1A-2" target="t-1125-7EA21-9">
+  </arc>
+ </page>
+ </net>
+</pnml>

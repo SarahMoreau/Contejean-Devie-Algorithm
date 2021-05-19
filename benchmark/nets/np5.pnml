@@ -1,0 +1,133 @@
+<pnml xmlns="http://www.pnml.org/version-2009/grammar/pnml">
+ <net id="n-10ED-BAF00-0" type ="http://www.pnml.org/version-2009/grammar/ptnet">
+  <name>
+   <text>np5</text>
+  </name>
+ <page id="g-10ED-BAF04-1">
+  <place id="p-10ED-BAF05-2">
+  <name>
+   <text>p0</text>
+  </name>
+   <initialMarking>
+    <text>1</text>
+   </initialMarking>
+  </place>
+  <place id="p-10ED-BAF08-3">
+  <name>
+   <text>p1</text>
+  </name>
+   <initialMarking>
+    <text>1</text>
+   </initialMarking>
+  </place>
+  <place id="p-10ED-BAF09-4">
+  <name>
+   <text>p2</text>
+  </name>
+  </place>
+  <place id="p-10ED-BAF09-5">
+  <name>
+   <text>p3</text>
+  </name>
+  </place>
+  <place id="p-10ED-BAF0A-6">
+  <name>
+   <text>p4</text>
+  </name>
+  </place>
+  <place id="p-10ED-BAF0B-7">
+  <name>
+   <text>p5</text>
+  </name>
+  </place>
+  <place id="p-10ED-BAF0C-8">
+  <name>
+   <text>p6</text>
+  </name>
+  </place>
+  <place id="p-10ED-BAF0C-9">
+  <name>
+   <text>p7</text>
+  </name>
+  </place>
+  <place id="p-10ED-BAF0D-10">
+  <name>
+   <text>p8</text>
+  </name>
+  </place>
+  <place id="p-10ED-BAF0E-11">
+  <name>
+   <text>p9</text>
+  </name>
+   <initialMarking>
+    <text>1</text>
+   </initialMarking>
+  </place>
+  <transition id="t-10ED-BAF0E-12">
+  <name>
+   <text>t0</text>
+  </name>
+  </transition>
+  <transition id="t-10ED-BAF10-13">
+  <name>
+   <text>t1</text>
+  </name>
+  </transition>
+  <transition id="t-10ED-BAF11-14">
+  <name>
+   <text>t2</text>
+  </name>
+  </transition>
+  <transition id="t-10ED-BAF11-15">
+  <name>
+   <text>t3</text>
+  </name>
+  </transition>
+  <transition id="t-10ED-BAF12-16">
+  <name>
+   <text>t4</text>
+  </name>
+  </transition>
+  <arc id="e-10ED-BAF14-17" source="p-10ED-BAF05-2" target="t-10ED-BAF0E-12">
+  </arc>
+  <arc id="e-10ED-BAF15-18" source="p-10ED-BAF0C-8" target="t-10ED-BAF11-14">
+  </arc>
+  <arc id="e-10ED-BAF15-19" source="t-10ED-BAF11-14" target="p-10ED-BAF0A-6">
+  </arc>
+  <arc id="e-10ED-BAF16-20" source="t-10ED-BAF11-14" target="p-10ED-BAF0C-9">
+  </arc>
+  <arc id="e-10ED-BAF16-21" source="p-10ED-BAF09-5" target="t-10ED-BAF11-15">
+  </arc>
+  <arc id="e-10ED-BAF17-22" source="p-10ED-BAF0C-9" target="t-10ED-BAF11-15">
+  </arc>
+  <arc id="e-10ED-BAF17-23" source="t-10ED-BAF11-15" target="p-10ED-BAF05-2">
+  </arc>
+  <arc id="e-10ED-BAF18-24" source="t-10ED-BAF11-15" target="p-10ED-BAF0D-10">
+  </arc>
+  <arc id="e-10ED-BAF18-25" source="p-10ED-BAF0A-6" target="t-10ED-BAF12-16">
+  </arc>
+  <arc id="e-10ED-BAF19-26" source="p-10ED-BAF0D-10" target="t-10ED-BAF12-16">
+  </arc>
+  <arc id="e-10ED-BAF19-27" source="t-10ED-BAF12-16" target="p-10ED-BAF08-3">
+  </arc>
+  <arc id="e-10ED-BAF1A-28" source="p-10ED-BAF0E-11" target="t-10ED-BAF0E-12">
+  </arc>
+  <arc id="e-10ED-BAF1B-29" source="t-10ED-BAF12-16" target="p-10ED-BAF0E-11">
+  </arc>
+  <arc id="e-10ED-BAF1C-30" source="t-10ED-BAF0E-12" target="p-10ED-BAF09-4">
+  </arc>
+  <arc id="e-10ED-BAF1C-31" source="t-10ED-BAF0E-12" target="p-10ED-BAF0B-7">
+  </arc>
+  <arc id="e-10ED-BAF1D-32" source="p-10ED-BAF08-3" target="t-10ED-BAF10-13">
+  </arc>
+  <arc id="e-10ED-BAF1D-33" source="p-10ED-BAF0B-7" target="t-10ED-BAF10-13">
+  </arc>
+  <arc id="e-10ED-BAF1E-34" source="t-10ED-BAF10-13" target="p-10ED-BAF09-5">
+  </arc>
+  <arc id="e-10ED-BAF1E-35" source="t-10ED-BAF10-13" target="p-10ED-BAF0C-8">
+  </arc>
+  <arc id="e-10ED-BAF1F-36" source="p-10ED-BAF09-4" target="t-10ED-BAF11-14">
+  </arc>
+ </page>
+ </net>
+</pnml>

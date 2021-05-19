@@ -1,0 +1,194 @@
+<pnml xmlns="http://www.pnml.org/version-2009/grammar/pnml">
+ <net id="n-FFB-56947-0" type ="http://www.pnml.org/version-2009/grammar/ptnet">
+  <name>
+   <text>bause1</text>
+  </name>
+ <page id="g-FFB-5694B-1">
+  <place id="p-FFB-5694C-2">
+  <name>
+   <text>p0</text>
+  </name>
+  </place>
+  <place id="p-FFB-5694E-3">
+  <name>
+   <text>p1</text>
+  </name>
+  </place>
+  <place id="p-FFB-5694F-4">
+  <name>
+   <text>p10</text>
+  </name>
+  </place>
+  <place id="p-FFB-56950-5">
+  <name>
+   <text>p2</text>
+  </name>
+  </place>
+  <place id="p-FFB-56950-6">
+  <name>
+   <text>p3</text>
+  </name>
+  </place>
+  <place id="p-FFB-56952-7">
+  <name>
+   <text>p4</text>
+  </name>
+  </place>
+  <place id="p-FFB-56952-8">
+  <name>
+   <text>p5</text>
+  </name>
+  </place>
+  <place id="p-FFB-56953-9">
+  <name>
+   <text>p6</text>
+  </name>
+   <initialMarking>
+    <text>1</text>
+   </initialMarking>
+  </place>
+  <place id="p-FFB-56954-10">
+  <name>
+   <text>p7</text>
+  </name>
+   <initialMarking>
+    <text>1</text>
+   </initialMarking>
+  </place>
+  <place id="p-FFB-56955-11">
+  <name>
+   <text>p8</text>
+  </name>
+  </place>
+  <place id="p-FFB-56956-12">
+  <name>
+   <text>p9</text>
+  </name>
+   <initialMarking>
+    <text>1</text>
+   </initialMarking>
+  </place>
+  <transition id="t-FFB-56956-13">
+  <name>
+   <text>t0</text>
+  </name>
+  </transition>
+  <transition id="t-FFB-56957-14">
+  <name>
+   <text>t1</text>
+  </name>
+  </transition>
+  <transition id="t-FFB-56958-15">
+  <name>
+   <text>t10</text>
+  </name>
+  </transition>
+  <transition id="t-FFB-56959-16">
+  <name>
+   <text>t2</text>
+  </name>
+  </transition>
+  <transition id="t-FFB-5695A-17">
+  <name>
+   <text>t3</text>
+  </name>
+  </transition>
+  <transition id="t-FFB-5695B-18">
+  <name>
+   <text>t4</text>
+  </name>
+  </transition>
+  <transition id="t-FFB-5695B-19">
+  <name>
+   <text>t5</text>
+  </name>
+  </transition>
+  <transition id="t-FFB-5695C-20">
+  <name>
+   <text>t6</text>
+  </name>
+  </transition>
+  <transition id="t-FFB-5695D-21">
+  <name>
+   <text>t7</text>
+  </name>
+  </transition>
+  <transition id="t-FFB-5695D-22">
+  <name>
+   <text>t8</text>
+  </name>
+  </transition>
+  <transition id="t-FFB-5695E-23">
+  <name>
+   <text>t9</text>
+  </name>
+  </transition>
+  <arc id="e-FFB-5695F-24" source="p-FFB-56956-12" target="t-FFB-56956-13">
+  </arc>
+  <arc id="e-FFB-56961-25" source="p-FFB-56950-6" target="t-FFB-5695A-17">
+  </arc>
+  <arc id="e-FFB-56961-26" source="p-FFB-56953-9" target="t-FFB-5695A-17">
+  </arc>
+  <arc id="e-FFB-56962-27" source="t-FFB-5695A-17" target="p-FFB-56952-7">
+  </arc>
+  <arc id="e-FFB-56962-28" source="p-FFB-56952-8" target="t-FFB-5695B-18">
+  </arc>
+  <arc id="e-FFB-56963-29" source="t-FFB-5695B-18" target="p-FFB-56956-12">
+  </arc>
+  <arc id="e-FFB-56963-30" source="p-FFB-56950-5" target="t-FFB-5695B-19">
+  </arc>
+  <arc id="e-FFB-56964-31" source="t-FFB-5695B-19" target="p-FFB-56956-12">
+  </arc>
+  <arc id="e-FFB-56964-32" source="p-FFB-5694E-3" target="t-FFB-5695C-20">
+  </arc>
+  <arc id="e-FFB-56965-33" source="p-FFB-56950-6" target="t-FFB-5695C-20">
+  </arc>
+  <arc id="e-FFB-56965-34" source="p-FFB-56954-10" target="t-FFB-5695C-20">
+  </arc>
+  <arc id="e-FFB-56966-35" source="t-FFB-56956-13" target="p-FFB-5694C-2">
+  </arc>
+  <arc id="e-FFB-56966-36" source="t-FFB-5695C-20" target="p-FFB-56952-7">
+  </arc>
+  <arc id="e-FFB-56967-37" source="t-FFB-5695C-20" target="p-FFB-56955-11">
+  </arc>
+  <arc id="e-FFB-56967-38" source="p-FFB-5694E-3" target="t-FFB-5695D-21">
+  </arc>
+  <arc id="e-FFB-56968-39" source="t-FFB-5695D-21" target="p-FFB-56950-5">
+  </arc>
+  <arc id="e-FFB-56968-40" source="t-FFB-5695D-21" target="p-FFB-56953-9">
+  </arc>
+  <arc id="e-FFB-56969-41" source="p-FFB-56952-7" target="t-FFB-5695D-22">
+  </arc>
+  <arc id="e-FFB-56969-42" source="p-FFB-56954-10" target="t-FFB-5695D-22">
+  </arc>
+  <arc id="e-FFB-5696A-43" source="t-FFB-5695D-22" target="p-FFB-56952-8">
+  </arc>
+  <arc id="e-FFB-5696A-44" source="t-FFB-5695D-22" target="p-FFB-56953-9">
+  </arc>
+  <arc id="e-FFB-5696B-45" source="t-FFB-5695D-22" target="p-FFB-5694F-4">
+  </arc>
+  <arc id="e-FFB-56976-46" source="p-FFB-5694C-2" target="t-FFB-56957-14">
+  </arc>
+  <arc id="e-FFB-56977-47" source="p-FFB-56952-7" target="t-FFB-5695E-23">
+  </arc>
+  <arc id="e-FFB-56977-48" source="p-FFB-56955-11" target="t-FFB-5695E-23">
+  </arc>
+  <arc id="e-FFB-56978-49" source="t-FFB-5695E-23" target="p-FFB-5694E-3">
+  </arc>
+  <arc id="e-FFB-56978-50" source="t-FFB-5695E-23" target="p-FFB-56952-8">
+  </arc>
+  <arc id="e-FFB-56979-51" source="p-FFB-56953-9" target="t-FFB-56957-14">
+  </arc>
+  <arc id="e-FFB-56979-52" source="t-FFB-56957-14" target="p-FFB-5694E-3">
+  </arc>
+  <arc id="e-FFB-5697A-53" source="p-FFB-5694F-4" target="t-FFB-56958-15">
+  </arc>
+  <arc id="e-FFB-5697A-54" source="t-FFB-56958-15" target="p-FFB-56954-10">
+  </arc>
+  <arc id="e-FFB-5697B-55" source="p-FFB-56956-12" target="t-FFB-56959-16">
+  </arc>
+  <arc id="e-FFB-5697C-56" source="t-FFB-56959-16" target="p-FFB-56950-6">
+  </arc>
+ </page>
+ </net>
+</pnml>

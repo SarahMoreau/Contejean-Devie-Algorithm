@@ -1,0 +1,159 @@
+<pnml xmlns="http://www.pnml.org/version-2009/grammar/pnml">
+ <net id="n-1145-EA633-0" type ="http://www.pnml.org/version-2009/grammar/ptnet">
+  <name>
+   <text>real-life_system_smarthome_simplified</text>
+  </name>
+ <page id="g-1145-EA639-1">
+  <place id="p-1145-EA63A-2">
+  <name>
+   <text>p0</text>
+  </name>
+   <initialMarking>
+    <text>1</text>
+   </initialMarking>
+  </place>
+  <place id="p-1145-EA63D-3">
+  <name>
+   <text>p1</text>
+  </name>
+  </place>
+  <place id="p-1145-EA63E-4">
+  <name>
+   <text>p10</text>
+  </name>
+  </place>
+  <place id="p-1145-EA640-5">
+  <name>
+   <text>p11</text>
+  </name>
+  </place>
+  <place id="p-1145-EA640-6">
+  <name>
+   <text>p2</text>
+  </name>
+  </place>
+  <place id="p-1145-EA641-7">
+  <name>
+   <text>p3</text>
+  </name>
+  </place>
+  <place id="p-1145-EA642-8">
+  <name>
+   <text>p4</text>
+  </name>
+  </place>
+  <place id="p-1145-EA642-9">
+  <name>
+   <text>p5</text>
+  </name>
+  </place>
+  <place id="p-1145-EA643-10">
+  <name>
+   <text>p6</text>
+  </name>
+  </place>
+  <place id="p-1145-EA644-11">
+  <name>
+   <text>p7</text>
+  </name>
+  </place>
+  <place id="p-1145-EA644-12">
+  <name>
+   <text>p8</text>
+  </name>
+  </place>
+  <place id="p-1145-EA645-13">
+  <name>
+   <text>p9</text>
+  </name>
+  </place>
+  <transition id="t-1145-EA646-14">
+  <name>
+   <text>t0</text>
+  </name>
+  </transition>
+  <transition id="t-1145-EA647-15">
+  <name>
+   <text>t1</text>
+  </name>
+  </transition>
+  <transition id="t-1145-EA648-16">
+  <name>
+   <text>t2</text>
+  </name>
+  </transition>
+  <transition id="t-1145-EA649-17">
+  <name>
+   <text>t3</text>
+  </name>
+  </transition>
+  <transition id="t-1145-EA649-18">
+  <name>
+   <text>t4</text>
+  </name>
+  </transition>
+  <transition id="t-1145-EA64A-19">
+  <name>
+   <text>t5</text>
+  </name>
+  </transition>
+  <transition id="t-1145-EA64B-20">
+  <name>
+   <text>t6</text>
+  </name>
+  </transition>
+  <arc id="e-1145-EA64C-21" source="p-1145-EA63A-2" target="t-1145-EA646-14">
+  </arc>
+  <arc id="e-1145-EA64D-22" source="t-1145-EA647-15" target="p-1145-EA642-9">
+  </arc>
+  <arc id="e-1145-EA64D-23" source="p-1145-EA642-8" target="t-1145-EA648-16">
+  </arc>
+  <arc id="e-1145-EA64E-24" source="t-1145-EA648-16" target="p-1145-EA643-10">
+  </arc>
+  <arc id="e-1145-EA64F-25" source="p-1145-EA642-8" target="t-1145-EA649-17">
+  </arc>
+  <arc id="e-1145-EA650-26" source="t-1145-EA649-17" target="p-1145-EA63E-4">
+  </arc>
+  <arc id="e-1145-EA650-27" source="p-1145-EA642-9" target="t-1145-EA649-18">
+  </arc>
+  <arc id="e-1145-EA651-28" source="t-1145-EA649-18" target="p-1145-EA644-11">
+  </arc>
+  <arc id="e-1145-EA651-29" source="t-1145-EA649-18" target="p-1145-EA644-12">
+  </arc>
+  <arc id="e-1145-EA652-30" source="t-1145-EA649-18" target="p-1145-EA645-13">
+  </arc>
+  <arc id="e-1145-EA652-31" source="p-1145-EA643-10" target="t-1145-EA64A-19">
+  </arc>
+  <arc id="e-1145-EA653-32" source="t-1145-EA646-14" target="p-1145-EA63D-3">
+  </arc>
+  <arc id="e-1145-EA653-33" source="t-1145-EA64A-19" target="p-1145-EA63E-4">
+  </arc>
+  <arc id="e-1145-EA654-34" source="p-1145-EA644-11" target="t-1145-EA64B-20">
+  </arc>
+  <arc id="e-1145-EA654-35" source="p-1145-EA644-12" target="t-1145-EA64B-20">
+  </arc>
+  <arc id="e-1145-EA655-36" source="p-1145-EA645-13" target="t-1145-EA64B-20">
+  </arc>
+  <arc id="e-1145-EA655-37" source="p-1145-EA63E-4" target="t-1145-EA64B-20">
+  </arc>
+  <arc id="e-1145-EA657-38" source="p-1145-EA640-5" target="t-1145-EA64B-20">
+  </arc>
+  <arc id="e-1145-EA657-39" source="t-1145-EA64B-20" target="p-1145-EA63A-2">
+  </arc>
+  <arc id="e-1145-EA658-40" source="t-1145-EA646-14" target="p-1145-EA640-6">
+  </arc>
+  <arc id="e-1145-EA658-41" source="t-1145-EA646-14" target="p-1145-EA641-7">
+  </arc>
+  <arc id="e-1145-EA659-42" source="t-1145-EA646-14" target="p-1145-EA642-8">
+  </arc>
+  <arc id="e-1145-EA659-43" source="t-1145-EA646-14" target="p-1145-EA640-5">
+  </arc>
+  <arc id="e-1145-EA65A-44" source="p-1145-EA63D-3" target="t-1145-EA647-15">
+  </arc>
+  <arc id="e-1145-EA65A-45" source="p-1145-EA640-6" target="t-1145-EA647-15">
+  </arc>
+  <arc id="e-1145-EA65B-46" source="p-1145-EA641-7" target="t-1145-EA647-15">
+  </arc>
+ </page>
+ </net>
+</pnml>

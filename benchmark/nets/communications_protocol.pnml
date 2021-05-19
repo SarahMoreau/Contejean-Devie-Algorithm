@@ -1,0 +1,114 @@
+<pnml xmlns="http://www.pnml.org/version-2009/grammar/pnml">
+ <net id="n-1029-EF65C-0" type ="http://www.pnml.org/version-2009/grammar/ptnet">
+  <name>
+   <text>communications_protocol</text>
+  </name>
+ <page id="g-1029-EF65F-1">
+  <place id="p-1029-EF661-2">
+  <name>
+   <text>p0</text>
+  </name>
+   <initialMarking>
+    <text>1</text>
+   </initialMarking>
+  </place>
+  <place id="p-1029-EF663-3">
+  <name>
+   <text>p1</text>
+  </name>
+  </place>
+  <place id="p-1029-EF664-4">
+  <name>
+   <text>p2</text>
+  </name>
+  </place>
+  <place id="p-1029-EF665-5">
+  <name>
+   <text>p3</text>
+  </name>
+  </place>
+  <place id="p-1029-EF666-6">
+  <name>
+   <text>p4</text>
+  </name>
+  </place>
+  <place id="p-1029-EF666-7">
+  <name>
+   <text>p5</text>
+  </name>
+  </place>
+  <transition id="t-1029-EF667-8">
+  <name>
+   <text>t0</text>
+  </name>
+  </transition>
+  <transition id="t-1029-EF669-9">
+  <name>
+   <text>t1</text>
+  </name>
+  </transition>
+  <transition id="t-1029-EF66A-10">
+  <name>
+   <text>t2</text>
+  </name>
+  </transition>
+  <transition id="t-1029-EF66A-11">
+  <name>
+   <text>t3</text>
+  </name>
+  </transition>
+  <transition id="t-1029-EF66B-12">
+  <name>
+   <text>t4</text>
+  </name>
+  </transition>
+  <transition id="t-1029-EF66C-13">
+  <name>
+   <text>t5</text>
+  </name>
+  </transition>
+  <transition id="t-1029-EF66D-14">
+  <name>
+   <text>t6</text>
+  </name>
+  </transition>
+  <transition id="t-1029-EF66D-15">
+  <name>
+   <text>t7</text>
+  </name>
+  </transition>
+  <arc id="e-1029-EF66E-16" source="p-1029-EF661-2" target="t-1029-EF667-8">
+  </arc>
+  <arc id="e-1029-EF66F-17" source="t-1029-EF66B-12" target="p-1029-EF661-2">
+  </arc>
+  <arc id="e-1029-EF670-18" source="p-1029-EF664-4" target="t-1029-EF66C-13">
+  </arc>
+  <arc id="e-1029-EF671-19" source="t-1029-EF66C-13" target="p-1029-EF666-7">
+  </arc>
+  <arc id="e-1029-EF671-20" source="p-1029-EF666-6" target="t-1029-EF66D-14">
+  </arc>
+  <arc id="e-1029-EF672-21" source="t-1029-EF66D-14" target="p-1029-EF666-7">
+  </arc>
+  <arc id="e-1029-EF672-22" source="p-1029-EF666-7" target="t-1029-EF66D-15">
+  </arc>
+  <arc id="e-1029-EF673-23" source="t-1029-EF66D-15" target="p-1029-EF663-3">
+  </arc>
+  <arc id="e-1029-EF674-24" source="t-1029-EF667-8" target="p-1029-EF663-3">
+  </arc>
+  <arc id="e-1029-EF674-25" source="p-1029-EF663-3" target="t-1029-EF669-9">
+  </arc>
+  <arc id="e-1029-EF675-26" source="t-1029-EF669-9" target="p-1029-EF664-4">
+  </arc>
+  <arc id="e-1029-EF675-27" source="p-1029-EF664-4" target="t-1029-EF66A-10">
+  </arc>
+  <arc id="e-1029-EF676-28" source="t-1029-EF66A-10" target="p-1029-EF665-5">
+  </arc>
+  <arc id="e-1029-EF676-29" source="p-1029-EF665-5" target="t-1029-EF66A-11">
+  </arc>
+  <arc id="e-1029-EF677-30" source="t-1029-EF66A-11" target="p-1029-EF666-6">
+  </arc>
+  <arc id="e-1029-EF678-31" source="p-1029-EF666-6" target="t-1029-EF66B-12">
+  </arc>
+ </page>
+ </net>
+</pnml>

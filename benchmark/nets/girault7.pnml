@@ -1,0 +1,156 @@
+<pnml xmlns="http://www.pnml.org/version-2009/grammar/pnml">
+ <net id="n-1067-CB5AD-0" type ="http://www.pnml.org/version-2009/grammar/ptnet">
+  <name>
+   <text>girault7</text>
+  </name>
+ <page id="g-1067-CB5B1-1">
+  <place id="p-1067-CB5B2-2">
+  <name>
+   <text>p0</text>
+  </name>
+   <initialMarking>
+    <text>1</text>
+   </initialMarking>
+  </place>
+  <place id="p-1067-CB5B4-3">
+  <name>
+   <text>p1</text>
+  </name>
+  </place>
+  <place id="p-1067-CB5B5-4">
+  <name>
+   <text>p10</text>
+  </name>
+  </place>
+  <place id="p-1067-CB5B7-5">
+  <name>
+   <text>p2</text>
+  </name>
+  </place>
+  <place id="p-1067-CB5B7-6">
+  <name>
+   <text>p3</text>
+  </name>
+  </place>
+  <place id="p-1067-CB5B8-7">
+  <name>
+   <text>p4</text>
+  </name>
+   <initialMarking>
+    <text>1</text>
+   </initialMarking>
+  </place>
+  <place id="p-1067-CB5B9-8">
+  <name>
+   <text>p5</text>
+  </name>
+  </place>
+  <place id="p-1067-CB5BA-9">
+  <name>
+   <text>p6</text>
+  </name>
+  </place>
+  <place id="p-1067-CB5BA-10">
+  <name>
+   <text>p7</text>
+  </name>
+  </place>
+  <place id="p-1067-CB5BB-11">
+  <name>
+   <text>p8</text>
+  </name>
+   <initialMarking>
+    <text>1</text>
+   </initialMarking>
+  </place>
+  <place id="p-1067-CB5BC-12">
+  <name>
+   <text>p9</text>
+  </name>
+  </place>
+  <transition id="t-1067-CB5BC-13">
+  <name>
+   <text>t0</text>
+  </name>
+  </transition>
+  <transition id="t-1067-CB5BE-14">
+  <name>
+   <text>t1</text>
+  </name>
+  </transition>
+  <transition id="t-1067-CB5BF-15">
+  <name>
+   <text>t2</text>
+  </name>
+  </transition>
+  <transition id="t-1067-CB5BF-16">
+  <name>
+   <text>t3</text>
+  </name>
+  </transition>
+  <transition id="t-1067-CB5C0-17">
+  <name>
+   <text>t4</text>
+  </name>
+  </transition>
+  <transition id="t-1067-CB5C1-18">
+  <name>
+   <text>t5</text>
+  </name>
+  </transition>
+  <transition id="t-1067-CB5C2-19">
+  <name>
+   <text>t6</text>
+  </name>
+  </transition>
+  <arc id="e-1067-CB5C2-20" source="p-1067-CB5B2-2" target="t-1067-CB5BC-13">
+  </arc>
+  <arc id="e-1067-CB5C4-21" source="t-1067-CB5BF-15" target="p-1067-CB5B8-7">
+  </arc>
+  <arc id="e-1067-CB5C4-22" source="p-1067-CB5B8-7" target="t-1067-CB5BF-16">
+  </arc>
+  <arc id="e-1067-CB5C5-23" source="p-1067-CB5BB-11" target="t-1067-CB5BF-16">
+  </arc>
+  <arc id="e-1067-CB5C5-24" source="t-1067-CB5BF-16" target="p-1067-CB5B9-8">
+  </arc>
+  <arc id="e-1067-CB5C6-25" source="t-1067-CB5BF-16" target="p-1067-CB5BA-10">
+  </arc>
+  <arc id="e-1067-CB5C7-26" source="t-1067-CB5BF-16" target="p-1067-CB5BC-12">
+  </arc>
+  <arc id="e-1067-CB5C8-27" source="p-1067-CB5BA-10" target="t-1067-CB5C0-17">
+  </arc>
+  <arc id="e-1067-CB5C8-28" source="t-1067-CB5C0-17" target="p-1067-CB5BA-9">
+  </arc>
+  <arc id="e-1067-CB5C9-29" source="p-1067-CB5BC-12" target="t-1067-CB5C1-18">
+  </arc>
+  <arc id="e-1067-CB5C9-30" source="t-1067-CB5C1-18" target="p-1067-CB5B5-4">
+  </arc>
+  <arc id="e-1067-CB5CA-31" source="p-1067-CB5B8-7" target="t-1067-CB5BC-13">
+  </arc>
+  <arc id="e-1067-CB5CA-32" source="p-1067-CB5B9-8" target="t-1067-CB5C2-19">
+  </arc>
+  <arc id="e-1067-CB5CB-33" source="p-1067-CB5BA-9" target="t-1067-CB5C2-19">
+  </arc>
+  <arc id="e-1067-CB5CB-34" source="p-1067-CB5B5-4" target="t-1067-CB5C2-19">
+  </arc>
+  <arc id="e-1067-CB5CC-35" source="t-1067-CB5C2-19" target="p-1067-CB5B8-7">
+  </arc>
+  <arc id="e-1067-CB5CC-36" source="t-1067-CB5C2-19" target="p-1067-CB5BB-11">
+  </arc>
+  <arc id="e-1067-CB5CD-37" source="t-1067-CB5BC-13" target="p-1067-CB5B4-3">
+  </arc>
+  <arc id="e-1067-CB5CE-38" source="t-1067-CB5BC-13" target="p-1067-CB5B7-6">
+  </arc>
+  <arc id="e-1067-CB5CE-39" source="p-1067-CB5B4-3" target="t-1067-CB5BE-14">
+  </arc>
+  <arc id="e-1067-CB5CF-40" source="t-1067-CB5BE-14" target="p-1067-CB5B7-5">
+  </arc>
+  <arc id="e-1067-CB5CF-41" source="p-1067-CB5B7-5" target="t-1067-CB5BF-15">
+  </arc>
+  <arc id="e-1067-CB5D0-42" source="p-1067-CB5B7-6" target="t-1067-CB5BF-15">
+  </arc>
+  <arc id="e-1067-CB5D0-43" source="t-1067-CB5BF-15" target="p-1067-CB5B2-2">
+  </arc>
+ </page>
+ </net>
+</pnml>

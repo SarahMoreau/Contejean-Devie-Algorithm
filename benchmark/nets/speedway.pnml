@@ -1,0 +1,137 @@
+<pnml xmlns="http://www.pnml.org/version-2009/grammar/pnml">
+ <net id="n-116B-717AF-0" type ="http://www.pnml.org/version-2009/grammar/ptnet">
+  <name>
+   <text>speedway</text>
+  </name>
+ <page id="g-116B-717B2-1">
+  <place id="p-116B-717B3-2">
+  <name>
+   <text>p0</text>
+  </name>
+   <initialMarking>
+    <text>1</text>
+   </initialMarking>
+  </place>
+  <place id="p-116B-717B5-3">
+  <name>
+   <text>p1</text>
+  </name>
+  </place>
+  <place id="p-116B-717B7-4">
+  <name>
+   <text>p2</text>
+  </name>
+  </place>
+  <place id="p-116B-717B7-5">
+  <name>
+   <text>p3</text>
+  </name>
+  </place>
+  <place id="p-116B-717B8-6">
+  <name>
+   <text>p4</text>
+  </name>
+  </place>
+  <place id="p-116B-717B9-7">
+  <name>
+   <text>p5</text>
+  </name>
+  </place>
+  <place id="p-116B-717B9-8">
+  <name>
+   <text>p6</text>
+  </name>
+  </place>
+  <place id="p-116B-717BA-9">
+  <name>
+   <text>p7</text>
+  </name>
+  </place>
+  <place id="p-116B-717BB-10">
+  <name>
+   <text>p8</text>
+  </name>
+  </place>
+  <place id="p-116B-717BC-11">
+  <name>
+   <text>p9</text>
+  </name>
+  </place>
+  <transition id="t-116B-717BC-12">
+  <name>
+   <text>t0</text>
+  </name>
+  </transition>
+  <transition id="t-116B-717BE-13">
+  <name>
+   <text>t1</text>
+  </name>
+  </transition>
+  <transition id="t-116B-717BF-14">
+  <name>
+   <text>t2</text>
+  </name>
+  </transition>
+  <transition id="t-116B-717BF-15">
+  <name>
+   <text>t3</text>
+  </name>
+  </transition>
+  <transition id="t-116B-717C0-16">
+  <name>
+   <text>t4</text>
+  </name>
+  </transition>
+  <transition id="t-116B-717C0-17">
+  <name>
+   <text>t5</text>
+  </name>
+  </transition>
+  <transition id="t-116B-717C2-18">
+  <name>
+   <text>t6</text>
+  </name>
+  </transition>
+  <arc id="e-116B-717C3-19" source="p-116B-717B3-2" target="t-116B-717BC-12">
+  </arc>
+  <arc id="e-116B-717C4-20" source="t-116B-717BF-14" target="p-116B-717B9-8">
+  </arc>
+  <arc id="e-116B-717C4-21" source="p-116B-717B9-7" target="t-116B-717BF-15">
+  </arc>
+  <arc id="e-116B-717C5-22" source="p-116B-717B9-8" target="t-116B-717BF-15">
+  </arc>
+  <arc id="e-116B-717C5-23" source="t-116B-717BF-15" target="p-116B-717BA-9">
+  </arc>
+  <arc id="e-116B-717C6-24" source="p-116B-717BA-9" target="t-116B-717C0-16">
+  </arc>
+  <arc id="e-116B-717C6-25" source="t-116B-717C0-16" target="p-116B-717BB-10">
+  </arc>
+  <arc id="e-116B-717C7-26" source="p-116B-717BB-10" target="t-116B-717C0-17">
+  </arc>
+  <arc id="e-116B-717C8-27" source="t-116B-717C0-17" target="p-116B-717BC-11">
+  </arc>
+  <arc id="e-116B-717C9-28" source="p-116B-717B5-3" target="t-116B-717C2-18">
+  </arc>
+  <arc id="e-116B-717C9-29" source="p-116B-717BC-11" target="t-116B-717C2-18">
+  </arc>
+  <arc id="e-116B-717CA-30" source="t-116B-717BC-12" target="p-116B-717B5-3">
+  </arc>
+  <arc id="e-116B-717CA-31" source="t-116B-717C2-18" target="p-116B-717B3-2">
+  </arc>
+  <arc id="e-116B-717CB-32" source="t-116B-717BC-12" target="p-116B-717B7-4">
+  </arc>
+  <arc id="e-116B-717CB-33" source="t-116B-717BC-12" target="p-116B-717B7-5">
+  </arc>
+  <arc id="e-116B-717CC-34" source="p-116B-717B7-4" target="t-116B-717BE-13">
+  </arc>
+  <arc id="e-116B-717CC-35" source="t-116B-717BE-13" target="p-116B-717B8-6">
+  </arc>
+  <arc id="e-116B-717CD-36" source="p-116B-717B7-5" target="t-116B-717BF-14">
+  </arc>
+  <arc id="e-116B-717CD-37" source="p-116B-717B8-6" target="t-116B-717BF-14">
+  </arc>
+  <arc id="e-116B-717CE-38" source="t-116B-717BF-14" target="p-116B-717B9-7">
+  </arc>
+ </page>
+ </net>
+</pnml>

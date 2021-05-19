@@ -1,0 +1,272 @@
+<pnml xmlns="http://www.pnml.org/version-2009/grammar/pnml">
+ <net id="n-FFF-63890-0" type ="http://www.pnml.org/version-2009/grammar/ptnet">
+  <name>
+   <text>beverage_production</text>
+  </name>
+ <page id="g-FFF-63894-1">
+  <place id="p-FFF-63895-2">
+  <name>
+   <text>p0</text>
+  </name>
+   <initialMarking>
+    <text>1</text>
+   </initialMarking>
+  </place>
+  <place id="p-FFF-63898-3">
+  <name>
+   <text>p1</text>
+  </name>
+  </place>
+  <place id="p-FFF-63899-4">
+  <name>
+   <text>p10</text>
+  </name>
+  </place>
+  <place id="p-FFF-63899-5">
+  <name>
+   <text>p11</text>
+  </name>
+  </place>
+  <place id="p-FFF-6389A-6">
+  <name>
+   <text>p12</text>
+  </name>
+  </place>
+  <place id="p-FFF-6389C-7">
+  <name>
+   <text>p13</text>
+  </name>
+  </place>
+  <place id="p-FFF-6389D-8">
+  <name>
+   <text>p14</text>
+  </name>
+  </place>
+  <place id="p-FFF-6389D-9">
+  <name>
+   <text>p15</text>
+  </name>
+  </place>
+  <place id="p-FFF-6389E-10">
+  <name>
+   <text>p16</text>
+  </name>
+  </place>
+  <place id="p-FFF-6389E-11">
+  <name>
+   <text>p17</text>
+  </name>
+  </place>
+  <place id="p-FFF-638A0-12">
+  <name>
+   <text>p18</text>
+  </name>
+  </place>
+  <place id="p-FFF-638A0-13">
+  <name>
+   <text>p19</text>
+  </name>
+  </place>
+  <place id="p-FFF-638A1-14">
+  <name>
+   <text>p2</text>
+  </name>
+  </place>
+  <place id="p-FFF-638A1-15">
+  <name>
+   <text>p3</text>
+  </name>
+  </place>
+  <place id="p-FFF-638A3-16">
+  <name>
+   <text>p4</text>
+  </name>
+  </place>
+  <place id="p-FFF-638A3-17">
+  <name>
+   <text>p5</text>
+  </name>
+  </place>
+  <place id="p-FFF-638A4-18">
+  <name>
+   <text>p6</text>
+  </name>
+  </place>
+  <place id="p-FFF-638A4-19">
+  <name>
+   <text>p7</text>
+  </name>
+  </place>
+  <place id="p-FFF-638A5-20">
+  <name>
+   <text>p8</text>
+  </name>
+  </place>
+  <place id="p-FFF-638A6-21">
+  <name>
+   <text>p9</text>
+  </name>
+  </place>
+  <transition id="t-FFF-638A6-22">
+  <name>
+   <text>t0</text>
+  </name>
+  </transition>
+  <transition id="t-FFF-638A8-23">
+  <name>
+   <text>t1</text>
+  </name>
+  </transition>
+  <transition id="t-FFF-638A9-24">
+  <name>
+   <text>t10</text>
+  </name>
+  </transition>
+  <transition id="t-FFF-638AA-25">
+  <name>
+   <text>t11</text>
+  </name>
+  </transition>
+  <transition id="t-FFF-638AA-26">
+  <name>
+   <text>t12</text>
+  </name>
+  </transition>
+  <transition id="t-FFF-638AB-27">
+  <name>
+   <text>t13</text>
+  </name>
+  </transition>
+  <transition id="t-FFF-638AC-28">
+  <name>
+   <text>t14</text>
+  </name>
+  </transition>
+  <transition id="t-FFF-638AD-29">
+  <name>
+   <text>t15</text>
+  </name>
+  </transition>
+  <transition id="t-FFF-638AE-30">
+  <name>
+   <text>t2</text>
+  </name>
+  </transition>
+  <transition id="t-FFF-638AE-31">
+  <name>
+   <text>t3</text>
+  </name>
+  </transition>
+  <transition id="t-FFF-638AF-32">
+  <name>
+   <text>t4</text>
+  </name>
+  </transition>
+  <transition id="t-FFF-638B0-33">
+  <name>
+   <text>t5</text>
+  </name>
+  </transition>
+  <transition id="t-FFF-638B0-34">
+  <name>
+   <text>t6</text>
+  </name>
+  </transition>
+  <transition id="t-FFF-638B1-35">
+  <name>
+   <text>t7</text>
+  </name>
+  </transition>
+  <transition id="t-FFF-638B2-36">
+  <name>
+   <text>t8</text>
+  </name>
+  </transition>
+  <transition id="t-FFF-638B3-37">
+  <name>
+   <text>t9</text>
+  </name>
+  </transition>
+  <arc id="e-FFF-638B3-38" source="p-FFF-63895-2" target="t-FFF-638A6-22">
+  </arc>
+  <arc id="e-FFF-638B5-39" source="p-FFF-6389D-8" target="t-FFF-638AA-25">
+  </arc>
+  <arc id="e-FFF-638B5-40" source="t-FFF-638AA-25" target="p-FFF-6389E-10">
+  </arc>
+  <arc id="e-FFF-638B6-41" source="p-FFF-6389D-9" target="t-FFF-638AA-26">
+  </arc>
+  <arc id="e-FFF-638B6-42" source="t-FFF-638AA-26" target="p-FFF-6389E-11">
+  </arc>
+  <arc id="e-FFF-638B7-43" source="p-FFF-6389E-10" target="t-FFF-638AB-27">
+  </arc>
+  <arc id="e-FFF-638B8-44" source="p-FFF-6389E-11" target="t-FFF-638AB-27">
+  </arc>
+  <arc id="e-FFF-638B9-45" source="t-FFF-638AB-27" target="p-FFF-638A0-12">
+  </arc>
+  <arc id="e-FFF-638B9-46" source="p-FFF-638A0-12" target="t-FFF-638AC-28">
+  </arc>
+  <arc id="e-FFF-638BA-47" source="t-FFF-638AC-28" target="p-FFF-638A0-13">
+  </arc>
+  <arc id="e-FFF-638C3-48" source="p-FFF-638A0-13" target="t-FFF-638AD-29">
+  </arc>
+  <arc id="e-FFF-638C3-49" source="t-FFF-638A6-22" target="p-FFF-63898-3">
+  </arc>
+  <arc id="e-FFF-638C4-50" source="t-FFF-638AD-29" target="p-FFF-63895-2">
+  </arc>
+  <arc id="e-FFF-638C5-51" source="p-FFF-638A1-14" target="t-FFF-638AE-30">
+  </arc>
+  <arc id="e-FFF-638C5-52" source="t-FFF-638AE-30" target="p-FFF-638A3-17">
+  </arc>
+  <arc id="e-FFF-638C6-53" source="p-FFF-638A1-15" target="t-FFF-638AE-31">
+  </arc>
+  <arc id="e-FFF-638C6-54" source="t-FFF-638AE-31" target="p-FFF-638A4-18">
+  </arc>
+  <arc id="e-FFF-638C7-55" source="p-FFF-638A3-16" target="t-FFF-638AF-32">
+  </arc>
+  <arc id="e-FFF-638C8-56" source="t-FFF-638AF-32" target="p-FFF-638A4-19">
+  </arc>
+  <arc id="e-FFF-638C9-57" source="p-FFF-638A3-17" target="t-FFF-638B0-33">
+  </arc>
+  <arc id="e-FFF-638C9-58" source="t-FFF-638B0-33" target="p-FFF-638A5-20">
+  </arc>
+  <arc id="e-FFF-638CA-59" source="p-FFF-638A4-18" target="t-FFF-638B0-34">
+  </arc>
+  <arc id="e-FFF-638CA-60" source="t-FFF-638A6-22" target="p-FFF-638A1-14">
+  </arc>
+  <arc id="e-FFF-638CB-61" source="t-FFF-638B0-34" target="p-FFF-6389A-6">
+  </arc>
+  <arc id="e-FFF-638CC-62" source="t-FFF-638B0-34" target="p-FFF-6389C-7">
+  </arc>
+  <arc id="e-FFF-638CC-63" source="p-FFF-638A4-19" target="t-FFF-638B1-35">
+  </arc>
+  <arc id="e-FFF-638CD-64" source="p-FFF-638A5-20" target="t-FFF-638B1-35">
+  </arc>
+  <arc id="e-FFF-638CD-65" source="t-FFF-638B1-35" target="p-FFF-638A6-21">
+  </arc>
+  <arc id="e-FFF-638CE-66" source="p-FFF-638A6-21" target="t-FFF-638B2-36">
+  </arc>
+  <arc id="e-FFF-638CE-67" source="t-FFF-638B2-36" target="p-FFF-63899-4">
+  </arc>
+  <arc id="e-FFF-638CF-68" source="t-FFF-638B2-36" target="p-FFF-63899-5">
+  </arc>
+  <arc id="e-FFF-638D0-69" source="p-FFF-63899-4" target="t-FFF-638B3-37">
+  </arc>
+  <arc id="e-FFF-638D0-70" source="p-FFF-6389A-6" target="t-FFF-638B3-37">
+  </arc>
+  <arc id="e-FFF-638D1-71" source="t-FFF-638A6-22" target="p-FFF-638A1-15">
+  </arc>
+  <arc id="e-FFF-638D1-72" source="t-FFF-638B3-37" target="p-FFF-6389D-8">
+  </arc>
+  <arc id="e-FFF-638D2-73" source="p-FFF-63898-3" target="t-FFF-638A8-23">
+  </arc>
+  <arc id="e-FFF-638D2-74" source="t-FFF-638A8-23" target="p-FFF-638A3-16">
+  </arc>
+  <arc id="e-FFF-638D3-75" source="p-FFF-63899-5" target="t-FFF-638A9-24">
+  </arc>
+  <arc id="e-FFF-638D4-76" source="p-FFF-6389C-7" target="t-FFF-638A9-24">
+  </arc>
+  <arc id="e-FFF-638D4-77" source="t-FFF-638A9-24" target="p-FFF-6389D-9">
+  </arc>
+ </page>
+ </net>
+</pnml>

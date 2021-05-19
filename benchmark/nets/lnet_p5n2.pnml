@@ -1,0 +1,184 @@
+<pnml xmlns="http://www.pnml.org/version-2009/grammar/pnml">
+ <net id="n-10AD-CFA85-0" type ="http://www.pnml.org/version-2009/grammar/ptnet">
+  <name>
+   <text>lnet_p5n2</text>
+  </name>
+ <page id="g-10AD-CFA8A-1">
+  <place id="p-10AD-CFA8B-2">
+  <name>
+   <text>p0</text>
+  </name>
+   <initialMarking>
+    <text>1</text>
+   </initialMarking>
+  </place>
+  <place id="p-10AD-CFA8D-3">
+  <name>
+   <text>p1</text>
+  </name>
+  </place>
+  <place id="p-10AD-CFA8E-4">
+  <name>
+   <text>p10</text>
+  </name>
+  </place>
+  <place id="p-10AD-CFA8F-5">
+  <name>
+   <text>p11</text>
+  </name>
+  </place>
+  <place id="p-10AD-CFA8F-6">
+  <name>
+   <text>p12</text>
+  </name>
+  </place>
+  <place id="p-10AD-CFA91-7">
+  <name>
+   <text>p2</text>
+  </name>
+  </place>
+  <place id="p-10AD-CFA91-8">
+  <name>
+   <text>p3</text>
+  </name>
+  </place>
+  <place id="p-10AD-CFA92-9">
+  <name>
+   <text>p4</text>
+  </name>
+  </place>
+  <place id="p-10AD-CFA92-10">
+  <name>
+   <text>p5</text>
+  </name>
+  </place>
+  <place id="p-10AD-CFA93-11">
+  <name>
+   <text>p6</text>
+  </name>
+  </place>
+  <place id="p-10AD-CFA94-12">
+  <name>
+   <text>p7</text>
+  </name>
+  </place>
+  <place id="p-10AD-CFA95-13">
+  <name>
+   <text>p8</text>
+  </name>
+  </place>
+  <place id="p-10AD-CFA95-14">
+  <name>
+   <text>p9</text>
+  </name>
+  </place>
+  <transition id="t-10AD-CFA96-15">
+  <name>
+   <text>t0</text>
+  </name>
+  </transition>
+  <transition id="t-10AD-CFA98-16">
+  <name>
+   <text>t1</text>
+  </name>
+  </transition>
+  <transition id="t-10AD-CFA98-17">
+  <name>
+   <text>t10</text>
+  </name>
+  </transition>
+  <transition id="t-10AD-CFA99-18">
+  <name>
+   <text>t2</text>
+  </name>
+  </transition>
+  <transition id="t-10AD-CFA9A-19">
+  <name>
+   <text>t3</text>
+  </name>
+  </transition>
+  <transition id="t-10AD-CFA9B-20">
+  <name>
+   <text>t4</text>
+  </name>
+  </transition>
+  <transition id="t-10AD-CFA9B-21">
+  <name>
+   <text>t5</text>
+  </name>
+  </transition>
+  <transition id="t-10AD-CFA9C-22">
+  <name>
+   <text>t6</text>
+  </name>
+  </transition>
+  <transition id="t-10AD-CFA9C-23">
+  <name>
+   <text>t7</text>
+  </name>
+  </transition>
+  <transition id="t-10AD-CFA9E-24">
+  <name>
+   <text>t8</text>
+  </name>
+  </transition>
+  <transition id="t-10AD-CFA9E-25">
+  <name>
+   <text>t9</text>
+  </name>
+  </transition>
+  <arc id="e-10AD-CFA9F-26" source="p-10AD-CFA8B-2" target="t-10AD-CFA96-15">
+  </arc>
+  <arc id="e-10AD-CFAA0-27" source="t-10AD-CFA99-18" target="p-10AD-CFA8F-6">
+  </arc>
+  <arc id="e-10AD-CFAA1-28" source="p-10AD-CFA8F-5" target="t-10AD-CFA9A-19">
+  </arc>
+  <arc id="e-10AD-CFAA2-29" source="t-10AD-CFA9A-19" target="p-10AD-CFA91-8">
+  </arc>
+  <arc id="e-10AD-CFAA2-30" source="t-10AD-CFA9A-19" target="p-10AD-CFA92-9">
+  </arc>
+  <arc id="e-10AD-CFAA3-31" source="p-10AD-CFA8F-6" target="t-10AD-CFA9B-20">
+  </arc>
+  <arc id="e-10AD-CFAA4-32" source="t-10AD-CFA9B-20" target="p-10AD-CFA95-13">
+  </arc>
+  <arc id="e-10AD-CFAA4-33" source="p-10AD-CFA91-8" target="t-10AD-CFA9B-21">
+  </arc>
+  <arc id="e-10AD-CFAA5-34" source="t-10AD-CFA9B-21" target="p-10AD-CFA92-10">
+  </arc>
+  <arc id="e-10AD-CFAA5-35" source="p-10AD-CFA92-9" target="t-10AD-CFA9C-22">
+  </arc>
+  <arc id="e-10AD-CFAA6-36" source="t-10AD-CFA9C-22" target="p-10AD-CFA93-11">
+  </arc>
+  <arc id="e-10AD-CFAA6-37" source="t-10AD-CFA96-15" target="p-10AD-CFA8D-3">
+  </arc>
+  <arc id="e-10AD-CFAA7-38" source="p-10AD-CFA95-13" target="t-10AD-CFA9C-23">
+  </arc>
+  <arc id="e-10AD-CFAA7-39" source="t-10AD-CFA9C-23" target="p-10AD-CFA95-14">
+  </arc>
+  <arc id="e-10AD-CFAA8-40" source="p-10AD-CFA92-10" target="t-10AD-CFA9E-24">
+  </arc>
+  <arc id="e-10AD-CFAA8-41" source="p-10AD-CFA93-11" target="t-10AD-CFA9E-24">
+  </arc>
+  <arc id="e-10AD-CFAA9-42" source="t-10AD-CFA9E-24" target="p-10AD-CFA94-12">
+  </arc>
+  <arc id="e-10AD-CFAA9-43" source="p-10AD-CFA95-14" target="t-10AD-CFA9E-25">
+  </arc>
+  <arc id="e-10AD-CFAAA-44" source="t-10AD-CFA9E-25" target="p-10AD-CFA8E-4">
+  </arc>
+  <arc id="e-10AD-CFAAB-45" source="p-10AD-CFA8D-3" target="t-10AD-CFA98-16">
+  </arc>
+  <arc id="e-10AD-CFAAB-46" source="t-10AD-CFA98-16" target="p-10AD-CFA91-7">
+  </arc>
+  <arc id="e-10AD-CFAB6-47" source="p-10AD-CFA94-12" target="t-10AD-CFA98-17">
+  </arc>
+  <arc id="e-10AD-CFAB7-48" source="p-10AD-CFA8E-4" target="t-10AD-CFA98-17">
+  </arc>
+  <arc id="e-10AD-CFAB8-49" source="t-10AD-CFA98-17" target="p-10AD-CFA8B-2">
+  </arc>
+  <arc id="e-10AD-CFAB8-50" source="p-10AD-CFA91-7" target="t-10AD-CFA99-18">
+  </arc>
+  <arc id="e-10AD-CFAB9-51" source="t-10AD-CFA99-18" target="p-10AD-CFA8F-5">
+  </arc>
+ </page>
+ </net>
+</pnml>

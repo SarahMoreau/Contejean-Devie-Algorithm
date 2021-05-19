@@ -1,0 +1,68 @@
+<pnml xmlns="http://www.pnml.org/version-2009/grammar/pnml">
+ <net id="n-FD7-D67D0-0" type ="http://www.pnml.org/version-2009/grammar/ptnet">
+  <name>
+   <text>PUMA_unloading</text>
+  </name>
+ <page id="g-FD7-D67D3-1">
+  <place id="p-FD7-D67D4-2">
+  <name>
+   <text>p0</text>
+  </name>
+   <initialMarking>
+    <text>1</text>
+   </initialMarking>
+  </place>
+  <place id="p-FD7-D67D6-3">
+  <name>
+   <text>p1</text>
+  </name>
+  </place>
+  <place id="p-FD7-D67D7-4">
+  <name>
+   <text>p2</text>
+  </name>
+  </place>
+  <place id="p-FD7-D67D8-5">
+  <name>
+   <text>p3</text>
+  </name>
+  </place>
+  <place id="p-FD7-D67D9-6">
+  <name>
+   <text>p4</text>
+  </name>
+  </place>
+  <transition id="t-FD7-D67DA-7">
+  <name>
+   <text>t0</text>
+  </name>
+  </transition>
+  <transition id="t-FD7-D67DB-8">
+  <name>
+   <text>t1</text>
+  </name>
+  </transition>
+  <transition id="t-FD7-D67DC-9">
+  <name>
+   <text>t2</text>
+  </name>
+  </transition>
+  <arc id="e-FD7-D67DD-10" source="p-FD7-D67D4-2" target="t-FD7-D67DA-7">
+  </arc>
+  <arc id="e-FD7-D67DE-11" source="t-FD7-D67DA-7" target="p-FD7-D67D6-3">
+  </arc>
+  <arc id="e-FD7-D67DF-12" source="t-FD7-D67DA-7" target="p-FD7-D67D7-4">
+  </arc>
+  <arc id="e-FD7-D67DF-13" source="p-FD7-D67D7-4" target="t-FD7-D67DB-8">
+  </arc>
+  <arc id="e-FD7-D67E0-14" source="t-FD7-D67DB-8" target="p-FD7-D67D8-5">
+  </arc>
+  <arc id="e-FD7-D67E0-15" source="p-FD7-D67D6-3" target="t-FD7-D67DC-9">
+  </arc>
+  <arc id="e-FD7-D67E1-16" source="p-FD7-D67D8-5" target="t-FD7-D67DC-9">
+  </arc>
+  <arc id="e-FD7-D67E1-17" source="t-FD7-D67DC-9" target="p-FD7-D67D9-6">
+  </arc>
+ </page>
+ </net>
+</pnml>

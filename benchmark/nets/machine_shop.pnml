@@ -1,0 +1,194 @@
+<pnml xmlns="http://www.pnml.org/version-2009/grammar/pnml">
+ <net id="n-10C3-2711A-0" type ="http://www.pnml.org/version-2009/grammar/ptnet">
+  <name>
+   <text>machine_shop</text>
+  </name>
+ <page id="g-10C3-27122-1">
+  <place id="p-10C3-27124-2">
+  <name>
+   <text>p0</text>
+  </name>
+  </place>
+  <place id="p-10C3-27129-3">
+  <name>
+   <text>p1</text>
+  </name>
+   <initialMarking>
+    <text>1</text>
+   </initialMarking>
+  </place>
+  <place id="p-10C3-2712B-4">
+  <name>
+   <text>p10</text>
+  </name>
+   <initialMarking>
+    <text>1</text>
+   </initialMarking>
+  </place>
+  <place id="p-10C3-2712C-5">
+  <name>
+   <text>p11</text>
+  </name>
+  </place>
+  <place id="p-10C3-2712C-6">
+  <name>
+   <text>p2</text>
+  </name>
+  </place>
+  <place id="p-10C3-2712E-7">
+  <name>
+   <text>p3</text>
+  </name>
+  </place>
+  <place id="p-10C3-2712E-8">
+  <name>
+   <text>p4</text>
+  </name>
+  </place>
+  <place id="p-10C3-2712F-9">
+  <name>
+   <text>p5</text>
+  </name>
+  </place>
+  <place id="p-10C3-27130-10">
+  <name>
+   <text>p6</text>
+  </name>
+   <initialMarking>
+    <text>1</text>
+   </initialMarking>
+  </place>
+  <place id="p-10C3-27130-11">
+  <name>
+   <text>p7</text>
+  </name>
+  </place>
+  <place id="p-10C3-27132-12">
+  <name>
+   <text>p8</text>
+  </name>
+  </place>
+  <place id="p-10C3-27132-13">
+  <name>
+   <text>p9</text>
+  </name>
+   <initialMarking>
+    <text>1</text>
+   </initialMarking>
+  </place>
+  <transition id="t-10C3-27133-14">
+  <name>
+   <text>t0</text>
+  </name>
+  </transition>
+  <transition id="t-10C3-27156-15">
+  <name>
+   <text>t1</text>
+  </name>
+  </transition>
+  <transition id="t-10C3-27157-16">
+  <name>
+   <text>t2</text>
+  </name>
+  </transition>
+  <transition id="t-10C3-27158-17">
+  <name>
+   <text>t3</text>
+  </name>
+  </transition>
+  <transition id="t-10C3-27158-18">
+  <name>
+   <text>t4</text>
+  </name>
+  </transition>
+  <transition id="t-10C3-27159-19">
+  <name>
+   <text>t5</text>
+  </name>
+  </transition>
+  <transition id="t-10C3-27159-20">
+  <name>
+   <text>t6</text>
+  </name>
+  </transition>
+  <transition id="t-10C3-2715B-21">
+  <name>
+   <text>t7</text>
+  </name>
+  </transition>
+  <transition id="t-10C3-2715B-22">
+  <name>
+   <text>t8</text>
+  </name>
+  </transition>
+  <arc id="e-10C3-2715E-23" source="p-10C3-2712C-5" target="t-10C3-27133-14">
+  </arc>
+  <arc id="e-10C3-2715F-24" source="t-10C3-27157-16" target="p-10C3-2712F-9">
+  </arc>
+  <arc id="e-10C3-27160-25" source="p-10C3-27124-2" target="t-10C3-27158-17">
+  </arc>
+  <arc id="e-10C3-27160-26" source="p-10C3-27129-3" target="t-10C3-27158-17">
+  </arc>
+  <arc id="e-10C3-27161-27" source="p-10C3-2712B-4" target="t-10C3-27158-17">
+  </arc>
+  <arc id="e-10C3-27161-28" source="t-10C3-27158-17" target="p-10C3-2712E-7">
+  </arc>
+  <arc id="e-10C3-27162-29" source="p-10C3-2712E-7" target="t-10C3-27158-18">
+  </arc>
+  <arc id="e-10C3-27162-30" source="t-10C3-27158-18" target="p-10C3-27129-3">
+  </arc>
+  <arc id="e-10C3-27163-31" source="t-10C3-27158-18" target="p-10C3-2712E-8">
+  </arc>
+  <arc id="e-10C3-27164-32" source="t-10C3-27158-18" target="p-10C3-2712B-4">
+  </arc>
+  <arc id="e-10C3-27164-33" source="p-10C3-2712E-8" target="t-10C3-27159-19">
+  </arc>
+  <arc id="e-10C3-27165-34" source="t-10C3-27133-14" target="p-10C3-27124-2">
+  </arc>
+  <arc id="e-10C3-27165-35" source="p-10C3-2712F-9" target="t-10C3-27159-19">
+  </arc>
+  <arc id="e-10C3-27166-36" source="p-10C3-27130-10" target="t-10C3-27159-19">
+  </arc>
+  <arc id="e-10C3-27166-37" source="t-10C3-27159-19" target="p-10C3-27130-11">
+  </arc>
+  <arc id="e-10C3-27167-38" source="p-10C3-2712F-9" target="t-10C3-27159-20">
+  </arc>
+  <arc id="e-10C3-27167-39" source="p-10C3-27130-11" target="t-10C3-27159-20">
+  </arc>
+  <arc id="e-10C3-27168-40" source="t-10C3-27159-20" target="p-10C3-27130-10">
+  </arc>
+  <arc id="e-10C3-27169-41" source="t-10C3-27159-20" target="p-10C3-2712C-5">
+  </arc>
+  <arc id="e-10C3-27169-42" source="p-10C3-2712E-8" target="t-10C3-2715B-21">
+  </arc>
+  <arc id="e-10C3-2716A-43" source="p-10C3-27132-13" target="t-10C3-2715B-21">
+  </arc>
+  <arc id="e-10C3-2716A-44" source="p-10C3-2712B-4" target="t-10C3-2715B-21">
+  </arc>
+  <arc id="e-10C3-27186-45" source="p-10C3-27124-2" target="t-10C3-27156-15">
+  </arc>
+  <arc id="e-10C3-27187-46" source="t-10C3-2715B-21" target="p-10C3-27132-12">
+  </arc>
+  <arc id="e-10C3-27187-47" source="p-10C3-27132-12" target="t-10C3-2715B-22">
+  </arc>
+  <arc id="e-10C3-27188-48" source="t-10C3-2715B-22" target="p-10C3-27132-13">
+  </arc>
+  <arc id="e-10C3-27189-49" source="t-10C3-2715B-22" target="p-10C3-2712B-4">
+  </arc>
+  <arc id="e-10C3-27189-50" source="t-10C3-2715B-22" target="p-10C3-2712C-5">
+  </arc>
+  <arc id="e-10C3-2719D-51" source="p-10C3-27129-3" target="t-10C3-27156-15">
+  </arc>
+  <arc id="e-10C3-2719E-52" source="p-10C3-2712F-9" target="t-10C3-27156-15">
+  </arc>
+  <arc id="e-10C3-2719E-53" source="t-10C3-27156-15" target="p-10C3-2712C-6">
+  </arc>
+  <arc id="e-10C3-2719F-54" source="p-10C3-2712C-6" target="t-10C3-27157-16">
+  </arc>
+  <arc id="e-10C3-271A0-55" source="t-10C3-27157-16" target="p-10C3-27129-3">
+  </arc>
+  <arc id="e-10C3-271A0-56" source="t-10C3-27157-16" target="p-10C3-2712E-8">
+  </arc>
+ </page>
+ </net>
+</pnml>

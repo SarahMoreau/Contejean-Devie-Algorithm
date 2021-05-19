@@ -1,0 +1,356 @@
+<pnml xmlns="http://www.pnml.org/version-2009/grammar/pnml">
+ <net id="n-1187-CF35B-0" type ="http://www.pnml.org/version-2009/grammar/ptnet">
+  <name>
+   <text>vanDerAalst5</text>
+  </name>
+ <page id="g-1187-CF360-1">
+  <place id="p-1187-CF361-2">
+  <name>
+   <text>p0</text>
+  </name>
+   <initialMarking>
+    <text>1</text>
+   </initialMarking>
+  </place>
+  <place id="p-1187-CF364-3">
+  <name>
+   <text>p1</text>
+  </name>
+  </place>
+  <place id="p-1187-CF364-4">
+  <name>
+   <text>p10</text>
+  </name>
+  </place>
+  <place id="p-1187-CF366-5">
+  <name>
+   <text>p11</text>
+  </name>
+  </place>
+  <place id="p-1187-CF366-6">
+  <name>
+   <text>p12</text>
+  </name>
+  </place>
+  <place id="p-1187-CF367-7">
+  <name>
+   <text>p13</text>
+  </name>
+  </place>
+  <place id="p-1187-CF368-8">
+  <name>
+   <text>p14</text>
+  </name>
+  </place>
+  <place id="p-1187-CF369-9">
+  <name>
+   <text>p15</text>
+  </name>
+  </place>
+  <place id="p-1187-CF369-10">
+  <name>
+   <text>p16</text>
+  </name>
+  </place>
+  <place id="p-1187-CF36A-11">
+  <name>
+   <text>p17</text>
+  </name>
+  </place>
+  <place id="p-1187-CF36B-12">
+  <name>
+   <text>p18</text>
+  </name>
+  </place>
+  <place id="p-1187-CF36C-13">
+  <name>
+   <text>p19</text>
+  </name>
+  </place>
+  <place id="p-1187-CF36C-14">
+  <name>
+   <text>p2</text>
+  </name>
+  </place>
+  <place id="p-1187-CF36D-15">
+  <name>
+   <text>p20</text>
+  </name>
+  </place>
+  <place id="p-1187-CF36E-16">
+  <name>
+   <text>p21</text>
+  </name>
+  </place>
+  <place id="p-1187-CF36E-17">
+  <name>
+   <text>p22</text>
+  </name>
+  </place>
+  <place id="p-1187-CF370-18">
+  <name>
+   <text>p3</text>
+  </name>
+  </place>
+  <place id="p-1187-CF370-19">
+  <name>
+   <text>p4</text>
+  </name>
+  </place>
+  <place id="p-1187-CF371-20">
+  <name>
+   <text>p5</text>
+  </name>
+  </place>
+  <place id="p-1187-CF371-21">
+  <name>
+   <text>p6</text>
+  </name>
+  </place>
+  <place id="p-1187-CF372-22">
+  <name>
+   <text>p7</text>
+  </name>
+  </place>
+  <place id="p-1187-CF373-23">
+  <name>
+   <text>p8</text>
+  </name>
+  </place>
+  <place id="p-1187-CF374-24">
+  <name>
+   <text>p9</text>
+  </name>
+  </place>
+  <transition id="t-1187-CF374-25">
+  <name>
+   <text>t0</text>
+  </name>
+  </transition>
+  <transition id="t-1187-CF376-26">
+  <name>
+   <text>t1</text>
+  </name>
+  </transition>
+  <transition id="t-1187-CF376-27">
+  <name>
+   <text>t10</text>
+  </name>
+  </transition>
+  <transition id="t-1187-CF377-28">
+  <name>
+   <text>t11</text>
+  </name>
+  </transition>
+  <transition id="t-1187-CF378-29">
+  <name>
+   <text>t12</text>
+  </name>
+  </transition>
+  <transition id="t-1187-CF379-30">
+  <name>
+   <text>t13</text>
+  </name>
+  </transition>
+  <transition id="t-1187-CF37A-31">
+  <name>
+   <text>t14</text>
+  </name>
+  </transition>
+  <transition id="t-1187-CF37A-32">
+  <name>
+   <text>t15</text>
+  </name>
+  </transition>
+  <transition id="t-1187-CF37B-33">
+  <name>
+   <text>t16</text>
+  </name>
+  </transition>
+  <transition id="t-1187-CF37C-34">
+  <name>
+   <text>t17</text>
+  </name>
+  </transition>
+  <transition id="t-1187-CF37D-35">
+  <name>
+   <text>t18</text>
+  </name>
+  </transition>
+  <transition id="t-1187-CF37D-36">
+  <name>
+   <text>t19</text>
+  </name>
+  </transition>
+  <transition id="t-1187-CF37E-37">
+  <name>
+   <text>t2</text>
+  </name>
+  </transition>
+  <transition id="t-1187-CF380-38">
+  <name>
+   <text>t20</text>
+  </name>
+  </transition>
+  <transition id="t-1187-CF380-39">
+  <name>
+   <text>t21</text>
+  </name>
+  </transition>
+  <transition id="t-1187-CF381-40">
+  <name>
+   <text>t22</text>
+  </name>
+  </transition>
+  <transition id="t-1187-CF382-41">
+  <name>
+   <text>t3</text>
+  </name>
+  </transition>
+  <transition id="t-1187-CF383-42">
+  <name>
+   <text>t4</text>
+  </name>
+  </transition>
+  <transition id="t-1187-CF383-43">
+  <name>
+   <text>t5</text>
+  </name>
+  </transition>
+  <transition id="t-1187-CF384-44">
+  <name>
+   <text>t6</text>
+  </name>
+  </transition>
+  <transition id="t-1187-CF385-45">
+  <name>
+   <text>t7</text>
+  </name>
+  </transition>
+  <transition id="t-1187-CF386-46">
+  <name>
+   <text>t8</text>
+  </name>
+  </transition>
+  <transition id="t-1187-CF390-47">
+  <name>
+   <text>t9</text>
+  </name>
+  </transition>
+  <arc id="e-1187-CF391-48" source="p-1187-CF361-2" target="t-1187-CF374-25">
+  </arc>
+  <arc id="e-1187-CF392-49" source="t-1187-CF378-29" target="p-1187-CF366-5">
+  </arc>
+  <arc id="e-1187-CF392-50" source="p-1187-CF364-4" target="t-1187-CF379-30">
+  </arc>
+  <arc id="e-1187-CF394-51" source="t-1187-CF379-30" target="p-1187-CF368-8">
+  </arc>
+  <arc id="e-1187-CF394-52" source="t-1187-CF379-30" target="p-1187-CF369-9">
+  </arc>
+  <arc id="e-1187-CF395-53" source="p-1187-CF367-7" target="t-1187-CF37A-31">
+  </arc>
+  <arc id="e-1187-CF395-54" source="t-1187-CF37A-31" target="p-1187-CF368-8">
+  </arc>
+  <arc id="e-1187-CF396-55" source="t-1187-CF37A-31" target="p-1187-CF369-9">
+  </arc>
+  <arc id="e-1187-CF396-56" source="p-1187-CF366-6" target="t-1187-CF37A-32">
+  </arc>
+  <arc id="e-1187-CF397-57" source="t-1187-CF37A-32" target="p-1187-CF369-10">
+  </arc>
+  <arc id="e-1187-CF398-58" source="t-1187-CF37A-32" target="p-1187-CF36A-11">
+  </arc>
+  <arc id="e-1187-CF398-59" source="t-1187-CF374-25" target="p-1187-CF364-3">
+  </arc>
+  <arc id="e-1187-CF399-60" source="p-1187-CF366-5" target="t-1187-CF37B-33">
+  </arc>
+  <arc id="e-1187-CF399-61" source="t-1187-CF37B-33" target="p-1187-CF369-10">
+  </arc>
+  <arc id="e-1187-CF39A-62" source="t-1187-CF37B-33" target="p-1187-CF36A-11">
+  </arc>
+  <arc id="e-1187-CF39B-63" source="p-1187-CF368-8" target="t-1187-CF37C-34">
+  </arc>
+  <arc id="e-1187-CF39B-64" source="t-1187-CF37C-34" target="p-1187-CF36B-12">
+  </arc>
+  <arc id="e-1187-CF39C-65" source="p-1187-CF369-9" target="t-1187-CF37D-35">
+  </arc>
+  <arc id="e-1187-CF39D-66" source="t-1187-CF37D-35" target="p-1187-CF36C-13">
+  </arc>
+  <arc id="e-1187-CF39D-67" source="p-1187-CF369-10" target="t-1187-CF37D-36">
+  </arc>
+  <arc id="e-1187-CF39E-68" source="t-1187-CF37D-36" target="p-1187-CF36D-15">
+  </arc>
+  <arc id="e-1187-CF39E-69" source="p-1187-CF364-3" target="t-1187-CF37E-37">
+  </arc>
+  <arc id="e-1187-CF39F-70" source="p-1187-CF364-3" target="t-1187-CF376-26">
+  </arc>
+  <arc id="e-1187-CF39F-71" source="t-1187-CF37E-37" target="p-1187-CF370-18">
+  </arc>
+  <arc id="e-1187-CF3A0-72" source="p-1187-CF36A-11" target="t-1187-CF380-38">
+  </arc>
+  <arc id="e-1187-CF3A0-73" source="t-1187-CF380-38" target="p-1187-CF36E-16">
+  </arc>
+  <arc id="e-1187-CF3A1-74" source="p-1187-CF36B-12" target="t-1187-CF380-39">
+  </arc>
+  <arc id="e-1187-CF3A2-75" source="p-1187-CF36C-13" target="t-1187-CF380-39">
+  </arc>
+  <arc id="e-1187-CF3A3-76" source="p-1187-CF36D-15" target="t-1187-CF380-39">
+  </arc>
+  <arc id="e-1187-CF3A3-77" source="p-1187-CF36E-16" target="t-1187-CF380-39">
+  </arc>
+  <arc id="e-1187-CF3A4-78" source="t-1187-CF380-39" target="p-1187-CF36E-17">
+  </arc>
+  <arc id="e-1187-CF3A4-79" source="p-1187-CF36E-17" target="t-1187-CF381-40">
+  </arc>
+  <arc id="e-1187-CF3A5-80" source="t-1187-CF381-40" target="p-1187-CF361-2">
+  </arc>
+  <arc id="e-1187-CF3A5-81" source="t-1187-CF376-26" target="p-1187-CF36C-14">
+  </arc>
+  <arc id="e-1187-CF3A6-82" source="p-1187-CF364-3" target="t-1187-CF382-41">
+  </arc>
+  <arc id="e-1187-CF3A7-83" source="t-1187-CF382-41" target="p-1187-CF370-19">
+  </arc>
+  <arc id="e-1187-CF3A7-84" source="p-1187-CF364-3" target="t-1187-CF383-42">
+  </arc>
+  <arc id="e-1187-CF3A8-85" source="t-1187-CF383-42" target="p-1187-CF371-20">
+  </arc>
+  <arc id="e-1187-CF3A8-86" source="p-1187-CF36C-14" target="t-1187-CF383-43">
+  </arc>
+  <arc id="e-1187-CF3A9-87" source="t-1187-CF383-43" target="p-1187-CF371-21">
+  </arc>
+  <arc id="e-1187-CF3AA-88" source="t-1187-CF383-43" target="p-1187-CF372-22">
+  </arc>
+  <arc id="e-1187-CF3AB-89" source="p-1187-CF370-18" target="t-1187-CF384-44">
+  </arc>
+  <arc id="e-1187-CF3AB-90" source="t-1187-CF384-44" target="p-1187-CF371-21">
+  </arc>
+  <arc id="e-1187-CF3AC-91" source="t-1187-CF384-44" target="p-1187-CF372-22">
+  </arc>
+  <arc id="e-1187-CF3AC-92" source="p-1187-CF372-22" target="t-1187-CF376-27">
+  </arc>
+  <arc id="e-1187-CF3AD-93" source="p-1187-CF370-19" target="t-1187-CF385-45">
+  </arc>
+  <arc id="e-1187-CF3B2-94" source="t-1187-CF385-45" target="p-1187-CF373-23">
+  </arc>
+  <arc id="e-1187-CF3B2-95" source="t-1187-CF385-45" target="p-1187-CF374-24">
+  </arc>
+  <arc id="e-1187-CF3B3-96" source="p-1187-CF371-20" target="t-1187-CF386-46">
+  </arc>
+  <arc id="e-1187-CF3B3-97" source="t-1187-CF386-46" target="p-1187-CF373-23">
+  </arc>
+  <arc id="e-1187-CF3B4-98" source="t-1187-CF386-46" target="p-1187-CF374-24">
+  </arc>
+  <arc id="e-1187-CF3B5-99" source="p-1187-CF371-21" target="t-1187-CF390-47">
+  </arc>
+  <arc id="e-1187-CF3B5-100" source="t-1187-CF390-47" target="p-1187-CF364-4">
+  </arc>
+  <arc id="e-1187-CF3B6-101" source="t-1187-CF376-27" target="p-1187-CF366-6">
+  </arc>
+  <arc id="e-1187-CF3B7-102" source="p-1187-CF373-23" target="t-1187-CF377-28">
+  </arc>
+  <arc id="e-1187-CF3B7-103" source="t-1187-CF377-28" target="p-1187-CF367-7">
+  </arc>
+  <arc id="e-1187-CF3B8-104" source="p-1187-CF374-24" target="t-1187-CF378-29">
+  </arc>
+ </page>
+ </net>
+</pnml>

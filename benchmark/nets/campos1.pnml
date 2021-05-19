@@ -1,0 +1,164 @@
+<pnml xmlns="http://www.pnml.org/version-2009/grammar/pnml">
+ <net id="n-100F-97D42-0" type ="http://www.pnml.org/version-2009/grammar/ptnet">
+  <name>
+   <text>campos1</text>
+  </name>
+ <page id="g-100F-97D47-1">
+  <place id="p-100F-97D48-2">
+  <name>
+   <text>p0</text>
+  </name>
+   <initialMarking>
+    <text>1</text>
+   </initialMarking>
+  </place>
+  <place id="p-100F-97D4A-3">
+  <name>
+   <text>p1</text>
+  </name>
+  </place>
+  <place id="p-100F-97D4B-4">
+  <name>
+   <text>p10</text>
+  </name>
+   <initialMarking>
+    <text>1</text>
+   </initialMarking>
+  </place>
+  <place id="p-100F-97D4C-5">
+  <name>
+   <text>p2</text>
+  </name>
+   <initialMarking>
+    <text>1</text>
+   </initialMarking>
+  </place>
+  <place id="p-100F-97D4D-6">
+  <name>
+   <text>p3</text>
+  </name>
+   <initialMarking>
+    <text>1</text>
+   </initialMarking>
+  </place>
+  <place id="p-100F-97D4E-7">
+  <name>
+   <text>p4</text>
+  </name>
+  </place>
+  <place id="p-100F-97D4E-8">
+  <name>
+   <text>p5</text>
+  </name>
+  </place>
+  <place id="p-100F-97D4F-9">
+  <name>
+   <text>p6</text>
+  </name>
+  </place>
+  <place id="p-100F-97D50-10">
+  <name>
+   <text>p7</text>
+  </name>
+  </place>
+  <place id="p-100F-97D51-11">
+  <name>
+   <text>p8</text>
+  </name>
+  </place>
+  <place id="p-100F-97D51-12">
+  <name>
+   <text>p9</text>
+  </name>
+  </place>
+  <transition id="t-100F-97D52-13">
+  <name>
+   <text>t0</text>
+  </name>
+  </transition>
+  <transition id="t-100F-97D53-14">
+  <name>
+   <text>t1</text>
+  </name>
+  </transition>
+  <transition id="t-100F-97D55-15">
+  <name>
+   <text>t2</text>
+  </name>
+  </transition>
+  <transition id="t-100F-97D55-16">
+  <name>
+   <text>t3</text>
+  </name>
+  </transition>
+  <transition id="t-100F-97D56-17">
+  <name>
+   <text>t4</text>
+  </name>
+  </transition>
+  <transition id="t-100F-97D56-18">
+  <name>
+   <text>t5</text>
+  </name>
+  </transition>
+  <transition id="t-100F-97D58-19">
+  <name>
+   <text>t6</text>
+  </name>
+  </transition>
+  <transition id="t-100F-97D58-20">
+  <name>
+   <text>t7</text>
+  </name>
+  </transition>
+  <arc id="e-100F-97D59-21" source="p-100F-97D48-2" target="t-100F-97D52-13">
+  </arc>
+  <arc id="e-100F-97D5A-22" source="p-100F-97D4E-8" target="t-100F-97D55-16">
+  </arc>
+  <arc id="e-100F-97D5B-23" source="p-100F-97D4B-4" target="t-100F-97D55-16">
+  </arc>
+  <arc id="e-100F-97D5B-24" source="t-100F-97D55-16" target="p-100F-97D50-10">
+  </arc>
+  <arc id="e-100F-97D5C-25" source="p-100F-97D4F-9" target="t-100F-97D56-17">
+  </arc>
+  <arc id="e-100F-97D5C-26" source="t-100F-97D56-17" target="p-100F-97D4C-5">
+  </arc>
+  <arc id="e-100F-97D5D-27" source="t-100F-97D56-17" target="p-100F-97D51-11">
+  </arc>
+  <arc id="e-100F-97D5E-28" source="t-100F-97D56-17" target="p-100F-97D4B-4">
+  </arc>
+  <arc id="e-100F-97D5F-29" source="p-100F-97D50-10" target="t-100F-97D56-18">
+  </arc>
+  <arc id="e-100F-97D5F-30" source="t-100F-97D56-18" target="p-100F-97D4A-3">
+  </arc>
+  <arc id="e-100F-97D60-31" source="t-100F-97D56-18" target="p-100F-97D51-12">
+  </arc>
+  <arc id="e-100F-97D60-32" source="p-100F-97D4A-3" target="t-100F-97D52-13">
+  </arc>
+  <arc id="e-100F-97D61-33" source="t-100F-97D56-18" target="p-100F-97D4B-4">
+  </arc>
+  <arc id="e-100F-97D61-34" source="p-100F-97D51-11" target="t-100F-97D58-19">
+  </arc>
+  <arc id="e-100F-97D62-35" source="t-100F-97D58-19" target="p-100F-97D48-2">
+  </arc>
+  <arc id="e-100F-97D62-36" source="p-100F-97D51-12" target="t-100F-97D58-20">
+  </arc>
+  <arc id="e-100F-97D63-37" source="t-100F-97D58-20" target="p-100F-97D4D-6">
+  </arc>
+  <arc id="e-100F-97D63-38" source="t-100F-97D52-13" target="p-100F-97D4E-7">
+  </arc>
+  <arc id="e-100F-97D64-39" source="p-100F-97D4C-5" target="t-100F-97D53-14">
+  </arc>
+  <arc id="e-100F-97D65-40" source="p-100F-97D4D-6" target="t-100F-97D53-14">
+  </arc>
+  <arc id="e-100F-97D65-41" source="t-100F-97D53-14" target="p-100F-97D4E-8">
+  </arc>
+  <arc id="e-100F-97D66-42" source="p-100F-97D4E-7" target="t-100F-97D55-15">
+  </arc>
+  <arc id="e-100F-97D66-43" source="p-100F-97D4B-4" target="t-100F-97D55-15">
+  </arc>
+  <arc id="e-100F-97D67-44" source="t-100F-97D55-15" target="p-100F-97D4F-9">
+  </arc>
+ </page>
+ </net>
+</pnml>

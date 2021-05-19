@@ -1,0 +1,221 @@
+<pnml xmlns="http://www.pnml.org/version-2009/grammar/pnml">
+ <net id="n-10CB-45187-0" type ="http://www.pnml.org/version-2009/grammar/ptnet">
+  <name>
+   <text>maruster4</text>
+  </name>
+ <page id="g-10CB-4518D-1">
+  <place id="p-10CB-4518E-2">
+  <name>
+   <text>p0</text>
+  </name>
+   <initialMarking>
+    <text>1</text>
+   </initialMarking>
+  </place>
+  <place id="p-10CB-45190-3">
+  <name>
+   <text>p1</text>
+  </name>
+  </place>
+  <place id="p-10CB-45191-4">
+  <name>
+   <text>p10</text>
+  </name>
+  </place>
+  <place id="p-10CB-45192-5">
+  <name>
+   <text>p11</text>
+  </name>
+  </place>
+  <place id="p-10CB-45193-6">
+  <name>
+   <text>p12</text>
+  </name>
+  </place>
+  <place id="p-10CB-45194-7">
+  <name>
+   <text>p13</text>
+  </name>
+  </place>
+  <place id="p-10CB-45195-8">
+  <name>
+   <text>p14</text>
+  </name>
+  </place>
+  <place id="p-10CB-45195-9">
+  <name>
+   <text>p15</text>
+  </name>
+  </place>
+  <place id="p-10CB-45197-10">
+  <name>
+   <text>p2</text>
+  </name>
+  </place>
+  <place id="p-10CB-45197-11">
+  <name>
+   <text>p3</text>
+  </name>
+  </place>
+  <place id="p-10CB-45198-12">
+  <name>
+   <text>p4</text>
+  </name>
+  </place>
+  <place id="p-10CB-45198-13">
+  <name>
+   <text>p5</text>
+  </name>
+  </place>
+  <place id="p-10CB-45199-14">
+  <name>
+   <text>p6</text>
+  </name>
+  </place>
+  <place id="p-10CB-4519A-15">
+  <name>
+   <text>p7</text>
+  </name>
+  </place>
+  <place id="p-10CB-4519B-16">
+  <name>
+   <text>p8</text>
+  </name>
+  </place>
+  <place id="p-10CB-4519C-17">
+  <name>
+   <text>p9</text>
+  </name>
+  </place>
+  <transition id="t-10CB-4519C-18">
+  <name>
+   <text>t0</text>
+  </name>
+  </transition>
+  <transition id="t-10CB-4519E-19">
+  <name>
+   <text>t1</text>
+  </name>
+  </transition>
+  <transition id="t-10CB-4519E-20">
+  <name>
+   <text>t10</text>
+  </name>
+  </transition>
+  <transition id="t-10CB-4519F-21">
+  <name>
+   <text>t11</text>
+  </name>
+  </transition>
+  <transition id="t-10CB-451A0-22">
+  <name>
+   <text>t12</text>
+  </name>
+  </transition>
+  <transition id="t-10CB-451A0-23">
+  <name>
+   <text>t2</text>
+  </name>
+  </transition>
+  <transition id="t-10CB-451A1-24">
+  <name>
+   <text>t3</text>
+  </name>
+  </transition>
+  <transition id="t-10CB-451A2-25">
+  <name>
+   <text>t4</text>
+  </name>
+  </transition>
+  <transition id="t-10CB-451A2-26">
+  <name>
+   <text>t5</text>
+  </name>
+  </transition>
+  <transition id="t-10CB-451A4-27">
+  <name>
+   <text>t6</text>
+  </name>
+  </transition>
+  <transition id="t-10CB-451A5-28">
+  <name>
+   <text>t7</text>
+  </name>
+  </transition>
+  <transition id="t-10CB-451A5-29">
+  <name>
+   <text>t8</text>
+  </name>
+  </transition>
+  <transition id="t-10CB-451A6-30">
+  <name>
+   <text>t9</text>
+  </name>
+  </transition>
+  <arc id="e-10CB-451A7-31" source="p-10CB-4518E-2" target="t-10CB-4519C-18">
+  </arc>
+  <arc id="e-10CB-451A9-32" source="p-10CB-45191-4" target="t-10CB-4519F-21">
+  </arc>
+  <arc id="e-10CB-451A9-33" source="p-10CB-45195-8" target="t-10CB-4519F-21">
+  </arc>
+  <arc id="e-10CB-451AA-34" source="t-10CB-4519F-21" target="p-10CB-45192-5">
+  </arc>
+  <arc id="e-10CB-451AA-35" source="p-10CB-45192-5" target="t-10CB-451A0-22">
+  </arc>
+  <arc id="e-10CB-451AB-36" source="t-10CB-451A0-22" target="p-10CB-4518E-2">
+  </arc>
+  <arc id="e-10CB-451AC-37" source="p-10CB-45195-9" target="t-10CB-451A0-23">
+  </arc>
+  <arc id="e-10CB-451AC-38" source="t-10CB-451A0-23" target="p-10CB-45197-11">
+  </arc>
+  <arc id="e-10CB-451AD-39" source="t-10CB-451A0-23" target="p-10CB-45198-12">
+  </arc>
+  <arc id="e-10CB-451AD-40" source="p-10CB-45197-10" target="t-10CB-451A1-24">
+  </arc>
+  <arc id="e-10CB-451AE-41" source="t-10CB-451A1-24" target="p-10CB-45198-13">
+  </arc>
+  <arc id="e-10CB-451AE-42" source="t-10CB-4519C-18" target="p-10CB-45190-3">
+  </arc>
+  <arc id="e-10CB-451AF-43" source="p-10CB-45193-6" target="t-10CB-451A2-25">
+  </arc>
+  <arc id="e-10CB-451B0-44" source="t-10CB-451A2-25" target="p-10CB-45194-7">
+  </arc>
+  <arc id="e-10CB-451B1-45" source="p-10CB-45197-11" target="t-10CB-451A2-26">
+  </arc>
+  <arc id="e-10CB-451B1-46" source="t-10CB-451A2-26" target="p-10CB-45199-14">
+  </arc>
+  <arc id="e-10CB-451BE-47" source="p-10CB-45198-12" target="t-10CB-451A4-27">
+  </arc>
+  <arc id="e-10CB-451BF-48" source="t-10CB-451A4-27" target="p-10CB-4519A-15">
+  </arc>
+  <arc id="e-10CB-451C0-49" source="p-10CB-45198-13" target="t-10CB-451A5-28">
+  </arc>
+  <arc id="e-10CB-451C0-50" source="t-10CB-451A5-28" target="p-10CB-4519B-16">
+  </arc>
+  <arc id="e-10CB-451C1-51" source="p-10CB-45199-14" target="t-10CB-451A5-29">
+  </arc>
+  <arc id="e-10CB-451C1-52" source="t-10CB-451A5-29" target="p-10CB-4519C-17">
+  </arc>
+  <arc id="e-10CB-451C2-53" source="t-10CB-4519C-18" target="p-10CB-45195-9">
+  </arc>
+  <arc id="e-10CB-451C2-54" source="p-10CB-4519B-16" target="t-10CB-451A6-30">
+  </arc>
+  <arc id="e-10CB-451C3-55" source="p-10CB-45194-7" target="t-10CB-451A6-30">
+  </arc>
+  <arc id="e-10CB-451C4-56" source="t-10CB-451A6-30" target="p-10CB-45191-4">
+  </arc>
+  <arc id="e-10CB-451C5-57" source="p-10CB-45190-3" target="t-10CB-4519E-19">
+  </arc>
+  <arc id="e-10CB-451C6-58" source="t-10CB-4519E-19" target="p-10CB-45197-10">
+  </arc>
+  <arc id="e-10CB-451C6-59" source="t-10CB-4519E-19" target="p-10CB-45193-6">
+  </arc>
+  <arc id="e-10CB-451C7-60" source="p-10CB-4519A-15" target="t-10CB-4519E-20">
+  </arc>
+  <arc id="e-10CB-451C7-61" source="p-10CB-4519C-17" target="t-10CB-4519E-20">
+  </arc>
+  <arc id="e-10CB-451C8-62" source="t-10CB-4519E-20" target="p-10CB-45195-8">
+  </arc>
+ </page>
+ </net>
+</pnml>

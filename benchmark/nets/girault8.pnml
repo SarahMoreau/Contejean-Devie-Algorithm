@@ -1,0 +1,157 @@
+<pnml xmlns="http://www.pnml.org/version-2009/grammar/pnml">
+ <net id="n-1069-D2024-0" type ="http://www.pnml.org/version-2009/grammar/ptnet">
+  <name>
+   <text>girault8</text>
+  </name>
+ <page id="g-1069-D2028-1">
+  <place id="p-1069-D2029-2">
+  <name>
+   <text>p0</text>
+  </name>
+  </place>
+  <place id="p-1069-D202B-3">
+  <name>
+   <text>p1</text>
+  </name>
+   <initialMarking>
+    <text>1</text>
+   </initialMarking>
+  </place>
+  <place id="p-1069-D202C-4">
+  <name>
+   <text>p2</text>
+  </name>
+  </place>
+  <place id="p-1069-D202D-5">
+  <name>
+   <text>p3</text>
+  </name>
+   <initialMarking>
+    <text>1</text>
+   </initialMarking>
+  </place>
+  <place id="p-1069-D202E-6">
+  <name>
+   <text>p4</text>
+  </name>
+   <initialMarking>
+    <text>1</text>
+   </initialMarking>
+  </place>
+  <place id="p-1069-D202F-7">
+  <name>
+   <text>p5</text>
+  </name>
+  </place>
+  <place id="p-1069-D2030-8">
+  <name>
+   <text>p6</text>
+  </name>
+  </place>
+  <place id="p-1069-D2030-9">
+  <name>
+   <text>p7</text>
+  </name>
+   <initialMarking>
+    <text>1</text>
+   </initialMarking>
+  </place>
+  <transition id="t-1069-D2031-10">
+  <name>
+   <text>t0</text>
+  </name>
+  </transition>
+  <transition id="t-1069-D2032-11">
+  <name>
+   <text>t1</text>
+  </name>
+  </transition>
+  <transition id="t-1069-D2033-12">
+  <name>
+   <text>t2</text>
+  </name>
+  </transition>
+  <transition id="t-1069-D2034-13">
+  <name>
+   <text>t3</text>
+  </name>
+  </transition>
+  <transition id="t-1069-D2035-14">
+  <name>
+   <text>t4</text>
+  </name>
+  </transition>
+  <transition id="t-1069-D2035-15">
+  <name>
+   <text>t5</text>
+  </name>
+  </transition>
+  <transition id="t-1069-D2036-16">
+  <name>
+   <text>t6</text>
+  </name>
+  </transition>
+  <transition id="t-1069-D2037-17">
+  <name>
+   <text>t7</text>
+  </name>
+  </transition>
+  <arc id="e-1069-D2038-18" source="p-1069-D2029-2" target="t-1069-D2031-10">
+  </arc>
+  <arc id="e-1069-D2039-19" source="p-1069-D2030-8" target="t-1069-D2033-12">
+  </arc>
+  <arc id="e-1069-D203A-20" source="t-1069-D2033-12" target="p-1069-D202C-4">
+  </arc>
+  <arc id="e-1069-D203A-21" source="t-1069-D2033-12" target="p-1069-D2030-9">
+  </arc>
+  <arc id="e-1069-D203B-22" source="p-1069-D202C-4" target="t-1069-D2034-13">
+  </arc>
+  <arc id="e-1069-D203B-23" source="p-1069-D2030-9" target="t-1069-D2034-13">
+  </arc>
+  <arc id="e-1069-D203C-24" source="t-1069-D2034-13" target="p-1069-D202D-5">
+  </arc>
+  <arc id="e-1069-D203C-25" source="t-1069-D2034-13" target="p-1069-D2030-8">
+  </arc>
+  <arc id="e-1069-D203D-26" source="p-1069-D202E-6" target="t-1069-D2035-14">
+  </arc>
+  <arc id="e-1069-D203E-27" source="p-1069-D2030-8" target="t-1069-D2035-14">
+  </arc>
+  <arc id="e-1069-D203E-28" source="t-1069-D2035-14" target="p-1069-D202F-7">
+  </arc>
+  <arc id="e-1069-D203F-29" source="p-1069-D2030-9" target="t-1069-D2031-10">
+  </arc>
+  <arc id="e-1069-D203F-30" source="t-1069-D2035-14" target="p-1069-D2030-9">
+  </arc>
+  <arc id="e-1069-D2040-31" source="p-1069-D202F-7" target="t-1069-D2035-15">
+  </arc>
+  <arc id="e-1069-D2040-32" source="p-1069-D2030-9" target="t-1069-D2035-15">
+  </arc>
+  <arc id="e-1069-D2041-33" source="t-1069-D2035-15" target="p-1069-D202E-6">
+  </arc>
+  <arc id="e-1069-D2041-34" source="t-1069-D2035-15" target="p-1069-D2030-8">
+  </arc>
+  <arc id="e-1069-D2042-35" source="p-1069-D2030-9" target="t-1069-D2036-16">
+  </arc>
+  <arc id="e-1069-D2042-36" source="t-1069-D2036-16" target="p-1069-D2030-8">
+  </arc>
+  <arc id="e-1069-D2043-37" source="p-1069-D2030-8" target="t-1069-D2037-17">
+  </arc>
+  <arc id="e-1069-D2043-38" source="t-1069-D2037-17" target="p-1069-D2030-9">
+  </arc>
+  <arc id="e-1069-D2044-39" source="t-1069-D2031-10" target="p-1069-D202B-3">
+  </arc>
+  <arc id="e-1069-D2045-40" source="t-1069-D2031-10" target="p-1069-D2030-8">
+  </arc>
+  <arc id="e-1069-D2045-41" source="p-1069-D202B-3" target="t-1069-D2032-11">
+  </arc>
+  <arc id="e-1069-D2046-42" source="p-1069-D2030-8" target="t-1069-D2032-11">
+  </arc>
+  <arc id="e-1069-D2046-43" source="t-1069-D2032-11" target="p-1069-D2029-2">
+  </arc>
+  <arc id="e-1069-D2047-44" source="t-1069-D2032-11" target="p-1069-D2030-9">
+  </arc>
+  <arc id="e-1069-D2051-45" source="p-1069-D202D-5" target="t-1069-D2033-12">
+  </arc>
+ </page>
+ </net>
+</pnml>

@@ -1,0 +1,360 @@
+<pnml xmlns="http://www.pnml.org/version-2009/grammar/pnml">
+ <net id="n-1077-128D6-0" type ="http://www.pnml.org/version-2009/grammar/ptnet">
+  <name>
+   <text>heiner1</text>
+  </name>
+ <page id="g-1077-128DB-1">
+  <place id="p-1077-128DC-2">
+  <name>
+   <text>p0</text>
+  </name>
+   <initialMarking>
+    <text>1</text>
+   </initialMarking>
+  </place>
+  <place id="p-1077-128DF-3">
+  <name>
+   <text>p1</text>
+  </name>
+  </place>
+  <place id="p-1077-128DF-4">
+  <name>
+   <text>p10</text>
+  </name>
+  </place>
+  <place id="p-1077-128E0-5">
+  <name>
+   <text>p11</text>
+  </name>
+  </place>
+  <place id="p-1077-128E2-6">
+  <name>
+   <text>p12</text>
+  </name>
+  </place>
+  <place id="p-1077-128E2-7">
+  <name>
+   <text>p13</text>
+  </name>
+   <initialMarking>
+    <text>1</text>
+   </initialMarking>
+  </place>
+  <place id="p-1077-128E3-8">
+  <name>
+   <text>p14</text>
+  </name>
+  </place>
+  <place id="p-1077-128E4-9">
+  <name>
+   <text>p15</text>
+  </name>
+   <initialMarking>
+    <text>1</text>
+   </initialMarking>
+  </place>
+  <place id="p-1077-128E5-10">
+  <name>
+   <text>p16</text>
+  </name>
+  </place>
+  <place id="p-1077-128E6-11">
+  <name>
+   <text>p17</text>
+  </name>
+  </place>
+  <place id="p-1077-128E6-12">
+  <name>
+   <text>p18</text>
+  </name>
+  </place>
+  <place id="p-1077-128E7-13">
+  <name>
+   <text>p19</text>
+  </name>
+  </place>
+  <place id="p-1077-128E8-14">
+  <name>
+   <text>p2</text>
+  </name>
+  </place>
+  <place id="p-1077-128E9-15">
+  <name>
+   <text>p20</text>
+  </name>
+  </place>
+  <place id="p-1077-128EA-16">
+  <name>
+   <text>p21</text>
+  </name>
+   <initialMarking>
+    <text>1</text>
+   </initialMarking>
+  </place>
+  <place id="p-1077-128EA-17">
+  <name>
+   <text>p3</text>
+  </name>
+   <initialMarking>
+    <text>1</text>
+   </initialMarking>
+  </place>
+  <place id="p-1077-128EC-18">
+  <name>
+   <text>p4</text>
+  </name>
+  </place>
+  <place id="p-1077-128EC-19">
+  <name>
+   <text>p5</text>
+  </name>
+   <initialMarking>
+    <text>1</text>
+   </initialMarking>
+  </place>
+  <place id="p-1077-128ED-20">
+  <name>
+   <text>p6</text>
+  </name>
+  </place>
+  <place id="p-1077-128EE-21">
+  <name>
+   <text>p7</text>
+  </name>
+   <initialMarking>
+    <text>1</text>
+   </initialMarking>
+  </place>
+  <place id="p-1077-128EF-22">
+  <name>
+   <text>p8</text>
+  </name>
+  </place>
+  <place id="p-1077-128F0-23">
+  <name>
+   <text>p9</text>
+  </name>
+  </place>
+  <transition id="t-1077-128F0-24">
+  <name>
+   <text>t0</text>
+  </name>
+  </transition>
+  <transition id="t-1077-128F1-25">
+  <name>
+   <text>t1</text>
+  </name>
+  </transition>
+  <transition id="t-1077-128F3-26">
+  <name>
+   <text>t10</text>
+  </name>
+  </transition>
+  <transition id="t-1077-128F4-27">
+  <name>
+   <text>t11</text>
+  </name>
+  </transition>
+  <transition id="t-1077-128F5-28">
+  <name>
+   <text>t12</text>
+  </name>
+  </transition>
+  <transition id="t-1077-128F6-29">
+  <name>
+   <text>t13</text>
+  </name>
+  </transition>
+  <transition id="t-1077-128F7-30">
+  <name>
+   <text>t14</text>
+  </name>
+  </transition>
+  <transition id="t-1077-128F8-31">
+  <name>
+   <text>t15</text>
+  </name>
+  </transition>
+  <transition id="t-1077-128F8-32">
+  <name>
+   <text>t16</text>
+  </name>
+  </transition>
+  <transition id="t-1077-128F9-33">
+  <name>
+   <text>t17</text>
+  </name>
+  </transition>
+  <transition id="t-1077-128FB-34">
+  <name>
+   <text>t18</text>
+  </name>
+  </transition>
+  <transition id="t-1077-128FB-35">
+  <name>
+   <text>t19</text>
+  </name>
+  </transition>
+  <transition id="t-1077-128FC-36">
+  <name>
+   <text>t2</text>
+  </name>
+  </transition>
+  <transition id="t-1077-128FD-37">
+  <name>
+   <text>t3</text>
+  </name>
+  </transition>
+  <transition id="t-1077-128FE-38">
+  <name>
+   <text>t4</text>
+  </name>
+  </transition>
+  <transition id="t-1077-128FF-39">
+  <name>
+   <text>t5</text>
+  </name>
+  </transition>
+  <transition id="t-1077-128FF-40">
+  <name>
+   <text>t6</text>
+  </name>
+  </transition>
+  <transition id="t-1077-12900-41">
+  <name>
+   <text>t7</text>
+  </name>
+  </transition>
+  <transition id="t-1077-12901-42">
+  <name>
+   <text>t8</text>
+  </name>
+  </transition>
+  <transition id="t-1077-1290E-43">
+  <name>
+   <text>t9</text>
+  </name>
+  </transition>
+  <arc id="e-1077-12910-44" source="p-1077-128DC-2" target="t-1077-128F0-24">
+  </arc>
+  <arc id="e-1077-12913-45" source="p-1077-128E0-5" target="t-1077-128F4-27">
+  </arc>
+  <arc id="e-1077-12914-46" source="p-1077-128E2-7" target="t-1077-128F4-27">
+  </arc>
+  <arc id="e-1077-12915-47" source="t-1077-128F4-27" target="p-1077-128DF-4">
+  </arc>
+  <arc id="e-1077-12915-48" source="p-1077-128E0-5" target="t-1077-128F5-28">
+  </arc>
+  <arc id="e-1077-12917-49" source="p-1077-128E4-9" target="t-1077-128F5-28">
+  </arc>
+  <arc id="e-1077-12917-50" source="t-1077-128F5-28" target="p-1077-128E3-8">
+  </arc>
+  <arc id="e-1077-12918-51" source="p-1077-128E3-8" target="t-1077-128F6-29">
+  </arc>
+  <arc id="e-1077-12918-52" source="t-1077-128F6-29" target="p-1077-128E0-5">
+  </arc>
+  <arc id="e-1077-12919-53" source="t-1077-128F6-29" target="p-1077-128E6-11">
+  </arc>
+  <arc id="e-1077-12919-54" source="p-1077-128E5-10" target="t-1077-128F7-30">
+  </arc>
+  <arc id="e-1077-1291A-55" source="p-1077-128EA-17" target="t-1077-128F0-24">
+  </arc>
+  <arc id="e-1077-1291B-56" source="t-1077-128F7-30" target="p-1077-128E4-9">
+  </arc>
+  <arc id="e-1077-1291B-57" source="t-1077-128F7-30" target="p-1077-128EA-16">
+  </arc>
+  <arc id="e-1077-1291C-58" source="p-1077-128E6-11" target="t-1077-128F8-31">
+  </arc>
+  <arc id="e-1077-1291C-59" source="p-1077-128EA-16" target="t-1077-128F8-31">
+  </arc>
+  <arc id="e-1077-1291D-60" source="t-1077-128F8-31" target="p-1077-128E5-10">
+  </arc>
+  <arc id="e-1077-1291E-61" source="p-1077-128E0-5" target="t-1077-128F8-32">
+  </arc>
+  <arc id="e-1077-1291F-62" source="p-1077-128E6-11" target="t-1077-128F8-32">
+  </arc>
+  <arc id="e-1077-1291F-63" source="t-1077-128F8-32" target="p-1077-128E9-15">
+  </arc>
+  <arc id="e-1077-12920-64" source="p-1077-128E9-15" target="t-1077-128F9-33">
+  </arc>
+  <arc id="e-1077-12920-65" source="t-1077-128F9-33" target="p-1077-128E0-5">
+  </arc>
+  <arc id="e-1077-12921-66" source="t-1077-128F0-24" target="p-1077-128DF-3">
+  </arc>
+  <arc id="e-1077-12922-67" source="t-1077-128F9-33" target="p-1077-128E7-13">
+  </arc>
+  <arc id="e-1077-12922-68" source="p-1077-128E7-13" target="t-1077-128FB-34">
+  </arc>
+  <arc id="e-1077-12923-69" source="p-1077-128EA-16" target="t-1077-128FB-34">
+  </arc>
+  <arc id="e-1077-12923-70" source="t-1077-128FB-34" target="p-1077-128E6-12">
+  </arc>
+  <arc id="e-1077-12924-71" source="p-1077-128E6-12" target="t-1077-128FB-35">
+  </arc>
+  <arc id="e-1077-12925-72" source="t-1077-128FB-35" target="p-1077-128E6-11">
+  </arc>
+  <arc id="e-1077-12926-73" source="t-1077-128FB-35" target="p-1077-128EA-16">
+  </arc>
+  <arc id="e-1077-12926-74" source="p-1077-128EC-18" target="t-1077-128FC-36">
+  </arc>
+  <arc id="e-1077-12927-75" source="p-1077-128EC-19" target="t-1077-128FC-36">
+  </arc>
+  <arc id="e-1077-12928-76" source="t-1077-128FC-36" target="p-1077-128E8-14">
+  </arc>
+  <arc id="e-1077-12928-77" source="p-1077-128DF-3" target="t-1077-128F1-25">
+  </arc>
+  <arc id="e-1077-12929-78" source="p-1077-128E8-14" target="t-1077-128FD-37">
+  </arc>
+  <arc id="e-1077-12929-79" source="t-1077-128FD-37" target="p-1077-128EA-17">
+  </arc>
+  <arc id="e-1077-1292A-80" source="t-1077-128FD-37" target="p-1077-128EC-19">
+  </arc>
+  <arc id="e-1077-1292A-81" source="p-1077-128EC-18" target="t-1077-128FE-38">
+  </arc>
+  <arc id="e-1077-1292B-82" source="p-1077-128EE-21" target="t-1077-128FE-38">
+  </arc>
+  <arc id="e-1077-1292C-83" source="t-1077-128FE-38" target="p-1077-128ED-20">
+  </arc>
+  <arc id="e-1077-1292D-84" source="p-1077-128ED-20" target="t-1077-128FF-39">
+  </arc>
+  <arc id="e-1077-1292D-85" source="t-1077-128FF-39" target="p-1077-128EC-18">
+  </arc>
+  <arc id="e-1077-1292E-86" source="t-1077-128FF-39" target="p-1077-128F0-23">
+  </arc>
+  <arc id="e-1077-1292F-87" source="p-1077-128F0-23" target="t-1077-128FF-40">
+  </arc>
+  <arc id="e-1077-1292F-88" source="t-1077-128F1-25" target="p-1077-128DC-2">
+  </arc>
+  <arc id="e-1077-12930-89" source="p-1077-128E2-7" target="t-1077-128FF-40">
+  </arc>
+  <arc id="e-1077-12935-90" source="t-1077-128FF-40" target="p-1077-128EF-22">
+  </arc>
+  <arc id="e-1077-12936-91" source="p-1077-128EF-22" target="t-1077-12900-41">
+  </arc>
+  <arc id="e-1077-12936-92" source="t-1077-12900-41" target="p-1077-128EE-21">
+  </arc>
+  <arc id="e-1077-12937-93" source="t-1077-12900-41" target="p-1077-128E2-7">
+  </arc>
+  <arc id="e-1077-12938-94" source="p-1077-128DF-4" target="t-1077-12901-42">
+  </arc>
+  <arc id="e-1077-12938-95" source="t-1077-12901-42" target="p-1077-128F0-23">
+  </arc>
+  <arc id="e-1077-12939-96" source="t-1077-12901-42" target="p-1077-128E2-7">
+  </arc>
+  <arc id="e-1077-1293A-97" source="p-1077-128EC-18" target="t-1077-1290E-43">
+  </arc>
+  <arc id="e-1077-1293B-98" source="p-1077-128F0-23" target="t-1077-1290E-43">
+  </arc>
+  <arc id="e-1077-1293B-99" source="t-1077-128F1-25" target="p-1077-128EC-18">
+  </arc>
+  <arc id="e-1077-1293C-100" source="t-1077-1290E-43" target="p-1077-128E2-6">
+  </arc>
+  <arc id="e-1077-1293C-101" source="p-1077-128E2-6" target="t-1077-128F3-26">
+  </arc>
+  <arc id="e-1077-1293D-102" source="t-1077-128F3-26" target="p-1077-128EC-18">
+  </arc>
+  <arc id="e-1077-1293E-103" source="t-1077-128F3-26" target="p-1077-128E0-5">
+  </arc>
+ </page>
+ </net>
+</pnml>

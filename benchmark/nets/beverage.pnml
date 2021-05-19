@@ -1,0 +1,221 @@
+<pnml xmlns="http://www.pnml.org/version-2009/grammar/pnml">
+ <net id="n-FFD-5CFB3-0" type ="http://www.pnml.org/version-2009/grammar/ptnet">
+  <name>
+   <text>beverage</text>
+  </name>
+ <page id="g-FFD-5CFB8-1">
+  <place id="p-FFD-5CFB9-2">
+  <name>
+   <text>p0</text>
+  </name>
+   <initialMarking>
+    <text>1</text>
+   </initialMarking>
+  </place>
+  <place id="p-FFD-5CFBB-3">
+  <name>
+   <text>p1</text>
+  </name>
+  </place>
+  <place id="p-FFD-5CFBC-4">
+  <name>
+   <text>p10</text>
+  </name>
+  </place>
+  <place id="p-FFD-5CFBD-5">
+  <name>
+   <text>p11</text>
+  </name>
+  </place>
+  <place id="p-FFD-5CFBE-6">
+  <name>
+   <text>p12</text>
+  </name>
+  </place>
+  <place id="p-FFD-5CFBF-7">
+  <name>
+   <text>p13</text>
+  </name>
+  </place>
+  <place id="p-FFD-5CFBF-8">
+  <name>
+   <text>p14</text>
+  </name>
+  </place>
+  <place id="p-FFD-5CFC0-9">
+  <name>
+   <text>p15</text>
+  </name>
+  </place>
+  <place id="p-FFD-5CFC1-10">
+  <name>
+   <text>p2</text>
+  </name>
+  </place>
+  <place id="p-FFD-5CFC2-11">
+  <name>
+   <text>p3</text>
+  </name>
+  </place>
+  <place id="p-FFD-5CFC2-12">
+  <name>
+   <text>p4</text>
+  </name>
+  </place>
+  <place id="p-FFD-5CFC3-13">
+  <name>
+   <text>p5</text>
+  </name>
+  </place>
+  <place id="p-FFD-5CFC4-14">
+  <name>
+   <text>p6</text>
+  </name>
+  </place>
+  <place id="p-FFD-5CFC5-15">
+  <name>
+   <text>p7</text>
+  </name>
+  </place>
+  <place id="p-FFD-5CFC5-16">
+  <name>
+   <text>p8</text>
+  </name>
+  </place>
+  <place id="p-FFD-5CFC6-17">
+  <name>
+   <text>p9</text>
+  </name>
+  </place>
+  <transition id="t-FFD-5CFC7-18">
+  <name>
+   <text>t0</text>
+  </name>
+  </transition>
+  <transition id="t-FFD-5CFC8-19">
+  <name>
+   <text>t1</text>
+  </name>
+  </transition>
+  <transition id="t-FFD-5CFC8-20">
+  <name>
+   <text>t10</text>
+  </name>
+  </transition>
+  <transition id="t-FFD-5CFC9-21">
+  <name>
+   <text>t11</text>
+  </name>
+  </transition>
+  <transition id="t-FFD-5CFCA-22">
+  <name>
+   <text>t12</text>
+  </name>
+  </transition>
+  <transition id="t-FFD-5CFCA-23">
+  <name>
+   <text>t2</text>
+  </name>
+  </transition>
+  <transition id="t-FFD-5CFCB-24">
+  <name>
+   <text>t3</text>
+  </name>
+  </transition>
+  <transition id="t-FFD-5CFCC-25">
+  <name>
+   <text>t4</text>
+  </name>
+  </transition>
+  <transition id="t-FFD-5CFCC-26">
+  <name>
+   <text>t5</text>
+  </name>
+  </transition>
+  <transition id="t-FFD-5CFCD-27">
+  <name>
+   <text>t6</text>
+  </name>
+  </transition>
+  <transition id="t-FFD-5CFCE-28">
+  <name>
+   <text>t7</text>
+  </name>
+  </transition>
+  <transition id="t-FFD-5CFCF-29">
+  <name>
+   <text>t8</text>
+  </name>
+  </transition>
+  <transition id="t-FFD-5CFCF-30">
+  <name>
+   <text>t9</text>
+  </name>
+  </transition>
+  <arc id="e-FFD-5CFD0-31" source="p-FFD-5CFB9-2" target="t-FFD-5CFC7-18">
+  </arc>
+  <arc id="e-FFD-5CFD2-32" source="p-FFD-5CFBF-8" target="t-FFD-5CFC9-21">
+  </arc>
+  <arc id="e-FFD-5CFD3-33" source="t-FFD-5CFC9-21" target="p-FFD-5CFC0-9">
+  </arc>
+  <arc id="e-FFD-5CFD4-34" source="p-FFD-5CFC0-9" target="t-FFD-5CFCA-22">
+  </arc>
+  <arc id="e-FFD-5CFD4-35" source="t-FFD-5CFCA-22" target="p-FFD-5CFB9-2">
+  </arc>
+  <arc id="e-FFD-5CFD5-36" source="p-FFD-5CFC1-10" target="t-FFD-5CFCA-23">
+  </arc>
+  <arc id="e-FFD-5CFD5-37" source="t-FFD-5CFCA-23" target="p-FFD-5CFC3-13">
+  </arc>
+  <arc id="e-FFD-5CFD6-38" source="p-FFD-5CFC2-11" target="t-FFD-5CFCB-24">
+  </arc>
+  <arc id="e-FFD-5CFD6-39" source="t-FFD-5CFCB-24" target="p-FFD-5CFC4-14">
+  </arc>
+  <arc id="e-FFD-5CFD7-40" source="p-FFD-5CFC2-12" target="t-FFD-5CFCC-25">
+  </arc>
+  <arc id="e-FFD-5CFD7-41" source="t-FFD-5CFCC-25" target="p-FFD-5CFC5-15">
+  </arc>
+  <arc id="e-FFD-5CFD8-42" source="t-FFD-5CFC7-18" target="p-FFD-5CFBB-3">
+  </arc>
+  <arc id="e-FFD-5CFD9-43" source="p-FFD-5CFC3-13" target="t-FFD-5CFCC-26">
+  </arc>
+  <arc id="e-FFD-5CFDA-44" source="t-FFD-5CFCC-26" target="p-FFD-5CFC5-16">
+  </arc>
+  <arc id="e-FFD-5CFDA-45" source="p-FFD-5CFC4-14" target="t-FFD-5CFCD-27">
+  </arc>
+  <arc id="e-FFD-5CFDB-46" source="t-FFD-5CFCD-27" target="p-FFD-5CFBD-5">
+  </arc>
+  <arc id="e-FFD-5CFDB-47" source="t-FFD-5CFCD-27" target="p-FFD-5CFBF-7">
+  </arc>
+  <arc id="e-FFD-5CFE6-48" source="p-FFD-5CFC5-15" target="t-FFD-5CFCE-28">
+  </arc>
+  <arc id="e-FFD-5CFE6-49" source="p-FFD-5CFC5-16" target="t-FFD-5CFCE-28">
+  </arc>
+  <arc id="e-FFD-5CFE7-50" source="t-FFD-5CFCE-28" target="p-FFD-5CFC6-17">
+  </arc>
+  <arc id="e-FFD-5CFE8-51" source="p-FFD-5CFC6-17" target="t-FFD-5CFCF-29">
+  </arc>
+  <arc id="e-FFD-5CFE8-52" source="t-FFD-5CFCF-29" target="p-FFD-5CFBC-4">
+  </arc>
+  <arc id="e-FFD-5CFE9-53" source="t-FFD-5CFC7-18" target="p-FFD-5CFC1-10">
+  </arc>
+  <arc id="e-FFD-5CFE9-54" source="p-FFD-5CFBC-4" target="t-FFD-5CFCF-30">
+  </arc>
+  <arc id="e-FFD-5CFEA-55" source="p-FFD-5CFBD-5" target="t-FFD-5CFCF-30">
+  </arc>
+  <arc id="e-FFD-5CFEB-56" source="t-FFD-5CFCF-30" target="p-FFD-5CFBE-6">
+  </arc>
+  <arc id="e-FFD-5CFEC-57" source="t-FFD-5CFC7-18" target="p-FFD-5CFC2-11">
+  </arc>
+  <arc id="e-FFD-5CFEC-58" source="p-FFD-5CFBB-3" target="t-FFD-5CFC8-19">
+  </arc>
+  <arc id="e-FFD-5CFED-59" source="t-FFD-5CFC8-19" target="p-FFD-5CFC2-12">
+  </arc>
+  <arc id="e-FFD-5CFED-60" source="p-FFD-5CFBE-6" target="t-FFD-5CFC8-20">
+  </arc>
+  <arc id="e-FFD-5CFEE-61" source="p-FFD-5CFBF-7" target="t-FFD-5CFC8-20">
+  </arc>
+  <arc id="e-FFD-5CFEE-62" source="t-FFD-5CFC8-20" target="p-FFD-5CFBF-8">
+  </arc>
+ </page>
+ </net>
+</pnml>

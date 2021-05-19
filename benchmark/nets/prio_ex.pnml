@@ -1,0 +1,49 @@
+<pnml xmlns="http://www.pnml.org/version-2009/grammar/pnml">
+ <net id="n-113D-CF8DB-0" type ="http://www.pnml.org/version-2009/grammar/ptnet">
+  <name>
+   <text>prio_ex</text>
+  </name>
+ <page id="g-113D-CF8DE-1">
+  <place id="p-113D-CF8DF-2">
+  <name>
+   <text>p0</text>
+  </name>
+   <initialMarking>
+    <text>1</text>
+   </initialMarking>
+  </place>
+  <place id="p-113D-CF8E1-3">
+  <name>
+   <text>p1</text>
+  </name>
+  </place>
+  <transition id="t-113D-CF8E2-4">
+  <name>
+   <text>t0</text>
+  </name>
+  </transition>
+  <transition id="t-113D-CF8E3-5">
+  <name>
+   <text>t1</text>
+  </name>
+  </transition>
+  <transition id="t-113D-CF8E4-6">
+  <name>
+   <text>t2</text>
+  </name>
+  </transition>
+  <arc id="e-113D-CF8E5-7" source="p-113D-CF8DF-2" target="t-113D-CF8E2-4">
+  </arc>
+  <arc id="e-113D-CF8E6-8" source="t-113D-CF8E2-4" target="p-113D-CF8E1-3">
+  </arc>
+  <arc id="e-113D-CF8E7-9" source="p-113D-CF8DF-2" target="t-113D-CF8E3-5">
+  </arc>
+  <arc id="e-113D-CF8E7-10" source="t-113D-CF8E3-5" target="p-113D-CF8E1-3">
+  </arc>
+  <arc id="e-113D-CF8E8-11" source="p-113D-CF8E1-3" target="t-113D-CF8E4-6">
+  </arc>
+  <arc id="e-113D-CF8E8-12" source="t-113D-CF8E4-6" target="p-113D-CF8DF-2">
+  </arc>
+ </page>
+ </net>
+</pnml>

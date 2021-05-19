@@ -1,0 +1,143 @@
+<pnml xmlns="http://www.pnml.org/version-2009/grammar/pnml">
+ <net id="n-1035-2382E-0" type ="http://www.pnml.org/version-2009/grammar/ptnet">
+  <name>
+   <text>dataflow_computation</text>
+  </name>
+ <page id="g-1035-23832-1">
+  <place id="p-1035-23833-2">
+  <name>
+   <text>p0</text>
+  </name>
+   <initialMarking>
+    <text>1</text>
+   </initialMarking>
+  </place>
+  <place id="p-1035-23835-3">
+  <name>
+   <text>p1</text>
+  </name>
+  </place>
+  <place id="p-1035-23837-4">
+  <name>
+   <text>p10</text>
+  </name>
+  </place>
+  <place id="p-1035-23837-5">
+  <name>
+   <text>p2</text>
+  </name>
+  </place>
+  <place id="p-1035-23838-6">
+  <name>
+   <text>p3</text>
+  </name>
+  </place>
+  <place id="p-1035-23839-7">
+  <name>
+   <text>p4</text>
+  </name>
+  </place>
+  <place id="p-1035-23839-8">
+  <name>
+   <text>p5</text>
+  </name>
+   <initialMarking>
+    <text>1</text>
+   </initialMarking>
+  </place>
+  <place id="p-1035-2383A-9">
+  <name>
+   <text>p6</text>
+  </name>
+  </place>
+  <place id="p-1035-2383B-10">
+  <name>
+   <text>p7</text>
+  </name>
+  </place>
+  <place id="p-1035-2383B-11">
+  <name>
+   <text>p8</text>
+  </name>
+  </place>
+  <place id="p-1035-2383C-12">
+  <name>
+   <text>p9</text>
+  </name>
+  </place>
+  <transition id="t-1035-2383D-13">
+  <name>
+   <text>t0</text>
+  </name>
+  </transition>
+  <transition id="t-1035-2383E-14">
+  <name>
+   <text>t1</text>
+  </name>
+  </transition>
+  <transition id="t-1035-2383F-15">
+  <name>
+   <text>t2</text>
+  </name>
+  </transition>
+  <transition id="t-1035-23840-16">
+  <name>
+   <text>t3</text>
+  </name>
+  </transition>
+  <transition id="t-1035-23840-17">
+  <name>
+   <text>t4</text>
+  </name>
+  </transition>
+  <transition id="t-1035-23841-18">
+  <name>
+   <text>t5</text>
+  </name>
+  </transition>
+  <transition id="t-1035-23842-19">
+  <name>
+   <text>t6</text>
+  </name>
+  </transition>
+  <arc id="e-1035-23843-20" source="p-1035-23833-2" target="t-1035-2383D-13">
+  </arc>
+  <arc id="e-1035-23844-21" source="p-1035-23839-8" target="t-1035-23840-16">
+  </arc>
+  <arc id="e-1035-23844-22" source="t-1035-23840-16" target="p-1035-2383A-9">
+  </arc>
+  <arc id="e-1035-23845-23" source="t-1035-23840-16" target="p-1035-2383B-10">
+  </arc>
+  <arc id="e-1035-23845-24" source="p-1035-23837-5" target="t-1035-23840-17">
+  </arc>
+  <arc id="e-1035-23847-25" source="p-1035-2383B-10" target="t-1035-23840-17">
+  </arc>
+  <arc id="e-1035-23847-26" source="t-1035-23840-17" target="p-1035-2383B-11">
+  </arc>
+  <arc id="e-1035-23848-27" source="p-1035-2383B-11" target="t-1035-23841-18">
+  </arc>
+  <arc id="e-1035-23848-28" source="t-1035-23841-18" target="p-1035-2383C-12">
+  </arc>
+  <arc id="e-1035-23849-29" source="p-1035-2383B-11" target="t-1035-23842-19">
+  </arc>
+  <arc id="e-1035-23849-30" source="t-1035-23842-19" target="p-1035-23837-4">
+  </arc>
+  <arc id="e-1035-2384A-31" source="t-1035-2383D-13" target="p-1035-23835-3">
+  </arc>
+  <arc id="e-1035-2384A-32" source="t-1035-2383D-13" target="p-1035-23837-5">
+  </arc>
+  <arc id="e-1035-2384A-33" source="p-1035-23835-3" target="t-1035-2383E-14">
+  </arc>
+  <arc id="e-1035-2384B-34" source="p-1035-2383A-9" target="t-1035-2383E-14">
+  </arc>
+  <arc id="e-1035-2384C-35" source="t-1035-2383E-14" target="p-1035-23838-6">
+  </arc>
+  <arc id="e-1035-2384C-36" source="p-1035-23838-6" target="t-1035-2383F-15">
+  </arc>
+  <arc id="e-1035-2384D-37" source="p-1035-2383C-12" target="t-1035-2383F-15">
+  </arc>
+  <arc id="e-1035-2384E-38" source="t-1035-2383F-15" target="p-1035-23839-7">
+  </arc>
+ </page>
+ </net>
+</pnml>

@@ -1,0 +1,117 @@
+<pnml xmlns="http://www.pnml.org/version-2009/grammar/pnml">
+ <net id="n-FE1-2ABB-0" type ="http://www.pnml.org/version-2009/grammar/ptnet">
+  <name>
+   <text>TP5_I</text>
+  </name>
+ <page id="g-FE1-2ABF-1">
+  <place id="p-FE1-2AC0-2">
+  <name>
+   <text>p0</text>
+  </name>
+   <initialMarking>
+    <text>1</text>
+   </initialMarking>
+  </place>
+  <place id="p-FE1-2AC2-3">
+  <name>
+   <text>p1</text>
+  </name>
+   <initialMarking>
+    <text>1</text>
+   </initialMarking>
+  </place>
+  <place id="p-FE1-2AE9-4">
+  <name>
+   <text>p2</text>
+  </name>
+  </place>
+  <place id="p-FE1-2AEA-5">
+  <name>
+   <text>p3</text>
+  </name>
+  </place>
+  <place id="p-FE1-2AEA-6">
+  <name>
+   <text>p4</text>
+  </name>
+  </place>
+  <place id="p-FE1-2AEB-7">
+  <name>
+   <text>p5</text>
+  </name>
+  </place>
+  <place id="p-FE1-2AEC-8">
+  <name>
+   <text>p6</text>
+  </name>
+  </place>
+  <place id="p-FE1-2AEC-9">
+  <name>
+   <text>p7</text>
+  </name>
+  </place>
+  <transition id="t-FE1-2AEE-10">
+  <name>
+   <text>t0</text>
+  </name>
+  </transition>
+  <transition id="t-FE1-2AEF-11">
+  <name>
+   <text>t1</text>
+  </name>
+  </transition>
+  <transition id="t-FE1-2AEF-12">
+  <name>
+   <text>t2</text>
+  </name>
+  </transition>
+  <transition id="t-FE1-2AF0-13">
+  <name>
+   <text>t3</text>
+  </name>
+  </transition>
+  <transition id="t-FE1-2AF1-14">
+  <name>
+   <text>t4</text>
+  </name>
+  </transition>
+  <transition id="t-FE1-2AF2-15">
+  <name>
+   <text>t5</text>
+  </name>
+  </transition>
+  <arc id="e-FE1-2AF3-16" source="p-FE1-2AC0-2" target="t-FE1-2AEE-10">
+  </arc>
+  <arc id="e-FE1-2AF4-17" source="t-FE1-2AF0-13" target="p-FE1-2AC0-2">
+  </arc>
+  <arc id="e-FE1-2AF4-18" source="p-FE1-2AEC-8" target="t-FE1-2AF1-14">
+  </arc>
+  <arc id="e-FE1-2AF5-19" source="t-FE1-2AF1-14" target="p-FE1-2AC2-3">
+  </arc>
+  <arc id="e-FE1-2AF6-20" source="p-FE1-2AEA-6" target="t-FE1-2AF2-15">
+  </arc>
+  <arc id="e-FE1-2AF6-21" source="p-FE1-2AEB-7" target="t-FE1-2AF2-15">
+  </arc>
+  <arc id="e-FE1-2AF7-22" source="t-FE1-2AF2-15" target="p-FE1-2AEC-8">
+  </arc>
+  <arc id="e-FE1-2AF8-23" source="t-FE1-2AF2-15" target="p-FE1-2AEC-9">
+  </arc>
+  <arc id="e-FE1-2AF8-24" source="p-FE1-2AC2-3" target="t-FE1-2AEE-10">
+  </arc>
+  <arc id="e-FE1-2AF9-25" source="t-FE1-2AEE-10" target="p-FE1-2AE9-4">
+  </arc>
+  <arc id="e-FE1-2AF9-26" source="t-FE1-2AEE-10" target="p-FE1-2AEA-5">
+  </arc>
+  <arc id="e-FE1-2AFA-27" source="p-FE1-2AEA-5" target="t-FE1-2AEF-11">
+  </arc>
+  <arc id="e-FE1-2AFA-28" source="t-FE1-2AEF-11" target="p-FE1-2AEA-6">
+  </arc>
+  <arc id="e-FE1-2AFB-29" source="p-FE1-2AE9-4" target="t-FE1-2AEF-12">
+  </arc>
+  <arc id="e-FE1-2AFB-30" source="t-FE1-2AEF-12" target="p-FE1-2AEB-7">
+  </arc>
+  <arc id="e-FE1-2AFC-31" source="p-FE1-2AEC-9" target="t-FE1-2AF0-13">
+  </arc>
+ </page>
+ </net>
+</pnml>

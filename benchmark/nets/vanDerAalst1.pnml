@@ -1,0 +1,206 @@
+<pnml xmlns="http://www.pnml.org/version-2009/grammar/pnml">
+ <net id="n-1181-BBEE9-0" type ="http://www.pnml.org/version-2009/grammar/ptnet">
+  <name>
+   <text>vanDerAalst1</text>
+  </name>
+ <page id="g-1181-BBF03-1">
+  <place id="p-1181-BBF04-2">
+  <name>
+   <text>p0</text>
+  </name>
+   <initialMarking>
+    <text>1</text>
+   </initialMarking>
+  </place>
+  <place id="p-1181-BBF06-3">
+  <name>
+   <text>p1</text>
+  </name>
+  </place>
+  <place id="p-1181-BBF08-4">
+  <name>
+   <text>p10</text>
+  </name>
+  </place>
+  <place id="p-1181-BBF09-5">
+  <name>
+   <text>p11</text>
+  </name>
+  </place>
+  <place id="p-1181-BBF09-6">
+  <name>
+   <text>p2</text>
+  </name>
+  </place>
+  <place id="p-1181-BBF0A-7">
+  <name>
+   <text>p3</text>
+  </name>
+  </place>
+  <place id="p-1181-BBF0B-8">
+  <name>
+   <text>p4</text>
+  </name>
+  </place>
+  <place id="p-1181-BBF0C-9">
+  <name>
+   <text>p5</text>
+  </name>
+  </place>
+  <place id="p-1181-BBF0D-10">
+  <name>
+   <text>p6</text>
+  </name>
+  </place>
+  <place id="p-1181-BBF0D-11">
+  <name>
+   <text>p7</text>
+  </name>
+  </place>
+  <place id="p-1181-BBF0E-12">
+  <name>
+   <text>p8</text>
+  </name>
+  </place>
+  <place id="p-1181-BBF0F-13">
+  <name>
+   <text>p9</text>
+  </name>
+  </place>
+  <transition id="t-1181-BBF10-14">
+  <name>
+   <text>t0</text>
+  </name>
+  </transition>
+  <transition id="t-1181-BBF11-15">
+  <name>
+   <text>t1</text>
+  </name>
+  </transition>
+  <transition id="t-1181-BBF12-16">
+  <name>
+   <text>t10</text>
+  </name>
+  </transition>
+  <transition id="t-1181-BBF12-17">
+  <name>
+   <text>t11</text>
+  </name>
+  </transition>
+  <transition id="t-1181-BBF14-18">
+  <name>
+   <text>t12</text>
+  </name>
+  </transition>
+  <transition id="t-1181-BBF14-19">
+  <name>
+   <text>t13</text>
+  </name>
+  </transition>
+  <transition id="t-1181-BBF15-20">
+  <name>
+   <text>t2</text>
+  </name>
+  </transition>
+  <transition id="t-1181-BBF16-21">
+  <name>
+   <text>t3</text>
+  </name>
+  </transition>
+  <transition id="t-1181-BBF16-22">
+  <name>
+   <text>t4</text>
+  </name>
+  </transition>
+  <transition id="t-1181-BBF17-23">
+  <name>
+   <text>t5</text>
+  </name>
+  </transition>
+  <transition id="t-1181-BBF18-24">
+  <name>
+   <text>t6</text>
+  </name>
+  </transition>
+  <transition id="t-1181-BBF18-25">
+  <name>
+   <text>t7</text>
+  </name>
+  </transition>
+  <transition id="t-1181-BBF19-26">
+  <name>
+   <text>t8</text>
+  </name>
+  </transition>
+  <transition id="t-1181-BBF19-27">
+  <name>
+   <text>t9</text>
+  </name>
+  </transition>
+  <arc id="e-1181-BBF1A-28" source="p-1181-BBF04-2" target="t-1181-BBF10-14">
+  </arc>
+  <arc id="e-1181-BBF1C-29" source="t-1181-BBF12-17" target="p-1181-BBF0D-11">
+  </arc>
+  <arc id="e-1181-BBF1C-30" source="p-1181-BBF0D-11" target="t-1181-BBF14-18">
+  </arc>
+  <arc id="e-1181-BBF1D-31" source="t-1181-BBF14-18" target="p-1181-BBF04-2">
+  </arc>
+  <arc id="e-1181-BBF1E-32" source="p-1181-BBF09-5" target="t-1181-BBF14-19">
+  </arc>
+  <arc id="e-1181-BBF20-33" source="t-1181-BBF14-19" target="p-1181-BBF0C-9">
+  </arc>
+  <arc id="e-1181-BBF20-34" source="p-1181-BBF0A-7" target="t-1181-BBF15-20">
+  </arc>
+  <arc id="e-1181-BBF21-35" source="t-1181-BBF15-20" target="p-1181-BBF0C-9">
+  </arc>
+  <arc id="e-1181-BBF21-36" source="p-1181-BBF0A-7" target="t-1181-BBF16-21">
+  </arc>
+  <arc id="e-1181-BBF22-37" source="t-1181-BBF16-21" target="p-1181-BBF0C-9">
+  </arc>
+  <arc id="e-1181-BBF22-38" source="p-1181-BBF09-6" target="t-1181-BBF16-22">
+  </arc>
+  <arc id="e-1181-BBF23-39" source="t-1181-BBF10-14" target="p-1181-BBF06-3">
+  </arc>
+  <arc id="e-1181-BBF23-40" source="t-1181-BBF16-22" target="p-1181-BBF0B-8">
+  </arc>
+  <arc id="e-1181-BBF24-41" source="p-1181-BBF0B-8" target="t-1181-BBF17-23">
+  </arc>
+  <arc id="e-1181-BBF25-42" source="t-1181-BBF17-23" target="p-1181-BBF0D-10">
+  </arc>
+  <arc id="e-1181-BBF25-43" source="p-1181-BBF0B-8" target="t-1181-BBF18-24">
+  </arc>
+  <arc id="e-1181-BBF26-44" source="t-1181-BBF18-24" target="p-1181-BBF0E-12">
+  </arc>
+  <arc id="e-1181-BBF27-45" source="p-1181-BBF0C-9" target="t-1181-BBF18-25">
+  </arc>
+  <arc id="e-1181-BBF28-46" source="p-1181-BBF0E-12" target="t-1181-BBF18-25">
+  </arc>
+  <arc id="e-1181-BBF43-47" source="t-1181-BBF18-25" target="p-1181-BBF0F-13">
+  </arc>
+  <arc id="e-1181-BBF43-48" source="t-1181-BBF18-25" target="p-1181-BBF09-5">
+  </arc>
+  <arc id="e-1181-BBF44-49" source="p-1181-BBF0F-13" target="t-1181-BBF19-26">
+  </arc>
+  <arc id="e-1181-BBF44-50" source="t-1181-BBF10-14" target="p-1181-BBF09-6">
+  </arc>
+  <arc id="e-1181-BBF45-51" source="t-1181-BBF19-26" target="p-1181-BBF08-4">
+  </arc>
+  <arc id="e-1181-BBF46-52" source="p-1181-BBF08-4" target="t-1181-BBF19-27">
+  </arc>
+  <arc id="e-1181-BBF46-53" source="t-1181-BBF19-27" target="p-1181-BBF0E-12">
+  </arc>
+  <arc id="e-1181-BBF47-54" source="p-1181-BBF06-3" target="t-1181-BBF11-15">
+  </arc>
+  <arc id="e-1181-BBF47-55" source="t-1181-BBF11-15" target="p-1181-BBF0A-7">
+  </arc>
+  <arc id="e-1181-BBF49-56" source="p-1181-BBF08-4" target="t-1181-BBF12-16">
+  </arc>
+  <arc id="e-1181-BBF49-57" source="t-1181-BBF12-16" target="p-1181-BBF0D-10">
+  </arc>
+  <arc id="e-1181-BBF4A-58" source="p-1181-BBF0C-9" target="t-1181-BBF12-17">
+  </arc>
+  <arc id="e-1181-BBF4A-59" source="p-1181-BBF0D-10" target="t-1181-BBF12-17">
+  </arc>
+ </page>
+ </net>
+</pnml>

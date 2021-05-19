@@ -1,0 +1,108 @@
+<pnml xmlns="http://www.pnml.org/version-2009/grammar/pnml">
+ <net id="n-1177-9B724-0" type ="http://www.pnml.org/version-2009/grammar/ptnet">
+  <name>
+   <text>traffic_light_v1</text>
+  </name>
+ <page id="g-1177-9B728-1">
+  <place id="p-1177-9B729-2">
+  <name>
+   <text>p0</text>
+  </name>
+   <initialMarking>
+    <text>1</text>
+   </initialMarking>
+  </place>
+  <place id="p-1177-9B72B-3">
+  <name>
+   <text>p1</text>
+  </name>
+  </place>
+  <place id="p-1177-9B72C-4">
+  <name>
+   <text>p2</text>
+  </name>
+  </place>
+  <place id="p-1177-9B754-5">
+  <name>
+   <text>p3</text>
+  </name>
+   <initialMarking>
+    <text>1</text>
+   </initialMarking>
+  </place>
+  <place id="p-1177-9B755-6">
+  <name>
+   <text>p4</text>
+  </name>
+   <initialMarking>
+    <text>1</text>
+   </initialMarking>
+  </place>
+  <place id="p-1177-9B756-7">
+  <name>
+   <text>p5</text>
+  </name>
+  </place>
+  <place id="p-1177-9B757-8">
+  <name>
+   <text>p6</text>
+  </name>
+   <initialMarking>
+    <text>1</text>
+   </initialMarking>
+  </place>
+  <place id="p-1177-9B757-9">
+  <name>
+   <text>p7</text>
+  </name>
+  </place>
+  <transition id="t-1177-9B758-10">
+  <name>
+   <text>t0</text>
+  </name>
+  </transition>
+  <transition id="t-1177-9B75A-11">
+  <name>
+   <text>t1</text>
+  </name>
+  </transition>
+  <transition id="t-1177-9B75B-12">
+  <name>
+   <text>t2</text>
+  </name>
+  </transition>
+  <arc id="e-1177-9B75C-13" source="p-1177-9B72B-3" target="t-1177-9B758-10">
+  </arc>
+  <arc id="e-1177-9B75C-14" source="t-1177-9B75A-11" target="p-1177-9B756-7">
+  </arc>
+  <arc id="e-1177-9B75D-15" source="p-1177-9B754-5" target="t-1177-9B75B-12">
+  </arc>
+  <arc id="e-1177-9B75E-16" source="p-1177-9B756-7" target="t-1177-9B75B-12">
+  </arc>
+  <arc id="e-1177-9B75E-17" source="p-1177-9B757-8" target="t-1177-9B75B-12">
+  </arc>
+  <arc id="e-1177-9B75F-18" source="t-1177-9B75B-12" target="p-1177-9B72C-4">
+  </arc>
+  <arc id="e-1177-9B760-19" source="t-1177-9B75B-12" target="p-1177-9B755-6">
+  </arc>
+  <arc id="e-1177-9B760-20" source="t-1177-9B75B-12" target="p-1177-9B757-9">
+  </arc>
+  <arc id="e-1177-9B761-21" source="p-1177-9B72C-4" target="t-1177-9B758-10">
+  </arc>
+  <arc id="e-1177-9B761-22" source="p-1177-9B757-9" target="t-1177-9B758-10">
+  </arc>
+  <arc id="e-1177-9B762-23" source="t-1177-9B758-10" target="p-1177-9B729-2">
+  </arc>
+  <arc id="e-1177-9B762-24" source="t-1177-9B758-10" target="p-1177-9B754-5">
+  </arc>
+  <arc id="e-1177-9B763-25" source="t-1177-9B758-10" target="p-1177-9B757-8">
+  </arc>
+  <arc id="e-1177-9B763-26" source="p-1177-9B729-2" target="t-1177-9B75A-11">
+  </arc>
+  <arc id="e-1177-9B764-27" source="p-1177-9B755-6" target="t-1177-9B75A-11">
+  </arc>
+  <arc id="e-1177-9B764-28" source="t-1177-9B75A-11" target="p-1177-9B72B-3">
+  </arc>
+ </page>
+ </net>
+</pnml>

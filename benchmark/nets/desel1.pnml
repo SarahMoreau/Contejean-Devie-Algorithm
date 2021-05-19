@@ -1,0 +1,192 @@
+<pnml xmlns="http://www.pnml.org/version-2009/grammar/pnml">
+ <net id="n-1037-2A641-0" type ="http://www.pnml.org/version-2009/grammar/ptnet">
+  <name>
+   <text>desel1</text>
+  </name>
+ <page id="g-1037-2A659-1">
+  <place id="p-1037-2A65A-2">
+  <name>
+   <text>p0</text>
+  </name>
+   <initialMarking>
+    <text>1</text>
+   </initialMarking>
+  </place>
+  <place id="p-1037-2A65C-3">
+  <name>
+   <text>p1</text>
+  </name>
+  </place>
+  <place id="p-1037-2A65D-4">
+  <name>
+   <text>p10</text>
+  </name>
+  </place>
+  <place id="p-1037-2A65E-5">
+  <name>
+   <text>p11</text>
+  </name>
+  </place>
+  <place id="p-1037-2A65F-6">
+  <name>
+   <text>p12</text>
+  </name>
+  </place>
+  <place id="p-1037-2A65F-7">
+  <name>
+   <text>p13</text>
+  </name>
+  </place>
+  <place id="p-1037-2A660-8">
+  <name>
+   <text>p14</text>
+  </name>
+  </place>
+  <place id="p-1037-2A661-9">
+  <name>
+   <text>p2</text>
+  </name>
+  </place>
+  <place id="p-1037-2A662-10">
+  <name>
+   <text>p3</text>
+  </name>
+  </place>
+  <place id="p-1037-2A663-11">
+  <name>
+   <text>p4</text>
+  </name>
+  </place>
+  <place id="p-1037-2A663-12">
+  <name>
+   <text>p5</text>
+  </name>
+  </place>
+  <place id="p-1037-2A664-13">
+  <name>
+   <text>p6</text>
+  </name>
+  </place>
+  <place id="p-1037-2A665-14">
+  <name>
+   <text>p7</text>
+  </name>
+  </place>
+  <place id="p-1037-2A665-15">
+  <name>
+   <text>p8</text>
+  </name>
+  </place>
+  <place id="p-1037-2A666-16">
+  <name>
+   <text>p9</text>
+  </name>
+  </place>
+  <transition id="t-1037-2A667-17">
+  <name>
+   <text>t0</text>
+  </name>
+  </transition>
+  <transition id="t-1037-2A669-18">
+  <name>
+   <text>t1</text>
+  </name>
+  </transition>
+  <transition id="t-1037-2A669-19">
+  <name>
+   <text>t2</text>
+  </name>
+  </transition>
+  <transition id="t-1037-2A66A-20">
+  <name>
+   <text>t3</text>
+  </name>
+  </transition>
+  <transition id="t-1037-2A66A-21">
+  <name>
+   <text>t4</text>
+  </name>
+  </transition>
+  <transition id="t-1037-2A66B-22">
+  <name>
+   <text>t5</text>
+  </name>
+  </transition>
+  <transition id="t-1037-2A66C-23">
+  <name>
+   <text>t6</text>
+  </name>
+  </transition>
+  <transition id="t-1037-2A66D-24">
+  <name>
+   <text>t7</text>
+  </name>
+  </transition>
+  <transition id="t-1037-2A66D-25">
+  <name>
+   <text>t8</text>
+  </name>
+  </transition>
+  <arc id="e-1037-2A66F-26" source="p-1037-2A65C-3" target="t-1037-2A667-17">
+  </arc>
+  <arc id="e-1037-2A670-27" source="t-1037-2A66A-21" target="p-1037-2A65D-4">
+  </arc>
+  <arc id="e-1037-2A670-28" source="p-1037-2A65E-5" target="t-1037-2A66B-22">
+  </arc>
+  <arc id="e-1037-2A671-29" source="t-1037-2A66B-22" target="p-1037-2A65F-6">
+  </arc>
+  <arc id="e-1037-2A672-30" source="p-1037-2A65F-7" target="t-1037-2A66C-23">
+  </arc>
+  <arc id="e-1037-2A672-31" source="t-1037-2A66C-23" target="p-1037-2A660-8">
+  </arc>
+  <arc id="e-1037-2A673-32" source="p-1037-2A65A-2" target="t-1037-2A66D-24">
+  </arc>
+  <arc id="e-1037-2A673-33" source="t-1037-2A66D-24" target="p-1037-2A65C-3">
+  </arc>
+  <arc id="e-1037-2A674-34" source="t-1037-2A66D-24" target="p-1037-2A662-10">
+  </arc>
+  <arc id="e-1037-2A674-35" source="t-1037-2A66D-24" target="p-1037-2A663-12">
+  </arc>
+  <arc id="e-1037-2A675-36" source="t-1037-2A66D-24" target="p-1037-2A665-14">
+  </arc>
+  <arc id="e-1037-2A675-37" source="t-1037-2A667-17" target="p-1037-2A661-9">
+  </arc>
+  <arc id="e-1037-2A676-38" source="t-1037-2A66D-24" target="p-1037-2A666-16">
+  </arc>
+  <arc id="e-1037-2A676-39" source="t-1037-2A66D-24" target="p-1037-2A65E-5">
+  </arc>
+  <arc id="e-1037-2A677-40" source="t-1037-2A66D-24" target="p-1037-2A65F-7">
+  </arc>
+  <arc id="e-1037-2A677-41" source="p-1037-2A661-9" target="t-1037-2A66D-25">
+  </arc>
+  <arc id="e-1037-2A678-42" source="p-1037-2A663-11" target="t-1037-2A66D-25">
+  </arc>
+  <arc id="e-1037-2A678-43" source="p-1037-2A664-13" target="t-1037-2A66D-25">
+  </arc>
+  <arc id="e-1037-2A679-44" source="p-1037-2A665-15" target="t-1037-2A66D-25">
+  </arc>
+  <arc id="e-1037-2A679-45" source="p-1037-2A65D-4" target="t-1037-2A66D-25">
+  </arc>
+  <arc id="e-1037-2A67A-46" source="p-1037-2A65F-6" target="t-1037-2A66D-25">
+  </arc>
+  <arc id="e-1037-2A685-47" source="p-1037-2A660-8" target="t-1037-2A66D-25">
+  </arc>
+  <arc id="e-1037-2A685-48" source="p-1037-2A662-10" target="t-1037-2A669-18">
+  </arc>
+  <arc id="e-1037-2A686-49" source="t-1037-2A66D-25" target="p-1037-2A65A-2">
+  </arc>
+  <arc id="e-1037-2A686-50" source="t-1037-2A669-18" target="p-1037-2A663-11">
+  </arc>
+  <arc id="e-1037-2A687-51" source="p-1037-2A663-12" target="t-1037-2A669-19">
+  </arc>
+  <arc id="e-1037-2A687-52" source="t-1037-2A669-19" target="p-1037-2A664-13">
+  </arc>
+  <arc id="e-1037-2A688-53" source="p-1037-2A665-14" target="t-1037-2A66A-20">
+  </arc>
+  <arc id="e-1037-2A688-54" source="t-1037-2A66A-20" target="p-1037-2A665-15">
+  </arc>
+  <arc id="e-1037-2A689-55" source="p-1037-2A666-16" target="t-1037-2A66A-21">
+  </arc>
+ </page>
+ </net>
+</pnml>

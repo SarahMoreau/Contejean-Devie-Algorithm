@@ -1,0 +1,98 @@
+<pnml xmlns="http://www.pnml.org/version-2009/grammar/pnml">
+ <net id="n-1091-7208F-0" type ="http://www.pnml.org/version-2009/grammar/ptnet">
+  <name>
+   <text>kovalyov92</text>
+  </name>
+ <page id="g-1091-72093-1">
+  <place id="p-1091-72094-2">
+  <name>
+   <text>p0</text>
+  </name>
+   <initialMarking>
+    <text>1</text>
+   </initialMarking>
+  </place>
+  <place id="p-1091-72095-3">
+  <name>
+   <text>p1</text>
+  </name>
+  </place>
+  <place id="p-1091-72096-4">
+  <name>
+   <text>p2</text>
+  </name>
+  </place>
+  <place id="p-1091-720BA-5">
+  <name>
+   <text>p3</text>
+  </name>
+  </place>
+  <transition id="t-1091-720BB-6">
+  <name>
+   <text>t0</text>
+  </name>
+  </transition>
+  <transition id="t-1091-720BD-7">
+  <name>
+   <text>t1</text>
+  </name>
+  </transition>
+  <transition id="t-1091-720BE-8">
+  <name>
+   <text>t2</text>
+  </name>
+  </transition>
+  <transition id="t-1091-720BE-9">
+  <name>
+   <text>t3</text>
+  </name>
+  </transition>
+  <transition id="t-1091-720BF-10">
+  <name>
+   <text>t4</text>
+  </name>
+  </transition>
+  <transition id="t-1091-720C0-11">
+  <name>
+   <text>t5</text>
+  </name>
+  </transition>
+  <arc id="e-1091-720C1-12" source="p-1091-72094-2" target="t-1091-720BB-6">
+  </arc>
+  <arc id="e-1091-720C2-13" source="p-1091-72095-3" target="t-1091-720BE-9">
+  </arc>
+  <arc id="e-1091-720C2-14" source="p-1091-72096-4" target="t-1091-720BE-9">
+  </arc>
+  <arc id="e-1091-720C3-15" source="t-1091-720BE-9" target="p-1091-72094-2">
+  </arc>
+  <arc id="e-1091-720C4-16" source="p-1091-72095-3" target="t-1091-720BF-10">
+  </arc>
+  <arc id="e-1091-720C4-17" source="p-1091-720BA-5" target="t-1091-720BF-10">
+  </arc>
+  <arc id="e-1091-720C5-18" source="t-1091-720BF-10" target="p-1091-72094-2">
+  </arc>
+  <arc id="e-1091-720C5-19" source="p-1091-72096-4" target="t-1091-720C0-11">
+  </arc>
+  <arc id="e-1091-720C6-20" source="p-1091-720BA-5" target="t-1091-720C0-11">
+  </arc>
+  <arc id="e-1091-720C6-21" source="t-1091-720C0-11" target="p-1091-72094-2">
+  </arc>
+  <arc id="e-1091-720C7-22" source="t-1091-720BB-6" target="p-1091-72095-3">
+  </arc>
+  <arc id="e-1091-720C8-23" source="t-1091-720BB-6" target="p-1091-72096-4">
+  </arc>
+  <arc id="e-1091-720C8-24" source="p-1091-72094-2" target="t-1091-720BD-7">
+  </arc>
+  <arc id="e-1091-720C9-25" source="t-1091-720BD-7" target="p-1091-72095-3">
+  </arc>
+  <arc id="e-1091-720C9-26" source="t-1091-720BD-7" target="p-1091-720BA-5">
+  </arc>
+  <arc id="e-1091-720CA-27" source="p-1091-72094-2" target="t-1091-720BE-8">
+  </arc>
+  <arc id="e-1091-720CA-28" source="t-1091-720BE-8" target="p-1091-72096-4">
+  </arc>
+  <arc id="e-1091-720CB-29" source="t-1091-720BE-8" target="p-1091-720BA-5">
+  </arc>
+ </page>
+ </net>
+</pnml>

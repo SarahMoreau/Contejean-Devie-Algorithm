@@ -1,0 +1,154 @@
+<pnml xmlns="http://www.pnml.org/version-2009/grammar/pnml">
+ <net id="n-1065-C49DD-0" type ="http://www.pnml.org/version-2009/grammar/ptnet">
+  <name>
+   <text>girault4</text>
+  </name>
+ <page id="g-1065-C49EC-1">
+  <place id="p-1065-C49EE-2">
+  <name>
+   <text>p0</text>
+  </name>
+   <initialMarking>
+    <text>1</text>
+   </initialMarking>
+  </place>
+  <place id="p-1065-C49F0-3">
+  <name>
+   <text>p1</text>
+  </name>
+  </place>
+  <place id="p-1065-C49F1-4">
+  <name>
+   <text>p2</text>
+  </name>
+   <initialMarking>
+    <text>1</text>
+   </initialMarking>
+  </place>
+  <place id="p-1065-C49F2-5">
+  <name>
+   <text>p3</text>
+  </name>
+  </place>
+  <place id="p-1065-C49F3-6">
+  <name>
+   <text>p4</text>
+  </name>
+   <initialMarking>
+    <text>1</text>
+   </initialMarking>
+  </place>
+  <place id="p-1065-C49F4-7">
+  <name>
+   <text>p5</text>
+  </name>
+  </place>
+  <place id="p-1065-C49F5-8">
+  <name>
+   <text>p6</text>
+  </name>
+   <initialMarking>
+    <text>1</text>
+   </initialMarking>
+  </place>
+  <place id="p-1065-C49F5-9">
+  <name>
+   <text>p7</text>
+  </name>
+  </place>
+  <place id="p-1065-C49F6-10">
+  <name>
+   <text>p8</text>
+  </name>
+  </place>
+  <place id="p-1065-C49F7-11">
+  <name>
+   <text>p9</text>
+  </name>
+  </place>
+  <transition id="t-1065-C49F8-12">
+  <name>
+   <text>t0</text>
+  </name>
+  </transition>
+  <transition id="t-1065-C49F9-13">
+  <name>
+   <text>t1</text>
+  </name>
+  </transition>
+  <transition id="t-1065-C49FA-14">
+  <name>
+   <text>t2</text>
+  </name>
+  </transition>
+  <transition id="t-1065-C49FB-15">
+  <name>
+   <text>t3</text>
+  </name>
+  </transition>
+  <transition id="t-1065-C49FC-16">
+  <name>
+   <text>t4</text>
+  </name>
+  </transition>
+  <transition id="t-1065-C49FC-17">
+  <name>
+   <text>t5</text>
+  </name>
+  </transition>
+  <transition id="t-1065-C49FD-18">
+  <name>
+   <text>t6</text>
+  </name>
+  </transition>
+  <arc id="e-1065-C49FE-19" source="p-1065-C49EE-2" target="t-1065-C49F8-12">
+  </arc>
+  <arc id="e-1065-C49FF-20" source="p-1065-C49F2-5" target="t-1065-C49FB-15">
+  </arc>
+  <arc id="e-1065-C4A00-21" source="t-1065-C49FB-15" target="p-1065-C49EE-2">
+  </arc>
+  <arc id="e-1065-C4A01-22" source="t-1065-C49FB-15" target="p-1065-C49F6-10">
+  </arc>
+  <arc id="e-1065-C4A01-23" source="p-1065-C49EE-2" target="t-1065-C49FC-16">
+  </arc>
+  <arc id="e-1065-C4A02-24" source="p-1065-C49F5-8" target="t-1065-C49FC-16">
+  </arc>
+  <arc id="e-1065-C4A02-25" source="t-1065-C49FC-16" target="p-1065-C49F4-7">
+  </arc>
+  <arc id="e-1065-C4A03-26" source="p-1065-C49F4-7" target="t-1065-C49FC-17">
+  </arc>
+  <arc id="e-1065-C4A03-27" source="t-1065-C49FC-17" target="p-1065-C49EE-2">
+  </arc>
+  <arc id="e-1065-C4A04-28" source="t-1065-C49FC-17" target="p-1065-C49F7-11">
+  </arc>
+  <arc id="e-1065-C4A04-29" source="p-1065-C49F5-9" target="t-1065-C49FD-18">
+  </arc>
+  <arc id="e-1065-C4A05-30" source="p-1065-C49F1-4" target="t-1065-C49F8-12">
+  </arc>
+  <arc id="e-1065-C4A06-31" source="p-1065-C49F6-10" target="t-1065-C49FD-18">
+  </arc>
+  <arc id="e-1065-C4A06-32" source="p-1065-C49F7-11" target="t-1065-C49FD-18">
+  </arc>
+  <arc id="e-1065-C4A07-33" source="t-1065-C49FD-18" target="p-1065-C49F1-4">
+  </arc>
+  <arc id="e-1065-C4A08-34" source="t-1065-C49FD-18" target="p-1065-C49F3-6">
+  </arc>
+  <arc id="e-1065-C4A08-35" source="t-1065-C49FD-18" target="p-1065-C49F5-8">
+  </arc>
+  <arc id="e-1065-C4A09-36" source="t-1065-C49F8-12" target="p-1065-C49F0-3">
+  </arc>
+  <arc id="e-1065-C4A09-37" source="p-1065-C49F0-3" target="t-1065-C49F9-13">
+  </arc>
+  <arc id="e-1065-C4A0A-38" source="t-1065-C49F9-13" target="p-1065-C49EE-2">
+  </arc>
+  <arc id="e-1065-C4A0A-39" source="t-1065-C49F9-13" target="p-1065-C49F5-9">
+  </arc>
+  <arc id="e-1065-C4A0A-40" source="p-1065-C49EE-2" target="t-1065-C49FA-14">
+  </arc>
+  <arc id="e-1065-C4A0B-41" source="p-1065-C49F3-6" target="t-1065-C49FA-14">
+  </arc>
+  <arc id="e-1065-C4A0B-42" source="t-1065-C49FA-14" target="p-1065-C49F2-5">
+  </arc>
+ </page>
+ </net>
+</pnml>

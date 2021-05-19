@@ -1,0 +1,117 @@
+<pnml xmlns="http://www.pnml.org/version-2009/grammar/pnml">
+ <net id="n-100B-8AB6D-0" type ="http://www.pnml.org/version-2009/grammar/ptnet">
+  <name>
+   <text>bridge</text>
+  </name>
+ <page id="g-100B-8AB71-1">
+  <place id="p-100B-8AB72-2">
+  <name>
+   <text>p0</text>
+  </name>
+  </place>
+  <place id="p-100B-8AB99-3">
+  <name>
+   <text>p1</text>
+  </name>
+  </place>
+  <place id="p-100B-8AB9A-4">
+  <name>
+   <text>p2</text>
+  </name>
+   <initialMarking>
+    <text>1</text>
+   </initialMarking>
+  </place>
+  <place id="p-100B-8AB9B-5">
+  <name>
+   <text>p3</text>
+  </name>
+   <initialMarking>
+    <text>1</text>
+   </initialMarking>
+  </place>
+  <place id="p-100B-8AB9C-6">
+  <name>
+   <text>p4</text>
+  </name>
+  </place>
+  <place id="p-100B-8AB9C-7">
+  <name>
+   <text>p5</text>
+  </name>
+  </place>
+  <place id="p-100B-8AB9D-8">
+  <name>
+   <text>p6</text>
+  </name>
+  </place>
+  <place id="p-100B-8AB9E-9">
+  <name>
+   <text>p7</text>
+  </name>
+  </place>
+  <transition id="t-100B-8AB9F-10">
+  <name>
+   <text>t0</text>
+  </name>
+  </transition>
+  <transition id="t-100B-8ABA0-11">
+  <name>
+   <text>t1</text>
+  </name>
+  </transition>
+  <transition id="t-100B-8ABA1-12">
+  <name>
+   <text>t2</text>
+  </name>
+  </transition>
+  <transition id="t-100B-8ABA1-13">
+  <name>
+   <text>t3</text>
+  </name>
+  </transition>
+  <transition id="t-100B-8ABA2-14">
+  <name>
+   <text>t4</text>
+  </name>
+  </transition>
+  <transition id="t-100B-8ABA3-15">
+  <name>
+   <text>t5</text>
+  </name>
+  </transition>
+  <arc id="e-100B-8ABA4-16" source="p-100B-8AB9A-4" target="t-100B-8AB9F-10">
+  </arc>
+  <arc id="e-100B-8ABA5-17" source="t-100B-8ABA1-12" target="p-100B-8AB99-3">
+  </arc>
+  <arc id="e-100B-8ABA5-18" source="p-100B-8AB9D-8" target="t-100B-8ABA1-13">
+  </arc>
+  <arc id="e-100B-8ABA6-19" source="t-100B-8ABA1-13" target="p-100B-8AB9C-6">
+  </arc>
+  <arc id="e-100B-8ABA6-20" source="p-100B-8AB9E-9" target="t-100B-8ABA2-14">
+  </arc>
+  <arc id="e-100B-8ABA7-21" source="t-100B-8ABA2-14" target="p-100B-8AB9C-7">
+  </arc>
+  <arc id="e-100B-8ABA8-22" source="p-100B-8AB72-2" target="t-100B-8ABA3-15">
+  </arc>
+  <arc id="e-100B-8ABA8-23" source="t-100B-8ABA3-15" target="p-100B-8AB9D-8">
+  </arc>
+  <arc id="e-100B-8ABA9-24" source="p-100B-8AB9B-5" target="t-100B-8AB9F-10">
+  </arc>
+  <arc id="e-100B-8ABA9-25" source="t-100B-8AB9F-10" target="p-100B-8AB72-2">
+  </arc>
+  <arc id="e-100B-8ABAA-26" source="t-100B-8AB9F-10" target="p-100B-8AB9E-9">
+  </arc>
+  <arc id="e-100B-8ABAA-27" source="p-100B-8AB99-3" target="t-100B-8ABA0-11">
+  </arc>
+  <arc id="e-100B-8ABAB-28" source="p-100B-8AB9C-6" target="t-100B-8ABA0-11">
+  </arc>
+  <arc id="e-100B-8ABAB-29" source="t-100B-8ABA0-11" target="p-100B-8AB9A-4">
+  </arc>
+  <arc id="e-100B-8ABAC-30" source="t-100B-8ABA0-11" target="p-100B-8AB9B-5">
+  </arc>
+  <arc id="e-100B-8ABAC-31" source="p-100B-8AB9C-7" target="t-100B-8ABA1-12">
+  </arc>
+ </page>
+ </net>
+</pnml>

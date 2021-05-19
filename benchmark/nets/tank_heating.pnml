@@ -1,0 +1,68 @@
+<pnml xmlns="http://www.pnml.org/version-2009/grammar/pnml">
+ <net id="n-1175-94CF5-0" type ="http://www.pnml.org/version-2009/grammar/ptnet">
+  <name>
+   <text>tank_heating</text>
+  </name>
+ <page id="g-1175-94CF8-1">
+  <place id="p-1175-94CF9-2">
+  <name>
+   <text>p0</text>
+  </name>
+   <initialMarking>
+    <text>1</text>
+   </initialMarking>
+  </place>
+  <place id="p-1175-94CFB-3">
+  <name>
+   <text>p1</text>
+  </name>
+  </place>
+  <place id="p-1175-94CFC-4">
+  <name>
+   <text>p2</text>
+  </name>
+  </place>
+  <place id="p-1175-94CFD-5">
+  <name>
+   <text>p3</text>
+  </name>
+  </place>
+  <transition id="t-1175-94CFE-6">
+  <name>
+   <text>t0</text>
+  </name>
+  </transition>
+  <transition id="t-1175-94CFF-7">
+  <name>
+   <text>t1</text>
+  </name>
+  </transition>
+  <transition id="t-1175-94D00-8">
+  <name>
+   <text>t2</text>
+  </name>
+  </transition>
+  <transition id="t-1175-94D00-9">
+  <name>
+   <text>t3</text>
+  </name>
+  </transition>
+  <arc id="e-1175-94D02-10" source="p-1175-94CF9-2" target="t-1175-94CFE-6">
+  </arc>
+  <arc id="e-1175-94D03-11" source="t-1175-94CFE-6" target="p-1175-94CFC-4">
+  </arc>
+  <arc id="e-1175-94D04-12" source="p-1175-94CF9-2" target="t-1175-94CFF-7">
+  </arc>
+  <arc id="e-1175-94D04-13" source="t-1175-94CFF-7" target="p-1175-94CFB-3">
+  </arc>
+  <arc id="e-1175-94D05-14" source="p-1175-94CFB-3" target="t-1175-94D00-8">
+  </arc>
+  <arc id="e-1175-94D05-15" source="t-1175-94D00-8" target="p-1175-94CFC-4">
+  </arc>
+  <arc id="e-1175-94D06-16" source="p-1175-94CFC-4" target="t-1175-94D00-9">
+  </arc>
+  <arc id="e-1175-94D06-17" source="t-1175-94D00-9" target="p-1175-94CFD-5">
+  </arc>
+ </page>
+ </net>
+</pnml>

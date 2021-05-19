@@ -1,0 +1,114 @@
+<pnml xmlns="http://www.pnml.org/version-2009/grammar/pnml">
+ <net id="n-1083-42D09-0" type ="http://www.pnml.org/version-2009/grammar/ptnet">
+  <name>
+   <text>invariants_exponent_3_3</text>
+  </name>
+ <page id="g-1083-42D34-1">
+  <place id="p-1083-42D36-2">
+  <name>
+   <text>p0</text>
+  </name>
+   <initialMarking>
+    <text>1</text>
+   </initialMarking>
+  </place>
+  <place id="p-1083-42D38-3">
+  <name>
+   <text>p1</text>
+  </name>
+   <initialMarking>
+    <text>1</text>
+   </initialMarking>
+  </place>
+  <place id="p-1083-42D39-4">
+  <name>
+   <text>p2</text>
+  </name>
+   <initialMarking>
+    <text>1</text>
+   </initialMarking>
+  </place>
+  <place id="p-1083-42D3A-5">
+  <name>
+   <text>p3</text>
+  </name>
+  </place>
+  <place id="p-1083-42D3B-6">
+  <name>
+   <text>p4</text>
+  </name>
+  </place>
+  <place id="p-1083-42D3B-7">
+  <name>
+   <text>p5</text>
+  </name>
+  </place>
+  <place id="p-1083-42D3C-8">
+  <name>
+   <text>p6</text>
+  </name>
+  </place>
+  <place id="p-1083-42D3D-9">
+  <name>
+   <text>p7</text>
+  </name>
+  </place>
+  <place id="p-1083-42D3E-10">
+  <name>
+   <text>p8</text>
+  </name>
+  </place>
+  <transition id="t-1083-42D3E-11">
+  <name>
+   <text>t0</text>
+  </name>
+  </transition>
+  <transition id="t-1083-42D3F-12">
+  <name>
+   <text>t1</text>
+  </name>
+  </transition>
+  <transition id="t-1083-42D41-13">
+  <name>
+   <text>t2</text>
+  </name>
+  </transition>
+  <arc id="e-1083-42D42-14" source="p-1083-42D36-2" target="t-1083-42D3E-11">
+  </arc>
+  <arc id="e-1083-42D43-15" source="t-1083-42D3F-12" target="p-1083-42D3C-8">
+  </arc>
+  <arc id="e-1083-42D43-16" source="t-1083-42D3F-12" target="p-1083-42D3D-9">
+  </arc>
+  <arc id="e-1083-42D44-17" source="t-1083-42D3F-12" target="p-1083-42D3E-10">
+  </arc>
+  <arc id="e-1083-42D44-18" source="p-1083-42D3C-8" target="t-1083-42D41-13">
+  </arc>
+  <arc id="e-1083-42D45-19" source="p-1083-42D3D-9" target="t-1083-42D41-13">
+  </arc>
+  <arc id="e-1083-42D45-20" source="p-1083-42D3E-10" target="t-1083-42D41-13">
+  </arc>
+  <arc id="e-1083-42D46-21" source="t-1083-42D41-13" target="p-1083-42D36-2">
+  </arc>
+  <arc id="e-1083-42D47-22" source="t-1083-42D41-13" target="p-1083-42D38-3">
+  </arc>
+  <arc id="e-1083-42D47-23" source="t-1083-42D41-13" target="p-1083-42D39-4">
+  </arc>
+  <arc id="e-1083-42D48-24" source="p-1083-42D38-3" target="t-1083-42D3E-11">
+  </arc>
+  <arc id="e-1083-42D49-25" source="p-1083-42D39-4" target="t-1083-42D3E-11">
+  </arc>
+  <arc id="e-1083-42D49-26" source="t-1083-42D3E-11" target="p-1083-42D3A-5">
+  </arc>
+  <arc id="e-1083-42D49-27" source="t-1083-42D3E-11" target="p-1083-42D3B-6">
+  </arc>
+  <arc id="e-1083-42D4A-28" source="t-1083-42D3E-11" target="p-1083-42D3B-7">
+  </arc>
+  <arc id="e-1083-42D4A-29" source="p-1083-42D3A-5" target="t-1083-42D3F-12">
+  </arc>
+  <arc id="e-1083-42D4B-30" source="p-1083-42D3B-6" target="t-1083-42D3F-12">
+  </arc>
+  <arc id="e-1083-42D4B-31" source="p-1083-42D3B-7" target="t-1083-42D3F-12">
+  </arc>
+ </page>
+ </net>
+</pnml>

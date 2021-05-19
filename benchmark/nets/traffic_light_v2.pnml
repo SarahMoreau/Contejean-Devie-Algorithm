@@ -1,0 +1,66 @@
+<pnml xmlns="http://www.pnml.org/version-2009/grammar/pnml">
+ <net id="n-1179-A1F59-0" type ="http://www.pnml.org/version-2009/grammar/ptnet">
+  <name>
+   <text>traffic_light_v2</text>
+  </name>
+ <page id="g-1179-A1F5C-1">
+  <place id="p-1179-A1F5D-2">
+  <name>
+   <text>p0</text>
+  </name>
+   <initialMarking>
+    <text>1</text>
+   </initialMarking>
+  </place>
+  <place id="p-1179-A1F5F-3">
+  <name>
+   <text>p1</text>
+  </name>
+   <initialMarking>
+    <text>1</text>
+   </initialMarking>
+  </place>
+  <place id="p-1179-A1F60-4">
+  <name>
+   <text>p2</text>
+  </name>
+  </place>
+  <place id="p-1179-A1F61-5">
+  <name>
+   <text>p3</text>
+  </name>
+  </place>
+  <transition id="t-1179-A1F62-6">
+  <name>
+   <text>t0</text>
+  </name>
+  </transition>
+  <transition id="t-1179-A1F63-7">
+  <name>
+   <text>t1</text>
+  </name>
+  </transition>
+  <transition id="t-1179-A1F64-8">
+  <name>
+   <text>t2</text>
+  </name>
+  </transition>
+  <arc id="e-1179-A1F65-9" source="p-1179-A1F61-5" target="t-1179-A1F62-6">
+  </arc>
+  <arc id="e-1179-A1F67-10" source="t-1179-A1F62-6" target="p-1179-A1F5D-2">
+  </arc>
+  <arc id="e-1179-A1F67-11" source="t-1179-A1F62-6" target="p-1179-A1F5F-3">
+  </arc>
+  <arc id="e-1179-A1F68-12" source="p-1179-A1F5D-2" target="t-1179-A1F63-7">
+  </arc>
+  <arc id="e-1179-A1F68-13" source="t-1179-A1F63-7" target="p-1179-A1F60-4">
+  </arc>
+  <arc id="e-1179-A1F69-14" source="p-1179-A1F5F-3" target="t-1179-A1F64-8">
+  </arc>
+  <arc id="e-1179-A1F69-15" source="p-1179-A1F60-4" target="t-1179-A1F64-8">
+  </arc>
+  <arc id="e-1179-A1F6A-16" source="t-1179-A1F64-8" target="p-1179-A1F61-5">
+  </arc>
+ </page>
+ </net>
+</pnml>

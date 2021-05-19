@@ -1,0 +1,123 @@
+<pnml xmlns="http://www.pnml.org/version-2009/grammar/pnml">
+ <net id="n-10A3-AE603-0" type ="http://www.pnml.org/version-2009/grammar/ptnet">
+  <name>
+   <text>lnet_p1n4</text>
+  </name>
+ <page id="g-10A3-AE607-1">
+  <place id="p-10A3-AE607-2">
+  <name>
+   <text>p0</text>
+  </name>
+   <initialMarking>
+    <text>1</text>
+   </initialMarking>
+  </place>
+  <place id="p-10A3-AE60A-3">
+  <name>
+   <text>p1</text>
+  </name>
+  </place>
+  <place id="p-10A3-AE60B-4">
+  <name>
+   <text>p2</text>
+  </name>
+  </place>
+  <place id="p-10A3-AE60C-5">
+  <name>
+   <text>p3</text>
+  </name>
+  </place>
+  <place id="p-10A3-AE60C-6">
+  <name>
+   <text>p4</text>
+  </name>
+  </place>
+  <place id="p-10A3-AE60D-7">
+  <name>
+   <text>p5</text>
+  </name>
+  </place>
+  <place id="p-10A3-AE60E-8">
+  <name>
+   <text>p6</text>
+  </name>
+  </place>
+  <place id="p-10A3-AE60E-9">
+  <name>
+   <text>p7</text>
+  </name>
+  </place>
+  <place id="p-10A3-AE60F-10">
+  <name>
+   <text>p8</text>
+  </name>
+  </place>
+  <transition id="t-10A3-AE610-11">
+  <name>
+   <text>t0</text>
+  </name>
+  </transition>
+  <transition id="t-10A3-AE611-12">
+  <name>
+   <text>t1</text>
+  </name>
+  </transition>
+  <transition id="t-10A3-AE612-13">
+  <name>
+   <text>t2</text>
+  </name>
+  </transition>
+  <transition id="t-10A3-AE613-14">
+  <name>
+   <text>t3</text>
+  </name>
+  </transition>
+  <transition id="t-10A3-AE614-15">
+  <name>
+   <text>t4</text>
+  </name>
+  </transition>
+  <transition id="t-10A3-AE614-16">
+  <name>
+   <text>t5</text>
+  </name>
+  </transition>
+  <arc id="e-10A3-AE615-17" source="p-10A3-AE607-2" target="t-10A3-AE610-11">
+  </arc>
+  <arc id="e-10A3-AE616-18" source="t-10A3-AE612-13" target="p-10A3-AE60D-7">
+  </arc>
+  <arc id="e-10A3-AE617-19" source="p-10A3-AE60D-7" target="t-10A3-AE613-14">
+  </arc>
+  <arc id="e-10A3-AE617-20" source="p-10A3-AE60E-8" target="t-10A3-AE613-14">
+  </arc>
+  <arc id="e-10A3-AE618-21" source="t-10A3-AE613-14" target="p-10A3-AE60E-9">
+  </arc>
+  <arc id="e-10A3-AE619-22" source="p-10A3-AE60C-5" target="t-10A3-AE614-15">
+  </arc>
+  <arc id="e-10A3-AE619-23" source="p-10A3-AE60E-9" target="t-10A3-AE614-15">
+  </arc>
+  <arc id="e-10A3-AE61A-24" source="t-10A3-AE614-15" target="p-10A3-AE60F-10">
+  </arc>
+  <arc id="e-10A3-AE61A-25" source="p-10A3-AE60F-10" target="t-10A3-AE614-16">
+  </arc>
+  <arc id="e-10A3-AE61B-26" source="t-10A3-AE614-16" target="p-10A3-AE607-2">
+  </arc>
+  <arc id="e-10A3-AE61B-27" source="t-10A3-AE610-11" target="p-10A3-AE60A-3">
+  </arc>
+  <arc id="e-10A3-AE61C-28" source="t-10A3-AE610-11" target="p-10A3-AE60B-4">
+  </arc>
+  <arc id="e-10A3-AE61C-29" source="t-10A3-AE610-11" target="p-10A3-AE60C-6">
+  </arc>
+  <arc id="e-10A3-AE61D-30" source="t-10A3-AE610-11" target="p-10A3-AE60E-8">
+  </arc>
+  <arc id="e-10A3-AE61D-31" source="p-10A3-AE60A-3" target="t-10A3-AE611-12">
+  </arc>
+  <arc id="e-10A3-AE61E-32" source="p-10A3-AE60B-4" target="t-10A3-AE611-12">
+  </arc>
+  <arc id="e-10A3-AE61F-33" source="t-10A3-AE611-12" target="p-10A3-AE60C-5">
+  </arc>
+  <arc id="e-10A3-AE620-34" source="p-10A3-AE60C-6" target="t-10A3-AE612-13">
+  </arc>
+ </page>
+ </net>
+</pnml>

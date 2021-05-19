@@ -1,0 +1,109 @@
+<pnml xmlns="http://www.pnml.org/version-2009/grammar/pnml">
+ <net id="n-10DB-8015F-0" type ="http://www.pnml.org/version-2009/grammar/ptnet">
+  <name>
+   <text>mixer_mod2</text>
+  </name>
+ <page id="g-10DB-80163-1">
+  <place id="p-10DB-80164-2">
+  <name>
+   <text>p0</text>
+  </name>
+  </place>
+  <place id="p-10DB-80166-3">
+  <name>
+   <text>p1</text>
+  </name>
+  </place>
+  <place id="p-10DB-80166-4">
+  <name>
+   <text>p2</text>
+  </name>
+  </place>
+  <place id="p-10DB-8018E-5">
+  <name>
+   <text>p3</text>
+  </name>
+  </place>
+  <place id="p-10DB-8018F-6">
+  <name>
+   <text>p4</text>
+  </name>
+  </place>
+  <place id="p-10DB-80190-7">
+  <name>
+   <text>p5</text>
+  </name>
+  </place>
+  <place id="p-10DB-80191-8">
+  <name>
+   <text>p6</text>
+  </name>
+  </place>
+  <place id="p-10DB-80191-9">
+  <name>
+   <text>p7</text>
+  </name>
+   <initialMarking>
+    <text>1</text>
+   </initialMarking>
+  </place>
+  <transition id="t-10DB-80192-10">
+  <name>
+   <text>t0</text>
+  </name>
+  </transition>
+  <transition id="t-10DB-80194-11">
+  <name>
+   <text>t1</text>
+  </name>
+  </transition>
+  <transition id="t-10DB-80195-12">
+  <name>
+   <text>t2</text>
+  </name>
+  </transition>
+  <transition id="t-10DB-80196-13">
+  <name>
+   <text>t3</text>
+  </name>
+  </transition>
+  <transition id="t-10DB-80196-14">
+  <name>
+   <text>t4</text>
+  </name>
+  </transition>
+  <arc id="e-10DB-80197-15" source="p-10DB-80191-9" target="t-10DB-80192-10">
+  </arc>
+  <arc id="e-10DB-80199-16" source="t-10DB-80195-12" target="p-10DB-80190-7">
+  </arc>
+  <arc id="e-10DB-8019A-17" source="p-10DB-8018E-5" target="t-10DB-80196-13">
+  </arc>
+  <arc id="e-10DB-8019A-18" source="p-10DB-8018F-6" target="t-10DB-80196-13">
+  </arc>
+  <arc id="e-10DB-8019B-19" source="t-10DB-80196-13" target="p-10DB-80191-8">
+  </arc>
+  <arc id="e-10DB-8019B-20" source="p-10DB-80190-7" target="t-10DB-80196-14">
+  </arc>
+  <arc id="e-10DB-8019C-21" source="p-10DB-80191-8" target="t-10DB-80196-14">
+  </arc>
+  <arc id="e-10DB-8019C-22" source="t-10DB-80196-14" target="p-10DB-80191-9">
+  </arc>
+  <arc id="e-10DB-8019D-23" source="t-10DB-80192-10" target="p-10DB-80164-2">
+  </arc>
+  <arc id="e-10DB-8019D-24" source="t-10DB-80192-10" target="p-10DB-80166-3">
+  </arc>
+  <arc id="e-10DB-8019E-25" source="t-10DB-80192-10" target="p-10DB-80166-4">
+  </arc>
+  <arc id="e-10DB-8019E-26" source="p-10DB-80164-2" target="t-10DB-80194-11">
+  </arc>
+  <arc id="e-10DB-8019F-27" source="p-10DB-80166-3" target="t-10DB-80194-11">
+  </arc>
+  <arc id="e-10DB-801A0-28" source="t-10DB-80194-11" target="p-10DB-8018E-5">
+  </arc>
+  <arc id="e-10DB-801A0-29" source="p-10DB-80166-4" target="t-10DB-80195-12">
+  </arc>
+  <arc id="e-10DB-801A1-30" source="t-10DB-80195-12" target="p-10DB-8018F-6">
+  </arc>
+ </page>
+ </net>
+</pnml>

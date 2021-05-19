@@ -1,0 +1,314 @@
+<pnml xmlns="http://www.pnml.org/version-2009/grammar/pnml">
+ <net id="n-1079-19F4C-0" type ="http://www.pnml.org/version-2009/grammar/ptnet">
+  <name>
+   <text>holliday1</text>
+  </name>
+ <page id="g-1079-19F51-1">
+  <place id="p-1079-19F53-2">
+  <name>
+   <text>p0</text>
+  </name>
+  </place>
+  <place id="p-1079-19F54-3">
+  <name>
+   <text>p1</text>
+  </name>
+  </place>
+  <place id="p-1079-19F55-4">
+  <name>
+   <text>p10</text>
+  </name>
+   <initialMarking>
+    <text>1</text>
+   </initialMarking>
+  </place>
+  <place id="p-1079-19F57-5">
+  <name>
+   <text>p11</text>
+  </name>
+   <initialMarking>
+    <text>1</text>
+   </initialMarking>
+  </place>
+  <place id="p-1079-19F58-6">
+  <name>
+   <text>p12</text>
+  </name>
+  </place>
+  <place id="p-1079-19F58-7">
+  <name>
+   <text>p13</text>
+  </name>
+  </place>
+  <place id="p-1079-19F59-8">
+  <name>
+   <text>p14</text>
+  </name>
+   <initialMarking>
+    <text>1</text>
+   </initialMarking>
+  </place>
+  <place id="p-1079-19F5A-9">
+  <name>
+   <text>p15</text>
+  </name>
+   <initialMarking>
+    <text>1</text>
+   </initialMarking>
+  </place>
+  <place id="p-1079-19F5B-10">
+  <name>
+   <text>p16</text>
+  </name>
+  </place>
+  <place id="p-1079-19F5C-11">
+  <name>
+   <text>p17</text>
+  </name>
+  </place>
+  <place id="p-1079-19F5C-12">
+  <name>
+   <text>p18</text>
+  </name>
+   <initialMarking>
+    <text>1</text>
+   </initialMarking>
+  </place>
+  <place id="p-1079-19F5E-13">
+  <name>
+   <text>p19</text>
+  </name>
+   <initialMarking>
+    <text>1</text>
+   </initialMarking>
+  </place>
+  <place id="p-1079-19F5F-14">
+  <name>
+   <text>p2</text>
+  </name>
+   <initialMarking>
+    <text>1</text>
+   </initialMarking>
+  </place>
+  <place id="p-1079-19F5F-15">
+  <name>
+   <text>p3</text>
+  </name>
+   <initialMarking>
+    <text>1</text>
+   </initialMarking>
+  </place>
+  <place id="p-1079-19F60-16">
+  <name>
+   <text>p4</text>
+  </name>
+   <initialMarking>
+    <text>1</text>
+   </initialMarking>
+  </place>
+  <place id="p-1079-19F61-17">
+  <name>
+   <text>p5</text>
+  </name>
+  </place>
+  <place id="p-1079-19F62-18">
+  <name>
+   <text>p6</text>
+  </name>
+  </place>
+  <place id="p-1079-19F63-19">
+  <name>
+   <text>p7</text>
+  </name>
+   <initialMarking>
+    <text>1</text>
+   </initialMarking>
+  </place>
+  <place id="p-1079-19F63-20">
+  <name>
+   <text>p8</text>
+  </name>
+  </place>
+  <place id="p-1079-19F64-21">
+  <name>
+   <text>p9</text>
+  </name>
+  </place>
+  <transition id="t-1079-19F65-22">
+  <name>
+   <text>t0</text>
+  </name>
+  </transition>
+  <transition id="t-1079-19F66-23">
+  <name>
+   <text>t1</text>
+  </name>
+  </transition>
+  <transition id="t-1079-19F67-24">
+  <name>
+   <text>t10</text>
+  </name>
+  </transition>
+  <transition id="t-1079-19F68-25">
+  <name>
+   <text>t11</text>
+  </name>
+  </transition>
+  <transition id="t-1079-19F69-26">
+  <name>
+   <text>t12</text>
+  </name>
+  </transition>
+  <transition id="t-1079-19F6A-27">
+  <name>
+   <text>t13</text>
+  </name>
+  </transition>
+  <transition id="t-1079-19F6A-28">
+  <name>
+   <text>t14</text>
+  </name>
+  </transition>
+  <transition id="t-1079-19F6B-29">
+  <name>
+   <text>t2</text>
+  </name>
+  </transition>
+  <transition id="t-1079-19F6C-30">
+  <name>
+   <text>t3</text>
+  </name>
+  </transition>
+  <transition id="t-1079-19F6D-31">
+  <name>
+   <text>t4</text>
+  </name>
+  </transition>
+  <transition id="t-1079-19F6D-32">
+  <name>
+   <text>t5</text>
+  </name>
+  </transition>
+  <transition id="t-1079-19F6E-33">
+  <name>
+   <text>t6</text>
+  </name>
+  </transition>
+  <transition id="t-1079-19F6F-34">
+  <name>
+   <text>t7</text>
+  </name>
+  </transition>
+  <transition id="t-1079-19F70-35">
+  <name>
+   <text>t8</text>
+  </name>
+  </transition>
+  <transition id="t-1079-19F70-36">
+  <name>
+   <text>t9</text>
+  </name>
+  </transition>
+  <arc id="e-1079-19F71-37" source="p-1079-19F5F-14" target="t-1079-19F65-22">
+  </arc>
+  <arc id="e-1079-19F72-38" source="t-1079-19F67-24" target="p-1079-19F58-7">
+  </arc>
+  <arc id="e-1079-19F74-39" source="p-1079-19F57-5" target="t-1079-19F68-25">
+  </arc>
+  <arc id="e-1079-19F74-40" source="t-1079-19F68-25" target="p-1079-19F58-6">
+  </arc>
+  <arc id="e-1079-19F7C-41" source="p-1079-19F5A-9" target="t-1079-19F69-26">
+  </arc>
+  <arc id="e-1079-19F7D-42" source="t-1079-19F69-26" target="p-1079-19F5B-10">
+  </arc>
+  <arc id="e-1079-19F7E-43" source="p-1079-19F59-8" target="t-1079-19F6A-27">
+  </arc>
+  <arc id="e-1079-19F7E-44" source="p-1079-19F5B-10" target="t-1079-19F6A-27">
+  </arc>
+  <arc id="e-1079-19F7F-45" source="p-1079-19F5C-12" target="t-1079-19F6A-27">
+  </arc>
+  <arc id="e-1079-19F7F-46" source="t-1079-19F6A-27" target="p-1079-19F5C-11">
+  </arc>
+  <arc id="e-1079-19F80-47" source="p-1079-19F5C-11" target="t-1079-19F6A-28">
+  </arc>
+  <arc id="e-1079-19F81-48" source="t-1079-19F65-22" target="p-1079-19F54-3">
+  </arc>
+  <arc id="e-1079-19F81-49" source="t-1079-19F6A-28" target="p-1079-19F59-8">
+  </arc>
+  <arc id="e-1079-19F83-50" source="t-1079-19F6A-28" target="p-1079-19F5A-9">
+  </arc>
+  <arc id="e-1079-19F83-51" source="t-1079-19F6A-28" target="p-1079-19F5C-12">
+  </arc>
+  <arc id="e-1079-19F84-52" source="p-1079-19F53-2" target="t-1079-19F6B-29">
+  </arc>
+  <arc id="e-1079-19F84-53" source="t-1079-19F6B-29" target="p-1079-19F5F-14">
+  </arc>
+  <arc id="e-1079-19F85-54" source="t-1079-19F6B-29" target="p-1079-19F5F-15">
+  </arc>
+  <arc id="e-1079-19F85-55" source="t-1079-19F6B-29" target="p-1079-19F5C-12">
+  </arc>
+  <arc id="e-1079-19F86-56" source="p-1079-19F62-18" target="t-1079-19F6C-30">
+  </arc>
+  <arc id="e-1079-19F87-57" source="t-1079-19F6C-30" target="p-1079-19F5F-15">
+  </arc>
+  <arc id="e-1079-19F87-58" source="t-1079-19F6C-30" target="p-1079-19F60-16">
+  </arc>
+  <arc id="e-1079-19F88-59" source="p-1079-19F54-3" target="t-1079-19F66-23">
+  </arc>
+  <arc id="e-1079-19F88-60" source="t-1079-19F6C-30" target="p-1079-19F5E-13">
+  </arc>
+  <arc id="e-1079-19F89-61" source="p-1079-19F5F-15" target="t-1079-19F6D-31">
+  </arc>
+  <arc id="e-1079-19F8B-62" source="p-1079-19F61-17" target="t-1079-19F6D-31">
+  </arc>
+  <arc id="e-1079-19F8B-63" source="p-1079-19F5E-13" target="t-1079-19F6D-31">
+  </arc>
+  <arc id="e-1079-19F8C-64" source="t-1079-19F6D-31" target="p-1079-19F62-18">
+  </arc>
+  <arc id="e-1079-19F8C-65" source="p-1079-19F60-16" target="t-1079-19F6D-32">
+  </arc>
+  <arc id="e-1079-19F8D-66" source="t-1079-19F6D-32" target="p-1079-19F61-17">
+  </arc>
+  <arc id="e-1079-19F8D-67" source="p-1079-19F63-19" target="t-1079-19F6E-33">
+  </arc>
+  <arc id="e-1079-19F8E-68" source="t-1079-19F6E-33" target="p-1079-19F63-20">
+  </arc>
+  <arc id="e-1079-19F8F-69" source="p-1079-19F63-20" target="t-1079-19F6F-34">
+  </arc>
+  <arc id="e-1079-19F8F-70" source="p-1079-19F5F-15" target="t-1079-19F66-23">
+  </arc>
+  <arc id="e-1079-19F90-71" source="p-1079-19F55-4" target="t-1079-19F6F-34">
+  </arc>
+  <arc id="e-1079-19F90-72" source="p-1079-19F5E-13" target="t-1079-19F6F-34">
+  </arc>
+  <arc id="e-1079-19F91-73" source="t-1079-19F6F-34" target="p-1079-19F64-21">
+  </arc>
+  <arc id="e-1079-19F92-74" source="p-1079-19F64-21" target="t-1079-19F70-35">
+  </arc>
+  <arc id="e-1079-19F93-75" source="t-1079-19F70-35" target="p-1079-19F63-19">
+  </arc>
+  <arc id="e-1079-19F93-76" source="t-1079-19F70-35" target="p-1079-19F55-4">
+  </arc>
+  <arc id="e-1079-19F94-77" source="t-1079-19F70-35" target="p-1079-19F5E-13">
+  </arc>
+  <arc id="e-1079-19F94-78" source="p-1079-19F58-7" target="t-1079-19F70-36">
+  </arc>
+  <arc id="e-1079-19F95-79" source="t-1079-19F70-36" target="p-1079-19F55-4">
+  </arc>
+  <arc id="e-1079-19F95-80" source="t-1079-19F70-36" target="p-1079-19F57-5">
+  </arc>
+  <arc id="e-1079-19F96-81" source="p-1079-19F5C-12" target="t-1079-19F66-23">
+  </arc>
+  <arc id="e-1079-19F96-82" source="t-1079-19F70-36" target="p-1079-19F59-8">
+  </arc>
+  <arc id="e-1079-19F97-83" source="t-1079-19F66-23" target="p-1079-19F53-2">
+  </arc>
+  <arc id="e-1079-19F98-84" source="p-1079-19F55-4" target="t-1079-19F67-24">
+  </arc>
+  <arc id="e-1079-19F98-85" source="p-1079-19F58-6" target="t-1079-19F67-24">
+  </arc>
+  <arc id="e-1079-19F99-86" source="p-1079-19F59-8" target="t-1079-19F67-24">
+  </arc>
+ </page>
+ </net>
+</pnml>

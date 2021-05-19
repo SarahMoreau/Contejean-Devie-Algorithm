@@ -1,0 +1,125 @@
+<pnml xmlns="http://www.pnml.org/version-2009/grammar/pnml">
+ <net id="n-10FB-E921D-0" type ="http://www.pnml.org/version-2009/grammar/ptnet">
+  <name>
+   <text>parking_lot</text>
+  </name>
+ <page id="g-10FB-E9220-1">
+  <place id="p-10FB-E9221-2">
+  <name>
+   <text>p0</text>
+  </name>
+   <initialMarking>
+    <text>1</text>
+   </initialMarking>
+  </place>
+  <place id="p-10FB-E9223-3">
+  <name>
+   <text>p1</text>
+  </name>
+  </place>
+  <place id="p-10FB-E9224-4">
+  <name>
+   <text>p2</text>
+  </name>
+  </place>
+  <place id="p-10FB-E9225-5">
+  <name>
+   <text>p3</text>
+  </name>
+  </place>
+  <place id="p-10FB-E9226-6">
+  <name>
+   <text>p4</text>
+  </name>
+   <initialMarking>
+    <text>1</text>
+   </initialMarking>
+  </place>
+  <place id="p-10FB-E9227-7">
+  <name>
+   <text>p5</text>
+  </name>
+  </place>
+  <transition id="t-10FB-E9228-8">
+  <name>
+   <text>t0</text>
+  </name>
+  </transition>
+  <transition id="t-10FB-E9229-9">
+  <name>
+   <text>t1</text>
+  </name>
+  </transition>
+  <transition id="t-10FB-E922A-10">
+  <name>
+   <text>t2</text>
+  </name>
+  </transition>
+  <transition id="t-10FB-E922B-11">
+  <name>
+   <text>t3</text>
+  </name>
+  </transition>
+  <transition id="t-10FB-E922B-12">
+  <name>
+   <text>t4</text>
+  </name>
+  </transition>
+  <transition id="t-10FB-E922C-13">
+  <name>
+   <text>t5</text>
+  </name>
+  </transition>
+  <transition id="t-10FB-E922D-14">
+  <name>
+   <text>t6</text>
+  </name>
+  </transition>
+  <transition id="t-10FB-E922E-15">
+  <name>
+   <text>t7</text>
+  </name>
+  </transition>
+  <arc id="e-10FB-E922F-16" source="p-10FB-E9224-4" target="t-10FB-E9228-8">
+  </arc>
+  <arc id="e-10FB-E9230-17" source="t-10FB-E922B-11" target="p-10FB-E9223-3">
+  </arc>
+  <arc id="e-10FB-E9230-18" source="p-10FB-E9223-3" target="t-10FB-E922B-12">
+  </arc>
+  <arc id="e-10FB-E9231-19" source="t-10FB-E922B-12" target="p-10FB-E9224-4">
+  </arc>
+  <arc id="e-10FB-E9231-20" source="p-10FB-E9223-3" target="t-10FB-E922C-13">
+  </arc>
+  <arc id="e-10FB-E9232-21" source="t-10FB-E922C-13" target="p-10FB-E9221-2">
+  </arc>
+  <arc id="e-10FB-E9233-22" source="p-10FB-E9223-3" target="t-10FB-E922D-14">
+  </arc>
+  <arc id="e-10FB-E9233-23" source="p-10FB-E9226-6" target="t-10FB-E922D-14">
+  </arc>
+  <arc id="e-10FB-E9234-24" source="t-10FB-E922D-14" target="p-10FB-E9225-5">
+  </arc>
+  <arc id="e-10FB-E9234-25" source="t-10FB-E922D-14" target="p-10FB-E9227-7">
+  </arc>
+  <arc id="e-10FB-E9235-26" source="p-10FB-E9227-7" target="t-10FB-E922E-15">
+  </arc>
+  <arc id="e-10FB-E9235-27" source="t-10FB-E9228-8" target="p-10FB-E9221-2">
+  </arc>
+  <arc id="e-10FB-E9236-28" source="t-10FB-E922E-15" target="p-10FB-E9221-2">
+  </arc>
+  <arc id="e-10FB-E9236-29" source="p-10FB-E9224-4" target="t-10FB-E9229-9">
+  </arc>
+  <arc id="e-10FB-E9237-30" source="p-10FB-E9226-6" target="t-10FB-E9229-9">
+  </arc>
+  <arc id="e-10FB-E9237-31" source="t-10FB-E9229-9" target="p-10FB-E9225-5">
+  </arc>
+  <arc id="e-10FB-E9238-32" source="t-10FB-E9229-9" target="p-10FB-E9227-7">
+  </arc>
+  <arc id="e-10FB-E9238-33" source="p-10FB-E9225-5" target="t-10FB-E922A-10">
+  </arc>
+  <arc id="e-10FB-E923A-34" source="t-10FB-E922A-10" target="p-10FB-E9226-6">
+  </arc>
+  <arc id="e-10FB-E923A-35" source="p-10FB-E9221-2" target="t-10FB-E922B-11">
+  </arc>
+ </page>
+ </net>
+</pnml>

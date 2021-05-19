@@ -1,0 +1,257 @@
+<pnml xmlns="http://www.pnml.org/version-2009/grammar/pnml">
+ <net id="n-116D-78245-0" type ="http://www.pnml.org/version-2009/grammar/ptnet">
+  <name>
+   <text>state_space16</text>
+  </name>
+ <page id="g-116D-7824A-1">
+  <place id="p-116D-7824B-2">
+  <name>
+   <text>p0</text>
+  </name>
+   <initialMarking>
+    <text>1</text>
+   </initialMarking>
+  </place>
+  <place id="p-116D-7824D-3">
+  <name>
+   <text>p1</text>
+  </name>
+  </place>
+  <place id="p-116D-7824E-4">
+  <name>
+   <text>p10</text>
+  </name>
+   <initialMarking>
+    <text>1</text>
+   </initialMarking>
+  </place>
+  <place id="p-116D-7824F-5">
+  <name>
+   <text>p11</text>
+  </name>
+  </place>
+  <place id="p-116D-78250-6">
+  <name>
+   <text>p12</text>
+  </name>
+   <initialMarking>
+    <text>1</text>
+   </initialMarking>
+  </place>
+  <place id="p-116D-78250-7">
+  <name>
+   <text>p13</text>
+  </name>
+  </place>
+  <place id="p-116D-78251-8">
+  <name>
+   <text>p14</text>
+  </name>
+   <initialMarking>
+    <text>1</text>
+   </initialMarking>
+  </place>
+  <place id="p-116D-78252-9">
+  <name>
+   <text>p15</text>
+  </name>
+  </place>
+  <place id="p-116D-78252-10">
+  <name>
+   <text>p2</text>
+  </name>
+   <initialMarking>
+    <text>1</text>
+   </initialMarking>
+  </place>
+  <place id="p-116D-78253-11">
+  <name>
+   <text>p3</text>
+  </name>
+  </place>
+  <place id="p-116D-78254-12">
+  <name>
+   <text>p4</text>
+  </name>
+   <initialMarking>
+    <text>1</text>
+   </initialMarking>
+  </place>
+  <place id="p-116D-78254-13">
+  <name>
+   <text>p5</text>
+  </name>
+  </place>
+  <place id="p-116D-78255-14">
+  <name>
+   <text>p6</text>
+  </name>
+   <initialMarking>
+    <text>1</text>
+   </initialMarking>
+  </place>
+  <place id="p-116D-78257-15">
+  <name>
+   <text>p7</text>
+  </name>
+  </place>
+  <place id="p-116D-78257-16">
+  <name>
+   <text>p8</text>
+  </name>
+   <initialMarking>
+    <text>1</text>
+   </initialMarking>
+  </place>
+  <place id="p-116D-78258-17">
+  <name>
+   <text>p9</text>
+  </name>
+  </place>
+  <transition id="t-116D-78259-18">
+  <name>
+   <text>t0</text>
+  </name>
+  </transition>
+  <transition id="t-116D-7825A-19">
+  <name>
+   <text>t1</text>
+  </name>
+  </transition>
+  <transition id="t-116D-7825B-20">
+  <name>
+   <text>t10</text>
+  </name>
+  </transition>
+  <transition id="t-116D-7825C-21">
+  <name>
+   <text>t11</text>
+  </name>
+  </transition>
+  <transition id="t-116D-7825C-22">
+  <name>
+   <text>t12</text>
+  </name>
+  </transition>
+  <transition id="t-116D-7825E-23">
+  <name>
+   <text>t13</text>
+  </name>
+  </transition>
+  <transition id="t-116D-7825E-24">
+  <name>
+   <text>t14</text>
+  </name>
+  </transition>
+  <transition id="t-116D-7825F-25">
+  <name>
+   <text>t15</text>
+  </name>
+  </transition>
+  <transition id="t-116D-7825F-26">
+  <name>
+   <text>t2</text>
+  </name>
+  </transition>
+  <transition id="t-116D-78261-27">
+  <name>
+   <text>t3</text>
+  </name>
+  </transition>
+  <transition id="t-116D-78261-28">
+  <name>
+   <text>t4</text>
+  </name>
+  </transition>
+  <transition id="t-116D-78262-29">
+  <name>
+   <text>t5</text>
+  </name>
+  </transition>
+  <transition id="t-116D-78262-30">
+  <name>
+   <text>t6</text>
+  </name>
+  </transition>
+  <transition id="t-116D-78264-31">
+  <name>
+   <text>t7</text>
+  </name>
+  </transition>
+  <transition id="t-116D-78264-32">
+  <name>
+   <text>t8</text>
+  </name>
+  </transition>
+  <transition id="t-116D-78265-33">
+  <name>
+   <text>t9</text>
+  </name>
+  </transition>
+  <arc id="e-116D-78266-34" source="p-116D-7824B-2" target="t-116D-78259-18">
+  </arc>
+  <arc id="e-116D-78267-35" source="t-116D-7825C-22" target="p-116D-78250-7">
+  </arc>
+  <arc id="e-116D-78268-36" source="p-116D-78250-7" target="t-116D-7825E-23">
+  </arc>
+  <arc id="e-116D-78269-37" source="t-116D-7825E-23" target="p-116D-78250-6">
+  </arc>
+  <arc id="e-116D-78269-38" source="p-116D-78251-8" target="t-116D-7825E-24">
+  </arc>
+  <arc id="e-116D-7826A-39" source="t-116D-7825E-24" target="p-116D-78252-9">
+  </arc>
+  <arc id="e-116D-7826A-40" source="p-116D-78252-9" target="t-116D-7825F-25">
+  </arc>
+  <arc id="e-116D-7826B-41" source="t-116D-7825F-25" target="p-116D-78251-8">
+  </arc>
+  <arc id="e-116D-78275-42" source="p-116D-78252-10" target="t-116D-7825F-26">
+  </arc>
+  <arc id="e-116D-78276-43" source="t-116D-7825F-26" target="p-116D-78253-11">
+  </arc>
+  <arc id="e-116D-78276-44" source="p-116D-78253-11" target="t-116D-78261-27">
+  </arc>
+  <arc id="e-116D-78277-45" source="t-116D-78259-18" target="p-116D-7824D-3">
+  </arc>
+  <arc id="e-116D-78277-46" source="t-116D-78261-27" target="p-116D-78252-10">
+  </arc>
+  <arc id="e-116D-78278-47" source="p-116D-78254-12" target="t-116D-78261-28">
+  </arc>
+  <arc id="e-116D-78279-48" source="t-116D-78261-28" target="p-116D-78254-13">
+  </arc>
+  <arc id="e-116D-7827A-49" source="p-116D-78254-13" target="t-116D-78262-29">
+  </arc>
+  <arc id="e-116D-7827A-50" source="t-116D-78262-29" target="p-116D-78254-12">
+  </arc>
+  <arc id="e-116D-7827B-51" source="p-116D-78255-14" target="t-116D-78262-30">
+  </arc>
+  <arc id="e-116D-7827B-52" source="t-116D-78262-30" target="p-116D-78257-15">
+  </arc>
+  <arc id="e-116D-7827C-53" source="p-116D-78257-15" target="t-116D-78264-31">
+  </arc>
+  <arc id="e-116D-7827C-54" source="t-116D-78264-31" target="p-116D-78255-14">
+  </arc>
+  <arc id="e-116D-7827D-55" source="p-116D-78257-16" target="t-116D-78264-32">
+  </arc>
+  <arc id="e-116D-7827E-56" source="p-116D-7824D-3" target="t-116D-7825A-19">
+  </arc>
+  <arc id="e-116D-7827E-57" source="t-116D-78264-32" target="p-116D-78258-17">
+  </arc>
+  <arc id="e-116D-7827F-58" source="p-116D-78258-17" target="t-116D-78265-33">
+  </arc>
+  <arc id="e-116D-7827F-59" source="t-116D-78265-33" target="p-116D-78257-16">
+  </arc>
+  <arc id="e-116D-78280-60" source="t-116D-7825A-19" target="p-116D-7824B-2">
+  </arc>
+  <arc id="e-116D-78281-61" source="p-116D-7824E-4" target="t-116D-7825B-20">
+  </arc>
+  <arc id="e-116D-78282-62" source="t-116D-7825B-20" target="p-116D-7824F-5">
+  </arc>
+  <arc id="e-116D-78282-63" source="p-116D-7824F-5" target="t-116D-7825C-21">
+  </arc>
+  <arc id="e-116D-78283-64" source="t-116D-7825C-21" target="p-116D-7824E-4">
+  </arc>
+  <arc id="e-116D-78283-65" source="p-116D-78250-6" target="t-116D-7825C-22">
+  </arc>
+ </page>
+ </net>
+</pnml>

@@ -1,0 +1,458 @@
+<pnml xmlns="http://www.pnml.org/version-2009/grammar/pnml">
+ <net id="n-FC1-8F4BE-0" type ="http://www.pnml.org/version-2009/grammar/ptnet">
+  <name>
+   <text>ConsistentExample</text>
+  </name>
+ <page id="g-FC1-8F4D8-1">
+  <place id="p-FC1-8F4DA-2">
+  <name>
+   <text>p0</text>
+  </name>
+  </place>
+  <place id="p-FC1-8F4DC-3">
+  <name>
+   <text>p1</text>
+  </name>
+   <initialMarking>
+    <text>1</text>
+   </initialMarking>
+  </place>
+  <place id="p-FC1-8F4DD-4">
+  <name>
+   <text>p10</text>
+  </name>
+  </place>
+  <place id="p-FC1-8F4DE-5">
+  <name>
+   <text>p11</text>
+  </name>
+  </place>
+  <place id="p-FC1-8F4DF-6">
+  <name>
+   <text>p12</text>
+  </name>
+  </place>
+  <place id="p-FC1-8F4E0-7">
+  <name>
+   <text>p13</text>
+  </name>
+  </place>
+  <place id="p-FC1-8F4E0-8">
+  <name>
+   <text>p14</text>
+  </name>
+  </place>
+  <place id="p-FC1-8F4E1-9">
+  <name>
+   <text>p15</text>
+  </name>
+  </place>
+  <place id="p-FC1-8F4E2-10">
+  <name>
+   <text>p16</text>
+  </name>
+   <initialMarking>
+    <text>1</text>
+   </initialMarking>
+  </place>
+  <place id="p-FC1-8F4E3-11">
+  <name>
+   <text>p17</text>
+  </name>
+  </place>
+  <place id="p-FC1-8F4E3-12">
+  <name>
+   <text>p18</text>
+  </name>
+  </place>
+  <place id="p-FC1-8F4E5-13">
+  <name>
+   <text>p19</text>
+  </name>
+  </place>
+  <place id="p-FC1-8F4E5-14">
+  <name>
+   <text>p2</text>
+  </name>
+  </place>
+  <place id="p-FC1-8F4E6-15">
+  <name>
+   <text>p20</text>
+  </name>
+  </place>
+  <place id="p-FC1-8F4E7-16">
+  <name>
+   <text>p21</text>
+  </name>
+  </place>
+  <place id="p-FC1-8F4E8-17">
+  <name>
+   <text>p22</text>
+  </name>
+  </place>
+  <place id="p-FC1-8F4E8-18">
+  <name>
+   <text>p23</text>
+  </name>
+  </place>
+  <place id="p-FC1-8F4E9-19">
+  <name>
+   <text>p24</text>
+  </name>
+  </place>
+  <place id="p-FC1-8F4EA-20">
+  <name>
+   <text>p25</text>
+  </name>
+  </place>
+  <place id="p-FC1-8F4EB-21">
+  <name>
+   <text>p26</text>
+  </name>
+  </place>
+  <place id="p-FC1-8F4EB-22">
+  <name>
+   <text>p27</text>
+  </name>
+  </place>
+  <place id="p-FC1-8F4EC-23">
+  <name>
+   <text>p28</text>
+  </name>
+  </place>
+  <place id="p-FC1-8F4ED-24">
+  <name>
+   <text>p3</text>
+  </name>
+   <initialMarking>
+    <text>1</text>
+   </initialMarking>
+  </place>
+  <place id="p-FC1-8F4EE-25">
+  <name>
+   <text>p4</text>
+  </name>
+  </place>
+  <place id="p-FC1-8F4EF-26">
+  <name>
+   <text>p5</text>
+  </name>
+  </place>
+  <place id="p-FC1-8F4EF-27">
+  <name>
+   <text>p6</text>
+  </name>
+  </place>
+  <place id="p-FC1-8F4F0-28">
+  <name>
+   <text>p7</text>
+  </name>
+  </place>
+  <place id="p-FC1-8F4F1-29">
+  <name>
+   <text>p8</text>
+  </name>
+  </place>
+  <place id="p-FC1-8F4F2-30">
+  <name>
+   <text>p9</text>
+  </name>
+  </place>
+  <transition id="t-FC1-8F4F2-31">
+  <name>
+   <text>t0</text>
+  </name>
+  </transition>
+  <transition id="t-FC1-8F4F3-32">
+  <name>
+   <text>t1</text>
+  </name>
+  </transition>
+  <transition id="t-FC1-8F4F5-33">
+  <name>
+   <text>t10</text>
+  </name>
+  </transition>
+  <transition id="t-FC1-8F4F5-34">
+  <name>
+   <text>t11</text>
+  </name>
+  </transition>
+  <transition id="t-FC1-8F4F6-35">
+  <name>
+   <text>t12</text>
+  </name>
+  </transition>
+  <transition id="t-FC1-8F4F7-36">
+  <name>
+   <text>t13</text>
+  </name>
+  </transition>
+  <transition id="t-FC1-8F4F8-37">
+  <name>
+   <text>t14</text>
+  </name>
+  </transition>
+  <transition id="t-FC1-8F4F9-38">
+  <name>
+   <text>t15</text>
+  </name>
+  </transition>
+  <transition id="t-FC1-8F4F9-39">
+  <name>
+   <text>t16</text>
+  </name>
+  </transition>
+  <transition id="t-FC1-8F4FA-40">
+  <name>
+   <text>t17</text>
+  </name>
+  </transition>
+  <transition id="t-FC1-8F4FB-41">
+  <name>
+   <text>t18</text>
+  </name>
+  </transition>
+  <transition id="t-FC1-8F4FC-42">
+  <name>
+   <text>t19</text>
+  </name>
+  </transition>
+  <transition id="t-FC1-8F4FC-43">
+  <name>
+   <text>t2</text>
+  </name>
+  </transition>
+  <transition id="t-FC1-8F4FE-44">
+  <name>
+   <text>t20</text>
+  </name>
+  </transition>
+  <transition id="t-FC1-8F4FE-45">
+  <name>
+   <text>t21</text>
+  </name>
+  </transition>
+  <transition id="t-FC1-8F4FF-46">
+  <name>
+   <text>t22</text>
+  </name>
+  </transition>
+  <transition id="t-FC1-8F509-47">
+  <name>
+   <text>t23</text>
+  </name>
+  </transition>
+  <transition id="t-FC1-8F50B-48">
+  <name>
+   <text>t24</text>
+  </name>
+  </transition>
+  <transition id="t-FC1-8F51A-49">
+  <name>
+   <text>t3</text>
+  </name>
+  </transition>
+  <transition id="t-FC1-8F51B-50">
+  <name>
+   <text>t4</text>
+  </name>
+  </transition>
+  <transition id="t-FC1-8F51B-51">
+  <name>
+   <text>t5</text>
+  </name>
+  </transition>
+  <transition id="t-FC1-8F51D-52">
+  <name>
+   <text>t6</text>
+  </name>
+  </transition>
+  <transition id="t-FC1-8F51E-53">
+  <name>
+   <text>t7</text>
+  </name>
+  </transition>
+  <transition id="t-FC1-8F51E-54">
+  <name>
+   <text>t8</text>
+  </name>
+  </transition>
+  <transition id="t-FC1-8F51F-55">
+  <name>
+   <text>t9</text>
+  </name>
+  </transition>
+  <arc id="e-FC1-8F520-56" source="p-FC1-8F4DA-2" target="t-FC1-8F4F2-31">
+  </arc>
+  <arc id="e-FC1-8F521-57" source="t-FC1-8F4F5-33" target="p-FC1-8F4E3-12">
+  </arc>
+  <arc id="e-FC1-8F522-58" source="p-FC1-8F4EE-25" target="t-FC1-8F4F5-34">
+  </arc>
+  <arc id="e-FC1-8F523-59" source="p-FC1-8F4E3-12" target="t-FC1-8F4F5-34">
+  </arc>
+  <arc id="e-FC1-8F523-60" source="t-FC1-8F4F5-34" target="p-FC1-8F4E5-13">
+  </arc>
+  <arc id="e-FC1-8F524-61" source="t-FC1-8F4F5-34" target="p-FC1-8F4EB-22">
+  </arc>
+  <arc id="e-FC1-8F524-62" source="p-FC1-8F4E2-10" target="t-FC1-8F4F6-35">
+  </arc>
+  <arc id="e-FC1-8F525-63" source="t-FC1-8F4F6-35" target="p-FC1-8F4DA-2">
+  </arc>
+  <arc id="e-FC1-8F526-64" source="t-FC1-8F4F6-35" target="p-FC1-8F4E5-14">
+  </arc>
+  <arc id="e-FC1-8F526-65" source="t-FC1-8F4F6-35" target="p-FC1-8F4DD-4">
+  </arc>
+  <arc id="e-FC1-8F527-66" source="t-FC1-8F4F6-35" target="p-FC1-8F4E3-11">
+  </arc>
+  <arc id="e-FC1-8F528-67" source="p-FC1-8F4DC-3" target="t-FC1-8F4F2-31">
+  </arc>
+  <arc id="e-FC1-8F528-68" source="p-FC1-8F4EF-26" target="t-FC1-8F4F7-36">
+  </arc>
+  <arc id="e-FC1-8F529-69" source="p-FC1-8F4F0-28" target="t-FC1-8F4F7-36">
+  </arc>
+  <arc id="e-FC1-8F52A-70" source="p-FC1-8F4DF-6" target="t-FC1-8F4F7-36">
+  </arc>
+  <arc id="e-FC1-8F52A-71" source="p-FC1-8F4E0-8" target="t-FC1-8F4F7-36">
+  </arc>
+  <arc id="e-FC1-8F52B-72" source="t-FC1-8F4F7-36" target="p-FC1-8F4E3-12">
+  </arc>
+  <arc id="e-FC1-8F52B-73" source="p-FC1-8F4E1-9" target="t-FC1-8F4F8-37">
+  </arc>
+  <arc id="e-FC1-8F52C-74" source="p-FC1-8F4E3-12" target="t-FC1-8F4F8-37">
+  </arc>
+  <arc id="e-FC1-8F52C-75" source="p-FC1-8F4E5-13" target="t-FC1-8F4F8-37">
+  </arc>
+  <arc id="e-FC1-8F52D-76" source="t-FC1-8F4F8-37" target="p-FC1-8F4E2-10">
+  </arc>
+  <arc id="e-FC1-8F52D-77" source="p-FC1-8F4EE-25" target="t-FC1-8F4F9-38">
+  </arc>
+  <arc id="e-FC1-8F52F-78" source="t-FC1-8F4F2-31" target="p-FC1-8F4EF-26">
+  </arc>
+  <arc id="e-FC1-8F52F-79" source="p-FC1-8F4E3-12" target="t-FC1-8F4F9-38">
+  </arc>
+  <arc id="e-FC1-8F530-80" source="t-FC1-8F4F9-38" target="p-FC1-8F4E5-13">
+  </arc>
+  <arc id="e-FC1-8F530-81" source="t-FC1-8F4F9-38" target="p-FC1-8F4EC-23">
+  </arc>
+  <arc id="e-FC1-8F531-82" source="p-FC1-8F4E6-15" target="t-FC1-8F4F9-39">
+  </arc>
+  <arc id="e-FC1-8F531-83" source="t-FC1-8F4F9-39" target="p-FC1-8F4EF-26">
+  </arc>
+  <arc id="e-FC1-8F532-84" source="p-FC1-8F4E7-16" target="t-FC1-8F4FA-40">
+  </arc>
+  <arc id="e-FC1-8F532-85" source="t-FC1-8F4FA-40" target="p-FC1-8F4ED-24">
+  </arc>
+  <arc id="e-FC1-8F533-86" source="p-FC1-8F4E8-17" target="t-FC1-8F4FB-41">
+  </arc>
+  <arc id="e-FC1-8F534-87" source="t-FC1-8F4FB-41" target="p-FC1-8F4F0-28">
+  </arc>
+  <arc id="e-FC1-8F534-88" source="p-FC1-8F4E0-8" target="t-FC1-8F4FC-42">
+  </arc>
+  <arc id="e-FC1-8F535-89" source="p-FC1-8F4DA-2" target="t-FC1-8F4F3-32">
+  </arc>
+  <arc id="e-FC1-8F536-90" source="t-FC1-8F4FC-42" target="p-FC1-8F4E8-18">
+  </arc>
+  <arc id="e-FC1-8F536-91" source="p-FC1-8F4E5-14" target="t-FC1-8F4FC-43">
+  </arc>
+  <arc id="e-FC1-8F537-92" source="p-FC1-8F4EF-26" target="t-FC1-8F4FC-43">
+  </arc>
+  <arc id="e-FC1-8F538-93" source="t-FC1-8F4FC-43" target="p-FC1-8F4F0-28">
+  </arc>
+  <arc id="e-FC1-8F538-94" source="t-FC1-8F4FC-43" target="p-FC1-8F4E1-9">
+  </arc>
+  <arc id="e-FC1-8F53D-95" source="t-FC1-8F4FC-43" target="p-FC1-8F4E6-15">
+  </arc>
+  <arc id="e-FC1-8F53D-96" source="p-FC1-8F4ED-24" target="t-FC1-8F4FE-44">
+  </arc>
+  <arc id="e-FC1-8F53E-97" source="t-FC1-8F4FE-44" target="p-FC1-8F4E9-19">
+  </arc>
+  <arc id="e-FC1-8F53F-98" source="p-FC1-8F4EA-20" target="t-FC1-8F4FE-45">
+  </arc>
+  <arc id="e-FC1-8F53F-99" source="t-FC1-8F4FE-45" target="p-FC1-8F4E3-12">
+  </arc>
+  <arc id="e-FC1-8F540-100" source="p-FC1-8F4DC-3" target="t-FC1-8F4F3-32">
+  </arc>
+  <arc id="e-FC1-8F540-101" source="p-FC1-8F4E3-12" target="t-FC1-8F4FF-46">
+  </arc>
+  <arc id="e-FC1-8F542-102" source="t-FC1-8F4FF-46" target="p-FC1-8F4EB-21">
+  </arc>
+  <arc id="e-FC1-8F542-103" source="p-FC1-8F4EB-22" target="t-FC1-8F509-47">
+  </arc>
+  <arc id="e-FC1-8F543-104" source="t-FC1-8F509-47" target="p-FC1-8F4E3-12">
+  </arc>
+  <arc id="e-FC1-8F543-105" source="p-FC1-8F4EC-23" target="t-FC1-8F50B-48">
+  </arc>
+  <arc id="e-FC1-8F544-106" source="t-FC1-8F50B-48" target="p-FC1-8F4E3-12">
+  </arc>
+  <arc id="e-FC1-8F545-107" source="p-FC1-8F4E5-14" target="t-FC1-8F51A-49">
+  </arc>
+  <arc id="e-FC1-8F545-108" source="p-FC1-8F4ED-24" target="t-FC1-8F51A-49">
+  </arc>
+  <arc id="e-FC1-8F546-109" source="t-FC1-8F51A-49" target="p-FC1-8F4EE-25">
+  </arc>
+  <arc id="e-FC1-8F546-110" source="t-FC1-8F51A-49" target="p-FC1-8F4F1-29">
+  </arc>
+  <arc id="e-FC1-8F547-111" source="t-FC1-8F4F3-32" target="p-FC1-8F4EE-25">
+  </arc>
+  <arc id="e-FC1-8F547-112" source="t-FC1-8F51A-49" target="p-FC1-8F4E7-16">
+  </arc>
+  <arc id="e-FC1-8F548-113" source="p-FC1-8F4EF-27" target="t-FC1-8F51B-50">
+  </arc>
+  <arc id="e-FC1-8F549-114" source="p-FC1-8F4F0-28" target="t-FC1-8F51B-50">
+  </arc>
+  <arc id="e-FC1-8F54A-115" source="p-FC1-8F4F2-30" target="t-FC1-8F51B-50">
+  </arc>
+  <arc id="e-FC1-8F54A-116" source="t-FC1-8F51B-50" target="p-FC1-8F4DE-5">
+  </arc>
+  <arc id="e-FC1-8F54B-117" source="t-FC1-8F51B-50" target="p-FC1-8F4E0-7">
+  </arc>
+  <arc id="e-FC1-8F54B-118" source="p-FC1-8F4DD-4" target="t-FC1-8F51B-51">
+  </arc>
+  <arc id="e-FC1-8F54C-119" source="p-FC1-8F4E0-8" target="t-FC1-8F51B-51">
+  </arc>
+  <arc id="e-FC1-8F54D-120" source="t-FC1-8F51B-51" target="p-FC1-8F4E0-7">
+  </arc>
+  <arc id="e-FC1-8F54D-121" source="p-FC1-8F4F1-29" target="t-FC1-8F51D-52">
+  </arc>
+  <arc id="e-FC1-8F54E-122" source="t-FC1-8F4F3-32" target="p-FC1-8F4EF-27">
+  </arc>
+  <arc id="e-FC1-8F54E-123" source="p-FC1-8F4DD-4" target="t-FC1-8F51D-52">
+  </arc>
+  <arc id="e-FC1-8F54F-124" source="t-FC1-8F51D-52" target="p-FC1-8F4DF-6">
+  </arc>
+  <arc id="e-FC1-8F54F-125" source="t-FC1-8F51D-52" target="p-FC1-8F4E0-8">
+  </arc>
+  <arc id="e-FC1-8F551-126" source="p-FC1-8F4F1-29" target="t-FC1-8F51E-53">
+  </arc>
+  <arc id="e-FC1-8F551-127" source="p-FC1-8F4DD-4" target="t-FC1-8F51E-53">
+  </arc>
+  <arc id="e-FC1-8F552-128" source="t-FC1-8F51E-53" target="p-FC1-8F4ED-24">
+  </arc>
+  <arc id="e-FC1-8F552-129" source="t-FC1-8F51E-53" target="p-FC1-8F4E0-7">
+  </arc>
+  <arc id="e-FC1-8F553-130" source="t-FC1-8F51E-53" target="p-FC1-8F4E9-19">
+  </arc>
+  <arc id="e-FC1-8F553-131" source="p-FC1-8F4EF-27" target="t-FC1-8F51E-54">
+  </arc>
+  <arc id="e-FC1-8F554-132" source="p-FC1-8F4F2-30" target="t-FC1-8F51E-54">
+  </arc>
+  <arc id="e-FC1-8F554-133" source="p-FC1-8F4E0-7" target="t-FC1-8F4F5-33">
+  </arc>
+  <arc id="e-FC1-8F555-134" source="t-FC1-8F51E-54" target="p-FC1-8F4F0-28">
+  </arc>
+  <arc id="e-FC1-8F555-135" source="t-FC1-8F51E-54" target="p-FC1-8F4E0-7">
+  </arc>
+  <arc id="e-FC1-8F556-136" source="p-FC1-8F4E0-7" target="t-FC1-8F51F-55">
+  </arc>
+  <arc id="e-FC1-8F556-137" source="p-FC1-8F4E3-12" target="t-FC1-8F51F-55">
+  </arc>
+  <arc id="e-FC1-8F558-138" source="t-FC1-8F51F-55" target="p-FC1-8F4E1-9">
+  </arc>
+  <arc id="e-FC1-8F558-139" source="t-FC1-8F51F-55" target="p-FC1-8F4EA-20">
+  </arc>
+  <arc id="e-FC1-8F559-140" source="p-FC1-8F4EB-21" target="t-FC1-8F4F5-33">
+  </arc>
+ </page>
+ </net>
+</pnml>

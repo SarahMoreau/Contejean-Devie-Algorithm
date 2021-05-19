@@ -1,0 +1,166 @@
+<pnml xmlns="http://www.pnml.org/version-2009/grammar/pnml">
+ <net id="n-FBD-8145F-0" type ="http://www.pnml.org/version-2009/grammar/ptnet">
+  <name>
+   <text>3carros</text>
+  </name>
+ <page id="g-FBD-81463-1">
+  <place id="p-FBD-81464-2">
+  <name>
+   <text>p0</text>
+  </name>
+  </place>
+  <place id="p-FBD-81466-3">
+  <name>
+   <text>p1</text>
+  </name>
+  </place>
+  <place id="p-FBD-81466-4">
+  <name>
+   <text>p10</text>
+  </name>
+  </place>
+  <place id="p-FBD-81468-5">
+  <name>
+   <text>p11</text>
+  </name>
+  </place>
+  <place id="p-FBD-81468-6">
+  <name>
+   <text>p2</text>
+  </name>
+  </place>
+  <place id="p-FBD-81469-7">
+  <name>
+   <text>p3</text>
+  </name>
+   <initialMarking>
+    <text>1</text>
+   </initialMarking>
+  </place>
+  <place id="p-FBD-8146A-8">
+  <name>
+   <text>p4</text>
+  </name>
+   <initialMarking>
+    <text>1</text>
+   </initialMarking>
+  </place>
+  <place id="p-FBD-8146A-9">
+  <name>
+   <text>p5</text>
+  </name>
+   <initialMarking>
+    <text>1</text>
+   </initialMarking>
+  </place>
+  <place id="p-FBD-8146C-10">
+  <name>
+   <text>p6</text>
+  </name>
+  </place>
+  <place id="p-FBD-8146C-11">
+  <name>
+   <text>p7</text>
+  </name>
+  </place>
+  <place id="p-FBD-8146D-12">
+  <name>
+   <text>p8</text>
+  </name>
+  </place>
+  <place id="p-FBD-8146D-13">
+  <name>
+   <text>p9</text>
+  </name>
+  </place>
+  <transition id="t-FBD-8146E-14">
+  <name>
+   <text>t0</text>
+  </name>
+  </transition>
+  <transition id="t-FBD-81470-15">
+  <name>
+   <text>t1</text>
+  </name>
+  </transition>
+  <transition id="t-FBD-81470-16">
+  <name>
+   <text>t2</text>
+  </name>
+  </transition>
+  <transition id="t-FBD-81471-17">
+  <name>
+   <text>t3</text>
+  </name>
+  </transition>
+  <transition id="t-FBD-81471-18">
+  <name>
+   <text>t4</text>
+  </name>
+  </transition>
+  <transition id="t-FBD-81473-19">
+  <name>
+   <text>t5</text>
+  </name>
+  </transition>
+  <transition id="t-FBD-81473-20">
+  <name>
+   <text>t6</text>
+  </name>
+  </transition>
+  <transition id="t-FBD-81474-21">
+  <name>
+   <text>t7</text>
+  </name>
+  </transition>
+  <arc id="e-FBD-81475-22" source="p-FBD-81469-7" target="t-FBD-8146E-14">
+  </arc>
+  <arc id="e-FBD-81475-23" source="t-FBD-81470-16" target="p-FBD-81469-7">
+  </arc>
+  <arc id="e-FBD-81476-24" source="p-FBD-81466-3" target="t-FBD-81471-17">
+  </arc>
+  <arc id="e-FBD-81477-25" source="t-FBD-81471-17" target="p-FBD-8146C-10">
+  </arc>
+  <arc id="e-FBD-81478-26" source="p-FBD-81468-6" target="t-FBD-81471-18">
+  </arc>
+  <arc id="e-FBD-81478-27" source="t-FBD-81471-18" target="p-FBD-81468-5">
+  </arc>
+  <arc id="e-FBD-81479-28" source="p-FBD-81466-4" target="t-FBD-81473-19">
+  </arc>
+  <arc id="e-FBD-81479-29" source="t-FBD-81473-19" target="p-FBD-8146A-9">
+  </arc>
+  <arc id="e-FBD-8147A-30" source="p-FBD-8146D-13" target="t-FBD-81473-20">
+  </arc>
+  <arc id="e-FBD-8147A-31" source="t-FBD-81473-20" target="p-FBD-8146A-8">
+  </arc>
+  <arc id="e-FBD-8147B-32" source="p-FBD-8146C-10" target="t-FBD-81474-21">
+  </arc>
+  <arc id="e-FBD-8147B-33" source="p-FBD-8146A-8" target="t-FBD-8146E-14">
+  </arc>
+  <arc id="e-FBD-8147C-34" source="p-FBD-8146C-11" target="t-FBD-81474-21">
+  </arc>
+  <arc id="e-FBD-8147C-35" source="p-FBD-81468-5" target="t-FBD-81474-21">
+  </arc>
+  <arc id="e-FBD-8147D-36" source="t-FBD-81474-21" target="p-FBD-8146D-12">
+  </arc>
+  <arc id="e-FBD-8147E-37" source="t-FBD-81474-21" target="p-FBD-8146D-13">
+  </arc>
+  <arc id="e-FBD-8147E-38" source="t-FBD-81474-21" target="p-FBD-81466-4">
+  </arc>
+  <arc id="e-FBD-8147F-39" source="p-FBD-8146A-9" target="t-FBD-8146E-14">
+  </arc>
+  <arc id="e-FBD-8147F-40" source="t-FBD-8146E-14" target="p-FBD-81464-2">
+  </arc>
+  <arc id="e-FBD-81480-41" source="t-FBD-8146E-14" target="p-FBD-81466-3">
+  </arc>
+  <arc id="e-FBD-81480-42" source="t-FBD-8146E-14" target="p-FBD-81468-6">
+  </arc>
+  <arc id="e-FBD-81481-43" source="p-FBD-81464-2" target="t-FBD-81470-15">
+  </arc>
+  <arc id="e-FBD-81481-44" source="t-FBD-81470-15" target="p-FBD-8146C-11">
+  </arc>
+  <arc id="e-FBD-81482-45" source="p-FBD-8146D-12" target="t-FBD-81470-16">
+  </arc>
+ </page>
+ </net>
+</pnml>

@@ -1,0 +1,96 @@
+<pnml xmlns="http://www.pnml.org/version-2009/grammar/pnml">
+ <net id="n-FBF-889E7-0" type ="http://www.pnml.org/version-2009/grammar/ptnet">
+  <name>
+   <text>CNC_machine</text>
+  </name>
+ <page id="g-FBF-889EB-1">
+  <place id="p-FBF-889EC-2">
+  <name>
+   <text>p0</text>
+  </name>
+   <initialMarking>
+    <text>1</text>
+   </initialMarking>
+  </place>
+  <place id="p-FBF-889EE-3">
+  <name>
+   <text>p1</text>
+  </name>
+  </place>
+  <place id="p-FBF-889EF-4">
+  <name>
+   <text>p2</text>
+  </name>
+  </place>
+  <place id="p-FBF-889F0-5">
+  <name>
+   <text>p3</text>
+  </name>
+  </place>
+  <place id="p-FBF-889F1-6">
+  <name>
+   <text>p4</text>
+  </name>
+  </place>
+  <place id="p-FBF-889F2-7">
+  <name>
+   <text>p5</text>
+  </name>
+  </place>
+  <place id="p-FBF-889F2-8">
+  <name>
+   <text>p6</text>
+  </name>
+  </place>
+  <transition id="t-FBF-889F3-9">
+  <name>
+   <text>t0</text>
+  </name>
+  </transition>
+  <transition id="t-FBF-88A18-10">
+  <name>
+   <text>t1</text>
+  </name>
+  </transition>
+  <transition id="t-FBF-88A1A-11">
+  <name>
+   <text>t2</text>
+  </name>
+  </transition>
+  <transition id="t-FBF-88A1A-12">
+  <name>
+   <text>t3</text>
+  </name>
+  </transition>
+  <transition id="t-FBF-88A1B-13">
+  <name>
+   <text>t4</text>
+  </name>
+  </transition>
+  <arc id="e-FBF-88A1C-14" source="p-FBF-889EC-2" target="t-FBF-889F3-9">
+  </arc>
+  <arc id="e-FBF-88A1D-15" source="p-FBF-889EE-3" target="t-FBF-88A1B-13">
+  </arc>
+  <arc id="e-FBF-88A1D-16" source="p-FBF-889F2-7" target="t-FBF-88A1B-13">
+  </arc>
+  <arc id="e-FBF-88A1E-17" source="t-FBF-88A1B-13" target="p-FBF-889F2-8">
+  </arc>
+  <arc id="e-FBF-88A1F-18" source="t-FBF-889F3-9" target="p-FBF-889EE-3">
+  </arc>
+  <arc id="e-FBF-88A1F-19" source="t-FBF-889F3-9" target="p-FBF-889EF-4">
+  </arc>
+  <arc id="e-FBF-88A20-20" source="p-FBF-889EF-4" target="t-FBF-88A18-10">
+  </arc>
+  <arc id="e-FBF-88A20-21" source="t-FBF-88A18-10" target="p-FBF-889F0-5">
+  </arc>
+  <arc id="e-FBF-88A21-22" source="p-FBF-889F0-5" target="t-FBF-88A1A-11">
+  </arc>
+  <arc id="e-FBF-88A21-23" source="t-FBF-88A1A-11" target="p-FBF-889F1-6">
+  </arc>
+  <arc id="e-FBF-88A22-24" source="p-FBF-889F1-6" target="t-FBF-88A1A-12">
+  </arc>
+  <arc id="e-FBF-88A22-25" source="t-FBF-88A1A-12" target="p-FBF-889F2-7">
+  </arc>
+ </page>
+ </net>
+</pnml>

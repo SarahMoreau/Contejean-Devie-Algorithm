@@ -1,0 +1,107 @@
+<pnml xmlns="http://www.pnml.org/version-2009/grammar/pnml">
+ <net id="n-117D-AF24E-0" type ="http://www.pnml.org/version-2009/grammar/ptnet">
+  <name>
+   <text>transfer</text>
+  </name>
+ <page id="g-117D-AF251-1">
+  <place id="p-117D-AF252-2">
+  <name>
+   <text>p0</text>
+  </name>
+   <initialMarking>
+    <text>1</text>
+   </initialMarking>
+  </place>
+  <place id="p-117D-AF255-3">
+  <name>
+   <text>p1</text>
+  </name>
+  </place>
+  <place id="p-117D-AF256-4">
+  <name>
+   <text>p2</text>
+  </name>
+  </place>
+  <place id="p-117D-AF256-5">
+  <name>
+   <text>p3</text>
+  </name>
+  </place>
+  <place id="p-117D-AF257-6">
+  <name>
+   <text>p4</text>
+  </name>
+   <initialMarking>
+    <text>1</text>
+   </initialMarking>
+  </place>
+  <place id="p-117D-AF27E-7">
+  <name>
+   <text>p5</text>
+  </name>
+   <initialMarking>
+    <text>1</text>
+   </initialMarking>
+  </place>
+  <place id="p-117D-AF27F-8">
+  <name>
+   <text>p6</text>
+  </name>
+   <initialMarking>
+    <text>1</text>
+   </initialMarking>
+  </place>
+  <transition id="t-117D-AF280-9">
+  <name>
+   <text>t0</text>
+  </name>
+  </transition>
+  <transition id="t-117D-AF281-10">
+  <name>
+   <text>t1</text>
+  </name>
+  </transition>
+  <transition id="t-117D-AF282-11">
+  <name>
+   <text>t2</text>
+  </name>
+  </transition>
+  <transition id="t-117D-AF283-12">
+  <name>
+   <text>t3</text>
+  </name>
+  </transition>
+  <transition id="t-117D-AF284-13">
+  <name>
+   <text>t4</text>
+  </name>
+  </transition>
+  <arc id="e-117D-AF285-14" source="p-117D-AF257-6" target="t-117D-AF280-9">
+  </arc>
+  <arc id="e-117D-AF286-15" source="t-117D-AF283-12" target="p-117D-AF256-5">
+  </arc>
+  <arc id="e-117D-AF287-16" source="p-117D-AF256-5" target="t-117D-AF284-13">
+  </arc>
+  <arc id="e-117D-AF287-17" source="t-117D-AF284-13" target="p-117D-AF27E-7">
+  </arc>
+  <arc id="e-117D-AF288-18" source="t-117D-AF284-13" target="p-117D-AF27F-8">
+  </arc>
+  <arc id="e-117D-AF288-19" source="t-117D-AF280-9" target="p-117D-AF252-2">
+  </arc>
+  <arc id="e-117D-AF289-20" source="p-117D-AF252-2" target="t-117D-AF281-10">
+  </arc>
+  <arc id="e-117D-AF289-21" source="p-117D-AF27E-7" target="t-117D-AF281-10">
+  </arc>
+  <arc id="e-117D-AF28A-22" source="t-117D-AF281-10" target="p-117D-AF255-3">
+  </arc>
+  <arc id="e-117D-AF28B-23" source="p-117D-AF255-3" target="t-117D-AF282-11">
+  </arc>
+  <arc id="e-117D-AF28B-24" source="p-117D-AF27F-8" target="t-117D-AF282-11">
+  </arc>
+  <arc id="e-117D-AF28C-25" source="t-117D-AF282-11" target="p-117D-AF256-4">
+  </arc>
+  <arc id="e-117D-AF28C-26" source="p-117D-AF256-4" target="t-117D-AF283-12">
+  </arc>
+ </page>
+ </net>
+</pnml>

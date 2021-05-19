@@ -1,0 +1,95 @@
+<pnml xmlns="http://www.pnml.org/version-2009/grammar/pnml">
+ <net id="n-111D-640F9-0" type ="http://www.pnml.org/version-2009/grammar/ptnet">
+  <name>
+   <text>pn_silva_04</text>
+  </name>
+ <page id="g-111D-640FC-1">
+  <place id="p-111D-640FD-2">
+  <name>
+   <text>p0</text>
+  </name>
+   <initialMarking>
+    <text>1</text>
+   </initialMarking>
+  </place>
+  <place id="p-111D-640FF-3">
+  <name>
+   <text>p1</text>
+  </name>
+  </place>
+  <place id="p-111D-64101-4">
+  <name>
+   <text>p2</text>
+  </name>
+  </place>
+  <place id="p-111D-64102-5">
+  <name>
+   <text>p3</text>
+  </name>
+  </place>
+  <place id="p-111D-64102-6">
+  <name>
+   <text>p4</text>
+  </name>
+  </place>
+  <transition id="t-111D-64103-7">
+  <name>
+   <text>t0</text>
+  </name>
+  </transition>
+  <transition id="t-111D-6412A-8">
+  <name>
+   <text>t1</text>
+  </name>
+  </transition>
+  <transition id="t-111D-6412B-9">
+  <name>
+   <text>t2</text>
+  </name>
+  </transition>
+  <transition id="t-111D-6412D-10">
+  <name>
+   <text>t3</text>
+  </name>
+  </transition>
+  <transition id="t-111D-6412D-11">
+  <name>
+   <text>t4</text>
+  </name>
+  </transition>
+  <transition id="t-111D-6412E-12">
+  <name>
+   <text>t5</text>
+  </name>
+  </transition>
+  <arc id="e-111D-6412F-13" source="p-111D-640FD-2" target="t-111D-64103-7">
+  </arc>
+  <arc id="e-111D-64130-14" source="t-111D-6412D-10" target="p-111D-640FD-2">
+  </arc>
+  <arc id="e-111D-64130-15" source="p-111D-640FF-3" target="t-111D-6412D-11">
+  </arc>
+  <arc id="e-111D-64131-16" source="t-111D-6412D-11" target="p-111D-64102-6">
+  </arc>
+  <arc id="e-111D-64132-17" source="p-111D-64102-6" target="t-111D-6412E-12">
+  </arc>
+  <arc id="e-111D-64133-18" source="t-111D-6412E-12" target="p-111D-640FD-2">
+  </arc>
+  <arc id="e-111D-64133-19" source="t-111D-64103-7" target="p-111D-640FF-3">
+  </arc>
+  <arc id="e-111D-64134-20" source="t-111D-64103-7" target="p-111D-64101-4">
+  </arc>
+  <arc id="e-111D-64134-21" source="p-111D-640FF-3" target="t-111D-6412A-8">
+  </arc>
+  <arc id="e-111D-64134-22" source="p-111D-64101-4" target="t-111D-6412A-8">
+  </arc>
+  <arc id="e-111D-64135-23" source="t-111D-6412A-8" target="p-111D-64102-6">
+  </arc>
+  <arc id="e-111D-64135-24" source="p-111D-64101-4" target="t-111D-6412B-9">
+  </arc>
+  <arc id="e-111D-64136-25" source="t-111D-6412B-9" target="p-111D-64102-5">
+  </arc>
+  <arc id="e-111D-64136-26" source="p-111D-64102-5" target="t-111D-6412D-10">
+  </arc>
+ </page>
+ </net>
+</pnml>

@@ -1,0 +1,608 @@
+<pnml xmlns="http://www.pnml.org/version-2009/grammar/pnml">
+ <net id="n-FD9-DCF20-0" type ="http://www.pnml.org/version-2009/grammar/ptnet">
+  <name>
+   <text>PWM_extended</text>
+  </name>
+ <page id="g-FD9-DCF26-1">
+  <place id="p-FD9-DCF28-2">
+  <name>
+   <text>p0</text>
+  </name>
+   <initialMarking>
+    <text>1</text>
+   </initialMarking>
+  </place>
+  <place id="p-FD9-DCF2A-3">
+  <name>
+   <text>p1</text>
+  </name>
+  </place>
+  <place id="p-FD9-DCF2B-4">
+  <name>
+   <text>p10</text>
+  </name>
+  </place>
+  <place id="p-FD9-DCF2D-5">
+  <name>
+   <text>p11</text>
+  </name>
+  </place>
+  <place id="p-FD9-DCF2D-6">
+  <name>
+   <text>p12</text>
+  </name>
+  </place>
+  <place id="p-FD9-DCF2E-7">
+  <name>
+   <text>p13</text>
+  </name>
+  </place>
+  <place id="p-FD9-DCF2F-8">
+  <name>
+   <text>p14</text>
+  </name>
+  </place>
+  <place id="p-FD9-DCF30-9">
+  <name>
+   <text>p15</text>
+  </name>
+  </place>
+  <place id="p-FD9-DCF31-10">
+  <name>
+   <text>p16</text>
+  </name>
+  </place>
+  <place id="p-FD9-DCF31-11">
+  <name>
+   <text>p17</text>
+  </name>
+  </place>
+  <place id="p-FD9-DCF32-12">
+  <name>
+   <text>p18</text>
+  </name>
+  </place>
+  <place id="p-FD9-DCF33-13">
+  <name>
+   <text>p19</text>
+  </name>
+  </place>
+  <place id="p-FD9-DCF34-14">
+  <name>
+   <text>p2</text>
+  </name>
+  </place>
+  <place id="p-FD9-DCF35-15">
+  <name>
+   <text>p20</text>
+  </name>
+  </place>
+  <place id="p-FD9-DCF35-16">
+  <name>
+   <text>p21</text>
+  </name>
+  </place>
+  <place id="p-FD9-DCF37-17">
+  <name>
+   <text>p22</text>
+  </name>
+  </place>
+  <place id="p-FD9-DCF38-18">
+  <name>
+   <text>p23</text>
+  </name>
+  </place>
+  <place id="p-FD9-DCF38-19">
+  <name>
+   <text>p24</text>
+  </name>
+  </place>
+  <place id="p-FD9-DCF39-20">
+  <name>
+   <text>p25</text>
+  </name>
+  </place>
+  <place id="p-FD9-DCF3A-21">
+  <name>
+   <text>p26</text>
+  </name>
+  </place>
+  <place id="p-FD9-DCF3B-22">
+  <name>
+   <text>p27</text>
+  </name>
+  </place>
+  <place id="p-FD9-DCF3C-23">
+  <name>
+   <text>p28</text>
+  </name>
+  </place>
+  <place id="p-FD9-DCF3C-24">
+  <name>
+   <text>p29</text>
+  </name>
+  </place>
+  <place id="p-FD9-DCF3D-25">
+  <name>
+   <text>p3</text>
+  </name>
+  </place>
+  <place id="p-FD9-DCF3E-26">
+  <name>
+   <text>p30</text>
+  </name>
+  </place>
+  <place id="p-FD9-DCF3F-27">
+  <name>
+   <text>p31</text>
+  </name>
+  </place>
+  <place id="p-FD9-DCF3F-28">
+  <name>
+   <text>p32</text>
+  </name>
+  </place>
+  <place id="p-FD9-DCF41-29">
+  <name>
+   <text>p33</text>
+  </name>
+  </place>
+  <place id="p-FD9-DCF41-30">
+  <name>
+   <text>p34</text>
+  </name>
+  </place>
+  <place id="p-FD9-DCF42-31">
+  <name>
+   <text>p35</text>
+  </name>
+  </place>
+  <place id="p-FD9-DCF42-32">
+  <name>
+   <text>p36</text>
+  </name>
+  </place>
+  <place id="p-FD9-DCF44-33">
+  <name>
+   <text>p37</text>
+  </name>
+  </place>
+  <place id="p-FD9-DCF44-34">
+  <name>
+   <text>p38</text>
+  </name>
+  </place>
+  <place id="p-FD9-DCF48-35">
+  <name>
+   <text>p39</text>
+  </name>
+  </place>
+  <place id="p-FD9-DCF49-36">
+  <name>
+   <text>p4</text>
+  </name>
+  </place>
+  <place id="p-FD9-DCF4A-37">
+  <name>
+   <text>p40</text>
+  </name>
+  </place>
+  <place id="p-FD9-DCF4A-38">
+  <name>
+   <text>p41</text>
+  </name>
+  </place>
+  <place id="p-FD9-DCF4C-39">
+  <name>
+   <text>p42</text>
+  </name>
+  </place>
+  <place id="p-FD9-DCF4C-40">
+  <name>
+   <text>p43</text>
+  </name>
+  </place>
+  <place id="p-FD9-DCF4D-41">
+  <name>
+   <text>p44</text>
+  </name>
+  </place>
+  <place id="p-FD9-DCF4E-42">
+  <name>
+   <text>p45</text>
+  </name>
+  </place>
+  <place id="p-FD9-DCF4F-43">
+  <name>
+   <text>p46</text>
+  </name>
+  </place>
+  <place id="p-FD9-DCF50-44">
+  <name>
+   <text>p47</text>
+  </name>
+  </place>
+  <place id="p-FD9-DCF50-45">
+  <name>
+   <text>p48</text>
+  </name>
+  </place>
+  <place id="p-FD9-DCF52-46">
+  <name>
+   <text>p5</text>
+  </name>
+  </place>
+  <place id="p-FD9-DCF52-47">
+  <name>
+   <text>p6</text>
+  </name>
+  </place>
+  <place id="p-FD9-DCF53-48">
+  <name>
+   <text>p7</text>
+  </name>
+  </place>
+  <place id="p-FD9-DCF53-49">
+  <name>
+   <text>p8</text>
+  </name>
+  </place>
+  <place id="p-FD9-DCF5F-50">
+  <name>
+   <text>p9</text>
+  </name>
+  </place>
+  <transition id="t-FD9-DCF60-51">
+  <name>
+   <text>t0</text>
+  </name>
+  </transition>
+  <transition id="t-FD9-DCF61-52">
+  <name>
+   <text>t1</text>
+  </name>
+  </transition>
+  <transition id="t-FD9-DCF62-53">
+  <name>
+   <text>t10</text>
+  </name>
+  </transition>
+  <transition id="t-FD9-DCF63-54">
+  <name>
+   <text>t11</text>
+  </name>
+  </transition>
+  <transition id="t-FD9-DCF64-55">
+  <name>
+   <text>t12</text>
+  </name>
+  </transition>
+  <transition id="t-FD9-DCF64-56">
+  <name>
+   <text>t13</text>
+  </name>
+  </transition>
+  <transition id="t-FD9-DCF65-57">
+  <name>
+   <text>t14</text>
+  </name>
+  </transition>
+  <transition id="t-FD9-DCF67-58">
+  <name>
+   <text>t15</text>
+  </name>
+  </transition>
+  <transition id="t-FD9-DCF68-59">
+  <name>
+   <text>t16</text>
+  </name>
+  </transition>
+  <transition id="t-FD9-DCF68-60">
+  <name>
+   <text>t17</text>
+  </name>
+  </transition>
+  <transition id="t-FD9-DCF69-61">
+  <name>
+   <text>t18</text>
+  </name>
+  </transition>
+  <transition id="t-FD9-DCF6A-62">
+  <name>
+   <text>t19</text>
+  </name>
+  </transition>
+  <transition id="t-FD9-DCF6B-63">
+  <name>
+   <text>t2</text>
+  </name>
+  </transition>
+  <transition id="t-FD9-DCF6C-64">
+  <name>
+   <text>t20</text>
+  </name>
+  </transition>
+  <transition id="t-FD9-DCF6C-65">
+  <name>
+   <text>t21</text>
+  </name>
+  </transition>
+  <transition id="t-FD9-DCF6E-66">
+  <name>
+   <text>t22</text>
+  </name>
+  </transition>
+  <transition id="t-FD9-DCF6E-67">
+  <name>
+   <text>t23</text>
+  </name>
+  </transition>
+  <transition id="t-FD9-DCF6F-68">
+  <name>
+   <text>t24</text>
+  </name>
+  </transition>
+  <transition id="t-FD9-DCF71-69">
+  <name>
+   <text>t25</text>
+  </name>
+  </transition>
+  <transition id="t-FD9-DCF71-70">
+  <name>
+   <text>t26</text>
+  </name>
+  </transition>
+  <transition id="t-FD9-DCF72-71">
+  <name>
+   <text>t27</text>
+  </name>
+  </transition>
+  <transition id="t-FD9-DCF73-72">
+  <name>
+   <text>t28</text>
+  </name>
+  </transition>
+  <transition id="t-FD9-DCF74-73">
+  <name>
+   <text>t29</text>
+  </name>
+  </transition>
+  <transition id="t-FD9-DCF75-74">
+  <name>
+   <text>t3</text>
+  </name>
+  </transition>
+  <transition id="t-FD9-DCF75-75">
+  <name>
+   <text>t30</text>
+  </name>
+  </transition>
+  <transition id="t-FD9-DCF77-76">
+  <name>
+   <text>t4</text>
+  </name>
+  </transition>
+  <transition id="t-FD9-DCF77-77">
+  <name>
+   <text>t5</text>
+  </name>
+  </transition>
+  <transition id="t-FD9-DCF78-78">
+  <name>
+   <text>t6</text>
+  </name>
+  </transition>
+  <transition id="t-FD9-DCF78-79">
+  <name>
+   <text>t7</text>
+  </name>
+  </transition>
+  <transition id="t-FD9-DCF7A-80">
+  <name>
+   <text>t8</text>
+  </name>
+  </transition>
+  <transition id="t-FD9-DCF7A-81">
+  <name>
+   <text>t9</text>
+  </name>
+  </transition>
+  <arc id="e-FD9-DCF7B-82" source="p-FD9-DCF33-13" target="t-FD9-DCF60-51">
+  </arc>
+  <arc id="e-FD9-DCF7D-83" source="t-FD9-DCF62-53" target="p-FD9-DCF5F-50">
+  </arc>
+  <arc id="e-FD9-DCF7D-84" source="t-FD9-DCF62-53" target="p-FD9-DCF2B-4">
+  </arc>
+  <arc id="e-FD9-DCF7E-85" source="t-FD9-DCF62-53" target="p-FD9-DCF4F-43">
+  </arc>
+  <arc id="e-FD9-DCF7F-86" source="t-FD9-DCF62-53" target="p-FD9-DCF50-44">
+  </arc>
+  <arc id="e-FD9-DCF7F-87" source="t-FD9-DCF62-53" target="p-FD9-DCF50-45">
+  </arc>
+  <arc id="e-FD9-DCF80-88" source="p-FD9-DCF4E-42" target="t-FD9-DCF63-54">
+  </arc>
+  <arc id="e-FD9-DCF81-89" source="t-FD9-DCF63-54" target="p-FD9-DCF42-31">
+  </arc>
+  <arc id="e-FD9-DCF82-90" source="p-FD9-DCF32-12" target="t-FD9-DCF64-55">
+  </arc>
+  <arc id="e-FD9-DCF82-91" source="t-FD9-DCF64-55" target="p-FD9-DCF2A-3">
+  </arc>
+  <arc id="e-FD9-DCF83-92" source="p-FD9-DCF42-31" target="t-FD9-DCF64-56">
+  </arc>
+  <arc id="e-FD9-DCF84-93" source="p-FD9-DCF35-16" target="t-FD9-DCF60-51">
+  </arc>
+  <arc id="e-FD9-DCF84-94" source="t-FD9-DCF64-56" target="p-FD9-DCF4A-37">
+  </arc>
+  <arc id="e-FD9-DCF85-95" source="p-FD9-DCF2A-3" target="t-FD9-DCF65-57">
+  </arc>
+  <arc id="e-FD9-DCF85-96" source="t-FD9-DCF65-57" target="p-FD9-DCF49-36">
+  </arc>
+  <arc id="e-FD9-DCF8A-97" source="p-FD9-DCF49-36" target="t-FD9-DCF67-58">
+  </arc>
+  <arc id="e-FD9-DCF8B-98" source="p-FD9-DCF4A-37" target="t-FD9-DCF67-58">
+  </arc>
+  <arc id="e-FD9-DCF8C-99" source="t-FD9-DCF67-58" target="p-FD9-DCF2D-5">
+  </arc>
+  <arc id="e-FD9-DCF8D-100" source="t-FD9-DCF67-58" target="p-FD9-DCF2D-6">
+  </arc>
+  <arc id="e-FD9-DCF8E-101" source="t-FD9-DCF67-58" target="p-FD9-DCF2E-7">
+  </arc>
+  <arc id="e-FD9-DCF8E-102" source="t-FD9-DCF67-58" target="p-FD9-DCF2F-8">
+  </arc>
+  <arc id="e-FD9-DCF8F-103" source="p-FD9-DCF2D-5" target="t-FD9-DCF68-59">
+  </arc>
+  <arc id="e-FD9-DCF8F-104" source="p-FD9-DCF4F-43" target="t-FD9-DCF60-51">
+  </arc>
+  <arc id="e-FD9-DCF90-105" source="t-FD9-DCF68-59" target="p-FD9-DCF4A-38">
+  </arc>
+  <arc id="e-FD9-DCF91-106" source="p-FD9-DCF4A-38" target="t-FD9-DCF68-60">
+  </arc>
+  <arc id="e-FD9-DCF91-107" source="t-FD9-DCF68-60" target="p-FD9-DCF3B-22">
+  </arc>
+  <arc id="e-FD9-DCF92-108" source="t-FD9-DCF68-60" target="p-FD9-DCF3F-27">
+  </arc>
+  <arc id="e-FD9-DCF92-109" source="p-FD9-DCF2D-6" target="t-FD9-DCF69-61">
+  </arc>
+  <arc id="e-FD9-DCF93-110" source="t-FD9-DCF69-61" target="p-FD9-DCF4C-39">
+  </arc>
+  <arc id="e-FD9-DCF94-111" source="p-FD9-DCF4C-39" target="t-FD9-DCF6A-62">
+  </arc>
+  <arc id="e-FD9-DCF95-112" source="t-FD9-DCF6A-62" target="p-FD9-DCF3C-24">
+  </arc>
+  <arc id="e-FD9-DCF96-113" source="t-FD9-DCF6A-62" target="p-FD9-DCF41-29">
+  </arc>
+  <arc id="e-FD9-DCF96-114" source="p-FD9-DCF50-45" target="t-FD9-DCF6B-63">
+  </arc>
+  <arc id="e-FD9-DCF97-115" source="t-FD9-DCF60-51" target="p-FD9-DCF3D-25">
+  </arc>
+  <arc id="e-FD9-DCF97-116" source="t-FD9-DCF6B-63" target="p-FD9-DCF35-16">
+  </arc>
+  <arc id="e-FD9-DCF98-117" source="t-FD9-DCF6B-63" target="p-FD9-DCF37-17">
+  </arc>
+  <arc id="e-FD9-DCF99-118" source="p-FD9-DCF2E-7" target="t-FD9-DCF6C-64">
+  </arc>
+  <arc id="e-FD9-DCF99-119" source="t-FD9-DCF6C-64" target="p-FD9-DCF4C-40">
+  </arc>
+  <arc id="e-FD9-DCF9A-120" source="p-FD9-DCF4C-40" target="t-FD9-DCF6C-65">
+  </arc>
+  <arc id="e-FD9-DCF9A-121" source="t-FD9-DCF6C-65" target="p-FD9-DCF3C-23">
+  </arc>
+  <arc id="e-FD9-DCF9B-122" source="t-FD9-DCF6C-65" target="p-FD9-DCF3E-26">
+  </arc>
+  <arc id="e-FD9-DCF9C-123" source="p-FD9-DCF2F-8" target="t-FD9-DCF6E-66">
+  </arc>
+  <arc id="e-FD9-DCF9D-124" source="t-FD9-DCF6E-66" target="p-FD9-DCF4D-41">
+  </arc>
+  <arc id="e-FD9-DCF9E-125" source="p-FD9-DCF4D-41" target="t-FD9-DCF6E-67">
+  </arc>
+  <arc id="e-FD9-DCF9E-126" source="p-FD9-DCF50-44" target="t-FD9-DCF61-52">
+  </arc>
+  <arc id="e-FD9-DCF9F-127" source="t-FD9-DCF6E-67" target="p-FD9-DCF3F-28">
+  </arc>
+  <arc id="e-FD9-DCF9F-128" source="t-FD9-DCF6E-67" target="p-FD9-DCF41-30">
+  </arc>
+  <arc id="e-FD9-DCFA0-129" source="p-FD9-DCF3B-22" target="t-FD9-DCF6F-68">
+  </arc>
+  <arc id="e-FD9-DCFA1-130" source="p-FD9-DCF3C-23" target="t-FD9-DCF6F-68">
+  </arc>
+  <arc id="e-FD9-DCFA1-131" source="t-FD9-DCF6F-68" target="p-FD9-DCF48-35">
+  </arc>
+  <arc id="e-FD9-DCFA2-132" source="p-FD9-DCF3C-24" target="t-FD9-DCF71-69">
+  </arc>
+  <arc id="e-FD9-DCFA2-133" source="p-FD9-DCF3E-26" target="t-FD9-DCF71-69">
+  </arc>
+  <arc id="e-FD9-DCFA3-134" source="t-FD9-DCF71-69" target="p-FD9-DCF44-33">
+  </arc>
+  <arc id="e-FD9-DCFA4-135" source="p-FD9-DCF3F-27" target="t-FD9-DCF71-70">
+  </arc>
+  <arc id="e-FD9-DCFA5-136" source="p-FD9-DCF3F-28" target="t-FD9-DCF71-70">
+  </arc>
+  <arc id="e-FD9-DCFA5-137" source="t-FD9-DCF61-52" target="p-FD9-DCF33-13">
+  </arc>
+  <arc id="e-FD9-DCFA6-138" source="t-FD9-DCF71-70" target="p-FD9-DCF52-46">
+  </arc>
+  <arc id="e-FD9-DCFA7-139" source="p-FD9-DCF41-29" target="t-FD9-DCF72-71">
+  </arc>
+  <arc id="e-FD9-DCFA7-140" source="p-FD9-DCF41-30" target="t-FD9-DCF72-71">
+  </arc>
+  <arc id="e-FD9-DCFA8-141" source="t-FD9-DCF72-71" target="p-FD9-DCF44-34">
+  </arc>
+  <arc id="e-FD9-DCFA8-142" source="p-FD9-DCF52-46" target="t-FD9-DCF73-72">
+  </arc>
+  <arc id="e-FD9-DCFA9-143" source="p-FD9-DCF44-33" target="t-FD9-DCF73-72">
+  </arc>
+  <arc id="e-FD9-DCFA9-144" source="p-FD9-DCF44-34" target="t-FD9-DCF73-72">
+  </arc>
+  <arc id="e-FD9-DCFAE-145" source="p-FD9-DCF48-35" target="t-FD9-DCF73-72">
+  </arc>
+  <arc id="e-FD9-DCFAF-146" source="t-FD9-DCF73-72" target="p-FD9-DCF53-48">
+  </arc>
+  <arc id="e-FD9-DCFB0-147" source="p-FD9-DCF30-9" target="t-FD9-DCF74-73">
+  </arc>
+  <arc id="e-FD9-DCFB1-148" source="t-FD9-DCF61-52" target="p-FD9-DCF35-15">
+  </arc>
+  <arc id="e-FD9-DCFB1-149" source="p-FD9-DCF31-10" target="t-FD9-DCF74-73">
+  </arc>
+  <arc id="e-FD9-DCFB2-150" source="p-FD9-DCF31-11" target="t-FD9-DCF74-73">
+  </arc>
+  <arc id="e-FD9-DCFB2-151" source="t-FD9-DCF74-73" target="p-FD9-DCF28-2">
+  </arc>
+  <arc id="e-FD9-DCFB3-152" source="p-FD9-DCF35-15" target="t-FD9-DCF75-74">
+  </arc>
+  <arc id="e-FD9-DCFB4-153" source="p-FD9-DCF37-17" target="t-FD9-DCF75-74">
+  </arc>
+  <arc id="e-FD9-DCFB4-154" source="t-FD9-DCF75-74" target="p-FD9-DCF42-32">
+  </arc>
+  <arc id="e-FD9-DCFB5-155" source="p-FD9-DCF53-48" target="t-FD9-DCF75-75">
+  </arc>
+  <arc id="e-FD9-DCFB6-156" source="t-FD9-DCF75-75" target="p-FD9-DCF30-9">
+  </arc>
+  <arc id="e-FD9-DCFB6-157" source="t-FD9-DCF75-75" target="p-FD9-DCF31-10">
+  </arc>
+  <arc id="e-FD9-DCFB7-158" source="t-FD9-DCF75-75" target="p-FD9-DCF31-11">
+  </arc>
+  <arc id="e-FD9-DCFB9-159" source="p-FD9-DCF28-2" target="t-FD9-DCF62-53">
+  </arc>
+  <arc id="e-FD9-DCFB9-160" source="p-FD9-DCF3D-25" target="t-FD9-DCF77-76">
+  </arc>
+  <arc id="e-FD9-DCFBA-161" source="p-FD9-DCF42-32" target="t-FD9-DCF77-76">
+  </arc>
+  <arc id="e-FD9-DCFBA-162" source="t-FD9-DCF77-76" target="p-FD9-DCF4E-42">
+  </arc>
+  <arc id="e-FD9-DCFBB-163" source="p-FD9-DCF2B-4" target="t-FD9-DCF77-77">
+  </arc>
+  <arc id="e-FD9-DCFBC-164" source="p-FD9-DCF38-18" target="t-FD9-DCF77-77">
+  </arc>
+  <arc id="e-FD9-DCFBC-165" source="p-FD9-DCF39-20" target="t-FD9-DCF77-77">
+  </arc>
+  <arc id="e-FD9-DCFBD-166" source="t-FD9-DCF77-77" target="p-FD9-DCF34-14">
+  </arc>
+  <arc id="e-FD9-DCFBE-167" source="p-FD9-DCF5F-50" target="t-FD9-DCF78-78">
+  </arc>
+  <arc id="e-FD9-DCFBE-168" source="t-FD9-DCF78-78" target="p-FD9-DCF38-18">
+  </arc>
+  <arc id="e-FD9-DCFBF-169" source="t-FD9-DCF78-78" target="p-FD9-DCF38-19">
+  </arc>
+  <arc id="e-FD9-DCFBF-170" source="t-FD9-DCF62-53" target="p-FD9-DCF53-49">
+  </arc>
+  <arc id="e-FD9-DCFC1-171" source="p-FD9-DCF53-49" target="t-FD9-DCF78-79">
+  </arc>
+  <arc id="e-FD9-DCFC1-172" source="t-FD9-DCF78-79" target="p-FD9-DCF39-20">
+  </arc>
+  <arc id="e-FD9-DCFC2-173" source="t-FD9-DCF78-79" target="p-FD9-DCF3A-21">
+  </arc>
+  <arc id="e-FD9-DCFC2-174" source="p-FD9-DCF38-19" target="t-FD9-DCF7A-80">
+  </arc>
+  <arc id="e-FD9-DCFC3-175" source="p-FD9-DCF3A-21" target="t-FD9-DCF7A-80">
+  </arc>
+  <arc id="e-FD9-DCFC3-176" source="t-FD9-DCF7A-80" target="p-FD9-DCF52-47">
+  </arc>
+  <arc id="e-FD9-DCFC4-177" source="p-FD9-DCF34-14" target="t-FD9-DCF7A-81">
+  </arc>
+  <arc id="e-FD9-DCFC5-178" source="p-FD9-DCF52-47" target="t-FD9-DCF7A-81">
+  </arc>
+  <arc id="e-FD9-DCFC5-179" source="t-FD9-DCF7A-81" target="p-FD9-DCF32-12">
+  </arc>
+ </page>
+ </net>
+</pnml>

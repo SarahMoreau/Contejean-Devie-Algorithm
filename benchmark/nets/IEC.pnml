@@ -1,0 +1,207 @@
+<pnml xmlns="http://www.pnml.org/version-2009/grammar/pnml">
+ <net id="n-FD1-C3168-0" type ="http://www.pnml.org/version-2009/grammar/ptnet">
+  <name>
+   <text>IEC</text>
+  </name>
+ <page id="g-FD1-C316D-1">
+  <place id="p-FD1-C316E-2">
+  <name>
+   <text>p0</text>
+  </name>
+   <initialMarking>
+    <text>1</text>
+   </initialMarking>
+  </place>
+  <place id="p-FD1-C3170-3">
+  <name>
+   <text>p1</text>
+  </name>
+  </place>
+  <place id="p-FD1-C3171-4">
+  <name>
+   <text>p10</text>
+  </name>
+  </place>
+  <place id="p-FD1-C3172-5">
+  <name>
+   <text>p11</text>
+  </name>
+  </place>
+  <place id="p-FD1-C3172-6">
+  <name>
+   <text>p12</text>
+  </name>
+  </place>
+  <place id="p-FD1-C3173-7">
+  <name>
+   <text>p13</text>
+  </name>
+  </place>
+  <place id="p-FD1-C3174-8">
+  <name>
+   <text>p14</text>
+  </name>
+  </place>
+  <place id="p-FD1-C3175-9">
+  <name>
+   <text>p2</text>
+  </name>
+  </place>
+  <place id="p-FD1-C3176-10">
+  <name>
+   <text>p3</text>
+  </name>
+  </place>
+  <place id="p-FD1-C3176-11">
+  <name>
+   <text>p4</text>
+  </name>
+  </place>
+  <place id="p-FD1-C3177-12">
+  <name>
+   <text>p5</text>
+  </name>
+  </place>
+  <place id="p-FD1-C3178-13">
+  <name>
+   <text>p6</text>
+  </name>
+  </place>
+  <place id="p-FD1-C3179-14">
+  <name>
+   <text>p7</text>
+  </name>
+  </place>
+  <place id="p-FD1-C3179-15">
+  <name>
+   <text>p8</text>
+  </name>
+  </place>
+  <place id="p-FD1-C317A-16">
+  <name>
+   <text>p9</text>
+  </name>
+  </place>
+  <transition id="t-FD1-C317B-17">
+  <name>
+   <text>t0</text>
+  </name>
+  </transition>
+  <transition id="t-FD1-C317C-18">
+  <name>
+   <text>t1</text>
+  </name>
+  </transition>
+  <transition id="t-FD1-C317D-19">
+  <name>
+   <text>t10</text>
+  </name>
+  </transition>
+  <transition id="t-FD1-C317D-20">
+  <name>
+   <text>t11</text>
+  </name>
+  </transition>
+  <transition id="t-FD1-C317F-21">
+  <name>
+   <text>t2</text>
+  </name>
+  </transition>
+  <transition id="t-FD1-C317F-22">
+  <name>
+   <text>t3</text>
+  </name>
+  </transition>
+  <transition id="t-FD1-C3180-23">
+  <name>
+   <text>t4</text>
+  </name>
+  </transition>
+  <transition id="t-FD1-C3181-24">
+  <name>
+   <text>t5</text>
+  </name>
+  </transition>
+  <transition id="t-FD1-C3181-25">
+  <name>
+   <text>t6</text>
+  </name>
+  </transition>
+  <transition id="t-FD1-C3182-26">
+  <name>
+   <text>t7</text>
+  </name>
+  </transition>
+  <transition id="t-FD1-C3182-27">
+  <name>
+   <text>t8</text>
+  </name>
+  </transition>
+  <transition id="t-FD1-C3183-28">
+  <name>
+   <text>t9</text>
+  </name>
+  </transition>
+  <arc id="e-FD1-C3184-29" source="p-FD1-C316E-2" target="t-FD1-C317B-17">
+  </arc>
+  <arc id="e-FD1-C3185-30" source="t-FD1-C317D-20" target="p-FD1-C3174-8">
+  </arc>
+  <arc id="e-FD1-C3186-31" source="p-FD1-C3175-9" target="t-FD1-C317F-21">
+  </arc>
+  <arc id="e-FD1-C3186-32" source="t-FD1-C317F-21" target="p-FD1-C3176-10">
+  </arc>
+  <arc id="e-FD1-C3187-33" source="p-FD1-C3176-11" target="t-FD1-C317F-22">
+  </arc>
+  <arc id="e-FD1-C3187-34" source="t-FD1-C317F-22" target="p-FD1-C3177-12">
+  </arc>
+  <arc id="e-FD1-C3188-35" source="p-FD1-C3177-12" target="t-FD1-C3180-23">
+  </arc>
+  <arc id="e-FD1-C3188-36" source="t-FD1-C3180-23" target="p-FD1-C3178-13">
+  </arc>
+  <arc id="e-FD1-C3189-37" source="p-FD1-C3178-13" target="t-FD1-C3181-24">
+  </arc>
+  <arc id="e-FD1-C3189-38" source="p-FD1-C3179-14" target="t-FD1-C3181-24">
+  </arc>
+  <arc id="e-FD1-C318A-39" source="t-FD1-C3181-24" target="p-FD1-C3179-15">
+  </arc>
+  <arc id="e-FD1-C318B-40" source="t-FD1-C317B-17" target="p-FD1-C3170-3">
+  </arc>
+  <arc id="e-FD1-C318C-41" source="p-FD1-C3179-15" target="t-FD1-C3181-25">
+  </arc>
+  <arc id="e-FD1-C318C-42" source="t-FD1-C3181-25" target="p-FD1-C317A-16">
+  </arc>
+  <arc id="e-FD1-C318D-43" source="p-FD1-C317A-16" target="t-FD1-C3182-26">
+  </arc>
+  <arc id="e-FD1-C318D-44" source="p-FD1-C3174-8" target="t-FD1-C3182-26">
+  </arc>
+  <arc id="e-FD1-C318E-45" source="t-FD1-C3182-26" target="p-FD1-C3171-4">
+  </arc>
+  <arc id="e-FD1-C318E-46" source="t-FD1-C3182-26" target="p-FD1-C3173-7">
+  </arc>
+  <arc id="e-FD1-C318F-47" source="p-FD1-C3171-4" target="t-FD1-C3182-27">
+  </arc>
+  <arc id="e-FD1-C319A-48" source="t-FD1-C3182-27" target="p-FD1-C3172-5">
+  </arc>
+  <arc id="e-FD1-C319A-49" source="p-FD1-C3172-5" target="t-FD1-C3183-28">
+  </arc>
+  <arc id="e-FD1-C319B-50" source="p-FD1-C3173-7" target="t-FD1-C3183-28">
+  </arc>
+  <arc id="e-FD1-C319B-51" source="t-FD1-C317B-17" target="p-FD1-C3176-11">
+  </arc>
+  <arc id="e-FD1-C319D-52" source="t-FD1-C3183-28" target="p-FD1-C3172-6">
+  </arc>
+  <arc id="e-FD1-C319D-53" source="t-FD1-C317B-17" target="p-FD1-C3179-14">
+  </arc>
+  <arc id="e-FD1-C319E-54" source="p-FD1-C3170-3" target="t-FD1-C317C-18">
+  </arc>
+  <arc id="e-FD1-C319E-55" source="t-FD1-C317C-18" target="p-FD1-C3175-9">
+  </arc>
+  <arc id="e-FD1-C319F-56" source="p-FD1-C3172-6" target="t-FD1-C317D-19">
+  </arc>
+  <arc id="e-FD1-C31A0-57" source="t-FD1-C317D-19" target="p-FD1-C316E-2">
+  </arc>
+  <arc id="e-FD1-C31A0-58" source="p-FD1-C3176-10" target="t-FD1-C317D-20">
+  </arc>
+ </page>
+ </net>
+</pnml>

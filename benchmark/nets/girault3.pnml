@@ -1,0 +1,221 @@
+<pnml xmlns="http://www.pnml.org/version-2009/grammar/pnml">
+ <net id="n-1063-BDB03-0" type ="http://www.pnml.org/version-2009/grammar/ptnet">
+  <name>
+   <text>girault3</text>
+  </name>
+ <page id="g-1063-BDB08-1">
+  <place id="p-1063-BDB0A-2">
+  <name>
+   <text>p0</text>
+  </name>
+   <initialMarking>
+    <text>1</text>
+   </initialMarking>
+  </place>
+  <place id="p-1063-BDB0C-3">
+  <name>
+   <text>p1</text>
+  </name>
+   <initialMarking>
+    <text>1</text>
+   </initialMarking>
+  </place>
+  <place id="p-1063-BDB0D-4">
+  <name>
+   <text>p10</text>
+  </name>
+  </place>
+  <place id="p-1063-BDB0D-5">
+  <name>
+   <text>p11</text>
+  </name>
+  </place>
+  <place id="p-1063-BDB0F-6">
+  <name>
+   <text>p12</text>
+  </name>
+   <initialMarking>
+    <text>1</text>
+   </initialMarking>
+  </place>
+  <place id="p-1063-BDB10-7">
+  <name>
+   <text>p13</text>
+  </name>
+  </place>
+  <place id="p-1063-BDB10-8">
+  <name>
+   <text>p2</text>
+  </name>
+  </place>
+  <place id="p-1063-BDB11-9">
+  <name>
+   <text>p3</text>
+  </name>
+   <initialMarking>
+    <text>1</text>
+   </initialMarking>
+  </place>
+  <place id="p-1063-BDB12-10">
+  <name>
+   <text>p4</text>
+  </name>
+  </place>
+  <place id="p-1063-BDB13-11">
+  <name>
+   <text>p5</text>
+  </name>
+  </place>
+  <place id="p-1063-BDB13-12">
+  <name>
+   <text>p6</text>
+  </name>
+  </place>
+  <place id="p-1063-BDB14-13">
+  <name>
+   <text>p7</text>
+  </name>
+   <initialMarking>
+    <text>1</text>
+   </initialMarking>
+  </place>
+  <place id="p-1063-BDB15-14">
+  <name>
+   <text>p8</text>
+  </name>
+   <initialMarking>
+    <text>1</text>
+   </initialMarking>
+  </place>
+  <place id="p-1063-BDB16-15">
+  <name>
+   <text>p9</text>
+  </name>
+   <initialMarking>
+    <text>1</text>
+   </initialMarking>
+  </place>
+  <transition id="t-1063-BDB17-16">
+  <name>
+   <text>t0</text>
+  </name>
+  </transition>
+  <transition id="t-1063-BDB18-17">
+  <name>
+   <text>t1</text>
+  </name>
+  </transition>
+  <transition id="t-1063-BDB18-18">
+  <name>
+   <text>t2</text>
+  </name>
+  </transition>
+  <transition id="t-1063-BDB19-19">
+  <name>
+   <text>t3</text>
+  </name>
+  </transition>
+  <transition id="t-1063-BDB1A-20">
+  <name>
+   <text>t4</text>
+  </name>
+  </transition>
+  <transition id="t-1063-BDB1A-21">
+  <name>
+   <text>t5</text>
+  </name>
+  </transition>
+  <transition id="t-1063-BDB1B-22">
+  <name>
+   <text>t6</text>
+  </name>
+  </transition>
+  <transition id="t-1063-BDB1B-23">
+  <name>
+   <text>t7</text>
+  </name>
+  </transition>
+  <transition id="t-1063-BDB1C-24">
+  <name>
+   <text>t8</text>
+  </name>
+  </transition>
+  <arc id="e-1063-BDB1D-25" source="p-1063-BDB0A-2" target="t-1063-BDB17-16">
+  </arc>
+  <arc id="e-1063-BDB1E-26" source="p-1063-BDB15-14" target="t-1063-BDB18-17">
+  </arc>
+  <arc id="e-1063-BDB1F-27" source="t-1063-BDB18-17" target="p-1063-BDB0C-3">
+  </arc>
+  <arc id="e-1063-BDB1F-28" source="t-1063-BDB18-17" target="p-1063-BDB13-11">
+  </arc>
+  <arc id="e-1063-BDB20-29" source="p-1063-BDB13-11" target="t-1063-BDB18-18">
+  </arc>
+  <arc id="e-1063-BDB20-30" source="t-1063-BDB18-18" target="p-1063-BDB11-9">
+  </arc>
+  <arc id="e-1063-BDB21-31" source="t-1063-BDB18-18" target="p-1063-BDB13-12">
+  </arc>
+  <arc id="e-1063-BDB23-32" source="t-1063-BDB18-18" target="p-1063-BDB15-14">
+  </arc>
+  <arc id="e-1063-BDB23-33" source="p-1063-BDB12-10" target="t-1063-BDB19-19">
+  </arc>
+  <arc id="e-1063-BDB24-34" source="t-1063-BDB19-19" target="p-1063-BDB11-9">
+  </arc>
+  <arc id="e-1063-BDB24-35" source="t-1063-BDB19-19" target="p-1063-BDB13-12">
+  </arc>
+  <arc id="e-1063-BDB25-36" source="p-1063-BDB0C-3" target="t-1063-BDB17-16">
+  </arc>
+  <arc id="e-1063-BDB25-37" source="t-1063-BDB19-19" target="p-1063-BDB14-13">
+  </arc>
+  <arc id="e-1063-BDB26-38" source="p-1063-BDB13-12" target="t-1063-BDB1A-20">
+  </arc>
+  <arc id="e-1063-BDB26-39" source="p-1063-BDB15-14" target="t-1063-BDB1A-20">
+  </arc>
+  <arc id="e-1063-BDB27-40" source="p-1063-BDB0F-6" target="t-1063-BDB1A-20">
+  </arc>
+  <arc id="e-1063-BDB27-41" source="t-1063-BDB1A-20" target="p-1063-BDB0D-5">
+  </arc>
+  <arc id="e-1063-BDB28-42" source="p-1063-BDB13-12" target="t-1063-BDB1A-21">
+  </arc>
+  <arc id="e-1063-BDB33-43" source="p-1063-BDB14-13" target="t-1063-BDB1A-21">
+  </arc>
+  <arc id="e-1063-BDB34-44" source="p-1063-BDB16-15" target="t-1063-BDB1A-21">
+  </arc>
+  <arc id="e-1063-BDB34-45" source="t-1063-BDB1A-21" target="p-1063-BDB0D-4">
+  </arc>
+  <arc id="e-1063-BDB35-46" source="p-1063-BDB0D-4" target="t-1063-BDB1B-22">
+  </arc>
+  <arc id="e-1063-BDB36-47" source="p-1063-BDB11-9" target="t-1063-BDB17-16">
+  </arc>
+  <arc id="e-1063-BDB36-48" source="t-1063-BDB1B-22" target="p-1063-BDB14-13">
+  </arc>
+  <arc id="e-1063-BDB37-49" source="t-1063-BDB1B-22" target="p-1063-BDB16-15">
+  </arc>
+  <arc id="e-1063-BDB37-50" source="t-1063-BDB1B-22" target="p-1063-BDB10-7">
+  </arc>
+  <arc id="e-1063-BDB38-51" source="p-1063-BDB0D-5" target="t-1063-BDB1B-23">
+  </arc>
+  <arc id="e-1063-BDB38-52" source="t-1063-BDB1B-23" target="p-1063-BDB15-14">
+  </arc>
+  <arc id="e-1063-BDB39-53" source="t-1063-BDB1B-23" target="p-1063-BDB0F-6">
+  </arc>
+  <arc id="e-1063-BDB39-54" source="t-1063-BDB1B-23" target="p-1063-BDB10-7">
+  </arc>
+  <arc id="e-1063-BDB3A-55" source="p-1063-BDB10-7" target="t-1063-BDB1C-24">
+  </arc>
+  <arc id="e-1063-BDB3B-56" source="t-1063-BDB1C-24" target="p-1063-BDB0A-2">
+  </arc>
+  <arc id="e-1063-BDB3B-57" source="p-1063-BDB14-13" target="t-1063-BDB17-16">
+  </arc>
+  <arc id="e-1063-BDB3C-58" source="t-1063-BDB17-16" target="p-1063-BDB10-8">
+  </arc>
+  <arc id="e-1063-BDB3D-59" source="t-1063-BDB17-16" target="p-1063-BDB12-10">
+  </arc>
+  <arc id="e-1063-BDB3D-60" source="p-1063-BDB0A-2" target="t-1063-BDB18-17">
+  </arc>
+  <arc id="e-1063-BDB3E-61" source="p-1063-BDB10-8" target="t-1063-BDB18-17">
+  </arc>
+  <arc id="e-1063-BDB3E-62" source="p-1063-BDB11-9" target="t-1063-BDB18-17">
+  </arc>
+ </page>
+ </net>
+</pnml>

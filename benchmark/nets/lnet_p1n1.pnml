@@ -1,0 +1,86 @@
+<pnml xmlns="http://www.pnml.org/version-2009/grammar/pnml">
+ <net id="n-109F-A0FC0-0" type ="http://www.pnml.org/version-2009/grammar/ptnet">
+  <name>
+   <text>lnet_p1n1</text>
+  </name>
+ <page id="g-109F-A0FC3-1">
+  <place id="p-109F-A0FC4-2">
+  <name>
+   <text>p0</text>
+  </name>
+   <initialMarking>
+    <text>1</text>
+   </initialMarking>
+  </place>
+  <place id="p-109F-A0FE5-3">
+  <name>
+   <text>p1</text>
+  </name>
+  </place>
+  <place id="p-109F-A0FE6-4">
+  <name>
+   <text>p2</text>
+  </name>
+  </place>
+  <place id="p-109F-A0FE8-5">
+  <name>
+   <text>p3</text>
+  </name>
+  </place>
+  <place id="p-109F-A0FE9-6">
+  <name>
+   <text>p4</text>
+  </name>
+  </place>
+  <place id="p-109F-A0FE9-7">
+  <name>
+   <text>p5</text>
+  </name>
+  </place>
+  <transition id="t-109F-A0FEA-8">
+  <name>
+   <text>t0</text>
+  </name>
+  </transition>
+  <transition id="t-109F-A0FEC-9">
+  <name>
+   <text>t1</text>
+  </name>
+  </transition>
+  <transition id="t-109F-A0FED-10">
+  <name>
+   <text>t2</text>
+  </name>
+  </transition>
+  <transition id="t-109F-A0FED-11">
+  <name>
+   <text>t3</text>
+  </name>
+  </transition>
+  <arc id="e-109F-A0FEE-12" source="p-109F-A0FC4-2" target="t-109F-A0FEA-8">
+  </arc>
+  <arc id="e-109F-A0FEF-13" source="t-109F-A0FED-10" target="p-109F-A0FE9-7">
+  </arc>
+  <arc id="e-109F-A0FF0-14" source="p-109F-A0FE9-7" target="t-109F-A0FED-11">
+  </arc>
+  <arc id="e-109F-A1027-15" source="t-109F-A0FED-11" target="p-109F-A0FC4-2">
+  </arc>
+  <arc id="e-109F-A1028-16" source="t-109F-A0FEA-8" target="p-109F-A0FE5-3">
+  </arc>
+  <arc id="e-109F-A1029-17" source="t-109F-A0FEA-8" target="p-109F-A0FE6-4">
+  </arc>
+  <arc id="e-109F-A1029-18" source="t-109F-A0FEA-8" target="p-109F-A0FE9-6">
+  </arc>
+  <arc id="e-109F-A102A-19" source="p-109F-A0FE5-3" target="t-109F-A0FEC-9">
+  </arc>
+  <arc id="e-109F-A102B-20" source="p-109F-A0FE6-4" target="t-109F-A0FEC-9">
+  </arc>
+  <arc id="e-109F-A102B-21" source="t-109F-A0FEC-9" target="p-109F-A0FE8-5">
+  </arc>
+  <arc id="e-109F-A102C-22" source="p-109F-A0FE8-5" target="t-109F-A0FED-10">
+  </arc>
+  <arc id="e-109F-A102C-23" source="p-109F-A0FE9-6" target="t-109F-A0FED-10">
+  </arc>
+ </page>
+ </net>
+</pnml>

@@ -1,0 +1,156 @@
+<pnml xmlns="http://www.pnml.org/version-2009/grammar/pnml">
+ <net id="n-10AB-C87E2-0" type ="http://www.pnml.org/version-2009/grammar/ptnet">
+  <name>
+   <text>lnet_p5n1</text>
+  </name>
+ <page id="g-10AB-C87E5-1">
+  <place id="p-10AB-C87E6-2">
+  <name>
+   <text>p0</text>
+  </name>
+   <initialMarking>
+    <text>1</text>
+   </initialMarking>
+  </place>
+  <place id="p-10AB-C87E8-3">
+  <name>
+   <text>p1</text>
+  </name>
+  </place>
+  <place id="p-10AB-C87EA-4">
+  <name>
+   <text>p10</text>
+  </name>
+  </place>
+  <place id="p-10AB-C87EB-5">
+  <name>
+   <text>p2</text>
+  </name>
+  </place>
+  <place id="p-10AB-C87EB-6">
+  <name>
+   <text>p3</text>
+  </name>
+  </place>
+  <place id="p-10AB-C87EC-7">
+  <name>
+   <text>p4</text>
+  </name>
+  </place>
+  <place id="p-10AB-C87ED-8">
+  <name>
+   <text>p5</text>
+  </name>
+  </place>
+  <place id="p-10AB-C87EE-9">
+  <name>
+   <text>p6</text>
+  </name>
+  </place>
+  <place id="p-10AB-C87EE-10">
+  <name>
+   <text>p7</text>
+  </name>
+  </place>
+  <place id="p-10AB-C87EF-11">
+  <name>
+   <text>p8</text>
+  </name>
+  </place>
+  <place id="p-10AB-C87F0-12">
+  <name>
+   <text>p9</text>
+  </name>
+  </place>
+  <transition id="t-10AB-C87F1-13">
+  <name>
+   <text>t0</text>
+  </name>
+  </transition>
+  <transition id="t-10AB-C87F2-14">
+  <name>
+   <text>t1</text>
+  </name>
+  </transition>
+  <transition id="t-10AB-C87F3-15">
+  <name>
+   <text>t2</text>
+  </name>
+  </transition>
+  <transition id="t-10AB-C87F3-16">
+  <name>
+   <text>t3</text>
+  </name>
+  </transition>
+  <transition id="t-10AB-C87F4-17">
+  <name>
+   <text>t4</text>
+  </name>
+  </transition>
+  <transition id="t-10AB-C87F5-18">
+  <name>
+   <text>t5</text>
+  </name>
+  </transition>
+  <transition id="t-10AB-C87F5-19">
+  <name>
+   <text>t6</text>
+  </name>
+  </transition>
+  <transition id="t-10AB-C87F6-20">
+  <name>
+   <text>t7</text>
+  </name>
+  </transition>
+  <transition id="t-10AB-C87F7-21">
+  <name>
+   <text>t8</text>
+  </name>
+  </transition>
+  <arc id="e-10AB-C87F8-22" source="p-10AB-C87E6-2" target="t-10AB-C87F1-13">
+  </arc>
+  <arc id="e-10AB-C87F9-23" source="t-10AB-C87F3-16" target="p-10AB-C87ED-8">
+  </arc>
+  <arc id="e-10AB-C87FA-24" source="p-10AB-C87EC-7" target="t-10AB-C87F4-17">
+  </arc>
+  <arc id="e-10AB-C87FA-25" source="t-10AB-C87F4-17" target="p-10AB-C87EE-9">
+  </arc>
+  <arc id="e-10AB-C87FB-26" source="p-10AB-C87EF-11" target="t-10AB-C87F5-18">
+  </arc>
+  <arc id="e-10AB-C87FB-27" source="t-10AB-C87F5-18" target="p-10AB-C87F0-12">
+  </arc>
+  <arc id="e-10AB-C87FC-28" source="p-10AB-C87ED-8" target="t-10AB-C87F5-19">
+  </arc>
+  <arc id="e-10AB-C87FC-29" source="p-10AB-C87EE-9" target="t-10AB-C87F5-19">
+  </arc>
+  <arc id="e-10AB-C87FD-30" source="t-10AB-C87F5-19" target="p-10AB-C87EE-10">
+  </arc>
+  <arc id="e-10AB-C87FD-31" source="p-10AB-C87F0-12" target="t-10AB-C87F6-20">
+  </arc>
+  <arc id="e-10AB-C87FE-32" source="t-10AB-C87F6-20" target="p-10AB-C87EA-4">
+  </arc>
+  <arc id="e-10AB-C87FF-33" source="t-10AB-C87F1-13" target="p-10AB-C87E8-3">
+  </arc>
+  <arc id="e-10AB-C87FF-34" source="p-10AB-C87EE-10" target="t-10AB-C87F7-21">
+  </arc>
+  <arc id="e-10AB-C8800-35" source="p-10AB-C87EA-4" target="t-10AB-C87F7-21">
+  </arc>
+  <arc id="e-10AB-C8801-36" source="t-10AB-C87F7-21" target="p-10AB-C87E6-2">
+  </arc>
+  <arc id="e-10AB-C8801-37" source="p-10AB-C87E8-3" target="t-10AB-C87F2-14">
+  </arc>
+  <arc id="e-10AB-C8802-38" source="t-10AB-C87F2-14" target="p-10AB-C87EB-5">
+  </arc>
+  <arc id="e-10AB-C8802-39" source="p-10AB-C87EB-5" target="t-10AB-C87F3-15">
+  </arc>
+  <arc id="e-10AB-C8803-40" source="t-10AB-C87F3-15" target="p-10AB-C87EB-6">
+  </arc>
+  <arc id="e-10AB-C8803-41" source="t-10AB-C87F3-15" target="p-10AB-C87EC-7">
+  </arc>
+  <arc id="e-10AB-C8804-42" source="t-10AB-C87F3-15" target="p-10AB-C87EF-11">
+  </arc>
+  <arc id="e-10AB-C8804-43" source="p-10AB-C87EB-6" target="t-10AB-C87F3-16">
+  </arc>
+ </page>
+ </net>
+</pnml>

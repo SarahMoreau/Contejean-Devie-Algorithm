@@ -1,0 +1,171 @@
+<pnml xmlns="http://www.pnml.org/version-2009/grammar/pnml">
+ <net id="n-104D-72C4F-0" type ="http://www.pnml.org/version-2009/grammar/ptnet">
+  <name>
+   <text>fernandez2</text>
+  </name>
+ <page id="g-104D-72C52-1">
+  <place id="p-104D-72C54-2">
+  <name>
+   <text>p0</text>
+  </name>
+  </place>
+  <place id="p-104D-72C56-3">
+  <name>
+   <text>p1</text>
+  </name>
+  </place>
+  <place id="p-104D-72C57-4">
+  <name>
+   <text>p10</text>
+  </name>
+   <initialMarking>
+    <text>1</text>
+   </initialMarking>
+  </place>
+  <place id="p-104D-72C58-5">
+  <name>
+   <text>p2</text>
+  </name>
+  </place>
+  <place id="p-104D-72C59-6">
+  <name>
+   <text>p3</text>
+  </name>
+  </place>
+  <place id="p-104D-72C5A-7">
+  <name>
+   <text>p4</text>
+  </name>
+  </place>
+  <place id="p-104D-72C5B-8">
+  <name>
+   <text>p5</text>
+  </name>
+  </place>
+  <place id="p-104D-72C5B-9">
+  <name>
+   <text>p6</text>
+  </name>
+   <initialMarking>
+    <text>1</text>
+   </initialMarking>
+  </place>
+  <place id="p-104D-72C5C-10">
+  <name>
+   <text>p7</text>
+  </name>
+  </place>
+  <place id="p-104D-72C5C-11">
+  <name>
+   <text>p8</text>
+  </name>
+  </place>
+  <place id="p-104D-72C5E-12">
+  <name>
+   <text>p9</text>
+  </name>
+   <initialMarking>
+    <text>1</text>
+   </initialMarking>
+  </place>
+  <transition id="t-104D-72C5E-13">
+  <name>
+   <text>t0</text>
+  </name>
+  </transition>
+  <transition id="t-104D-72C60-14">
+  <name>
+   <text>t1</text>
+  </name>
+  </transition>
+  <transition id="t-104D-72C61-15">
+  <name>
+   <text>t2</text>
+  </name>
+  </transition>
+  <transition id="t-104D-72C62-16">
+  <name>
+   <text>t3</text>
+  </name>
+  </transition>
+  <transition id="t-104D-72C62-17">
+  <name>
+   <text>t4</text>
+  </name>
+  </transition>
+  <transition id="t-104D-72C63-18">
+  <name>
+   <text>t5</text>
+  </name>
+  </transition>
+  <transition id="t-104D-72C64-19">
+  <name>
+   <text>t6</text>
+  </name>
+  </transition>
+  <transition id="t-104D-72C64-20">
+  <name>
+   <text>t7</text>
+  </name>
+  </transition>
+  <transition id="t-104D-72C65-21">
+  <name>
+   <text>t8</text>
+  </name>
+  </transition>
+  <transition id="t-104D-72C66-22">
+  <name>
+   <text>t9</text>
+  </name>
+  </transition>
+  <arc id="e-104D-72C67-23" source="p-104D-72C5E-12" target="t-104D-72C5E-13">
+  </arc>
+  <arc id="e-104D-72C68-24" source="p-104D-72C57-4" target="t-104D-72C62-17">
+  </arc>
+  <arc id="e-104D-72C69-25" source="t-104D-72C62-17" target="p-104D-72C56-3">
+  </arc>
+  <arc id="e-104D-72C69-26" source="p-104D-72C5C-11" target="t-104D-72C63-18">
+  </arc>
+  <arc id="e-104D-72C6A-27" source="t-104D-72C63-18" target="p-104D-72C5E-12">
+  </arc>
+  <arc id="e-104D-72C6B-28" source="t-104D-72C63-18" target="p-104D-72C57-4">
+  </arc>
+  <arc id="e-104D-72C6C-29" source="p-104D-72C58-5" target="t-104D-72C64-19">
+  </arc>
+  <arc id="e-104D-72C6C-30" source="t-104D-72C64-19" target="p-104D-72C5C-10">
+  </arc>
+  <arc id="e-104D-72C6D-31" source="p-104D-72C58-5" target="t-104D-72C64-20">
+  </arc>
+  <arc id="e-104D-72C6D-32" source="t-104D-72C64-20" target="p-104D-72C59-6">
+  </arc>
+  <arc id="e-104D-72C6E-33" source="p-104D-72C59-6" target="t-104D-72C65-21">
+  </arc>
+  <arc id="e-104D-72C6E-34" source="t-104D-72C5E-13" target="p-104D-72C54-2">
+  </arc>
+  <arc id="e-104D-72C6F-35" source="p-104D-72C5B-9" target="t-104D-72C65-21">
+  </arc>
+  <arc id="e-104D-72C6F-36" source="t-104D-72C65-21" target="p-104D-72C5A-7">
+  </arc>
+  <arc id="e-104D-72C70-37" source="p-104D-72C5B-8" target="t-104D-72C66-22">
+  </arc>
+  <arc id="e-104D-72C70-38" source="t-104D-72C66-22" target="p-104D-72C5B-9">
+  </arc>
+  <arc id="e-104D-72C71-39" source="t-104D-72C66-22" target="p-104D-72C5C-10">
+  </arc>
+  <arc id="e-104D-72C72-40" source="p-104D-72C56-3" target="t-104D-72C60-14">
+  </arc>
+  <arc id="e-104D-72C73-41" source="t-104D-72C60-14" target="p-104D-72C58-5">
+  </arc>
+  <arc id="e-104D-72C73-42" source="p-104D-72C5A-7" target="t-104D-72C61-15">
+  </arc>
+  <arc id="e-104D-72C74-43" source="t-104D-72C61-15" target="p-104D-72C5B-8">
+  </arc>
+  <arc id="e-104D-72C74-44" source="p-104D-72C5C-10" target="t-104D-72C62-16">
+  </arc>
+  <arc id="e-104D-72C7E-45" source="t-104D-72C62-16" target="p-104D-72C5C-11">
+  </arc>
+  <arc id="e-104D-72C7F-46" source="p-104D-72C54-2" target="t-104D-72C62-17">
+  </arc>
+ </page>
+ </net>
+</pnml>

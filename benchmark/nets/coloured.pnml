@@ -1,0 +1,66 @@
+<pnml xmlns="http://www.pnml.org/version-2009/grammar/pnml">
+ <net id="n-1027-E8FDF-0" type ="http://www.pnml.org/version-2009/grammar/ptnet">
+  <name>
+   <text>coloured</text>
+  </name>
+ <page id="g-1027-E8FE2-1">
+  <place id="p-1027-E8FE3-2">
+  <name>
+   <text>p0</text>
+  </name>
+   <initialMarking>
+    <text>1</text>
+   </initialMarking>
+  </place>
+  <place id="p-1027-E8FE6-3">
+  <name>
+   <text>p1</text>
+  </name>
+   <initialMarking>
+    <text>1</text>
+   </initialMarking>
+  </place>
+  <place id="p-1027-E8FE7-4">
+  <name>
+   <text>p2</text>
+  </name>
+  </place>
+  <place id="p-1027-E8FE7-5">
+  <name>
+   <text>p3</text>
+  </name>
+  </place>
+  <transition id="t-1027-E8FE9-6">
+  <name>
+   <text>t0</text>
+  </name>
+  </transition>
+  <transition id="t-1027-E8FEA-7">
+  <name>
+   <text>t1</text>
+  </name>
+  </transition>
+  <transition id="t-1027-E8FEB-8">
+  <name>
+   <text>t2</text>
+  </name>
+  </transition>
+  <arc id="e-1027-E8FEC-9" source="p-1027-E8FE3-2" target="t-1027-E8FE9-6">
+  </arc>
+  <arc id="e-1027-E8FED-10" source="p-1027-E8FE6-3" target="t-1027-E8FE9-6">
+  </arc>
+  <arc id="e-1027-E8FED-11" source="t-1027-E8FE9-6" target="p-1027-E8FE7-4">
+  </arc>
+  <arc id="e-1027-E8FEE-12" source="t-1027-E8FE9-6" target="p-1027-E8FE7-5">
+  </arc>
+  <arc id="e-1027-E8FEE-13" source="p-1027-E8FE7-4" target="t-1027-E8FEA-7">
+  </arc>
+  <arc id="e-1027-E8FEF-14" source="t-1027-E8FEA-7" target="p-1027-E8FE3-2">
+  </arc>
+  <arc id="e-1027-E8FF0-15" source="p-1027-E8FE7-5" target="t-1027-E8FEB-8">
+  </arc>
+  <arc id="e-1027-E8FF0-16" source="t-1027-E8FEB-8" target="p-1027-E8FE6-3">
+  </arc>
+ </page>
+ </net>
+</pnml>

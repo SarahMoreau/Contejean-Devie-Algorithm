@@ -1,0 +1,122 @@
+<pnml xmlns="http://www.pnml.org/version-2009/grammar/pnml">
+ <net id="n-102F-F00B-0" type ="http://www.pnml.org/version-2009/grammar/ptnet">
+  <name>
+   <text>cp2</text>
+  </name>
+ <page id="g-102F-F043-1">
+  <place id="p-102F-F05F-2">
+  <name>
+   <text>p0</text>
+  </name>
+   <initialMarking>
+    <text>1</text>
+   </initialMarking>
+  </place>
+  <place id="p-102F-F060-3">
+  <name>
+   <text>p1</text>
+  </name>
+  </place>
+  <place id="p-102F-F061-4">
+  <name>
+   <text>p2</text>
+  </name>
+  </place>
+  <place id="p-102F-F062-5">
+  <name>
+   <text>p3</text>
+  </name>
+  </place>
+  <place id="p-102F-F063-6">
+  <name>
+   <text>p4</text>
+  </name>
+   <initialMarking>
+    <text>1</text>
+   </initialMarking>
+  </place>
+  <place id="p-102F-F064-7">
+  <name>
+   <text>p5</text>
+  </name>
+  </place>
+  <place id="p-102F-F064-8">
+  <name>
+   <text>p6</text>
+  </name>
+  </place>
+  <place id="p-102F-F065-9">
+  <name>
+   <text>p7</text>
+  </name>
+   <initialMarking>
+    <text>1</text>
+   </initialMarking>
+  </place>
+  <transition id="t-102F-F066-10">
+  <name>
+   <text>t0</text>
+  </name>
+  </transition>
+  <transition id="t-102F-F068-11">
+  <name>
+   <text>t1</text>
+  </name>
+  </transition>
+  <transition id="t-102F-F068-12">
+  <name>
+   <text>t2</text>
+  </name>
+  </transition>
+  <transition id="t-102F-F069-13">
+  <name>
+   <text>t3</text>
+  </name>
+  </transition>
+  <transition id="t-102F-F06A-14">
+  <name>
+   <text>t4</text>
+  </name>
+  </transition>
+  <transition id="t-102F-F06A-15">
+  <name>
+   <text>t5</text>
+  </name>
+  </transition>
+  <arc id="e-102F-F06C-16" source="p-102F-F060-3" target="t-102F-F066-10">
+  </arc>
+  <arc id="e-102F-F06D-17" source="p-102F-F064-7" target="t-102F-F069-13">
+  </arc>
+  <arc id="e-102F-F06E-18" source="t-102F-F069-13" target="p-102F-F063-6">
+  </arc>
+  <arc id="e-102F-F06E-19" source="t-102F-F069-13" target="p-102F-F064-8">
+  </arc>
+  <arc id="e-102F-F06F-20" source="p-102F-F064-8" target="t-102F-F06A-14">
+  </arc>
+  <arc id="e-102F-F06F-21" source="t-102F-F06A-14" target="p-102F-F065-9">
+  </arc>
+  <arc id="e-102F-F070-22" source="p-102F-F05F-2" target="t-102F-F06A-15">
+  </arc>
+  <arc id="e-102F-F070-23" source="p-102F-F065-9" target="t-102F-F06A-15">
+  </arc>
+  <arc id="e-102F-F071-24" source="t-102F-F06A-15" target="p-102F-F064-7">
+  </arc>
+  <arc id="e-102F-F071-25" source="t-102F-F066-10" target="p-102F-F05F-2">
+  </arc>
+  <arc id="e-102F-F072-26" source="p-102F-F05F-2" target="t-102F-F068-11">
+  </arc>
+  <arc id="e-102F-F073-27" source="t-102F-F068-11" target="p-102F-F061-4">
+  </arc>
+  <arc id="e-102F-F073-28" source="p-102F-F061-4" target="t-102F-F068-12">
+  </arc>
+  <arc id="e-102F-F074-29" source="p-102F-F063-6" target="t-102F-F068-12">
+  </arc>
+  <arc id="e-102F-F074-30" source="t-102F-F068-12" target="p-102F-F060-3">
+  </arc>
+  <arc id="e-102F-F075-31" source="t-102F-F068-12" target="p-102F-F062-5">
+  </arc>
+  <arc id="e-102F-F075-32" source="p-102F-F062-5" target="t-102F-F069-13">
+  </arc>
+ </page>
+ </net>
+</pnml>

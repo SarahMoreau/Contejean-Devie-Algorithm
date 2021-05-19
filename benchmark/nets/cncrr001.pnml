@@ -1,0 +1,95 @@
+<pnml xmlns="http://www.pnml.org/version-2009/grammar/pnml">
+ <net id="n-1023-DC2C8-0" type ="http://www.pnml.org/version-2009/grammar/ptnet">
+  <name>
+   <text>cncrr001</text>
+  </name>
+ <page id="g-1023-DC2CC-1">
+  <place id="p-1023-DC2CD-2">
+  <name>
+   <text>p0</text>
+  </name>
+   <initialMarking>
+    <text>1</text>
+   </initialMarking>
+  </place>
+  <place id="p-1023-DC2CF-3">
+  <name>
+   <text>p1</text>
+  </name>
+  </place>
+  <place id="p-1023-DC2D0-4">
+  <name>
+   <text>p2</text>
+  </name>
+  </place>
+  <place id="p-1023-DC2D1-5">
+  <name>
+   <text>p3</text>
+  </name>
+  </place>
+  <place id="p-1023-DC2D2-6">
+  <name>
+   <text>p4</text>
+  </name>
+  </place>
+  <place id="p-1023-DC2D3-7">
+  <name>
+   <text>p5</text>
+  </name>
+  </place>
+  <place id="p-1023-DC2D3-8">
+  <name>
+   <text>p6</text>
+  </name>
+  </place>
+  <transition id="t-1023-DC2D4-9">
+  <name>
+   <text>t0</text>
+  </name>
+  </transition>
+  <transition id="t-1023-DC2D5-10">
+  <name>
+   <text>t1</text>
+  </name>
+  </transition>
+  <transition id="t-1023-DC2FD-11">
+  <name>
+   <text>t2</text>
+  </name>
+  </transition>
+  <transition id="t-1023-DC2FF-12">
+  <name>
+   <text>t3</text>
+  </name>
+  </transition>
+  <arc id="e-1023-DC300-13" source="p-1023-DC2CD-2" target="t-1023-DC2D4-9">
+  </arc>
+  <arc id="e-1023-DC301-14" source="t-1023-DC2FD-11" target="p-1023-DC2D3-8">
+  </arc>
+  <arc id="e-1023-DC301-15" source="p-1023-DC2D1-5" target="t-1023-DC2FF-12">
+  </arc>
+  <arc id="e-1023-DC302-16" source="p-1023-DC2D2-6" target="t-1023-DC2FF-12">
+  </arc>
+  <arc id="e-1023-DC302-17" source="p-1023-DC2D3-7" target="t-1023-DC2FF-12">
+  </arc>
+  <arc id="e-1023-DC303-18" source="t-1023-DC2FF-12" target="p-1023-DC2CD-2">
+  </arc>
+  <arc id="e-1023-DC303-19" source="t-1023-DC2D4-9" target="p-1023-DC2CF-3">
+  </arc>
+  <arc id="e-1023-DC304-20" source="t-1023-DC2D4-9" target="p-1023-DC2D0-4">
+  </arc>
+  <arc id="e-1023-DC305-21" source="p-1023-DC2CF-3" target="t-1023-DC2D5-10">
+  </arc>
+  <arc id="e-1023-DC305-22" source="p-1023-DC2D3-8" target="t-1023-DC2D5-10">
+  </arc>
+  <arc id="e-1023-DC306-23" source="t-1023-DC2D5-10" target="p-1023-DC2D1-5">
+  </arc>
+  <arc id="e-1023-DC306-24" source="t-1023-DC2D5-10" target="p-1023-DC2D2-6">
+  </arc>
+  <arc id="e-1023-DC307-25" source="p-1023-DC2D0-4" target="t-1023-DC2FD-11">
+  </arc>
+  <arc id="e-1023-DC307-26" source="t-1023-DC2FD-11" target="p-1023-DC2D3-7">
+  </arc>
+ </page>
+ </net>
+</pnml>

@@ -1,0 +1,215 @@
+<pnml xmlns="http://www.pnml.org/version-2009/grammar/pnml">
+ <net id="n-1013-A4BA8-0" type ="http://www.pnml.org/version-2009/grammar/ptnet">
+  <name>
+   <text>campos3</text>
+  </name>
+ <page id="g-1013-A4BAC-1">
+  <place id="p-1013-A4BAD-2">
+  <name>
+   <text>p0</text>
+  </name>
+   <initialMarking>
+    <text>1</text>
+   </initialMarking>
+  </place>
+  <place id="p-1013-A4BAF-3">
+  <name>
+   <text>p1</text>
+  </name>
+  </place>
+  <place id="p-1013-A4BB1-4">
+  <name>
+   <text>p10</text>
+  </name>
+  </place>
+  <place id="p-1013-A4BB1-5">
+  <name>
+   <text>p11</text>
+  </name>
+  </place>
+  <place id="p-1013-A4BB2-6">
+  <name>
+   <text>p12</text>
+  </name>
+   <initialMarking>
+    <text>1</text>
+   </initialMarking>
+  </place>
+  <place id="p-1013-A4BB3-7">
+  <name>
+   <text>p13</text>
+  </name>
+  </place>
+  <place id="p-1013-A4BB4-8">
+  <name>
+   <text>p14</text>
+  </name>
+  </place>
+  <place id="p-1013-A4BB5-9">
+  <name>
+   <text>p2</text>
+  </name>
+  </place>
+  <place id="p-1013-A4BB6-10">
+  <name>
+   <text>p3</text>
+  </name>
+  </place>
+  <place id="p-1013-A4BB6-11">
+  <name>
+   <text>p4</text>
+  </name>
+  </place>
+  <place id="p-1013-A4BB7-12">
+  <name>
+   <text>p5</text>
+  </name>
+  </place>
+  <place id="p-1013-A4BB8-13">
+  <name>
+   <text>p6</text>
+  </name>
+  </place>
+  <place id="p-1013-A4BB9-14">
+  <name>
+   <text>p7</text>
+  </name>
+   <initialMarking>
+    <text>1</text>
+   </initialMarking>
+  </place>
+  <place id="p-1013-A4BB9-15">
+  <name>
+   <text>p8</text>
+  </name>
+   <initialMarking>
+    <text>1</text>
+   </initialMarking>
+  </place>
+  <place id="p-1013-A4BBA-16">
+  <name>
+   <text>p9</text>
+  </name>
+  </place>
+  <transition id="t-1013-A4BBB-17">
+  <name>
+   <text>t0</text>
+  </name>
+  </transition>
+  <transition id="t-1013-A4BBC-18">
+  <name>
+   <text>t1</text>
+  </name>
+  </transition>
+  <transition id="t-1013-A4BBD-19">
+  <name>
+   <text>t10</text>
+  </name>
+  </transition>
+  <transition id="t-1013-A4BBE-20">
+  <name>
+   <text>t2</text>
+  </name>
+  </transition>
+  <transition id="t-1013-A4BBE-21">
+  <name>
+   <text>t3</text>
+  </name>
+  </transition>
+  <transition id="t-1013-A4BBF-22">
+  <name>
+   <text>t4</text>
+  </name>
+  </transition>
+  <transition id="t-1013-A4BC0-23">
+  <name>
+   <text>t5</text>
+  </name>
+  </transition>
+  <transition id="t-1013-A4BC0-24">
+  <name>
+   <text>t6</text>
+  </name>
+  </transition>
+  <transition id="t-1013-A4BC1-25">
+  <name>
+   <text>t7</text>
+  </name>
+  </transition>
+  <transition id="t-1013-A4BC1-26">
+  <name>
+   <text>t8</text>
+  </name>
+  </transition>
+  <transition id="t-1013-A4BC2-27">
+  <name>
+   <text>t9</text>
+  </name>
+  </transition>
+  <arc id="e-1013-A4BC3-28" source="p-1013-A4BAD-2" target="t-1013-A4BBB-17">
+  </arc>
+  <arc id="e-1013-A4BC4-29" source="t-1013-A4BBE-20" target="p-1013-A4BB6-11">
+  </arc>
+  <arc id="e-1013-A4BC5-30" source="p-1013-A4BB6-10" target="t-1013-A4BBE-21">
+  </arc>
+  <arc id="e-1013-A4BC5-31" source="t-1013-A4BBE-21" target="p-1013-A4BB7-12">
+  </arc>
+  <arc id="e-1013-A4BC6-32" source="p-1013-A4BB6-11" target="t-1013-A4BBF-22">
+  </arc>
+  <arc id="e-1013-A4BC8-33" source="p-1013-A4BB9-14" target="t-1013-A4BBF-22">
+  </arc>
+  <arc id="e-1013-A4BC8-34" source="t-1013-A4BBF-22" target="p-1013-A4BB8-13">
+  </arc>
+  <arc id="e-1013-A4BC9-35" source="t-1013-A4BBF-22" target="p-1013-A4BB4-8">
+  </arc>
+  <arc id="e-1013-A4BC9-36" source="p-1013-A4BB7-12" target="t-1013-A4BC0-23">
+  </arc>
+  <arc id="e-1013-A4BCA-37" source="t-1013-A4BC0-23" target="p-1013-A4BB8-13">
+  </arc>
+  <arc id="e-1013-A4BCB-38" source="p-1013-A4BB8-13" target="t-1013-A4BC0-24">
+  </arc>
+  <arc id="e-1013-A4BCB-39" source="t-1013-A4BBB-17" target="p-1013-A4BAF-3">
+  </arc>
+  <arc id="e-1013-A4BCC-40" source="p-1013-A4BBA-16" target="t-1013-A4BC0-24">
+  </arc>
+  <arc id="e-1013-A4BCC-41" source="t-1013-A4BC0-24" target="p-1013-A4BB9-15">
+  </arc>
+  <arc id="e-1013-A4BCD-42" source="t-1013-A4BC0-24" target="p-1013-A4BB3-7">
+  </arc>
+  <arc id="e-1013-A4BCD-43" source="p-1013-A4BB1-5" target="t-1013-A4BC1-25">
+  </arc>
+  <arc id="e-1013-A4BCE-44" source="p-1013-A4BB3-7" target="t-1013-A4BC1-25">
+  </arc>
+  <arc id="e-1013-A4BD8-45" source="t-1013-A4BC1-25" target="p-1013-A4BAD-2">
+  </arc>
+  <arc id="e-1013-A4BD9-46" source="p-1013-A4BB5-9" target="t-1013-A4BC1-26">
+  </arc>
+  <arc id="e-1013-A4BDA-47" source="p-1013-A4BB2-6" target="t-1013-A4BC1-26">
+  </arc>
+  <arc id="e-1013-A4BDA-48" source="t-1013-A4BC1-26" target="p-1013-A4BBA-16">
+  </arc>
+  <arc id="e-1013-A4BDB-49" source="t-1013-A4BC1-26" target="p-1013-A4BB1-4">
+  </arc>
+  <arc id="e-1013-A4BDB-50" source="t-1013-A4BBB-17" target="p-1013-A4BB5-9">
+  </arc>
+  <arc id="e-1013-A4BDC-51" source="p-1013-A4BB1-4" target="t-1013-A4BC2-27">
+  </arc>
+  <arc id="e-1013-A4BDD-52" source="t-1013-A4BC2-27" target="p-1013-A4BB1-5">
+  </arc>
+  <arc id="e-1013-A4BDD-53" source="t-1013-A4BC2-27" target="p-1013-A4BB2-6">
+  </arc>
+  <arc id="e-1013-A4BDE-54" source="p-1013-A4BAF-3" target="t-1013-A4BBC-18">
+  </arc>
+  <arc id="e-1013-A4BDE-55" source="p-1013-A4BB9-15" target="t-1013-A4BBC-18">
+  </arc>
+  <arc id="e-1013-A4BDF-56" source="t-1013-A4BBC-18" target="p-1013-A4BB6-10">
+  </arc>
+  <arc id="e-1013-A4BE0-57" source="p-1013-A4BB4-8" target="t-1013-A4BBD-19">
+  </arc>
+  <arc id="e-1013-A4BE1-58" source="t-1013-A4BBD-19" target="p-1013-A4BB9-14">
+  </arc>
+  <arc id="e-1013-A4BE1-59" source="p-1013-A4BB6-10" target="t-1013-A4BBE-20">
+  </arc>
+ </page>
+ </net>
+</pnml>
