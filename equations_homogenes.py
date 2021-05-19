@@ -1,3 +1,7 @@
+
+# from ptnet.ptnet import PetriNet
+# import sys
+
 def resoudre_systeme_equations_homogenes (systeme):
   
   from sous_programmes_equations_homogenes import taille_systeme, creer_base_canonique, valeurs_base_canonique, memoire_premier_tour, memoire_tour_suivant, calculer_vecteurs, calculer_valeurs, existence_solution, verif_solution_minimale, verif_valeurs, mise_a_jour_listes, calculer_vecteurs_bis
@@ -52,5 +56,17 @@ def resoudre_systeme_equations_homogenes (systeme):
 
 if __name__ == '__main__':
   
+  # if len(sys.argv) < 2:
+  #   print("Error: missing input Petri net")
+  #   exit(1)
+
+  # path_ptnet = sys.argv[1]
+  # ptnet = PetriNet(path_ptnet)
+
+  # print(ptnet.matrix)
+  # print(ptnet.initial_marking)
+
+  # ptnet.show()
+
   systeme = [[1,1,-3],[1,-5,-2]]
   resoudre_systeme_equations_homogenes(systeme)
