@@ -46,7 +46,7 @@ class PetriNet:
         self.compute_incidence_matrix()
 
     def show(self):
-        """ Show the incidence matrix and the iniial marking.
+        """ Show the incidence matrix and the initial marking.
         """
         print("INCIDENCE MATRIX")
         print('================')
@@ -107,10 +107,10 @@ class PetriNet:
         
         for transition in self.transitions.values():
             for place, weight in transition.pre.items():
-                self.matrix[place.index][transition.index] = -weight
+                self.matrix[place.index][transition.index] -= weight
 
             for place, weight in transition.post.items():
-                self.matrix[place.index][transition.index] = weight
+                self.matrix[place.index][transition.index] += weight
 
 
 class Place:
