@@ -119,21 +119,29 @@ def calculer_valeurs(vecteurs_bis, systeme):
 
 
 #vérifie s'il y a une solution dans les valeurs calculées
-def existence_solution(valeur_bis,nombre_equations,vecteurs_bis,solution_minimale):
+def existence_solution(valeur_bis,nombre_equations,vecteurs_bis,solution_minimale,signe):
   
   liste = []
 
   for j in range(0, len(valeur_bis),1):
     indice = 0
     for k in range(0, nombre_equations,1):
-      if valeur_bis[j][k] <= 0:
-        indice = indice + 1
+        if signe[k]==[1]:
+            if valeur_bis[j][k] <= 0:
+                indice = indice + 1
+        elif signe[k]==[2]:
+            if valeur_bis[j][k]<0:
+                indice+=1
+        elif signe[k]==[3]:
+            if valeur_bis[j][k] >= 0:
+                indice = indice + 1
+        elif signe[k]==[4] :
+            if valeur_bis[j][k]>0:
+                indice +=1   
 
     if indice == nombre_equations:
       solution_minimale.append(vecteurs_bis[j])
       liste.append(j)
-  print(valeur_bis)
-  print(liste)
   for i in range (0, len(liste), 1):
     del (valeur_bis[liste[i]])
     del(vecteurs_bis[liste[i]])
@@ -196,7 +204,7 @@ def verif_solution_minimale(solution_minimale_homogene,solution_minimale_non_hom
 
   return(solution_minimale_homogene, solution_minimale_non_homogene)
 
-
+'''
 #verifier que les valeurs calculees ne sont pas superieures aux solutions minimales deja trouvees
 def verif_valeurs(solution_minimale_homogene,solution_minimale_non_homogene, valeur_bis, nombre_variables, vecteurs_bis):
 
@@ -237,7 +245,7 @@ def verif_valeurs(solution_minimale_homogene,solution_minimale_non_homogene, val
           del(vecteurs_bis[liste2[l]])
   
   return(valeur_bis, vecteurs_bis)
-
+'''
 
 #garder en memoire toutes les valeurs calculees
 def memoire_tour_suivant(memoire, valeur_bis, nombre_equations, vecteurs_bis):

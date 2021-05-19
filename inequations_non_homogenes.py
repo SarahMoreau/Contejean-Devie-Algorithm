@@ -1,6 +1,8 @@
-def resoudre_systeme_inequations_non_homogenes (systeme,constante):
+def resoudre_systeme_inequations_non_homogenes (systeme,constante,signe):
   
-  from sous_programmes_inequations_non_homogene import taille_systeme, transformer_systeme, creer_base_canonique, valeurs_base_canonique, memoire_premier_tour, calculer_vecteurs, calculer_valeurs, existence_solution, repartir_solution_minimale, verif_solution_minimale, verif_valeurs, memoire_tour_suivant, mise_a_jour_listes, calculer_vecteurs_bis   
+  from sous_programmes_inequations_non_homogene import taille_systeme, transformer_systeme, creer_base_canonique, valeurs_base_canonique, memoire_premier_tour, calculer_vecteurs, calculer_valeurs, existence_solution, repartir_solution_minimale, verif_solution_minimale, memoire_tour_suivant, mise_a_jour_listes, calculer_vecteurs_bis   
+
+  print("1 : <=, 2 : <, 3 : >=, 4 : >")
 
   solution_minimale = []
   solution_minimale_homogene = []
@@ -14,13 +16,11 @@ def resoudre_systeme_inequations_non_homogenes (systeme,constante):
 
   valeur, valeur_canonique = valeurs_base_canonique(systeme,nombre_variables,base)
 
-  solution_minimale, valeur, vecteur = existence_solution(valeur,nombre_equations,vecteur,solution_minimale)
+  solution_minimale, valeur, vecteur = existence_solution(valeur,nombre_equations,vecteur,solution_minimale,signe)
 
   solution_minimale, solution_minimale_homogene, solution_minimale_non_homogene, valeur_ajoutee_homogene, valeur_ajoutee_non_homogene = repartir_solution_minimale(solution_minimale, solution_minimale_homogene, solution_minimale_non_homogene)
 
   solution_minimale_homogene, solution_minimale_non_homogene = verif_solution_minimale(solution_minimale_homogene,solution_minimale_non_homogene, valeur_ajoutee_homogene, valeur_ajoutee_non_homogene, nombre_variables)
-
-  valeur, vecteur = verif_valeurs(solution_minimale_homogene,solution_minimale_non_homogene, valeur, nombre_variables, vecteur)
 
   memoire, valeur, vecteur = memoire_premier_tour(valeur, nombre_variables, nombre_equations, vecteur)
 
@@ -28,14 +28,12 @@ def resoudre_systeme_inequations_non_homogenes (systeme,constante):
 
   valeur_bis = calculer_valeurs(vecteurs_bis, systeme)
 
-  solution_minimale, valeur_bis, vecteurs_bis = existence_solution(valeur_bis,nombre_equations,vecteurs_bis,solution_minimale)
+  solution_minimale, valeur_bis, vecteurs_bis = existence_solution(valeur_bis,nombre_equations,vecteurs_bis,solution_minimale,signe)
 
   solution_minimale, solution_minimale_homogene, solution_minimale_non_homogene, valeur_ajoutee_homogene, valeur_ajoutee_non_homogene = repartir_solution_minimale(solution_minimale, solution_minimale_homogene, solution_minimale_non_homogene)
 
 
   solution_minimale_homogene, solution_minimale_non_homogene = verif_solution_minimale(solution_minimale_homogene,solution_minimale_non_homogene, valeur_ajoutee_homogene, valeur_ajoutee_non_homogene, nombre_variables)
-
-  valeur_bis, vecteurs_bis = verif_valeurs(solution_minimale_homogene,solution_minimale_non_homogene, valeur_bis, nombre_variables, vecteurs_bis)
 
   memoire = memoire_tour_suivant(memoire, valeur_bis, nombre_equations, vecteurs_bis)
 
@@ -47,14 +45,12 @@ def resoudre_systeme_inequations_non_homogenes (systeme,constante):
 
     valeur_bis = calculer_valeurs(vecteurs_bis, systeme)
 
-    solution_minimale, valeur_bis, vecteurs_bis = existence_solution(valeur_bis,nombre_equations,vecteurs_bis,solution_minimale)
+    solution_minimale, valeur_bis, vecteurs_bis = existence_solution(valeur_bis,nombre_equations,vecteurs_bis,solution_minimale,signe)
 
     solution_minimale, solution_minimale_homogene, solution_minimale_non_homogene, valeur_ajoutee_homogene, valeur_ajoutee_non_homogene = repartir_solution_minimale(solution_minimale, solution_minimale_homogene, solution_minimale_non_homogene)
 
     
     solution_minimale_homogene, solution_minimale_non_homogene = verif_solution_minimale(solution_minimale_homogene,solution_minimale_non_homogene, valeur_ajoutee_homogene, valeur_ajoutee_non_homogene, nombre_variables)
-
-    valeur_bis, vecteurs_bis = verif_valeurs(solution_minimale_homogene,solution_minimale_non_homogene, valeur_bis, nombre_variables, vecteurs_bis)
 
     memoire = memoire_tour_suivant(memoire, valeur_bis, nombre_equations, vecteurs_bis)
 
@@ -96,4 +92,5 @@ if __name__ == '__main__':
   
   systeme = [[1,1,-3],[1,-5,-2]]
   constante = [[-1],[2]]
-  resoudre_systeme_inequations_non_homogenes(systeme,constante)
+  signe = [[1],[1]]
+  resoudre_systeme_inequations_non_homogenes(systeme,constante,signe)
