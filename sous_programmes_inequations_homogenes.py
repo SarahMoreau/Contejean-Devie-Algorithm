@@ -38,33 +38,37 @@ def valeurs_base_canonique(systeme, nombre_variables, base):
   return(valeur, valeur_canonique)
 
 
-def existence_solution_premier_tour(valeur,nombre_equations,vecteur):
-
+def existence_solution_premier_tour(valeur,nombre_equations,vecteur,signe):
   solution_minimale = []
   liste = []
   valeur_minimale_ajoutee = None
-
+  
   for j in range(0, len(valeur),1):
     indice = 0
     for k in range(0, nombre_equations,1):
-      if valeur[j][k] <= 0:
-        indice = indice + 1
+        if signe[k]==[1]:
+            if valeur[j][k] <= 0:
+                indice = indice + 1
+        elif signe[k]==[2]:
+            if valeur[j][k]<0:
+                indice+=1
+        elif signe[k]==[3]:
+            if valeur[j][k] >= 0:
+                indice = indice + 1
+        elif signe[k]==[4] :
+            if valeur[j][k]>0:
+                indice +=1   
 
     valeur_minimale_ajoutee = 0
-
+    
     if indice == nombre_equations:
       solution_minimale.append(vecteur[j])
-      liste.append(j)
-      valeur_minimale_ajoutee = valeur_minimale_ajoutee +1
-  for l in range(0, len(liste),1):
-      del(valeur[liste[l]])
-      del(vecteur[liste[l]])
- 
+      
   return(solution_minimale, valeur_minimale_ajoutee, valeur, vecteur)
 
 
 def memoire_premier_tour(valeur, nombre_equations, vecteur):
-
+  
   memoire = [valeur[0]]
   liste = []
   for i in range(1, len(valeur),1):
@@ -84,7 +88,6 @@ def memoire_premier_tour(valeur, nombre_equations, vecteur):
         del(valeur[liste[l]])
         del(vecteur[liste[l]])
 
-     
   return(memoire, valeur,vecteur)
 
 
@@ -114,8 +117,7 @@ def calculer_vecteurs(valeur, valeur_canonique, base, vecteur, nombre_variables)
                   indice = indice+1
            
               if indice == nombre_variables and len(vecteurs_bis)==nombre_vecteurs:
-                del(vecteurs_bis[-1])
-            
+                del(vecteurs_bis[-1])  
   return(vecteurs_bis)
 
 
@@ -127,38 +129,40 @@ def calculer_valeurs(vecteurs_bis, systeme):
   for i in range(0, len(vecteurs_bis), 1):
     produit = np.dot(systeme,vecteurs_bis[i])
     valeur_bis.append(produit)
-  
   return (valeur_bis)
 
   #verifier s'il y a une solution minimale
-def existence_solution(valeur_bis,nombre_equations,vecteurs_bis,solution_minimale):
+def existence_solution(valeur_bis,nombre_equations,vecteurs_bis,solution_minimale,signe):
 
-  
   valeur_minimale_ajoutee = None
   liste = []
   for j in range(0, len(valeur_bis),1):
     indice = 0
     for k in range(0, nombre_equations,1):
-      if valeur_bis[j][k] <= 0:
-        indice = indice + 1
+        if signe[k]==[1]:
+            if valeur_bis[j][k] <= 0:
+                indice = indice + 1
+        elif signe[k]==[2]:
+            if valeur_bis[j][k]<0:
+                indice+=1
+        elif signe[k]==[3]:
+            if valeur_bis[j][k] >= 0:
+                indice = indice + 1
+        elif signe[k]==[4] :
+            if valeur_bis[j][k]>0:
+                indice +=1   
 
     valeur_minimale_ajoutee = 0
-
+    
     if indice == nombre_equations:
       solution_minimale.append(vecteurs_bis[j])
-      liste.append(j)
-      valeur_minimale_ajoutee = valeur_minimale_ajoutee +1
-  
-  for l in range(0,len(liste),1):
-      del(valeur_bis[liste[l]])
-      del(vecteurs_bis[liste[l]])
-  
+   
   return(solution_minimale, valeur_minimale_ajoutee, valeur_bis, vecteurs_bis)
 
 
 #verifier qu'on garde bien uniquement les solutions minimales
-def verif_solution_minimale(solution_minimale, valeur_minimale_ajoutee, nombre_variables):
-
+def verif_solution_minimale(nombre_equations,systeme, solution_minimale, valeur_minimale_ajoutee, nombre_variables):
+  import numpy as np
   if len(solution_minimale)>1 and valeur_minimale_ajoutee != 0:
     for i in range(0, len(solution_minimale), 1):
       for j in range(0, len(solution_minimale),1):
@@ -167,31 +171,16 @@ def verif_solution_minimale(solution_minimale, valeur_minimale_ajoutee, nombre_v
           for k in range(0, nombre_variables, 1):
             if solution_minimale[i][k] >= solution_minimale[j][k]:
               indice = indice +1
-      if indice == nombre_variables:
-        del(solution_minimale[i])
+      if indice == nombre_variables :
+        condition_arret = np.dot(systeme,solution_minimale[i])
+        indice_arret=0
+        for k in range(0, nombre_equations, 1):
+            if condition_arret[k]==0:
+                indice_arret+=1
+        if indice_arret != nombre_equations:
+            del(solution_minimale[i])
 
   return(solution_minimale)
-
-
-#verifier que les valeurs calculees ne sont pas superieures aux solutions minimales deja trouvees
-def verif_valeurs(solution_minimale, valeur_bis, nombre_variables, vecteurs_bis):
-
-  liste = []
-  if len(solution_minimale) != 0:
-    for i in range(0, len(solution_minimale), 1):
-      for j in range(0, len(valeur_bis), 1):
-        indice = 0
-        for k in range(0, nombre_variables, 1):
-          if vecteurs_bis[j][k]<=solution_minimale[i][k]:
-            indice = indice + 1
-        if indice == nombre_variables :
-          liste.append(j)
-      for l in range(0,len(liste),1):
-          del(valeur_bis[liste[l]])
-          del(vecteurs_bis[liste[l]])
-  
-
-  return(valeur_bis, vecteurs_bis)
 
 
   #garder en memoire toutes les valeurs calculees

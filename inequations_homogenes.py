@@ -1,7 +1,8 @@
-def resoudre_systeme_inequations_homogenes (systeme,constante):
+def resoudre_systeme_inequations_homogenes (systeme,constante,signe):
   
-  from sous_programmes_inequations_homogenes import taille_systeme, creer_base_canonique, valeurs_base_canonique, memoire_premier_tour, memoire_tour_suivant, calculer_vecteurs, calculer_valeurs, existence_solution, verif_solution_minimale, verif_valeurs, mise_a_jour_listes, calculer_vecteurs_bis, existence_solution_premier_tour
+  from sous_programmes_inequations_homogenes import taille_systeme, creer_base_canonique, valeurs_base_canonique, memoire_premier_tour, memoire_tour_suivant, calculer_vecteurs, calculer_valeurs, existence_solution, verif_solution_minimale, mise_a_jour_listes, calculer_vecteurs_bis, existence_solution_premier_tour
 
+  print("1 : <=, 2 : <, 3 : >=, 4 : >")
 
   nombre_equations, nombre_variables = taille_systeme(systeme)
 
@@ -9,11 +10,9 @@ def resoudre_systeme_inequations_homogenes (systeme,constante):
 
   valeur, valeur_canonique = valeurs_base_canonique(systeme, nombre_variables, base)
 
-  solution_minimale, valeur_minimale_ajoutee, valeur,vecteur = existence_solution_premier_tour(valeur, nombre_equations,vecteur)
+  solution_minimale, valeur_minimale_ajoutee, valeur,vecteur = existence_solution_premier_tour(valeur, nombre_equations,vecteur,signe)
 
-  solution_minimale = verif_solution_minimale(solution_minimale, valeur_minimale_ajoutee, nombre_variables)
-
-  valeur_bis, vecteurs_bis = verif_valeurs(solution_minimale, valeur, nombre_variables, vecteur)
+  solution_minimale = verif_solution_minimale(nombre_equations,systeme, solution_minimale, valeur_minimale_ajoutee, nombre_variables)
 
   memoire, valeur,vecteur = memoire_premier_tour(valeur, nombre_equations, vecteur)
 
@@ -21,11 +20,9 @@ def resoudre_systeme_inequations_homogenes (systeme,constante):
 
   valeur_bis = calculer_valeurs(vecteurs_bis, systeme)
 
-  solution_minimale, valeur_minimale_ajoutee, valeur_bis, vecteurs_bis = existence_solution(valeur_bis,nombre_equations,vecteurs_bis, solution_minimale)
+  solution_minimale, valeur_minimale_ajoutee, valeur_bis, vecteurs_bis = existence_solution(valeur_bis,nombre_equations,vecteurs_bis, solution_minimale,signe)
 
-  solution_minimale = verif_solution_minimale(solution_minimale, valeur_minimale_ajoutee, nombre_variables)
-
-  valeur_bis, vecteurs_bis = verif_valeurs(solution_minimale, valeur_bis, nombre_variables, vecteurs_bis)
+  solution_minimale = verif_solution_minimale(nombre_equations,systeme, solution_minimale, valeur_minimale_ajoutee, nombre_variables)
 
   memoire = memoire_tour_suivant(memoire, valeur_bis, nombre_equations, vecteurs_bis)
 
@@ -36,11 +33,9 @@ def resoudre_systeme_inequations_homogenes (systeme,constante):
 
     valeur_bis = calculer_valeurs(vecteurs_bis, systeme)
 
-    solution_minimale, valeur_minimale_ajoutee, valeur_bis, vecteurs_bis = existence_solution(valeur_bis,nombre_equations,vecteurs_bis, solution_minimale)
+    solution_minimale, valeur_minimale_ajoutee, valeur_bis, vecteurs_bis = existence_solution(valeur_bis,nombre_equations,vecteurs_bis, solution_minimale,signe)
 
-    solution_minimale = verif_solution_minimale(solution_minimale, valeur_minimale_ajoutee, nombre_variables)
-
-    valeur_bis, vecteurs_bis = verif_valeurs(solution_minimale, valeur_bis, nombre_variables, vecteurs_bis)
+    solution_minimale = verif_solution_minimale(nombre_equations,systeme, solution_minimale, valeur_minimale_ajoutee, nombre_variables)
 
     memoire = memoire_tour_suivant(memoire, valeur_bis, nombre_equations, vecteurs_bis)
 
@@ -57,6 +52,7 @@ def resoudre_systeme_inequations_homogenes (systeme,constante):
 
 if __name__ == '__main__':
   
-  systeme = [[1,1,-3],[1,-5,2]]
-  constante = [[0],[0]]
-  resoudre_systeme_inequations_homogenes(systeme,constante)
+  systeme = [[1,-1,]]
+  constante = [[0]]
+  signe = [[1]]
+  resoudre_systeme_inequations_homogenes(systeme,constante, signe)
