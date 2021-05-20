@@ -38,9 +38,10 @@ def valeurs_base_canonique(systeme, nombre_variables, base):
   return(valeur, valeur_canonique)
 
 
-def memoire_premier_tour(valeur, nombre_variables, nombre_equations, base):
+def memoire_premier_tour(valeur, nombre_variables, nombre_equations, vecteur):
 
   memoire = [valeur[0]]
+  liste = []
 
   for i in range(1, nombre_variables,1):
     for j in range(0, len(memoire), 1):
@@ -51,13 +52,20 @@ def memoire_premier_tour(valeur, nombre_variables, nombre_equations, base):
           indice = indice +1
       
     if indice == nombre_equations:
-        del(valeur[i])
-        del(base[i])
+        liste.append(i)
 
     else :
       memoire.append(valeur[i])
 
-  return(memoire)
+  while liste != []:
+    del(valeur[liste[0]])
+    del(vecteur[liste[0]])
+    del(liste[0])
+    if liste != []:
+      for i in range(0, len(liste),1):
+        liste[i]=liste[i]-1
+
+  return(memoire,valeur,vecteur)
 
 
 #calculer les vecteurs du deuxieme tour
@@ -105,7 +113,7 @@ def calculer_valeurs(vecteurs_bis, systeme):
   #verifier s'il y a une solution minimale
 def existence_solution(valeur_bis,nombre_equations,vecteurs_bis,solution_minimale):
 
-  
+  liste = []
   valeur_minimale_ajoutee = None
 
   for j in range(0, len(valeur_bis),1):
@@ -118,11 +126,17 @@ def existence_solution(valeur_bis,nombre_equations,vecteurs_bis,solution_minimal
 
     if indice == nombre_equations:
       solution_minimale.append(vecteurs_bis[j])
-      del(valeur_bis[j])
-      del(vecteurs_bis[j])
+      liste.append(j)
       valeur_minimale_ajoutee = valeur_minimale_ajoutee +1
+  while liste !=[]:
+    del(valeur_bis[liste[0]])
+    del(vecteurs_bis[liste[0]])
+    del(liste[0])
+    if liste != []:
+      for i in range(0, len(liste),1):
+        liste[i]=liste[i]-1
 
-  return(solution_minimale, valeur_minimale_ajoutee)
+  return(solution_minimale, valeur_minimale_ajoutee,valeur_bis,vecteurs_bis)
 
 
 #verifier qu'on garde bien uniquement les solutions minimales
@@ -161,7 +175,8 @@ def verif_valeurs(solution_minimale, valeur_bis, nombre_variables, vecteurs_bis)
 
   #garder en memoire toutes les valeurs calculees
 def memoire_tour_suivant(memoire, valeur_bis, nombre_equations, vecteurs_bis):
-
+  
+  liste = []
   for i in range(0, len(valeur_bis),1):
     for j in range(0, len(memoire), 1):
       indice = 0
@@ -171,13 +186,18 @@ def memoire_tour_suivant(memoire, valeur_bis, nombre_equations, vecteurs_bis):
           indice = indice +1
       
     if indice == nombre_equations:
-      del(valeur_bis[i])
-      del(vecteurs_bis[i])
-
+      liste.append(i)
     else :
       memoire.append(valeur_bis[i])
+  while liste != []:
+    del(valeur_bis[liste[0]])
+    del(vecteurs_bis[liste[0]])
+    del(liste[0])
+    if liste != []:
+      for i in range(0, len(liste),1):
+        liste[i]=liste[i]-1
   
-  return(memoire)
+  return(memoire, valeur_bis,vecteurs_bis)
 
 
 #mettre a jour les listes de vecteur et de valeur
