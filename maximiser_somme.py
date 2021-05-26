@@ -35,6 +35,6 @@ def maximiser_somme(systeme,constante):
 
 
 if __name__ == '__main__':
-  constante = [[1],[5]]
-  systeme = [[1,2,-3],[1,1,2]]
+  constante = [[3],[3]]
+  systeme = [[1,1,-1],[1,0,2]]
   maximiser_somme(systeme,constante)

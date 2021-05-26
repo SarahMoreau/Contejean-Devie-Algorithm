@@ -84,6 +84,6 @@ def resoudre_systeme_equations_non_homogenes (systeme,constante):
 
 if __name__ == '__main__':
   constante = [[3],[3]]
-  systeme = [[1,1,1],[1,0,2]]
+  systeme = [[1,1,-1],[1,0,2]]
 
   resoudre_systeme_equations_non_homogenes (systeme,constante)
