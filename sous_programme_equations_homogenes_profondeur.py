@@ -78,6 +78,7 @@ def trouver_solution(memoire, valeur_unitaire, nombre_equations, nombre_variable
     import numpy as np
     from sous_programme_equations_homogenes_profondeur import dichotomie
 
+    
     etape = 0
     parcours = {}
     vecteur = np.zeros((nombre_variables,1))
@@ -124,10 +125,6 @@ def trouver_solution(memoire, valeur_unitaire, nombre_equations, nombre_variable
         vecteur[j]+=1
 
         valeur = np.array(valeur_unitaire[i]) + np.array(valeur_unitaire[j])
-        
-        ############""
-        print(valeur)
-        print(vecteur)
 
         while etape >=0:
 
@@ -139,8 +136,12 @@ def trouver_solution(memoire, valeur_unitaire, nombre_equations, nombre_variable
 
 
             if indice == nombre_equations:
-
-                solution_minimale.append(vecteur)
+                
+                indice = 0
+                stocker = vecteur.copy()
+                
+                solution_minimale.append(stocker)
+                print("solution", solution_minimale)
                 
                 taille = len(parcours.get(etape))
                 valeur = np.array(valeur) - np.array(valeur_unitaire[taille-1])
@@ -209,7 +210,7 @@ def trouver_solution(memoire, valeur_unitaire, nombre_equations, nombre_variable
                     valeur = np.array(valeur) - np.array(valeur_unitaire[taille-1])
                     vecteur[taille-1]-=1
 
-                    while taille == len(valeur_unitaire) and etape >= 0:
+                    while taille == len(valeur_unitaire) and etape > 0:
                     
                         etape -= 1
                         taille = len(parcours.get(etape))
@@ -233,7 +234,7 @@ def trouver_solution(memoire, valeur_unitaire, nombre_equations, nombre_variable
                             else: 
                                 if etape >0:
                                     etape -=1
-                                    print(etape, parcours)
+                                    
                                     taille = len(parcours.get(etape))
                                     valeur = np.array(valeur) - np.array(valeur_unitaire[taille-1])
                                     vecteur[taille-1]-=1
@@ -254,7 +255,7 @@ def trouver_solution(memoire, valeur_unitaire, nombre_equations, nombre_variable
                                     indice_bis = len(valeur_unitaire) - taille
                                     l = indice_bis
                                     produit_scalaire = np.dot(valeur, valeur_unitaire[l])
-                
+
                         for k in range(indice_bis,l,1):
                             parcours[etape].append(1)
                         parcours[etape].append(0)
@@ -297,13 +298,15 @@ def trouver_solution(memoire, valeur_unitaire, nombre_equations, nombre_variable
                                 vecteur[taille-1]-=1
 
 
-                            if taille == len(valeur_unitaire):
-                                print("les solutions minimales du système homogène sont : ", solution_minimale)
-                            else :
+                        if taille == len(valeur_unitaire):
+                            print("les solutions minimales du système homogène sont : ", solution_minimale)
+                        else :
                                 indice_bis = len(valeur_unitaire) - taille
                                 l = indice_bis
                                 produit_scalaire = np.dot(valeur, valeur_unitaire[l])
+                                
 
+                                etape+=1
                                 for k in range(indice_bis,l,1):
                                     parcours[etape].append(1)
                                 parcours[etape].append(0)
@@ -311,10 +314,17 @@ def trouver_solution(memoire, valeur_unitaire, nombre_equations, nombre_variable
                                 vecteur[l]+=1
 
                                 valeur = np.array(valeur) + np.array(valeur_unitaire[l])
+                    else : 
+                        etape +=1
+                        parcours[etape]=[]
+                        for k in range(0,i,1):
+                            parcours[etape].append(1)
+                        parcours[etape].append(0)
 
-            print(1)
-            print(valeur)
-            print(vecteur)
+                        vecteur[i]+=1
+
+                        valeur = np.array(valeur) + np.array(valeur_unitaire[i])
+
     return(solution_minimale)
 
 
