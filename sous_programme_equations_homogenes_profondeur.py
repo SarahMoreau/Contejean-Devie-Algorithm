@@ -1,5 +1,6 @@
 from ptnet.ptnet import PetriNet
 import sys
+import numpy as np
 
 def taille_systeme(systeme):
 
@@ -139,9 +140,17 @@ def trouver_solution(memoire, valeur_unitaire, nombre_equations, nombre_variable
                 
                 indice = 0
                 stocker = vecteur.copy()
-                
-                solution_minimale.append(stocker)
-                print("solution", solution_minimale)
+
+                test = 0
+                if len(solution_minimale)!=0:
+                    for i in range(0, len(solution_minimale),1):
+                        if (stocker >= solution_minimale[i]).all() :
+                            test +=1
+                    
+                    if test == 0 :
+                        solution_minimale.append(stocker)
+                else : 
+                    solution_minimale.append(stocker)
                 
                 taille = len(parcours.get(etape))
                 valeur = np.array(valeur) - np.array(valeur_unitaire[taille-1])
@@ -169,19 +178,23 @@ def trouver_solution(memoire, valeur_unitaire, nombre_equations, nombre_variable
                         if l <len(valeur_unitaire):
                             produit_scalaire = np.dot(valeur, valeur_unitaire[l])
 
-                        else : 
-                            etape -=1
-                            taille = len(parcours.get(etape))
-                            valeur = np.array(valeur) - np.array(valeur_unitaire[taille-1])
-                            vecteur[taille-1]-=1
-
-
-                            while taille == len(valeur_unitaire) and etape >=0:
+                        else :
+                            if etape >0:
                                 etape -=1
                                 taille = len(parcours.get(etape))
                                 valeur = np.array(valeur) - np.array(valeur_unitaire[taille-1])
                                 vecteur[taille-1]-=1
-                        
+
+
+                                while taille == len(valeur_unitaire) and etape >=0:
+                                    etape -=1
+                                    taille = len(parcours.get(etape))
+                                    valeur = np.array(valeur) - np.array(valeur_unitaire[taille-1])
+                                    vecteur[taille-1]-=1
+                            else :
+                                print("les solutions minimales du système homogenes sont : ", solution_minimale)
+                                return(solution_minimale)
+
                             if taille == len(valeur_unitaire):
                                 print("les solutions minimales du système homogène sont : ", solution_minimale)
                                 return(solution_minimale)
@@ -202,11 +215,24 @@ def trouver_solution(memoire, valeur_unitaire, nombre_equations, nombre_variable
 
 
             else : 
+                test = 0
+                if len(solution_minimale) != 0:
+                    for i in range(0, len(solution_minimale),1):
+                        if (valeur >= solution_minimale[i]).all():
+                            test +=1
+                    if test != 0:
+                        grand = 1
+                    else :
+                        grand = 0
+                else :
+                    grand = 0
+
                 valeur_memoire = "".join([str(_) for _ in valeur])
             
-                if dichotomie(memoire, valeur_memoire)==True:
+                if dichotomie(memoire, valeur_memoire)==True and grand == 0:
 
                     taille = len(parcours.get(etape))
+                    
                     valeur = np.array(valeur) - np.array(valeur_unitaire[taille-1])
                     vecteur[taille-1]-=1
 
@@ -265,7 +291,7 @@ def trouver_solution(memoire, valeur_unitaire, nombre_equations, nombre_variable
                         valeur = np.array(valeur) + np.array(valeur_unitaire[l])
 
 
-                else : 
+                elif dichotomie(memoire, valeur_memoire)==False and grand == 0: 
 
                     memoire.append(valeur_memoire)
                     memoire = sorted(memoire)
@@ -328,27 +354,21 @@ def trouver_solution(memoire, valeur_unitaire, nombre_equations, nombre_variable
     return(solution_minimale)
 
 
-#rajouter comparaison avec solution minimale
-
-
-
-
-
 if __name__ == '__main__':
   
-  
-  '''
-  if len(sys.argv) < 2:
-    print("Error: missing input Petri net")
-    exit(1)
+    if len(sys.argv) < 2:
+        print("Error: missing input Petri net")
+        exit(1)
 
-  path_ptnet = sys.argv[1]
-  ptnet = PetriNet(path_ptnet)
-  matrice = ptnet.matrix
-  '''
-  systeme = [[-1,1,3],[-1,3,-2]]
-  nombre_equations, nombre_variables = taille_systeme(systeme)
-  valeur_unitaire = valeur_unitaire(nombre_equations, nombre_variables, systeme)
-  memoire, valeur_unitaire = memoire_premier_tour(valeur_unitaire)
-  trouver_solution(memoire, valeur_unitaire, nombre_equations, nombre_variables)
+    path_ptnet = sys.argv[1]
+    ptnet = PetriNet(path_ptnet)
+    matrice = ptnet.matrix
+  
+    print(matrice)
+  
+  #systeme = [[-1,1,3],[-1,3,-2]]
+    nombre_equations, nombre_variables = taille_systeme(matrice)
+    valeur_unitaire = valeur_unitaire(nombre_equations, nombre_variables, matrice)
+    memoire, valeur_unitaire = memoire_premier_tour(valeur_unitaire)
+    trouver_solution(memoire, valeur_unitaire, nombre_equations, nombre_variables)
  
